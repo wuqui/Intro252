@@ -19,20 +19,7 @@ format:
   html:
     theme: cosmo
     toc: true
-  clean-revealjs:
-    slide-level: 0
-    min-scale: 0.2
-    max-scale: 2.0
     css: custom.css
-    excalidraw:
-      button: false
-      shortcut: "`"
-      theme: "light"
-
-# Presentation plugins (installed via `quarto add`)
-revealjs-plugins:
-  - pointer
-  - excalidraw
 
 bibliography: references.bib
 
