@@ -24,3 +24,6 @@ bibliography: references.bib
 # Project-wide metadata (available via {{< meta name >}})
 metadata:
   linkprefix: ""
+
+params:
+  show_solutions: false

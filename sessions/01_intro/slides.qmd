@@ -1,9 +1,11 @@
 ---
 title: 01 — Introduction
 subtitle: Introduction to linguistics
-author: Quirin Würschinger, LMU Munich
+author: Dr. Quirin Würschinger, LMU Munich
 date: 2025-10-13
 date-format: long
+params:
+  show_solutions: false
 format:
   clean-revealjs:
     excalidraw:
@@ -37,7 +39,7 @@ Any open issues?
 
 Flipped classroom: 
 
-- students prepare before class; 
+- students prepare before class (readings, exercises);
 - in-class time focuses on discussion and practice.
 
 
@@ -50,6 +52,7 @@ Flipped classroom:
 
 - [ ] active participation
 - [ ] preparatory readings
+- [ ] exercises
 - [ ] exam
 
 
@@ -141,9 +144,11 @@ The Organon model [@Buhler1934Sprachtheorie]
 
 ![](img/chess.jpeg)
 
+::: {.fragment}
 **Langue**: rules of the game
 
 **Parole**: how the game is actually played
+:::
 
 ---
 
@@ -174,12 +179,14 @@ The Organon model [@Buhler1934Sprachtheorie]
 
 ---
 
+::: {.content-visible when-meta="params.show_solutions"}
 **Solution:**
 
 1. The meaning of *bank* is ambiguous.
 2. Noun phrases often start with the words *the* or *a*.
 3. Morphology is the field of language which studies the formation of new words.
 4. The past tense of verbs is formed by adding the suffix *-ed*.
+:::
 
 
 ## Linguistic domains
