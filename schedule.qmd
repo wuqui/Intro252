@@ -1,0 +1,17 @@
+|    | Date    | Topic |
+|----|---------|-------|
+|  1 | 13 Oct. | Organisation & introduction |
+|  2 | 20 Oct. | Fundamentals & history |
+|  3 | 27 Oct. | Pragmatics |
+|  4 | 03 Nov. | Phonetics & phonology I |
+|  5 | 10 Nov. | Phonetics & phonology II |
+|  6 | 17 Nov. | Syntax I |
+|  7 | 24 Nov. | Syntax II |
+|  8 | 01 Dec. | Morphology and word-formation I |
+|  9 | 08 Dec. | Morphology and word-formation II |
+| 10 | 15 Dec. | Semantics and lexicology I |
+| 11 | 22 Dec. | Revision |
+| 12 | 12 Jan. | Semantics and lexicology II |
+| 13 | 19 Jan. | Sociolinguistics |
+| 14 | 26 Jan. | Mock exam |
+| 15 | 02 Feb. | Exam |

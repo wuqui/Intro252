@@ -4,26 +4,32 @@ subtitle: Introduction to linguistics (LMU Munich)
 author: Quirin Würschinger, LMU Munich
 date: 2025-10-13
 date-format: long
-format: revealjs
+format:
+  revealjs:
+    excalidraw:
+      button: false
+      shortcut: "`"
+      theme: light
+    css: ../../custom.css
+filters:
+  - auto-dark
 slide-level: 0
 revealjs-plugins:
   - pointer
   - excalidraw
 ---
 
-# Welcome
+# Organisation
 
-- This is a toy deck to verify the publishing pipeline.
+## Requirements
 
-___
+## Schedule
 
-# Agenda
+## Teaching approach
 
-- Course overview
-- Tools and workflow
-- Next steps
+## Course books
 
-___
+# Introduction
 
 # References
 

@@ -1,17 +1,3 @@
----
-title: Home
----
+# Schedule
 
-# Introduction to linguistics
-
-Welcome to the course website for Introduction to linguistics at LMU Munich.
-
-## Quick links
-
-- Session 01 (toy deck): [slides](sessions/01_intro/slides.qmd)
-
-## About
-
-See the About page for course overview and logistics.
-
-
+{{< include schedule.qmd >}}

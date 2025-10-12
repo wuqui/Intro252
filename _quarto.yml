@@ -13,13 +13,15 @@ website:
       - text: Sessions
         menu:
           - text: Session 01 — Introduction
-            href: sessions/01_intro/slides.qmd
+            href: sessions/01_intro/index.qmd
 
 format:
   html:
     theme: cosmo
     toc: true
     css: custom.css
+filters:
+  - auto-dark
 
 bibliography: references.bib
 
