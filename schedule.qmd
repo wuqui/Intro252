@@ -1,17 +1,17 @@
-|    | Date    | Topic |
-|----|---------|-------|
-|  1 | 13 Oct. | [Organisation & introduction]({{< meta linkprefix >}}sessions/01_intro/index.qmd){target="_top"} |
-|  2 | 20 Oct. | Fundamentals & history |
-|  3 | 27 Oct. | Pragmatics |
-|  4 | 03 Nov. | Phonetics & phonology I |
-|  5 | 10 Nov. | Phonetics & phonology II |
-|  6 | 17 Nov. | Syntax I |
-|  7 | 24 Nov. | Syntax II |
-|  8 | 01 Dec. | Morphology and word-formation I |
-|  9 | 08 Dec. | Morphology and word-formation II |
-| 10 | 15 Dec. | Semantics and lexicology I |
-| 11 | 22 Dec. | Revision |
-| 12 | 12 Jan. | Semantics and lexicology II |
-| 13 | 19 Jan. | Sociolinguistics |
-| 14 | 26 Jan. | Mock exam |
-| 15 | 02 Feb. | Exam |
+|    | Date    | Topic | Required reading |
+|---:|--------:|-------|------------------|
+|  1 | 13 Oct. | [Organisation & introduction]({{< meta linkprefix >}}sessions/01_intro/index.qmd){target="_top"} | [@Herbst2010English, ch. 2] |
+|  2 | 20 Oct. | History of English | [@Bieswanger2021Introduction, ch. 2.1] |
+|  3 | 27 Oct. | Pragmatics | — |
+|  4 |  3 Nov. | Phonetics & phonology I | [@Kortmann2020Essentials, ch. 2.1] |
+|  5 | 10 Nov. | Phonetics & phonology II | [@Kortmann2020Essentials, ch. 2.2] |
+|  6 | 17 Nov. | Syntax I | [@Herbst2010English, ch. 11.1–11.2] |
+|  7 | 24 Nov. | Syntax II | [@Herbst2010English, ch. 11.3–11.4] |
+|  8 |  1 Dec. | Morphology and word-formation I | [@Herbst2010English, ch. 8]; [@Kortmann2020Essentials, ch. 4.1] |
+|  9 |  8 Dec. | Morphology and word-formation II | [@Herbst2010English, ch. 9.1–9.3] |
+| 10 | 15 Dec. | Semantics and lexicology I | [@Mair2022Introduction, ch. 6.1–6.3]; [@Kortmann2020Essentials, ch. 6.3.2] |
+| 11 | 22 Dec. | Revision | — |
+| 12 | 12 Jan. | Semantics and lexicology II | [@Kortmann2020Essentials, 173–185]; [@SauerMajewski2020MyFirstDoor, ch. 11.1–11.4.5] |
+| 13 | 19 Jan. | Sociolinguistics | — |
+| 14 | 26 Jan. | Mock exam | — |
+| 15 |  2 Feb. | Exam | — |

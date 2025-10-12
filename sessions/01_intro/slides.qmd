@@ -1,6 +1,6 @@
 ---
-title: Session 01 — Introduction
-subtitle: Introduction to linguistics (LMU Munich)
+title: 01 — Introduction
+subtitle: Introduction to linguistics
 author: Quirin Würschinger, LMU Munich
 date: 2025-10-13
 date-format: long
@@ -12,7 +12,6 @@ format:
       theme: light
     css: ../../custom.css
 filters:
-  - imagify
   - auto-dark
 slide-level: 2
 metadata:
@@ -20,82 +19,57 @@ metadata:
 revealjs-plugins:
   - pointer
   - excalidraw
-imagify:
-  header-includes: |
-    \usepackage{forest}
-  extensionForOutput:
-    html: png
-    default: png
 ---
-
-# Course website
-
-Visit the course site: [https://wuqui.github.io/Intro252/](https://wuqui.github.io/Intro252/){target="_top"}
 
 # Organisation
 
-## Requirements
+## Course materials
 
-## Schedule
+Course website: <https://wuqui.github.io/Intro252/>
 
-{{< include ../../schedule.qmd >}}
 
+## Registration
+
+Any open issues?
 
 
 ## Teaching approach
 
-## Course books
+Flipped classroom: 
 
-# Introduction
-
-# References
-
-This slide will list references later.
+- students prepare before class; 
+- in-class time focuses on discussion and practice.
 
 
-___
+## Schedule {.small}
 
-# Organisation
-
-## Registration
-
-## Moodle
-
-- **title / long**: Würschinger / 2025–2 / Introduction to linguistics
-- **title / short**: wue<sub>2025</sub>-2<sub>intro</sub>
-- **url**: TBD
-- **password**: TBD
-
-## Tutorials
-
-see Moodle page (link TBD)
+{{< include ../../schedule.qmd >}}
 
 
 ## Requirements
 
-- [ ] active participation ( ≤ 2 absences)
-- [ ] readings
-- [ ] handouts
-- [ ] exercises ( ≤ 1 miss)
+- [ ] active participation
+- [ ] preparatory readings
 - [ ] exam
 
-## Modulprüfung
 
-See page on Moodle (link TBD).
+## Literature {.small}
 
-## Literature
+Selected introductions to English linguistics:
 
-​* Kortmann, Bernd. 2020. English Linguistics: Essentials. J.B. Metzler.
+- Bieswanger, Markus & Annette Becker. 2021. Introduction to English linguistics. 5th ed. Tübingen: Narr.
+- Herbst, Thomas. 2010. English linguistics: A coursebook for students of English. Berlin: De Gruyter.
+- Kortmann, Bernd. 2020. English linguistics: Essentials. 2nd ed. Stuttgart: Metzler.
+- Mair, Christian. 2022. English linguistics: An introduction. 4th ed. Tübingen: Narr.
+- Plag, Ingo, Sabine Arndt-Lappe, Maria Braun & Mareile Schramm. 2015. Introduction to English linguistics. 3rd ed. Berlin: De Gruyter.
+- Sauer, Hans & Kerstin Majewski. 2020. My first door to English linguistics: A short companion to the study of English. Tübingen: Stauffenburg.
 
-Herbst, Thomas. 2010. English Linguistics: A Coursebook for Students of
-English. Berlin: De Gruyter Mouton.
+All available as ebooks at the university library (<https://www.ub.uni-muenchen.de/index.html>).
 
-Bieswanger, Markus, and Annette Becker. 2021. Introduction to English
-Linguistics. 5th ed. Tübingen: A. Francke Verlag.
 
 # Introduction
 
-## Course description
+## Course description {.small}
 
 This course introduces you to the fundamental components of English
 linguistics, explains the major theoretical approaches and concepts in
@@ -159,10 +133,7 @@ The Organon model [@Buhler1934Sprachtheorie]
 
 ### Synchrony vs diachrony
 
-<figure>
-<img src="img/change-of-meaning.png" />
-<figcaption>Change of meaning over time [@Hamilton2016Diachronic]</figcaption>
-</figure>
+![Change of meaning over time [@Hamilton2016Diachronic]](img/change-of-meaning.png)
 
 ---
 
@@ -201,14 +172,15 @@ The Organon model [@Buhler1934Sprachtheorie]
 3. Morphology is the field of language which studies the formation of new words.
 4. The past tense of verbs is formed by adding the suffix -ed.
 
-::: {.fragment}
+---
+
 **Solution:**
 
 1. The meaning of *bank* is ambiguous.
 2. Noun phrases often start with the words *the* or *a*.
 3. Morphology is the field of language which studies the formation of new words.
 4. The past tense of verbs is formed by adding the suffix *-ed*.
-:::
+
 
 ## Linguistic domains
 
@@ -229,31 +201,33 @@ The Organon model [@Buhler1934Sprachtheorie]
 
 ### Phonetics and phonology
 
-    ***Our Strange Lingo* (Lord Cromer)**
+***Our Strange Lingo* (Lord Cromer)**
 
-    When the English tongue we speak.  
-    Why is break not rhymed with freak?  
-    Will you tell me why it's true  
-    We say sew but likewise few?  
-    And the maker of the verse,  
-    Cannot rhyme his horse with worse?  
-    Beard is not the same as heard  
-    Cord is different from word.  
-    Cow is cow but low is low  
-    Shoe is never rhymed with foe.  
+When the English tongue we speak.  
+Why is break not rhymed with freak?  
+Will you tell me why it's true  
+We say sew but likewise few?  
+And the maker of the verse,  
+Cannot rhyme his horse with worse?  
+Beard is not the same as heard  
+Cord is different from word.  
+Cow is cow but low is low  
+Shoe is never rhymed with foe.  
 
-    Think of hose, dose, and lose  
-    And think of goose and yet with choose  
-    Think of comb, tomb and bomb,  
-    Doll and roll or home and some.  
-    Since pay is rhymed with say  
-    Why not paid with said I pray?  
-    Think of blood, food and good.  
-    Mould is not pronounced like could.  
-    Wherefore done, but gone and lone -  
-    Is there any reason known?  
-    To sum up all, it seems to me  
-    Sound and letters don't agree.
+___
+
+Think of hose, dose, and lose  
+And think of goose and yet with choose  
+Think of comb, tomb and bomb,  
+Doll and roll or home and some.  
+Since pay is rhymed with say  
+Why not paid with said I pray?  
+Think of blood, food and good.  
+Mould is not pronounced like could.  
+Wherefore done, but gone and lone -  
+Is there any reason known?  
+To sum up all, it seems to me  
+Sound and letters don't agree.
 
 ---
 
@@ -261,8 +235,13 @@ The Organon model [@Buhler1934Sprachtheorie]
 
 What do you hear?
 
-- [test](https://www.youtube.com/watch?v=7X_WvGAhMlQ)
-- [analysis](https://www.youtube.com/watch?v=yDiXQl7grPQ)
+#### Test
+
+{{< video https://www.youtube.com/watch?v=7X_WvGAhMlQ >}}
+
+#### Analysis
+
+{{< video https://www.youtube.com/watch?v=yDiXQl7grPQ >}}
 
 ---
 
@@ -271,11 +250,9 @@ What do you hear?
 1. How many parts does the word *disclaimers* consist of?
 2. How can we analyse this complex word in terms of its parts?
 
-::: {.fragment}
-**Solution:**
+___
 
 ![](img/disclaimers-tree.png)
-:::
 
 ---
 
@@ -291,17 +268,17 @@ What's the problem with the following sentence?
 
 *The old man the boat.*
 
-::: {.fragment}
-**Wrong analysis:**
+___
+
+**The sentence is ungrammatical:**
 
 ![](img/old-man-wrong.png)
-:::
 
-::: {.fragment}
-**Right analysis:**
+___
+
+**The sentence is grammatical:**
 
 ![](img/old-man-right.png)
-:::
 
 ---
 
@@ -336,5 +313,10 @@ The Stroop effect
 
 ![Hubs of lexical innovation [@Grieve2018MappingLexical]](img/lexical-innovation.png)
 
-# References
+---
+
+## References
+
+::: {#refs}
+:::
 
