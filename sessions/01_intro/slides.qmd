@@ -1,0 +1,32 @@
+---
+title: Session 01 — Introduction
+subtitle: Introduction to linguistics (LMU Munich)
+author: Quirin Würschinger, LMU Munich
+date: 2025-10-13
+date-format: long
+format: clean-revealjs
+slide-level: 0
+revealjs-plugins:
+  - pointer
+  - excalidraw
+---
+
+# Welcome
+
+- This is a toy deck to verify the publishing pipeline.
+
+___
+
+# Agenda
+
+- Course overview
+- Tools and workflow
+- Next steps
+
+___
+
+# References
+
+This slide will list references later.
+
+

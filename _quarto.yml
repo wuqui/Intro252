@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Introduction to linguistics"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - text: Sessions
+        menu:
+          - text: Session 01 — Introduction
+            href: sessions/01_intro/slides.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+  clean-revealjs:
+    slide-level: 0
+    min-scale: 0.2
+    max-scale: 2.0
+    css: custom.css
+    excalidraw:
+      button: false
+      shortcut: "`"
+      theme: "light"
+
+# Presentation plugins (installed via `quarto add`)
+revealjs-plugins:
+  - pointer
+  - excalidraw
+
+bibliography: references.bib
+
+
