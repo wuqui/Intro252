@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -127,93 +147,126 @@ ul.task-list li input[type="checkbox"] {
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th></th>
-<th>Date</th>
+<th style="text-align: right;"></th>
+<th style="text-align: right;">Date</th>
 <th>Topic</th>
+<th>Required reading</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td>13 Oct.</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">13 Oct.</td>
 <td><a href="./sessions/01_intro/index.html" target="_top">Organisation &amp; introduction</a></td>
+<td><span class="citation" data-cites="Herbst2010English">(<a href="#ref-Herbst2010English" role="doc-biblioref">Herbst 2010</a>, ch.&nbsp;2)</span></td>
 </tr>
 <tr class="even">
-<td>2</td>
-<td>20 Oct.</td>
-<td>Fundamentals &amp; history</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">20 Oct.</td>
+<td>History of English</td>
+<td><span class="citation" data-cites="Bieswanger2021Introduction">(<a href="#ref-Bieswanger2021Introduction" role="doc-biblioref">Bieswanger and Becker 2021</a>, ch.&nbsp;2.1)</span></td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td>27 Oct.</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">27 Oct.</td>
 <td>Pragmatics</td>
+<td>—</td>
 </tr>
 <tr class="even">
-<td>4</td>
-<td>03 Nov.</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3 Nov.</td>
 <td>Phonetics &amp; phonology I</td>
+<td><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>, ch.&nbsp;2.1)</span></td>
 </tr>
 <tr class="odd">
-<td>5</td>
-<td>10 Nov.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">10 Nov.</td>
 <td>Phonetics &amp; phonology II</td>
+<td><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>, ch.&nbsp;2.2)</span></td>
 </tr>
 <tr class="even">
-<td>6</td>
-<td>17 Nov.</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">17 Nov.</td>
 <td>Syntax I</td>
+<td><span class="citation" data-cites="Herbst2010English">(<a href="#ref-Herbst2010English" role="doc-biblioref">Herbst 2010</a>, ch.&nbsp;11.1–11.2)</span></td>
 </tr>
 <tr class="odd">
-<td>7</td>
-<td>24 Nov.</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">24 Nov.</td>
 <td>Syntax II</td>
+<td><span class="citation" data-cites="Herbst2010English">(<a href="#ref-Herbst2010English" role="doc-biblioref">Herbst 2010</a>, ch.&nbsp;11.3–11.4)</span></td>
 </tr>
 <tr class="even">
-<td>8</td>
-<td>01 Dec.</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1 Dec.</td>
 <td>Morphology and word-formation I</td>
+<td><span class="citation" data-cites="Herbst2010English">(<a href="#ref-Herbst2010English" role="doc-biblioref">Herbst 2010</a>, ch.&nbsp;8)</span>; <span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>, ch.&nbsp;4.1)</span></td>
 </tr>
 <tr class="odd">
-<td>9</td>
-<td>08 Dec.</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8 Dec.</td>
 <td>Morphology and word-formation II</td>
+<td><span class="citation" data-cites="Herbst2010English">(<a href="#ref-Herbst2010English" role="doc-biblioref">Herbst 2010</a>, ch.&nbsp;9.1–9.3)</span></td>
 </tr>
 <tr class="even">
-<td>10</td>
-<td>15 Dec.</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">15 Dec.</td>
 <td>Semantics and lexicology I</td>
+<td><span class="citation" data-cites="Mair2022Introduction">(<a href="#ref-Mair2022Introduction" role="doc-biblioref">Mair 2022</a>, ch.&nbsp;6.1–6.3)</span>; <span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>, ch.&nbsp;6.3.2)</span></td>
 </tr>
 <tr class="odd">
-<td>11</td>
-<td>22 Dec.</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">22 Dec.</td>
 <td>Revision</td>
+<td>—</td>
 </tr>
 <tr class="even">
-<td>12</td>
-<td>12 Jan.</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">12 Jan.</td>
 <td>Semantics and lexicology II</td>
+<td><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020, 173–85</a>)</span>; <span class="citation" data-cites="SauerMajewski2020MyFirstDoor">(<a href="#ref-SauerMajewski2020MyFirstDoor" role="doc-biblioref">Sauer and Majewski 2020</a>, ch.&nbsp;11.1–11.4.5)</span></td>
 </tr>
 <tr class="odd">
-<td>13</td>
-<td>19 Jan.</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">19 Jan.</td>
 <td>Sociolinguistics</td>
+<td>—</td>
 </tr>
 <tr class="even">
-<td>14</td>
-<td>26 Jan.</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">26 Jan.</td>
 <td>Mock exam</td>
+<td>—</td>
 </tr>
 <tr class="odd">
-<td>15</td>
-<td>02 Feb.</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">2 Feb.</td>
 <td>Exam</td>
+<td>—</td>
 </tr>
 </tbody>
 </table>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Bieswanger2021Introduction" class="csl-entry" role="listitem">
+Bieswanger, Markus, and Annette Becker. 2021. <em>Introduction to English Linguistics</em>. 5th ed. Tübingen: Narr Francke Attempto.
+</div>
+<div id="ref-Herbst2010English" class="csl-entry" role="listitem">
+Herbst, Thomas. 2010. <em>English Linguistics: A Coursebook for Students of English</em>. Berlin: De Gruyter Mouton.
+</div>
+<div id="ref-Kortmann2020Essentials" class="csl-entry" role="listitem">
+Kortmann, Bernd. 2020. <em>English Linguistics: Essentials</em>. J.B. Metzler.
+</div>
+<div id="ref-Mair2022Introduction" class="csl-entry" role="listitem">
+Mair, Christian. 2022. <em>English Linguistics: An Introduction</em>. 4th ed. Tübingen: Narr Francke Attempto.
+</div>
+<div id="ref-SauerMajewski2020MyFirstDoor" class="csl-entry" role="listitem">
+Sauer, Hans, and Kerstin Majewski. 2020. <em>My First Door to English Linguistics: A Short Companion to the Study of English</em>. Tübingen: Stauffenburg.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

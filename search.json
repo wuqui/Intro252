@@ -4,105 +4,84 @@
     "href": "schedule.html",
     "title": "Intro252",
     "section": "",
-    "text": "Date\nTopic\n\n\n\n\n1\n13 Oct.\nOrganisation & introduction\n\n\n2\n20 Oct.\nFundamentals & history\n\n\n3\n27 Oct.\nPragmatics\n\n\n4\n03 Nov.\nPhonetics & phonology I\n\n\n5\n10 Nov.\nPhonetics & phonology II\n\n\n6\n17 Nov.\nSyntax I\n\n\n7\n24 Nov.\nSyntax II\n\n\n8\n01 Dec.\nMorphology and word-formation I\n\n\n9\n08 Dec.\nMorphology and word-formation II\n\n\n10\n15 Dec.\nSemantics and lexicology I\n\n\n11\n22 Dec.\nRevision\n\n\n12\n12 Jan.\nSemantics and lexicology II\n\n\n13\n19 Jan.\nSociolinguistics\n\n\n14\n26 Jan.\nMock exam\n\n\n15\n02 Feb.\nExam"
+    "text": "Date\nTopic\nRequired reading\n\n\n\n\n1\n13 Oct.\nOrganisation & introduction\n(Herbst 2010, ch. 2)\n\n\n2\n20 Oct.\nHistory of English\n(Bieswanger and Becker 2021, ch. 2.1)\n\n\n3\n27 Oct.\nPragmatics\n—\n\n\n4\n3 Nov.\nPhonetics & phonology I\n(Kortmann 2020, ch. 2.1)\n\n\n5\n10 Nov.\nPhonetics & phonology II\n(Kortmann 2020, ch. 2.2)\n\n\n6\n17 Nov.\nSyntax I\n(Herbst 2010, ch. 11.1–11.2)\n\n\n7\n24 Nov.\nSyntax II\n(Herbst 2010, ch. 11.3–11.4)\n\n\n8\n1 Dec.\nMorphology and word-formation I\n(Herbst 2010, ch. 8); (Kortmann 2020, ch. 4.1)\n\n\n9\n8 Dec.\nMorphology and word-formation II\n(Herbst 2010, ch. 9.1–9.3)\n\n\n10\n15 Dec.\nSemantics and lexicology I\n(Mair 2022, ch. 6.1–6.3); (Kortmann 2020, ch. 6.3.2)\n\n\n11\n22 Dec.\nRevision\n—\n\n\n12\n12 Jan.\nSemantics and lexicology II\n(Kortmann 2020, 173–85); (Sauer and Majewski 2020, ch. 11.1–11.4.5)\n\n\n13\n19 Jan.\nSociolinguistics\n—\n\n\n14\n26 Jan.\nMock exam\n—\n\n\n15\n2 Feb.\nExam\n—\n\n\n\n\n\n\n\nReferences\n\nBieswanger, Markus, and Annette Becker. 2021. Introduction to English Linguistics. 5th ed. Tübingen: Narr Francke Attempto.\n\n\nHerbst, Thomas. 2010. English Linguistics: A Coursebook for Students of English. Berlin: De Gruyter Mouton.\n\n\nKortmann, Bernd. 2020. English Linguistics: Essentials. J.B. Metzler.\n\n\nMair, Christian. 2022. English Linguistics: An Introduction. 4th ed. Tübingen: Narr Francke Attempto.\n\n\nSauer, Hans, and Kerstin Majewski. 2020. My First Door to English Linguistics: A Short Companion to the Study of English. Tübingen: Stauffenburg."
   },
   {
-    "objectID": "sessions/01_intro/slides.html#requirements",
-    "href": "sessions/01_intro/slides.html#requirements",
-    "title": "Session 01 — Introduction",
-    "section": "Requirements",
-    "text": "Requirements"
-  },
-  {
-    "objectID": "sessions/01_intro/slides.html#schedule",
-    "href": "sessions/01_intro/slides.html#schedule",
-    "title": "Session 01 — Introduction",
-    "section": "Schedule",
-    "text": "Schedule\n\n\n\n\nDate\nTopic\n\n\n\n\n1\n13 Oct.\nOrganisation & introduction\n\n\n2\n20 Oct.\nFundamentals & history\n\n\n3\n27 Oct.\nPragmatics\n\n\n4\n03 Nov.\nPhonetics & phonology I\n\n\n5\n10 Nov.\nPhonetics & phonology II\n\n\n6\n17 Nov.\nSyntax I\n\n\n7\n24 Nov.\nSyntax II\n\n\n8\n01 Dec.\nMorphology and word-formation I\n\n\n9\n08 Dec.\nMorphology and word-formation II\n\n\n10\n15 Dec.\nSemantics and lexicology I\n\n\n11\n22 Dec.\nRevision\n\n\n12\n12 Jan.\nSemantics and lexicology II\n\n\n13\n19 Jan.\nSociolinguistics\n\n\n14\n26 Jan.\nMock exam\n\n\n15\n02 Feb.\nExam"
-  },
-  {
-    "objectID": "sessions/01_intro/slides.html#teaching-approach",
-    "href": "sessions/01_intro/slides.html#teaching-approach",
-    "title": "Session 01 — Introduction",
-    "section": "Teaching approach",
-    "text": "Teaching approach"
-  },
-  {
-    "objectID": "sessions/01_intro/slides.html#course-books",
-    "href": "sessions/01_intro/slides.html#course-books",
-    "title": "Session 01 — Introduction",
-    "section": "Course books",
-    "text": "Course books"
+    "objectID": "sessions/01_intro/slides.html#course-materials",
+    "href": "sessions/01_intro/slides.html#course-materials",
+    "title": "01 — Introduction",
+    "section": "Course materials",
+    "text": "Course materials\nCourse website: https://wuqui.github.io/Intro252/"
   },
   {
     "objectID": "sessions/01_intro/slides.html#registration",
     "href": "sessions/01_intro/slides.html#registration",
-    "title": "Session 01 — Introduction",
+    "title": "01 — Introduction",
     "section": "Registration",
-    "text": "Registration"
+    "text": "Registration\nAny open issues?"
   },
   {
-    "objectID": "sessions/01_intro/slides.html#moodle",
-    "href": "sessions/01_intro/slides.html#moodle",
-    "title": "Session 01 — Introduction",
-    "section": "Moodle",
-    "text": "Moodle\n\ntitle / long: Würschinger / 2025–2 / Introduction to linguistics\ntitle / short: wue2025-2intro\nurl: TBD\npassword: TBD"
+    "objectID": "sessions/01_intro/slides.html#teaching-approach",
+    "href": "sessions/01_intro/slides.html#teaching-approach",
+    "title": "01 — Introduction",
+    "section": "Teaching approach",
+    "text": "Teaching approach\nFlipped classroom:\n\nstudents prepare before class;\nin-class time focuses on discussion and practice."
   },
   {
-    "objectID": "sessions/01_intro/slides.html#tutorials",
-    "href": "sessions/01_intro/slides.html#tutorials",
-    "title": "Session 01 — Introduction",
-    "section": "Tutorials",
-    "text": "Tutorials\nsee Moodle page (link TBD)"
+    "objectID": "sessions/01_intro/slides.html#schedule",
+    "href": "sessions/01_intro/slides.html#schedule",
+    "title": "01 — Introduction",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\nDate\nTopic\nRequired reading\n\n\n\n\n1\n13 Oct.\nOrganisation & introduction\n(Herbst 2010, ch. 2)\n\n\n2\n20 Oct.\nHistory of English\n(Bieswanger and Becker 2021, ch. 2.1)\n\n\n3\n27 Oct.\nPragmatics\n—\n\n\n4\n3 Nov.\nPhonetics & phonology I\n(Kortmann 2020, ch. 2.1)\n\n\n5\n10 Nov.\nPhonetics & phonology II\n(Kortmann 2020, ch. 2.2)\n\n\n6\n17 Nov.\nSyntax I\n(Herbst 2010, ch. 11.1–11.2)\n\n\n7\n24 Nov.\nSyntax II\n(Herbst 2010, ch. 11.3–11.4)\n\n\n8\n1 Dec.\nMorphology and word-formation I\n(Herbst 2010, ch. 8); (Kortmann 2020, ch. 4.1)\n\n\n9\n8 Dec.\nMorphology and word-formation II\n(Herbst 2010, ch. 9.1–9.3)\n\n\n10\n15 Dec.\nSemantics and lexicology I\n(Mair 2022, ch. 6.1–6.3); (Kortmann 2020, ch. 6.3.2)\n\n\n11\n22 Dec.\nRevision\n—\n\n\n12\n12 Jan.\nSemantics and lexicology II\n(Kortmann 2020, 173–85); (Sauer and Majewski 2020, ch. 11.1–11.4.5)\n\n\n13\n19 Jan.\nSociolinguistics\n—\n\n\n14\n26 Jan.\nMock exam\n—\n\n\n15\n2 Feb.\nExam\n—"
   },
   {
-    "objectID": "sessions/01_intro/slides.html#requirements-1",
-    "href": "sessions/01_intro/slides.html#requirements-1",
-    "title": "Session 01 — Introduction",
+    "objectID": "sessions/01_intro/slides.html#requirements",
+    "href": "sessions/01_intro/slides.html#requirements",
+    "title": "01 — Introduction",
     "section": "Requirements",
-    "text": "Requirements\n\nactive participation ( ≤ 2 absences)\nreadings\nhandouts\nexercises ( ≤ 1 miss)\nexam"
-  },
-  {
-    "objectID": "sessions/01_intro/slides.html#modulprüfung",
-    "href": "sessions/01_intro/slides.html#modulprüfung",
-    "title": "Session 01 — Introduction",
-    "section": "Modulprüfung",
-    "text": "Modulprüfung\nSee page on Moodle (link TBD)."
+    "text": "Requirements\n\nactive participation\npreparatory readings\nexam"
   },
   {
     "objectID": "sessions/01_intro/slides.html#literature",
     "href": "sessions/01_intro/slides.html#literature",
-    "title": "Session 01 — Introduction",
+    "title": "01 — Introduction",
     "section": "Literature",
-    "text": "Literature\n​* Kortmann, Bernd. 2020. English Linguistics: Essentials. J.B. Metzler.\nHerbst, Thomas. 2010. English Linguistics: A Coursebook for Students of English. Berlin: De Gruyter Mouton.\nBieswanger, Markus, and Annette Becker. 2021. Introduction to English Linguistics. 5th ed. Tübingen: A. Francke Verlag."
+    "text": "Literature\nSelected introductions to English linguistics:\n\nBieswanger, Markus & Annette Becker. 2021. Introduction to English linguistics. 5th ed. Tübingen: Narr.\nHerbst, Thomas. 2010. English linguistics: A coursebook for students of English. Berlin: De Gruyter.\nKortmann, Bernd. 2020. English linguistics: Essentials. 2nd ed. Stuttgart: Metzler.\nMair, Christian. 2022. English linguistics: An introduction. 4th ed. Tübingen: Narr.\nPlag, Ingo, Sabine Arndt-Lappe, Maria Braun & Mareile Schramm. 2015. Introduction to English linguistics. 3rd ed. Berlin: De Gruyter.\nSauer, Hans & Kerstin Majewski. 2020. My first door to English linguistics: A short companion to the study of English. Tübingen: Stauffenburg.\n\nAll available as ebooks at the university library (https://www.ub.uni-muenchen.de/index.html)."
   },
   {
     "objectID": "sessions/01_intro/slides.html#course-description",
     "href": "sessions/01_intro/slides.html#course-description",
-    "title": "Session 01 — Introduction",
+    "title": "01 — Introduction",
     "section": "Course description",
     "text": "Course description\nThis course introduces you to the fundamental components of English linguistics, explains the major theoretical approaches and concepts in these fields, and examines some methodological issues.\nThe curriculum consists of\n\nphonetics and phonology,\nmorphology and word-formation,\nsyntax,\nsemantics and lexicology,\npragmatics,\nsociolinguistics, and\nhistory of English.\n\nThe aim is to provide you with a broad foundation so that you can specialise based on your interests in subsequent courses."
   },
   {
     "objectID": "sessions/01_intro/slides.html#linguistic-fundamentals",
     "href": "sessions/01_intro/slides.html#linguistic-fundamentals",
-    "title": "Session 01 — Introduction",
+    "title": "01 — Introduction",
     "section": "Linguistic fundamentals",
     "text": "Linguistic fundamentals"
   },
   {
     "objectID": "sessions/01_intro/slides.html#linguistic-domains",
     "href": "sessions/01_intro/slides.html#linguistic-domains",
-    "title": "Session 01 — Introduction",
+    "title": "01 — Introduction",
     "section": "Linguistic domains",
     "text": "Linguistic domains"
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#references",
+    "href": "sessions/01_intro/slides.html#references",
+    "title": "01 — Introduction",
+    "section": "References",
+    "text": "References\n\n\nBieswanger, Markus, and Annette Becker. 2021. Introduction to English Linguistics. 5th ed. Tübingen: Narr Francke Attempto.\n\n\nBühler, Karl. 1934. Sprachtheorie. Jena: Fischer.\n\n\nGrieve, Jack, Andrea Nini, and Diansheng Guo. 2018. “Mapping Lexical Innovation on American Social Media.” Journal of English Linguistics 46 (4): 293–319.\n\n\nHamilton, William L., Jure Leskovec, and Dan Jurafsky. 2016. “Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change.” In, 1489—1501. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL). Berlin, Germany: Association for Computational Linguistics. http://www.aclweb.org/anthology/P16-1141.\n\n\nHerbst, Thomas. 2010. English Linguistics: A Coursebook for Students of English. Berlin: De Gruyter Mouton.\n\n\nKortmann, Bernd. 2020. English Linguistics: Essentials. J.B. Metzler.\n\n\nMair, Christian. 2022. English Linguistics: An Introduction. 4th ed. Tübingen: Narr Francke Attempto.\n\n\nSauer, Hans, and Kerstin Majewski. 2020. My First Door to English Linguistics: A Short Companion to the Study of English. Tübingen: Stauffenburg.\n\n\nSaussure, Ferdinand de. 1916. Cours de Linguistique Générale. Lausanne: Payot."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule\n\n\n\n\nDate\nTopic\n\n\n\n\n1\n13 Oct.\nOrganisation & introduction\n\n\n2\n20 Oct.\nFundamentals & history\n\n\n3\n27 Oct.\nPragmatics\n\n\n4\n03 Nov.\nPhonetics & phonology I\n\n\n5\n10 Nov.\nPhonetics & phonology II\n\n\n6\n17 Nov.\nSyntax I\n\n\n7\n24 Nov.\nSyntax II\n\n\n8\n01 Dec.\nMorphology and word-formation I\n\n\n9\n08 Dec.\nMorphology and word-formation II\n\n\n10\n15 Dec.\nSemantics and lexicology I\n\n\n11\n22 Dec.\nRevision\n\n\n12\n12 Jan.\nSemantics and lexicology II\n\n\n13\n19 Jan.\nSociolinguistics\n\n\n14\n26 Jan.\nMock exam\n\n\n15\n02 Feb.\nExam"
+    "text": "Schedule\n\n\n\n\nDate\nTopic\nRequired reading\n\n\n\n\n1\n13 Oct.\nOrganisation & introduction\n(Herbst 2010, ch. 2)\n\n\n2\n20 Oct.\nHistory of English\n(Bieswanger and Becker 2021, ch. 2.1)\n\n\n3\n27 Oct.\nPragmatics\n—\n\n\n4\n3 Nov.\nPhonetics & phonology I\n(Kortmann 2020, ch. 2.1)\n\n\n5\n10 Nov.\nPhonetics & phonology II\n(Kortmann 2020, ch. 2.2)\n\n\n6\n17 Nov.\nSyntax I\n(Herbst 2010, ch. 11.1–11.2)\n\n\n7\n24 Nov.\nSyntax II\n(Herbst 2010, ch. 11.3–11.4)\n\n\n8\n1 Dec.\nMorphology and word-formation I\n(Herbst 2010, ch. 8); (Kortmann 2020, ch. 4.1)\n\n\n9\n8 Dec.\nMorphology and word-formation II\n(Herbst 2010, ch. 9.1–9.3)\n\n\n10\n15 Dec.\nSemantics and lexicology I\n(Mair 2022, ch. 6.1–6.3); (Kortmann 2020, ch. 6.3.2)\n\n\n11\n22 Dec.\nRevision\n—\n\n\n12\n12 Jan.\nSemantics and lexicology II\n(Kortmann 2020, 173–85); (Sauer and Majewski 2020, ch. 11.1–11.4.5)\n\n\n13\n19 Jan.\nSociolinguistics\n—\n\n\n14\n26 Jan.\nMock exam\n—\n\n\n15\n2 Feb.\nExam\n—\n\n\n\n\n\n\n\n\nReferences\n\nBieswanger, Markus, and Annette Becker. 2021. Introduction to English Linguistics. 5th ed. Tübingen: Narr Francke Attempto.\n\n\nHerbst, Thomas. 2010. English Linguistics: A Coursebook for Students of English. Berlin: De Gruyter Mouton.\n\n\nKortmann, Bernd. 2020. English Linguistics: Essentials. J.B. Metzler.\n\n\nMair, Christian. 2022. English Linguistics: An Introduction. 4th ed. Tübingen: Narr Francke Attempto.\n\n\nSauer, Hans, and Kerstin Majewski. 2020. My First Door to English Linguistics: A Short Companion to the Study of English. Tübingen: Stauffenburg."
   },
   {
     "objectID": "sessions/01_intro/index.html",
