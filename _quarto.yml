@@ -20,3 +20,7 @@ filters:
   - auto-dark
 
 bibliography: references.bib
+
+# Project-wide metadata (available via {{< meta name >}})
+metadata:
+  linkprefix: ""

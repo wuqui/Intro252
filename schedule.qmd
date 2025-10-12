@@ -1,6 +1,6 @@
 |    | Date    | Topic |
 |----|---------|-------|
-|  1 | 13 Oct. | [Organisation & introduction](sessions/01_intro/) |
+|  1 | 13 Oct. | [Organisation & introduction]({{< meta linkprefix >}}sessions/01_intro/index.qmd){target="_top"} |
 |  2 | 20 Oct. | Fundamentals & history |
 |  3 | 27 Oct. | Pragmatics |
 |  4 | 03 Nov. | Phonetics & phonology I |
