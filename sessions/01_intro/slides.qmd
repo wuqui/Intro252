@@ -5,21 +5,32 @@ author: Quirin Würschinger, LMU Munich
 date: 2025-10-13
 date-format: long
 format:
-  revealjs:
+  clean-revealjs:
     excalidraw:
       button: false
       shortcut: "`"
       theme: light
     css: ../../custom.css
 filters:
+  - imagify
   - auto-dark
-slide-level: 0
+slide-level: 2
 metadata:
   linkprefix: ../../
 revealjs-plugins:
   - pointer
   - excalidraw
+imagify:
+  header-includes: |
+    \usepackage{forest}
+  extensionForOutput:
+    html: png
+    default: png
 ---
+
+# Course website
+
+Visit the course site: [https://wuqui.github.io/Intro252/](https://wuqui.github.io/Intro252/){target="_top"}
 
 # Organisation
 
@@ -41,4 +52,289 @@ revealjs-plugins:
 
 This slide will list references later.
 
+
+___
+
+# Organisation
+
+## Registration
+
+## Moodle
+
+- **title / long**: Würschinger / 2025–2 / Introduction to linguistics
+- **title / short**: wue<sub>2025</sub>-2<sub>intro</sub>
+- **url**: TBD
+- **password**: TBD
+
+## Tutorials
+
+see Moodle page (link TBD)
+
+
+## Requirements
+
+- [ ] active participation ( ≤ 2 absences)
+- [ ] readings
+- [ ] handouts
+- [ ] exercises ( ≤ 1 miss)
+- [ ] exam
+
+## Modulprüfung
+
+See page on Moodle (link TBD).
+
+## Literature
+
+​* Kortmann, Bernd. 2020. English Linguistics: Essentials. J.B. Metzler.
+
+Herbst, Thomas. 2010. English Linguistics: A Coursebook for Students of
+English. Berlin: De Gruyter Mouton.
+
+Bieswanger, Markus, and Annette Becker. 2021. Introduction to English
+Linguistics. 5th ed. Tübingen: A. Francke Verlag.
+
+# Introduction
+
+## Course description
+
+This course introduces you to the fundamental components of English
+linguistics, explains the major theoretical approaches and concepts in
+these fields, and examines some methodological issues.
+
+The curriculum consists of
+
+- phonetics and phonology,
+- morphology and word-formation,
+- syntax,
+- semantics and lexicology,
+- pragmatics,
+- sociolinguistics, and
+- history of English.
+
+The aim is to provide you with a broad foundation so that you can
+specialise based on your interests in subsequent courses.
+
+## Linguistic fundamentals
+
+---
+
+### Language as a tool for communication
+
+The Organon model [@Buhler1934Sprachtheorie]
+
+![](img/organon-model.jpg)
+
+---
+
+### The model of the linguistic sign
+
+[@deSaussure1916Cours]
+
+:::: {.columns}
+
+::: {.column width="48%"}
+![](img/saussure-sign.jpg)
+:::
+
+::: {.column width="48%"}
+- form – meaning/function
+- relationship: arbitrary
+:::
+
+::::
+
+---
+
+### Linearity of language
+
+![](img/whatsapp.jpg)
+
+---
+
+### Paradigmatic vs syntagmatic relations
+
+![](img/syntagmatic-paradigmatic.png)
+
+---
+
+### Synchrony vs diachrony
+
+<figure>
+<img src="img/change-of-meaning.png" />
+<figcaption>Change of meaning over time [@Hamilton2016Diachronic]</figcaption>
+</figure>
+
+---
+
+### Langue vs parole
+
+![](img/chess.jpeg)
+
+**Langue**: rules of the game
+
+**Parole**: how the game is actually played
+
+---
+
+### Descriptivism vs prescriptivism
+
+![](img/prescriptive.jpg)
+
+---
+
+### Object language vs metalanguage
+
+**Examples:**
+
+1. Saying *shit* is not allowed.
+2. *verb* is a noun.
+3. I don't know the word for *word* in Spanish.
+
+---
+
+### Object language vs metalanguage
+
+**Exercise:**
+
+1. The meaning of bank is ambiguous.
+2. Noun phrases often start with the words the or a.
+3. Morphology is the field of language which studies the formation of new words.
+4. The past tense of verbs is formed by adding the suffix -ed.
+
+::: {.fragment}
+**Solution:**
+
+1. The meaning of *bank* is ambiguous.
+2. Noun phrases often start with the words *the* or *a*.
+3. Morphology is the field of language which studies the formation of new words.
+4. The past tense of verbs is formed by adding the suffix *-ed*.
+:::
+
+## Linguistic domains
+
+---
+
+### Core domains
+
+- phonetics and phonology
+- morphology and word-formation
+- syntax
+- semantics
+- pragmatics
+- sociolinguistics
+- historical linguistics
+- …
+
+---
+
+### Phonetics and phonology
+
+    ***Our Strange Lingo* (Lord Cromer)**
+
+    When the English tongue we speak.  
+    Why is break not rhymed with freak?  
+    Will you tell me why it's true  
+    We say sew but likewise few?  
+    And the maker of the verse,  
+    Cannot rhyme his horse with worse?  
+    Beard is not the same as heard  
+    Cord is different from word.  
+    Cow is cow but low is low  
+    Shoe is never rhymed with foe.  
+
+    Think of hose, dose, and lose  
+    And think of goose and yet with choose  
+    Think of comb, tomb and bomb,  
+    Doll and roll or home and some.  
+    Since pay is rhymed with say  
+    Why not paid with said I pray?  
+    Think of blood, food and good.  
+    Mould is not pronounced like could.  
+    Wherefore done, but gone and lone -  
+    Is there any reason known?  
+    To sum up all, it seems to me  
+    Sound and letters don't agree.
+
+---
+
+### Phonetics and phonology
+
+What do you hear?
+
+- [test](https://www.youtube.com/watch?v=7X_WvGAhMlQ)
+- [analysis](https://www.youtube.com/watch?v=yDiXQl7grPQ)
+
+---
+
+### Morphology and word-formation
+
+1. How many parts does the word *disclaimers* consist of?
+2. How can we analyse this complex word in terms of its parts?
+
+::: {.fragment}
+**Solution:**
+
+![](img/disclaimers-tree.png)
+:::
+
+---
+
+### Why and how do we form new words?
+
+![](img/covfefe.jpg)
+
+---
+
+### Syntax
+
+What's the problem with the following sentence?
+
+*The old man the boat.*
+
+::: {.fragment}
+**Wrong analysis:**
+
+![](img/old-man-wrong.png)
+:::
+
+::: {.fragment}
+**Right analysis:**
+
+![](img/old-man-right.png)
+:::
+
+---
+
+### Applied fields
+
+- lexicography
+- language acquisition and learning (teaching)
+- cognitive linguistics and psycholinguistics
+- computational linguistics
+- forensic linguistics
+- …
+
+---
+
+### Lexicography
+
+![The Oxford English Dictionary (OED)](img/oed.png)
+
+---
+
+### Cognitive linguistics and psycholinguistics
+
+The Stroop effect
+
+![](img/stroop_difference.png)
+
+<https://www.youtube.com/watch?v=E92GSwr46DY>
+
+---
+
+### Computational linguistics
+
+![Hubs of lexical innovation [@Grieve2018MappingLexical]](img/lexical-innovation.png)
+
+# References
 
