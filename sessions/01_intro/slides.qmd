@@ -25,6 +25,10 @@ revealjs-plugins:
 
 ## Schedule
 
+{{< include ../../schedule.qmd >}}
+
+
+
 ## Teaching approach
 
 ## Course books

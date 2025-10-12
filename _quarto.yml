@@ -3,13 +3,9 @@ project:
   output-dir: _site
 
 website:
-  title: "Introduction to linguistics"
+  title: "Intro252"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
       - text: Sessions
         menu:
           - text: Session 01 — Introduction
@@ -24,5 +20,3 @@ filters:
   - auto-dark
 
 bibliography: references.bib
-
-
