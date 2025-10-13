@@ -25,14 +25,36 @@ revealjs-plugins:
 
 # Organisation
 
+## Roadmap
+
+- Admin and setup
+- Core concepts
+- Practice and discussion
+- Wrap-up and next steps
+
+::: {.notes}
+- 10:15–10:25 Admin
+- 10:25–11:15 Core concepts (break ~10:57–11:02)
+- 11:15–11:40 Practice
+- 11:40–11:45 Wrap-up
+:::
+
 ## Course materials
 
 Course website: <https://wuqui.github.io/Intro252/>
+
+:::: {.notes}
+- 10:15–10:16 Materials and site orientation.
+::::
 
 
 ## Registration
 
 Any open issues?
+
+:::: {.notes}
+- 10:16–10:17 Registration questions.
+::::
 
 
 ## Teaching approach
@@ -42,18 +64,31 @@ Flipped classroom:
 - students prepare before class (readings, exercises);
 - in-class time focuses on discussion and practice.
 
+![](img/flipped-classroom.png)
+
+:::: {.notes}
+- 10:17–10:18 Flipped model expectations.
+::::
 
 ## Schedule {.small}
 
 {{< include ../../schedule.qmd >}}
 
+:::: {.notes}
+- 10:18–10:20 Walk through first weeks; point to details online.
+::::
+
 
 ## Requirements
 
 - [ ] active participation
-- [ ] preparatory readings
+- [ ] readings
 - [ ] exercises
 - [ ] exam
+
+:::: {.notes}
+- 10:20–10:21 Participation, readings, exercises, exam.
+::::
 
 
 ## Literature {.small}
@@ -67,10 +102,35 @@ Selected introductions to English linguistics:
 - Plag, Ingo, Sabine Arndt-Lappe, Maria Braun & Mareile Schramm. 2015. Introduction to English linguistics. 3rd ed. Berlin: De Gruyter.
 - Sauer, Hans & Kerstin Majewski. 2020. My first door to English linguistics: A short companion to the study of English. Tübingen: Stauffenburg.
 
-All available as ebooks at the university library (<https://www.ub.uni-muenchen.de/index.html>).
+All available as ebooks at the university library (<https://www.ub.uni-muenchen.de>).
+
+:::: {.notes}
+- 10:21–10:23 Show main intros; advise one pick.
+::::
 
 
 # Introduction
+
+---
+
+## Learning outcomes
+
+- explain the basic claims of structuralism and Saussure’s model of the sign.
+- distinguish syntagmatic vs paradigmatic relations and give examples.
+- differentiate symbols, icons, and indices (Peirce) with examples.
+- identify core linguistic domains and recognise typical data/methods.
+
+::: {.notes}
+- 10:23–10:25 Read quickly; set expectations for activities.
+:::
+
+## What is language (good for)?
+
+## What makes English special?
+
+## What is linguistics (good for)?
+
+![](img/what-is-linguistics-kortmann.png)
 
 ## Course description {.small}
 
@@ -93,6 +153,10 @@ specialise based on your interests in subsequent courses.
 
 ## Linguistic fundamentals
 
+::: {.notes}
+- 10:29–10:31 Transition; set focus.
+:::
+
 ---
 
 ### Language as a tool for communication
@@ -101,23 +165,120 @@ The Organon model [@Buhler1934Sprachtheorie]
 
 ![](img/organon-model.jpg)
 
+:::: {.notes}
+- 10:31–10:33 Briefly explain sender–message–receiver.
+::::
+
+---
+
+### Structuralism
+
+:::: {.columns}
+::: {.column width="80%"}
+The linguist who has, first and foremost, shaped linguistic thinking in the 20th century is **Ferdinand de Saussure (1857–1913)**. We know about his theory of language from a set of lecture notes from a lecture delivered at Geneva university, which were published by his students as *Cours de linguistique générale* in 1916.
+
+(cf. @Kortmann2020Essentials, 5–9)
+
+:::: {.notes}
+- 10:33–10:36 Context + why structuralism matters.
+::::
+:::
+::: {.column width="20%"}
+![](img/saussure.png)
+:::
+::::
+
+---
+
+### De Saussure's primacy of synchrony and the system
+
+Ferdinand de Saussure…
+
+- focussed on synchrony — against the dominant trend in linguistics of the late 19th / early 20th centuries, which, almost exclusively, dealt with **language history**.
+
+- advocated the study of *langue* rather than *parole*:
+    - **langue**: the abstract linguistic system shared by all speakers of a speech community, which is independent of individual language users (→ abstract system).
+    - **parole**: the concrete realisation of the abstract system provided by *langue*, which may be influenced by the speech situation, by a lack of concentration, by memory restrictions, etc. (→ concrete use by the individual).
+
+:::: {.notes}
+- 10:36–10:40 Synchrony vs history; langue vs parole.
+::::
 ---
 
 ### The model of the linguistic sign
 
 [@deSaussure1916Cours]
 
-:::: {.columns}
+![The Model of the Linguistic Sign](img/model-linguistic-sign.png)
 
-::: {.column width="48%"}
-![](img/saussure-sign.jpg)
+[@Bieswanger2021Introduction, 6]
+
+---
+
+### De Saussure’s concept of the linguistic sign
+
+The linguistic sign has the following set of characteristics:
+
+- **Reciprocity**: The signifier/signifiant evokes the signified/signifié, and vice versa.
+- **Arbitrariness**: This relationship is unmotivated. There is no obvious reason why a particular signifier should represent a certain signified.
+- **Conventionality**: This relationship between signifier and signified is based upon an implicit ‘agreement’ between speakers of speech communities.
+
+:::: {.notes}
+- 10:40–10:42 Three properties with quick examples.
+::::
+
+---
+
+### An alternative concept of signs: Peirce
+
+Three major types of signs depending on the relationship between signifier and signified:
+
+- **symbol** — arbitrariness: lack of motivated link (cf. de Saussure’s linguistic sign)
+- **icon** — similarity: visual, acoustic, … (e.g., meow for the cat)
+- **index** — effect–cause or contiguity (i.e., proximity in space/time) (e.g., smoke as a sign of fire)
+
+---
+
+### Exercise: symbols, icons, indices
+
+Classify each sign and state the underlying relationship (arbitrariness, similarity, contiguity).
+
+1. traffic light colours
+2. portrait photo
+3. smoke for fire
+4. onomatopoeia "meow"
+5. national flag of Japan for the country
+6. wet footprints on the floor
+
+:::: {.notes}
+- 1:00 think, 1:00 pair, 1:00 share.
+::::
+
+::: {.content-visible when-meta="params.show_solutions"}
+___
+**Solution:**
+
+1. symbol — arbitrariness (convention)
+2. icon — similarity (visual)
+3. index — effect–cause / contiguity
+4. icon — similarity (acoustic)
+5. symbol — arbitrariness (convention)
+6. index — contiguity (proximity in space/time)
 :::
 
-::: {.column width="48%"}
-- form – meaning/function
-- relationship: arbitrary
-:::
+---
 
+### Paradigmatic vs syntagmatic relations
+
+Linguistic units (in phonology, word-formation, syntax etc.) stand in two types of relationships:
+
+- Elements which co-occur in horizontal order form syntagms or "chain relationships".
+- Elements which replace each other in the same functional slot form paradigms or "choice relationships".
+
+![](img/syntagmatic-paradigmatic.png)
+
+:::: {.notes}
+- 10:43–10:44 Define chain vs choice; 1 example.
 ::::
 
 ---
@@ -126,17 +287,31 @@ The Organon model [@Buhler1934Sprachtheorie]
 
 ![](img/whatsapp.jpg)
 
+:::: {.notes}
+- 10:42–10:43 Quick visual; move on fast.
+::::
+
 ---
 
-### Paradigmatic vs syntagmatic relations
+### Aim of structuralism and emancipation from de Saussure
 
-![](img/syntagmatic-paradigmatic.png)
+**Aim of Structuralism**: Identifying and describing elements in the system (on all levels of a language: sounds, words and their components, sentences and their constituents) in terms of their paradigmatic and syntagmatic relationships to other elements in the system.
+
+Since the 1960s …
+
+- renewed interest in language **variation** and **change** (vs primacy of synchrony)
+- research into language use by individual speakers in different social situations → **pragmatics** & **sociolinguistics** (vs primacy of the system)
+- recognition of **fuzzy boundaries/continua** and acceptance of dichotomies only as pedagogically useful idealisations (e.g., synchrony – diachrony, language system – language use, vocabulary – grammar, written language – spoken language)
 
 ---
 
 ### Synchrony vs diachrony
 
 ![Change of meaning over time [@Hamilton2016Diachronic]](img/change-of-meaning.png)
+
+::: {.notes}
+- 10:40–10:42 Diachrony example; quick pointer to semantics/lexicology.
+:::
 
 ---
 
@@ -150,11 +325,19 @@ The Organon model [@Buhler1934Sprachtheorie]
 **Parole**: how the game is actually played
 :::
 
+:::: {.notes}
+- 10:45–10:46 Anchor with chess metaphor.
+::::
+
 ---
 
 ### Descriptivism vs prescriptivism
 
 ![](img/prescriptive.jpg)
+
+:::: {.notes}
+- 10:46–10:47 Contrast briefly; avoid rabbit hole.
+::::
 
 ---
 
@@ -165,6 +348,10 @@ The Organon model [@Buhler1934Sprachtheorie]
 1. Saying *shit* is not allowed.
 2. *verb* is a noun.
 3. I don't know the word for *word* in Spanish.
+
+:::: {.notes}
+- 10:47–10:48 Setup for exercise.
+::::
 
 ---
 
@@ -179,6 +366,18 @@ The Organon model [@Buhler1934Sprachtheorie]
 
 ---
 
+### Think–Pair–Share: Object vs metalanguage
+
+- **Think**: classify 1–4 as object or metalanguage.
+- **Pair**: compare and justify one change.
+- **Share**
+
+::: {.notes}
+- 10:37–10:40 TPS timing; then reveal solution if enabled.
+:::
+
+---
+
 ::: {.content-visible when-meta="params.show_solutions"}
 **Solution:**
 
@@ -189,9 +388,32 @@ The Organon model [@Buhler1934Sprachtheorie]
 :::
 
 
+## Recap — Fundamentals
+
+- define structuralism and Saussurean sign.
+- explain syntagmatic vs paradigmatic relations.
+- apply object vs metalanguage distinction.
+
+::: {.notes}
+- 10:44–10:45 Quick recap; move to domains and activities.
+:::
+
+
 ## Linguistic domains
 
----
+### Overview
+
+- language as **structure**: phonetics, phonology, morphology, semantics, syntax, text linguistics
+
+- language as a **cultural and social phenomenon**: contact linguistics, historical linguistics, dialectology, pragmatics, sociolinguistics
+
+- language as a **biological phenomenon**: neurolinguistics, psycholinguistics, cognitive linguistics
+
+- practical **applications**: second language acquisition/teaching, compiling dictionaries, translation theory, computer linguistics, artificial intelligence research, forensic linguistics
+
+- …
+
+___
 
 ### Core domains
 
@@ -236,6 +458,10 @@ Is there any reason known?
 To sum up all, it seems to me  
 Sound and letters don't agree.
 
+::: {.notes}
+- 10:34–10:37 Read 1st stanza; audience reads 2nd.
+:::
+
 ---
 
 ### Phonetics and phonology
@@ -246,9 +472,14 @@ What do you hear?
 
 {{< video https://www.youtube.com/watch?v=7X_WvGAhMlQ >}}
 
+
 #### Analysis
 
 {{< video https://www.youtube.com/watch?v=yDiXQl7grPQ >}}
+
+::: {.notes}
+- 10:46–10:49 Play clips; pause at 0:25 and 1:10.
+:::
 
 ---
 
@@ -261,11 +492,19 @@ ___
 
 ![](img/disclaimers-tree.png)
 
+:::: {.notes}
+- 11:12–11:14 Tree as example; keep brief.
+::::
+
 ---
 
 ### Why and how do we form new words?
 
 ![](img/covfefe.jpg)
+
+::: {.notes}
+- 11:15–11:18 Prompt: social salience drives spread.
+:::
 
 ---
 
@@ -287,6 +526,10 @@ ___
 
 ![](img/old-man-right.png)
 
+::: {.notes}
+- 11:18–11:22 Garden-path explanation; ambiguity resolution.
+:::
+
 ---
 
 ### Applied fields
@@ -298,11 +541,19 @@ ___
 - forensic linguistics
 - …
 
+:::: {.notes}
+- 11:04–11:06 Quick tour of applications.
+::::
+
 ---
 
 ### Lexicography
 
 ![The Oxford English Dictionary (OED)](img/oed.png)
+
+:::: {.notes}
+- 11:06–11:07 OED as resource example.
+::::
 
 ---
 
@@ -314,6 +565,10 @@ The Stroop effect
 
 <https://www.youtube.com/watch?v=E92GSwr46DY>
 
+:::: {.notes}
+- 11:07–11:08 Stroop demo pointer.
+::::
+
 ---
 
 ### Computational linguistics
@@ -321,6 +576,46 @@ The Stroop effect
 ![Hubs of lexical innovation [@Grieve2018MappingLexical]](img/lexical-innovation.png)
 
 ---
+
+## Micro‑quiz
+
+::: {.incremental}
+1. What does “arbitrary” mean in Saussure’s sign?  
+   a) random noise; 
+   b) no natural link between form and meaning; 
+   c) unpredictable usage
+2. Which substitution best illustrates a paradigmatic relation?  
+   a) Replacing *student* with *teacher* in "The ___ reads the book"  
+   b) Adding *quickly* after *reads*  
+   c) Moving *the* to the end of the sentence
+3. Which of the following is an index?  
+   a) The word *tree*  
+   b) A photograph of a cat  
+   c) Smoke signalling fire
+:::
+
+::: {.notes}
+- 11:10–11:12 Quick check; reveal answers via fragments.
+:::
+
+---
+
+## Key take‑aways
+
+- Structuralism foregrounds synchrony and the linguistic system.
+- Linguistic signs are reciprocal, arbitrary, and conventional.
+- Relations: syntagmatic (chain) vs paradigmatic (choice).
+- Peirce’s triad: symbol (arbitrariness), icon (similarity), index (contiguity).
+- Linguistics spans core domains and applied fields; methods and examples matter.
+
+## Next week: History of English
+
+Read @Bieswanger2021Introduction, ch. 2.1.
+
+::: {.notes}
+- 11:42–11:45 Summarise; set expectations; point to website schedule.
+:::
+
 
 ## References
 
