@@ -13,6 +13,6 @@
 | 11 | 12 Jan. | Semantics and lexicology II | @Kortmann2020Essentials: ch. 7 |
 | 12 | 19 Jan. | Sociolinguistics | @Kortmann2020Essentials: ch. 8 |
 | 13 | 26 Jan. | History of English | @Bieswanger2021Introduction: ch. 2.1 |
-| 14 |  2 Feb. | Exam foo | — |
+| 14 |  2 Feb. | Exam | — |
 
 : {tbl-colwidths="[10, 10, 40, 40]"}
