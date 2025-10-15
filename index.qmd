@@ -1,3 +1,13 @@
-# Introduction to linguistics
+---
+title: Introduction to linguistics
+nocite: '@*'
+---
+
+## Schedule
 
 {{< include _includes/_schedule.qmd >}}
+
+## References
+
+:::: {#refs}
+::::
