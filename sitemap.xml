@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://wuqui.github.io/Intro252/schedule.html</loc>
-    <lastmod>2025-10-13T00:57:12.709Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wuqui.github.io/Intro252/sessions/01_intro/slides.html</loc>
-    <lastmod>2025-10-13T00:57:12.718Z</lastmod>
+    <loc>https://wuqui.github.io/Intro252/sessions/01_intro/index.html</loc>
+    <lastmod>2025-10-15T15:06:45.351Z</lastmod>
   </url>
   <url>
     <loc>https://wuqui.github.io/Intro252/index.html</loc>
-    <lastmod>2025-10-13T00:57:12.709Z</lastmod>
+    <lastmod>2025-10-15T15:06:45.342Z</lastmod>
   </url>
   <url>
-    <loc>https://wuqui.github.io/Intro252/sessions/01_intro/index.html</loc>
-    <lastmod>2025-10-13T00:57:12.718Z</lastmod>
+    <loc>https://wuqui.github.io/Intro252/sessions/01_intro/slides.html</loc>
+    <lastmod>2025-10-15T15:06:45.352Z</lastmod>
   </url>
 </urlset>

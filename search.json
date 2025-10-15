@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Intro252",
+    "objectID": "sessions/01_intro/index.html",
+    "href": "sessions/01_intro/index.html",
+    "title": "Session 01 — Introduction",
     "section": "",
-    "text": "Date\nTopic\nRequired reading\n\n\n\n\n1\n13 Oct.\nOrganisation & introduction\n(Herbst 2010, ch. 2)\n\n\n2\n20 Oct.\nHistory of English\n(Bieswanger and Becker 2021, ch. 2.1)\n\n\n3\n27 Oct.\nPragmatics\n—\n\n\n4\n3 Nov.\nPhonetics & phonology I\n(Kortmann 2020, ch. 2.1)\n\n\n5\n10 Nov.\nPhonetics & phonology II\n(Kortmann 2020, ch. 2.2)\n\n\n6\n17 Nov.\nSyntax I\n(Herbst 2010, ch. 11.1–11.2)\n\n\n7\n24 Nov.\nSyntax II\n(Herbst 2010, ch. 11.3–11.4)\n\n\n8\n1 Dec.\nMorphology and word-formation I\n(Herbst 2010, ch. 8); (Kortmann 2020, ch. 4.1)\n\n\n9\n8 Dec.\nMorphology and word-formation II\n(Herbst 2010, ch. 9.1–9.3)\n\n\n10\n15 Dec.\nSemantics and lexicology I\n(Mair 2022, ch. 6.1–6.3); (Kortmann 2020, ch. 6.3.2)\n\n\n11\n22 Dec.\nRevision\n—\n\n\n12\n12 Jan.\nSemantics and lexicology II\n(Kortmann 2020, 173–85); (Sauer and Majewski 2020, ch. 11.1–11.4.5)\n\n\n13\n19 Jan.\nSociolinguistics\n—\n\n\n14\n26 Jan.\nMock exam\n—\n\n\n15\n2 Feb.\nExam\n—\n\n\n\n\n\n\n\nReferences\n\nBieswanger, Markus, and Annette Becker. 2021. Introduction to English Linguistics. 5th ed. Tübingen: Narr Francke Attempto.\n\n\nHerbst, Thomas. 2010. English Linguistics: A Coursebook for Students of English. Berlin: De Gruyter Mouton.\n\n\nKortmann, Bernd. 2020. English Linguistics: Essentials. J.B. Metzler.\n\n\nMair, Christian. 2022. English Linguistics: An Introduction. 4th ed. Tübingen: Narr Francke Attempto.\n\n\nSauer, Hans, and Kerstin Majewski. 2020. My First Door to English Linguistics: A Short Companion to the Study of English. Tübingen: Stauffenburg."
+    "text": "Slides\n\n\n\nOpen full screen"
   },
   {
-    "objectID": "sessions/01_intro/slides.html#roadmap",
-    "href": "sessions/01_intro/slides.html#roadmap",
-    "title": "01 — Introduction",
-    "section": "Roadmap",
-    "text": "Roadmap\n\nAdmin and setup\nCore concepts\nPractice and discussion\nWrap-up and next steps\n\n\n\n10:15–10:25 Admin\n10:25–11:15 Core concepts (break ~10:57–11:02)\n11:15–11:40 Practice\n11:40–11:45 Wrap-up"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to linguistics",
+    "section": "",
+    "text": "Introduction to linguistics\n\n\n\n\n\n\n\n\n\n\nDate\nTopic\nPreparatory reading\n\n\n\n\n1\n20 Oct.\nOrganisation & introduction\nHerbst (2010): ch. 2\n\n\n2\n27 Oct.\nPragmatics\nKortmann (2020): ch. 7\n\n\n3\n3 Nov.\nPhonetics & phonology I\nKortmann (2020): ch. 2.1\n\n\n4\n10 Nov.\nPhonetics & phonology II\nKortmann (2020): ch. 2.2\n\n\n5\n17 Nov.\nSyntax I\nHerbst (2010): ch. 11.1–11.2\n\n\n6\n24 Nov.\nSyntax II\nHerbst (2010): ch. 11.3–11.4\n\n\n7\n1 Dec.\nMorphology and word-formation I\nHerbst (2010): ch. 8; Kortmann (2020): ch. 4.1\n\n\n8\n8 Dec.\nMorphology and word-formation II\nHerbst (2010): ch. 9.1–9.3\n\n\n9\n15 Dec.\nSemantics and lexicology I\nMair (2022): ch. 6.1–6.3; Kortmann (2020): ch. 6.3.2\n\n\n10\n22 Dec.\nRevision\n—\n\n\n11\n12 Jan.\nSemantics and lexicology II\nKortmann (2020): ch. 7\n\n\n12\n19 Jan.\nSociolinguistics\nKortmann (2020): ch. 8\n\n\n13\n26 Jan.\nHistory of English\nBieswanger and Becker (2021): ch. 2.1\n\n\n14\n2 Feb.\nExam foo\n—\n\n\n\n\n\n\n\n\nReferences\n\nBieswanger, Markus, and Annette Becker. 2021. Introduction to English Linguistics. 5th ed. Tübingen: Narr Francke Attempto.\n\n\nHerbst, Thomas. 2010. English Linguistics: A Coursebook for Students of English. Berlin: De Gruyter Mouton.\n\n\nKortmann, Bernd. 2020. English Linguistics: Essentials. J.B. Metzler.\n\n\nMair, Christian. 2022. English Linguistics: An Introduction. 4th ed. Tübingen: Narr Francke Attempto."
   },
   {
     "objectID": "sessions/01_intro/slides.html#course-materials",
@@ -39,7 +39,7 @@
     "href": "sessions/01_intro/slides.html#schedule",
     "title": "01 — Introduction",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n\nDate\nTopic\nRequired reading\n\n\n\n\n1\n13 Oct.\nOrganisation & introduction\n(Herbst 2010, ch. 2)\n\n\n2\n20 Oct.\nHistory of English\n(Bieswanger and Becker 2021, ch. 2.1)\n\n\n3\n27 Oct.\nPragmatics\n—\n\n\n4\n3 Nov.\nPhonetics & phonology I\n(Kortmann 2020, ch. 2.1)\n\n\n5\n10 Nov.\nPhonetics & phonology II\n(Kortmann 2020, ch. 2.2)\n\n\n6\n17 Nov.\nSyntax I\n(Herbst 2010, ch. 11.1–11.2)\n\n\n7\n24 Nov.\nSyntax II\n(Herbst 2010, ch. 11.3–11.4)\n\n\n8\n1 Dec.\nMorphology and word-formation I\n(Herbst 2010, ch. 8); (Kortmann 2020, ch. 4.1)\n\n\n9\n8 Dec.\nMorphology and word-formation II\n(Herbst 2010, ch. 9.1–9.3)\n\n\n10\n15 Dec.\nSemantics and lexicology I\n(Mair 2022, ch. 6.1–6.3); (Kortmann 2020, ch. 6.3.2)\n\n\n11\n22 Dec.\nRevision\n—\n\n\n12\n12 Jan.\nSemantics and lexicology II\n(Kortmann 2020, 173–85); (Sauer and Majewski 2020, ch. 11.1–11.4.5)\n\n\n13\n19 Jan.\nSociolinguistics\n—\n\n\n14\n26 Jan.\nMock exam\n—\n\n\n15\n2 Feb.\nExam\n—\n\n\n\n\n\n10:18–10:20 Walk through first weeks; point to details online."
+    "text": "Schedule\n\n\n\n\n\n\n\n\n\n\nDate\nTopic\nPreparatory reading\n\n\n\n\n1\n20 Oct.\nOrganisation & introduction\nHerbst (2010): ch. 2\n\n\n2\n27 Oct.\nPragmatics\nKortmann (2020): ch. 7\n\n\n3\n3 Nov.\nPhonetics & phonology I\nKortmann (2020): ch. 2.1\n\n\n4\n10 Nov.\nPhonetics & phonology II\nKortmann (2020): ch. 2.2\n\n\n5\n17 Nov.\nSyntax I\nHerbst (2010): ch. 11.1–11.2\n\n\n6\n24 Nov.\nSyntax II\nHerbst (2010): ch. 11.3–11.4\n\n\n7\n1 Dec.\nMorphology and word-formation I\nHerbst (2010): ch. 8; Kortmann (2020): ch. 4.1\n\n\n8\n8 Dec.\nMorphology and word-formation II\nHerbst (2010): ch. 9.1–9.3\n\n\n9\n15 Dec.\nSemantics and lexicology I\nMair (2022): ch. 6.1–6.3; Kortmann (2020): ch. 6.3.2\n\n\n10\n22 Dec.\nRevision\n—\n\n\n11\n12 Jan.\nSemantics and lexicology II\nKortmann (2020): ch. 7\n\n\n12\n19 Jan.\nSociolinguistics\nKortmann (2020): ch. 8\n\n\n13\n26 Jan.\nHistory of English\nBieswanger and Becker (2021): ch. 2.1\n\n\n14\n2 Feb.\nExam foo\n—\n\n\n\n\n\n10:18–10:20 Walk through first weeks; point to details online."
   },
   {
     "objectID": "sessions/01_intro/slides.html#requirements",
@@ -54,13 +54,6 @@
     "title": "01 — Introduction",
     "section": "Literature",
     "text": "Literature\nSelected introductions to English linguistics:\n\nBieswanger, Markus & Annette Becker. 2021. Introduction to English linguistics. 5th ed. Tübingen: Narr.\nHerbst, Thomas. 2010. English linguistics: A coursebook for students of English. Berlin: De Gruyter.\nKortmann, Bernd. 2020. English linguistics: Essentials. 2nd ed. Stuttgart: Metzler.\nMair, Christian. 2022. English linguistics: An introduction. 4th ed. Tübingen: Narr.\nPlag, Ingo, Sabine Arndt-Lappe, Maria Braun & Mareile Schramm. 2015. Introduction to English linguistics. 3rd ed. Berlin: De Gruyter.\nSauer, Hans & Kerstin Majewski. 2020. My first door to English linguistics: A short companion to the study of English. Tübingen: Stauffenburg.\n\nAll available as ebooks at the university library (https://www.ub.uni-muenchen.de).\n\n\n10:21–10:23 Show main intros; advise one pick."
-  },
-  {
-    "objectID": "sessions/01_intro/slides.html#learning-outcomes",
-    "href": "sessions/01_intro/slides.html#learning-outcomes",
-    "title": "01 — Introduction",
-    "section": "Learning outcomes",
-    "text": "Learning outcomes\n\nexplain the basic claims of structuralism and Saussure’s model of the sign.\ndistinguish syntagmatic vs paradigmatic relations and give examples.\ndifferentiate symbols, icons, and indices (Peirce) with examples.\nidentify core linguistic domains and recognise typical data/methods.\n\n\n\n10:23–10:25 Read quickly; set expectations for activities."
   },
   {
     "objectID": "sessions/01_intro/slides.html#what-is-language-good-for",
@@ -91,66 +84,171 @@
     "text": "Course description\nThis course introduces you to the fundamental components of English linguistics, explains the major theoretical approaches and concepts in these fields, and examines some methodological issues.\nThe curriculum consists of\n\nphonetics and phonology,\nmorphology and word-formation,\nsyntax,\nsemantics and lexicology,\npragmatics,\nsociolinguistics, and\nhistory of English.\n\nThe aim is to provide you with a broad foundation so that you can specialise based on your interests in subsequent courses."
   },
   {
-    "objectID": "sessions/01_intro/slides.html#linguistic-fundamentals",
-    "href": "sessions/01_intro/slides.html#linguistic-fundamentals",
+    "objectID": "sessions/01_intro/slides.html#language-as-a-tool-for-communication",
+    "href": "sessions/01_intro/slides.html#language-as-a-tool-for-communication",
     "title": "01 — Introduction",
-    "section": "Linguistic fundamentals",
-    "text": "Linguistic fundamentals\n\n\n10:29–10:31 Transition; set focus."
+    "section": "Language as a tool for communication",
+    "text": "Language as a tool for communication\nThe Organon model (Bühler 1934)\n\n\n\n10:31–10:33 Briefly explain sender–message–receiver."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#structuralism",
+    "href": "sessions/01_intro/slides.html#structuralism",
+    "title": "01 — Introduction",
+    "section": "Structuralism",
+    "text": "Structuralism\n\n\n\nThe linguist who has, first and foremost, shaped linguistic thinking in the 20th century is Ferdinand de Saussure (1857–1913).\nWe know about his theory of language from a set of lecture notes from a lecture delivered at Geneva university, which were published by his students as Cours de linguistique générale in 1916.\n\n(cf. Kortmann (2020), 5–9)\n\n\n\n\n\n10:33–10:36 Context + why structuralism matters."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#de-saussures-primacy-of-synchrony-and-the-system",
+    "href": "sessions/01_intro/slides.html#de-saussures-primacy-of-synchrony-and-the-system",
+    "title": "01 — Introduction",
+    "section": "De Saussure’s primacy of synchrony and the system",
+    "text": "De Saussure’s primacy of synchrony and the system\nFerdinand de Saussure…\n\nfocussed on synchrony — against the dominant trend in linguistics of the late 19th / early 20th centuries, which, almost exclusively, dealt with language history.\nadvocated the study of langue rather than parole:\n\nlangue: the abstract linguistic system shared by all speakers of a speech community, which is independent of individual language users (→ abstract system).\nparole: the concrete realisation of the abstract system provided by langue, which may be influenced by the speech situation, by a lack of concentration, by memory restrictions, etc. (→ concrete use by the individual).\n\n\n\n\n10:36–10:40 Synchrony vs history; langue vs parole."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#the-model-of-the-linguistic-sign-desaussure1916cours",
+    "href": "sessions/01_intro/slides.html#the-model-of-the-linguistic-sign-desaussure1916cours",
+    "title": "01 — Introduction",
+    "section": "The model of the linguistic sign (Saussure 1916)",
+    "text": "The model of the linguistic sign (Saussure 1916)\n\nBieswanger and Becker (2021): 6"
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#de-saussures-concept-of-the-linguistic-sign",
+    "href": "sessions/01_intro/slides.html#de-saussures-concept-of-the-linguistic-sign",
+    "title": "01 — Introduction",
+    "section": "De Saussure’s concept of the linguistic sign",
+    "text": "De Saussure’s concept of the linguistic sign\nThe linguistic sign has the following set of characteristics:\n\nReciprocity\n\nThe signifier/signifiant evokes the signified/signifié, and vice versa.\n\nArbitrariness\n\nThis relationship is unmotivated. There is no obvious reason why a particular signifier should represent a certain signified.\n\nConventionality\n\nThis relationship between signifier and signified is based upon an implicit ‘agreement’ between speakers of speech communities.\n\n\n\n\n10:40–10:42 Three properties with quick examples."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#different-types-of-signs-peirce",
+    "href": "sessions/01_intro/slides.html#different-types-of-signs-peirce",
+    "title": "01 — Introduction",
+    "section": "Different types of signs: Peirce",
+    "text": "Different types of signs: Peirce\nThree major types of signs depending on the relationship between signifier and signified:\n\nsymbol\n\narbitrariness: lack of motivated link (cf. de Saussure’s linguistic sign)\n\nicon\n\nsimilarity: visual, acoustic, … (e.g., meow for the cat)\n\nindex\n\neffect–cause or contiguity (i.e., proximity in space/time) (e.g., smoke as a sign of fire)"
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#paradigmatic-vs-syntagmatic-relations",
+    "href": "sessions/01_intro/slides.html#paradigmatic-vs-syntagmatic-relations",
+    "title": "01 — Introduction",
+    "section": "Paradigmatic vs syntagmatic relations",
+    "text": "Paradigmatic vs syntagmatic relations\nLinguistic units (in phonology, word-formation, syntax etc.) stand in two types of relationships:\n\nElements which co-occur in horizontal order form syntagms or “chain relationships”.\nElements which replace each other in the same functional slot form paradigms or “choice relationships”.\n\n\n\n\n10:43–10:44 Define chain vs choice; 1 example."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#linearity-of-language",
+    "href": "sessions/01_intro/slides.html#linearity-of-language",
+    "title": "01 — Introduction",
+    "section": "Linearity of language",
+    "text": "Linearity of language\n\n\nLanguage is linear: Saussure’s signifier unfolds in time along the syntagmatic chain.\n\nIn chat, the platform serialises turns with timestamps; order itself creates meaning.\nSimultaneous cues (emoji, read receipts, voice notes) are anchored to points on the chain; the app linearises them.\nInterpretation is path‑dependent: earlier items license later ones (anaphora, ellipsis).\nTherefore, where spoken or written, language is always linear in the end.\n\n\n\n\n\n\n10:42–10:43 Quick visual; move on fast."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#aim-of-structuralism-and-emancipation-from-de-saussure",
+    "href": "sessions/01_intro/slides.html#aim-of-structuralism-and-emancipation-from-de-saussure",
+    "title": "01 — Introduction",
+    "section": "Aim of structuralism and emancipation from de Saussure",
+    "text": "Aim of structuralism and emancipation from de Saussure\nAim of Structuralism: Identifying and describing elements in the system (on all levels of a language: sounds, words and their components, sentences and their constituents) in terms of their paradigmatic and syntagmatic relationships to other elements in the system.\nSince the 1960s …\n\nrenewed interest in language variation and change (vs primacy of synchrony)\nresearch into language use by individual speakers in different social situations → pragmatics & sociolinguistics (vs primacy of the system)\nrecognition of fuzzy boundaries/continua and acceptance of dichotomies only as pedagogically useful idealisations (e.g., synchrony – diachrony, language system – language use, vocabulary – grammar, written language – spoken language)"
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#synchrony-vs-diachrony",
+    "href": "sessions/01_intro/slides.html#synchrony-vs-diachrony",
+    "title": "01 — Introduction",
+    "section": "Synchrony vs diachrony",
+    "text": "Synchrony vs diachrony\n\nChange of meaning over time (Hamilton, Leskovec, and Jurafsky 2016)\nSynchrony:\n\nstudy of the language system at a single time point; internal relations among elements.\n\nDiachrony:\n\nstudy of change over time; how forms and meanings evolve.\n\n\n\n\n10:40–10:42 Diachrony example; quick pointer to semantics/lexicology."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#langue-and-parole",
+    "href": "sessions/01_intro/slides.html#langue-and-parole",
+    "title": "01 — Introduction",
+    "section": "Langue and parole",
+    "text": "Langue and parole\n\n\n\n\nLangue:\n\nrules of the game\nabstract linguistic system shared by a speech community; grammar and lexicon independent of individual use\n\nParole:\n\nhow the game is actually played\nconcrete, individual language use in context; actual utterances with performance variation\n\n\n\n\n\n\n\n\n\n\n10:45–10:46 Anchor with chess metaphor."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#descriptivism-vs-prescriptivism",
+    "href": "sessions/01_intro/slides.html#descriptivism-vs-prescriptivism",
+    "title": "01 — Introduction",
+    "section": "Descriptivism vs prescriptivism",
+    "text": "Descriptivism vs prescriptivism\n\n\n\n\nDescriptivism\n\ndescribes how speakers actually use language without judging forms as right or wrong.\ne.g. accepting double negatives in some dialects as systematic grammar.\n\nPrescriptivism\n\nsets rules for how people ought to use language, often based on tradition or style.\ne.g. forbidding sentence‑final prepositions in formal writing.\n\n\n\n\n\n\n\n\n\n\n10:46–10:47 Contrast briefly; avoid rabbit hole."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#object-language-vs-metalanguage",
+    "href": "sessions/01_intro/slides.html#object-language-vs-metalanguage",
+    "title": "01 — Introduction",
+    "section": "Object language vs metalanguage",
+    "text": "Object language vs metalanguage\nDefinitions\n\nObject language\n\nlanguage used as the subject of description or analysis (the examples themselves).\n\nMetalanguage\n\nlanguage used to talk about language (terms, rules, and descriptions).\n\n\nExamples\n\nSaying shit is not allowed.\nverb is a noun.\nI don’t know the word for word in Spanish.\n\n\n\n10:47–10:48 Setup for exercise."
   },
   {
     "objectID": "sessions/01_intro/slides.html#recap-fundamentals",
     "href": "sessions/01_intro/slides.html#recap-fundamentals",
     "title": "01 — Introduction",
     "section": "Recap — Fundamentals",
-    "text": "Recap — Fundamentals\n\ndefine structuralism and Saussurean sign.\nexplain syntagmatic vs paradigmatic relations.\napply object vs metalanguage distinction.\n\n\n\n10:44–10:45 Quick recap; move to domains and activities."
+    "text": "Recap — Fundamentals\n\nWhat are the key characteristics of the linguistic sign according to de Saussure?\nWhat is the difference between syntagmatic and paradigmatic relations?\nWhat is the difference between synchrony and diachrony?\n\n\n\n10:44–10:45 Quick recap; move to domains and activities."
   },
   {
-    "objectID": "sessions/01_intro/slides.html#linguistic-domains",
-    "href": "sessions/01_intro/slides.html#linguistic-domains",
+    "objectID": "sessions/01_intro/slides.html#quiz",
+    "href": "sessions/01_intro/slides.html#quiz",
     "title": "01 — Introduction",
-    "section": "Linguistic domains",
-    "text": "Linguistic domains\nOverview\n\nlanguage as structure: phonetics, phonology, morphology, semantics, syntax, text linguistics\nlanguage as a cultural and social phenomenon: contact linguistics, historical linguistics, dialectology, pragmatics, sociolinguistics\nlanguage as a biological phenomenon: neurolinguistics, psycholinguistics, cognitive linguistics\npractical applications: second language acquisition/teaching, compiling dictionaries, translation theory, computer linguistics, artificial intelligence research, forensic linguistics\n…"
+    "section": "Quiz",
+    "text": "Quiz\n\nWhat does “arbitrary” mean in Saussure’s sign?\n\nrandom noise;\nno natural link between form and meaning;\nunpredictable usage\n\nWhich substitution best illustrates a paradigmatic relation?\n\nReplacing student with teacher in “The ___ reads the book”\n\nAdding quickly after reads\n\nMoving the to the end of the sentence\n\nWhich of the following is an index?\n\nThe word tree\n\nA photograph of a cat\n\nSmoke signalling fire\n\n\n\n\n11:10–11:12 Quick check; reveal answers via fragments."
   },
   {
-    "objectID": "sessions/01_intro/slides.html#microquiz",
-    "href": "sessions/01_intro/slides.html#microquiz",
+    "objectID": "sessions/01_intro/slides.html#overview",
+    "href": "sessions/01_intro/slides.html#overview",
     "title": "01 — Introduction",
-    "section": "Micro‑quiz",
-    "text": "Micro‑quiz\n\nWhat does “arbitrary” mean in Saussure’s sign?\n\nrandom noise;\nno natural link between form and meaning;\nunpredictable usage\n\nWhich substitution best illustrates a paradigmatic relation?\n\nReplacing student with teacher in “The ___ reads the book”\n\nAdding quickly after reads\n\nMoving the to the end of the sentence\n\nWhich of the following is an index?\n\nThe word tree\n\nA photograph of a cat\n\nSmoke signalling fire\n\n\n\n\n11:10–11:12 Quick check; reveal answers via fragments."
+    "section": "Overview",
+    "text": "Overview\n\nlanguage as structure: phonetics, phonology, morphology, semantics, syntax, text linguistics\nlanguage as a cultural and social phenomenon: contact linguistics, historical linguistics, dialectology, pragmatics, sociolinguistics\nlanguage as a biological phenomenon: neurolinguistics, psycholinguistics, cognitive linguistics\npractical applications: second language acquisition/teaching, compiling dictionaries, translation theory, computer linguistics, artificial intelligence research, forensic linguistics\n…"
   },
   {
-    "objectID": "sessions/01_intro/slides.html#key-takeaways",
-    "href": "sessions/01_intro/slides.html#key-takeaways",
+    "objectID": "sessions/01_intro/slides.html#core-domains",
+    "href": "sessions/01_intro/slides.html#core-domains",
     "title": "01 — Introduction",
-    "section": "Key take‑aways",
-    "text": "Key take‑aways\n\nStructuralism foregrounds synchrony and the linguistic system.\nLinguistic signs are reciprocal, arbitrary, and conventional.\nRelations: syntagmatic (chain) vs paradigmatic (choice).\nPeirce’s triad: symbol (arbitrariness), icon (similarity), index (contiguity).\nLinguistics spans core domains and applied fields; methods and examples matter."
+    "section": "Core domains",
+    "text": "Core domains\n\nphonetics and phonology\nmorphology and word-formation\nsyntax\nsemantics\npragmatics\nsociolinguistics\nhistorical linguistics\n…"
   },
   {
-    "objectID": "sessions/01_intro/slides.html#next-week-history-of-english",
-    "href": "sessions/01_intro/slides.html#next-week-history-of-english",
+    "objectID": "sessions/01_intro/slides.html#phonetics-and-phonology",
+    "href": "sessions/01_intro/slides.html#phonetics-and-phonology",
     "title": "01 — Introduction",
-    "section": "Next week: History of English",
-    "text": "Next week: History of English\nRead Bieswanger and Becker (2021), ch. 2.1.\n\n\n11:42–11:45 Summarise; set expectations; point to website schedule."
+    "section": "Phonetics and phonology",
+    "text": "Phonetics and phonology\nOur Strange Lingo (Lord Cromer)\nWhen the English tongue we speak.\nWhy is break not rhymed with freak?\nWill you tell me why it’s true\nWe say sew but likewise few?\nAnd the maker of the verse,\nCannot rhyme his horse with worse?\nBeard is not the same as heard\nCord is different from word.\nCow is cow but low is low\nShoe is never rhymed with foe."
   },
   {
-    "objectID": "sessions/01_intro/slides.html#references",
-    "href": "sessions/01_intro/slides.html#references",
+    "objectID": "sessions/01_intro/slides.html#phonetics-and-phonology-1",
+    "href": "sessions/01_intro/slides.html#phonetics-and-phonology-1",
     "title": "01 — Introduction",
-    "section": "References",
-    "text": "References\n\n\nBieswanger, Markus, and Annette Becker. 2021. Introduction to English Linguistics. 5th ed. Tübingen: Narr Francke Attempto.\n\n\nBühler, Karl. 1934. Sprachtheorie. Jena: Fischer.\n\n\nGrieve, Jack, Andrea Nini, and Diansheng Guo. 2018. “Mapping Lexical Innovation on American Social Media.” Journal of English Linguistics 46 (4): 293–319.\n\n\nHamilton, William L., Jure Leskovec, and Dan Jurafsky. 2016. “Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change.” In, 1489—1501. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL). Berlin, Germany: Association for Computational Linguistics. http://www.aclweb.org/anthology/P16-1141.\n\n\nHerbst, Thomas. 2010. English Linguistics: A Coursebook for Students of English. Berlin: De Gruyter Mouton.\n\n\nKortmann, Bernd. 2020. English Linguistics: Essentials. J.B. Metzler.\n\n\nMair, Christian. 2022. English Linguistics: An Introduction. 4th ed. Tübingen: Narr Francke Attempto.\n\n\nSauer, Hans, and Kerstin Majewski. 2020. My First Door to English Linguistics: A Short Companion to the Study of English. Tübingen: Stauffenburg.\n\n\nSaussure, Ferdinand de. 1916. Cours de Linguistique Générale. Lausanne: Payot."
+    "section": "Phonetics and phonology",
+    "text": "Phonetics and phonology\nWhat do you hear?\n\n\nTest\n\n\n\nAnalysis\n\n\n\n\n10:46–10:49 Play clips; pause at 0:25 and 1:10."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Introduction to linguistics",
-    "section": "",
-    "text": "Introduction to linguistics\n\n\n\n\nDate\nTopic\nRequired reading\n\n\n\n\n1\n13 Oct.\nOrganisation & introduction\n(Herbst 2010, ch. 2)\n\n\n2\n20 Oct.\nHistory of English\n(Bieswanger and Becker 2021, ch. 2.1)\n\n\n3\n27 Oct.\nPragmatics\n—\n\n\n4\n3 Nov.\nPhonetics & phonology I\n(Kortmann 2020, ch. 2.1)\n\n\n5\n10 Nov.\nPhonetics & phonology II\n(Kortmann 2020, ch. 2.2)\n\n\n6\n17 Nov.\nSyntax I\n(Herbst 2010, ch. 11.1–11.2)\n\n\n7\n24 Nov.\nSyntax II\n(Herbst 2010, ch. 11.3–11.4)\n\n\n8\n1 Dec.\nMorphology and word-formation I\n(Herbst 2010, ch. 8); (Kortmann 2020, ch. 4.1)\n\n\n9\n8 Dec.\nMorphology and word-formation II\n(Herbst 2010, ch. 9.1–9.3)\n\n\n10\n15 Dec.\nSemantics and lexicology I\n(Mair 2022, ch. 6.1–6.3); (Kortmann 2020, ch. 6.3.2)\n\n\n11\n22 Dec.\nRevision\n—\n\n\n12\n12 Jan.\nSemantics and lexicology II\n(Kortmann 2020, 173–85); (Sauer and Majewski 2020, ch. 11.1–11.4.5)\n\n\n13\n19 Jan.\nSociolinguistics\n—\n\n\n14\n26 Jan.\nMock exam\n—\n\n\n15\n2 Feb.\nExam\n—\n\n\n\n\n\n\n\n\nReferences\n\nBieswanger, Markus, and Annette Becker. 2021. Introduction to English Linguistics. 5th ed. Tübingen: Narr Francke Attempto.\n\n\nHerbst, Thomas. 2010. English Linguistics: A Coursebook for Students of English. Berlin: De Gruyter Mouton.\n\n\nKortmann, Bernd. 2020. English Linguistics: Essentials. J.B. Metzler.\n\n\nMair, Christian. 2022. English Linguistics: An Introduction. 4th ed. Tübingen: Narr Francke Attempto.\n\n\nSauer, Hans, and Kerstin Majewski. 2020. My First Door to English Linguistics: A Short Companion to the Study of English. Tübingen: Stauffenburg."
+    "objectID": "sessions/01_intro/slides.html#morphology-and-word-formation",
+    "href": "sessions/01_intro/slides.html#morphology-and-word-formation",
+    "title": "01 — Introduction",
+    "section": "Morphology and word-formation",
+    "text": "Morphology and word-formation\nAnalysing complex words\n\nHow many parts does the word disclaimers consist of?\nHow can we analyse this complex word in terms of its parts?"
   },
   {
-    "objectID": "sessions/01_intro/index.html",
-    "href": "sessions/01_intro/index.html",
-    "title": "Session 01 — Introduction",
-    "section": "",
-    "text": "Slides\n\n\n\nOpen full screen"
+    "objectID": "sessions/01_intro/slides.html#syntax",
+    "href": "sessions/01_intro/slides.html#syntax",
+    "title": "01 — Introduction",
+    "section": "Syntax",
+    "text": "Syntax\nWhat’s the problem with the following sentence?\nThe old man the boat."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#applied-fields",
+    "href": "sessions/01_intro/slides.html#applied-fields",
+    "title": "01 — Introduction",
+    "section": "Applied fields",
+    "text": "Applied fields\nOverview\n\nlexicography\nlanguage acquisition and learning (teaching)\ncognitive linguistics and psycholinguistics\ncomputational linguistics\nforensic linguistics\n…\n\n\n\n11:04–11:06 Quick tour of applications."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#key-points",
+    "href": "sessions/01_intro/slides.html#key-points",
+    "title": "01 — Introduction",
+    "section": "Key points",
+    "text": "Key points\n\nStructuralism foregrounds synchrony and the linguistic system.\nLinguistic signs are reciprocal, arbitrary, and conventional.\nRelations: syntagmatic (chain) vs paradigmatic (choice).\nPeirce’s triad: symbol (arbitrariness), icon (similarity), index (contiguity).\nLinguistics spans core domains and applied fields; methods and examples matter."
+  },
+  {
+    "objectID": "sessions/01_intro/slides.html#next-week-pragmatics",
+    "href": "sessions/01_intro/slides.html#next-week-pragmatics",
+    "title": "01 — Introduction",
+    "section": "Next week: Pragmatics",
+    "text": "Next week: Pragmatics\nRead Kortmann (2020): ch. 7\n\n\n11:42–11:45 Summarise; set expectations; point to website schedule."
   }
 ]
