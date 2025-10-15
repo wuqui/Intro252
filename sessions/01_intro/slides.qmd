@@ -2,7 +2,7 @@
 title: 01 — Introduction
 subtitle: Introduction to linguistics
 author: Dr. Quirin Würschinger, LMU Munich
-date: 2025-10-13
+date: 2025-10-20
 date-format: long
 params:
   show_solutions: false
@@ -24,20 +24,6 @@ revealjs-plugins:
 ---
 
 # Organisation
-
-## Roadmap
-
-- Admin and setup
-- Core concepts
-- Practice and discussion
-- Wrap-up and next steps
-
-::: {.notes}
-- 10:15–10:25 Admin
-- 10:25–11:15 Core concepts (break ~10:57–11:02)
-- 11:15–11:40 Practice
-- 11:40–11:45 Wrap-up
-:::
 
 ## Course materials
 
@@ -72,7 +58,7 @@ Flipped classroom:
 
 ## Schedule {.small}
 
-{{< include ../../schedule.qmd >}}
+{{< include ../../_includes/_schedule.qmd >}}
 
 :::: {.notes}
 - 10:18–10:20 Walk through first weeks; point to details online.
@@ -109,20 +95,7 @@ All available as ebooks at the university library (<https://www.ub.uni-muenchen.
 ::::
 
 
-# Introduction
-
----
-
-## Learning outcomes
-
-- explain the basic claims of structuralism and Saussure’s model of the sign.
-- distinguish syntagmatic vs paradigmatic relations and give examples.
-- differentiate symbols, icons, and indices (Peirce) with examples.
-- identify core linguistic domains and recognise typical data/methods.
-
-::: {.notes}
-- 10:23–10:25 Read quickly; set expectations for activities.
-:::
+# Introduction to linguistic fundamentals
 
 ## What is language (good for)?
 
@@ -151,15 +124,8 @@ The curriculum consists of
 The aim is to provide you with a broad foundation so that you can
 specialise based on your interests in subsequent courses.
 
-## Linguistic fundamentals
 
-::: {.notes}
-- 10:29–10:31 Transition; set focus.
-:::
-
----
-
-### Language as a tool for communication
+## Language as a tool for communication
 
 The Organon model [@Buhler1934Sprachtheorie]
 
@@ -169,28 +135,27 @@ The Organon model [@Buhler1934Sprachtheorie]
 - 10:31–10:33 Briefly explain sender–message–receiver.
 ::::
 
----
 
-### Structuralism
+## Structuralism
 
 :::: {.columns}
-::: {.column width="80%"}
-The linguist who has, first and foremost, shaped linguistic thinking in the 20th century is **Ferdinand de Saussure (1857–1913)**. We know about his theory of language from a set of lecture notes from a lecture delivered at Geneva university, which were published by his students as *Cours de linguistique générale* in 1916.
+::: {.column width="60%"}
+- The linguist who has, first and foremost, shaped linguistic thinking in the 20th century is **Ferdinand de Saussure (1857–1913)**. 
+- We know about his theory of language from a set of lecture notes from a lecture delivered at Geneva university, which were published by his students as *Cours de linguistique générale* in 1916.
 
 (cf. @Kortmann2020Essentials, 5–9)
-
-:::: {.notes}
-- 10:33–10:36 Context + why structuralism matters.
-::::
 :::
-::: {.column width="20%"}
+::: {.column width="40%"}
 ![](img/saussure.png)
 :::
 ::::
 
----
+::: {.notes}
+- 10:33–10:36 Context + why structuralism matters.
+:::
 
-### De Saussure's primacy of synchrony and the system
+
+## De Saussure's primacy of synchrony and the system
 
 Ferdinand de Saussure…
 
@@ -203,39 +168,43 @@ Ferdinand de Saussure…
 :::: {.notes}
 - 10:36–10:40 Synchrony vs history; langue vs parole.
 ::::
----
 
-### The model of the linguistic sign
 
-[@deSaussure1916Cours]
+## The model of the linguistic sign [@deSaussure1916Cours]
 
-![The Model of the Linguistic Sign](img/model-linguistic-sign.png)
+![@Bieswanger2021Introduction: 6](img/model-linguistic-sign.png)
 
-[@Bieswanger2021Introduction, 6]
 
----
-
-### De Saussure’s concept of the linguistic sign
+## De Saussure’s concept of the linguistic sign
 
 The linguistic sign has the following set of characteristics:
 
-- **Reciprocity**: The signifier/signifiant evokes the signified/signifié, and vice versa.
-- **Arbitrariness**: This relationship is unmotivated. There is no obvious reason why a particular signifier should represent a certain signified.
-- **Conventionality**: This relationship between signifier and signified is based upon an implicit ‘agreement’ between speakers of speech communities.
+::: {.incremental}
+- **Reciprocity**
+  - The signifier/signifiant evokes the signified/signifié, and vice versa.
+- **Arbitrariness**
+  - This relationship is unmotivated. There is no obvious reason why a particular signifier should represent a certain signified.
+- **Conventionality**
+  - This relationship between signifier and signified is based upon an implicit ‘agreement’ between speakers of speech communities.
+:::
 
 :::: {.notes}
 - 10:40–10:42 Three properties with quick examples.
 ::::
 
----
 
-### An alternative concept of signs: Peirce
+## Different types of signs: Peirce
 
 Three major types of signs depending on the relationship between signifier and signified:
 
-- **symbol** — arbitrariness: lack of motivated link (cf. de Saussure’s linguistic sign)
-- **icon** — similarity: visual, acoustic, … (e.g., meow for the cat)
-- **index** — effect–cause or contiguity (i.e., proximity in space/time) (e.g., smoke as a sign of fire)
+::: {.incremental}
+- **symbol**
+  - arbitrariness: lack of motivated link (cf. de Saussure’s linguistic sign)
+- **icon**
+  - similarity: visual, acoustic, … (e.g., meow for the cat)
+- **index**
+  - effect–cause or contiguity (i.e., proximity in space/time) (e.g., smoke as a sign of fire)
+:::
 
 ---
 
@@ -246,7 +215,7 @@ Classify each sign and state the underlying relationship (arbitrariness, similar
 1. traffic light colours
 2. portrait photo
 3. smoke for fire
-4. onomatopoeia "meow"
+4. onomatopoeia of the word *click*
 5. national flag of Japan for the country
 6. wet footprints on the floor
 
@@ -256,19 +225,21 @@ Classify each sign and state the underlying relationship (arbitrariness, similar
 
 ::: {.content-visible when-meta="params.show_solutions"}
 ___
-**Solution:**
 
-1. symbol — arbitrariness (convention)
-2. icon — similarity (visual)
-3. index — effect–cause / contiguity
-4. icon — similarity (acoustic)
-5. symbol — arbitrariness (convention)
-6. index — contiguity (proximity in space/time)
+#### Solution
+
+| Item                                      | Sign       | Relationship                         |
+|-------------------------------------------|------------|--------------------------------------|
+| 1. traffic light colours                  | symbol     | arbitrariness (convention)           |
+| 2. portrait photo                         | icon       | similarity (visual)                  |
+| 3. smoke for fire                         | index      | effect–cause / contiguity            |
+| 4. onomatopoeia of the word *click*       | icon       | similarity (acoustic)                |
+| 5. national flag of Japan for the country | symbol     | arbitrariness (convention)           |
+| 6. wet footprints on the floor            | index      | contiguity (proximity in space/time) |
 :::
 
----
 
-### Paradigmatic vs syntagmatic relations
+## Paradigmatic vs syntagmatic relations
 
 Linguistic units (in phonology, word-formation, syntax etc.) stand in two types of relationships:
 
@@ -281,19 +252,29 @@ Linguistic units (in phonology, word-formation, syntax etc.) stand in two types 
 - 10:43–10:44 Define chain vs choice; 1 example.
 ::::
 
----
 
-### Linearity of language
+## Linearity of language
 
-![](img/whatsapp.jpg)
+:::: {.columns}
+::: {.column width="60%"}
+Language is linear: Saussure's signifier unfolds in time along the syntagmatic chain.
 
-:::: {.notes}
-- 10:42–10:43 Quick visual; move on fast.
+- In chat, the platform serialises turns with timestamps; order itself creates meaning.
+- Simultaneous cues (emoji, read receipts, voice notes) are anchored to points on the chain; the app linearises them.
+- Interpretation is path‑dependent: earlier items license later ones (anaphora, ellipsis).
+- Therefore, where spoken or written, language is always linear in the end.
+:::
+::: {.column width="40%"}
+![](img/whatsapp.jpg){height=450}
+:::
 ::::
 
----
+::: {.notes}
+- 10:42–10:43 Quick visual; move on fast.
+:::
 
-### Aim of structuralism and emancipation from de Saussure
+
+## Aim of structuralism and emancipation from de Saussure
 
 **Aim of Structuralism**: Identifying and describing elements in the system (on all levels of a language: sounds, words and their components, sentences and their constituents) in terms of their paradigmatic and syntagmatic relationships to other elements in the system.
 
@@ -303,83 +284,96 @@ Since the 1960s …
 - research into language use by individual speakers in different social situations → **pragmatics** & **sociolinguistics** (vs primacy of the system)
 - recognition of **fuzzy boundaries/continua** and acceptance of dichotomies only as pedagogically useful idealisations (e.g., synchrony – diachrony, language system – language use, vocabulary – grammar, written language – spoken language)
 
----
 
-### Synchrony vs diachrony
+## Synchrony vs diachrony
 
 ![Change of meaning over time [@Hamilton2016Diachronic]](img/change-of-meaning.png)
+
+::: {.incremental}
+- **Synchrony**: 
+  - study of the language system at a single time point; internal relations among elements.
+- **Diachrony**: 
+  - study of change over time; how forms and meanings evolve.
+:::
 
 ::: {.notes}
 - 10:40–10:42 Diachrony example; quick pointer to semantics/lexicology.
 :::
 
----
 
-### Langue vs parole
+## Langue and parole
+
+::: {layout="[60,40]"}
+:::: {.incremental}
+- **Langue**: 
+  - rules of the game
+  - abstract linguistic system shared by a speech community; grammar and lexicon independent of individual use
+- **Parole**: 
+  - how the game is actually played
+  - concrete, individual language use in context; actual utterances with performance variation
+::::
 
 ![](img/chess.jpeg)
-
-::: {.fragment}
-**Langue**: rules of the game
-
-**Parole**: how the game is actually played
 :::
 
 :::: {.notes}
 - 10:45–10:46 Anchor with chess metaphor.
 ::::
 
----
 
-### Descriptivism vs prescriptivism
+## Descriptivism vs prescriptivism
 
-![](img/prescriptive.jpg)
-
-:::: {.notes}
-- 10:46–10:47 Contrast briefly; avoid rabbit hole.
+::: {layout="[60,40]"}
+:::: {.incremental}
+- **Descriptivism**
+    - describes how speakers actually use language without judging forms as right or wrong.
+    - e.g. accepting double negatives in some dialects as systematic grammar.
+- **Prescriptivism**
+    - sets rules for how people ought to use language, often based on tradition or style.
+    - e.g. forbidding sentence‑final prepositions in formal writing.
 ::::
 
----
+![](img/prescriptive.jpg)
+:::
 
-### Object language vs metalanguage
+::: {.notes}
+- 10:46–10:47 Contrast briefly; avoid rabbit hole.
+:::
 
-**Examples:**
+
+## Object language vs metalanguage
+
+### Definitions
+
+- **Object language**
+  - language used as the subject of description or analysis (the examples themselves).
+- **Metalanguage**
+  - language used to talk about language (terms, rules, and descriptions).
+
+### Examples
 
 1. Saying *shit* is not allowed.
 2. *verb* is a noun.
 3. I don't know the word for *word* in Spanish.
 
-:::: {.notes}
+::: {.notes}
 - 10:47–10:48 Setup for exercise.
-::::
+:::
 
 ---
 
-### Object language vs metalanguage
-
-**Exercise:**
+### Exercise
 
 1. The meaning of bank is ambiguous.
 2. Noun phrases often start with the words the or a.
 3. Morphology is the field of language which studies the formation of new words.
 4. The past tense of verbs is formed by adding the suffix -ed.
 
----
-
-### Think–Pair–Share: Object vs metalanguage
-
-- **Think**: classify 1–4 as object or metalanguage.
-- **Pair**: compare and justify one change.
-- **Share**
-
-::: {.notes}
-- 10:37–10:40 TPS timing; then reveal solution if enabled.
-:::
 
 ---
 
 ::: {.content-visible when-meta="params.show_solutions"}
-**Solution:**
+#### Solution
 
 1. The meaning of *bank* is ambiguous.
 2. Noun phrases often start with the words *the* or *a*.
@@ -390,18 +384,40 @@ Since the 1960s …
 
 ## Recap — Fundamentals
 
-- define structuralism and Saussurean sign.
-- explain syntagmatic vs paradigmatic relations.
-- apply object vs metalanguage distinction.
+1. What are the key characteristics of the linguistic sign according to de Saussure?
+2. What is the difference between syntagmatic and paradigmatic relations?
+3. What is the difference between synchrony and diachrony?
 
 ::: {.notes}
 - 10:44–10:45 Quick recap; move to domains and activities.
 :::
 
 
-## Linguistic domains
+## Quiz
 
-### Overview
+::: {.incremental}
+1. What does “arbitrary” mean in Saussure’s sign?  
+   a) random noise; 
+   b) no natural link between form and meaning; 
+   c) unpredictable usage
+2. Which substitution best illustrates a paradigmatic relation?  
+   a) Replacing *student* with *teacher* in "The ___ reads the book"  
+   b) Adding *quickly* after *reads*  
+   c) Moving *the* to the end of the sentence
+3. Which of the following is an index?  
+   a) The word *tree*  
+   b) A photograph of a cat  
+   c) Smoke signalling fire
+:::
+
+::: {.notes}
+- 11:10–11:12 Quick check; reveal answers via fragments.
+:::
+
+
+# Linguistic domains
+
+## Overview
 
 - language as **structure**: phonetics, phonology, morphology, semantics, syntax, text linguistics
 
@@ -413,9 +429,8 @@ Since the 1960s …
 
 - …
 
-___
 
-### Core domains
+## Core domains
 
 - phonetics and phonology
 - morphology and word-formation
@@ -426,9 +441,8 @@ ___
 - historical linguistics
 - …
 
----
 
-### Phonetics and phonology
+## Phonetics and phonology
 
 ***Our Strange Lingo* (Lord Cromer)**
 
@@ -462,28 +476,33 @@ Sound and letters don't agree.
 - 10:34–10:37 Read 1st stanza; audience reads 2nd.
 :::
 
----
 
-### Phonetics and phonology
+## Phonetics and phonology
 
 What do you hear?
 
-#### Test
+:::: {.columns}
+::: {.column width="50%"}
+Test
 
+<!-- {{< video https://www.youtube.com/watch?v=7X_WvGAhMlQ >}} -->
 {{< video https://www.youtube.com/watch?v=7X_WvGAhMlQ >}}
-
-
-#### Analysis
+:::
+::: {.column width="50%"}
+Analysis
 
 {{< video https://www.youtube.com/watch?v=yDiXQl7grPQ >}}
+:::
+::::
 
 ::: {.notes}
 - 10:46–10:49 Play clips; pause at 0:25 and 1:10.
 :::
 
----
 
-### Morphology and word-formation
+## Morphology and word-formation
+
+### Analysing complex words
 
 1. How many parts does the word *disclaimers* consist of?
 2. How can we analyse this complex word in terms of its parts?
@@ -506,9 +525,8 @@ ___
 - 11:15–11:18 Prompt: social salience drives spread.
 :::
 
----
 
-### Syntax
+## Syntax
 
 What's the problem with the following sentence?
 
@@ -530,9 +548,10 @@ ___
 - 11:18–11:22 Garden-path explanation; ambiguity resolution.
 :::
 
----
 
-### Applied fields
+## Applied fields
+
+### Overview
 
 - lexicography
 - language acquisition and learning (teaching)
@@ -559,15 +578,17 @@ ___
 
 ### Cognitive linguistics and psycholinguistics
 
-The Stroop effect
+#### The Stroop test foo
 
-![](img/stroop_difference.png)
+::: {layout="[50, 50]"}
+![](img/stroop_difference.png){width=500}
 
-<https://www.youtube.com/watch?v=E92GSwr46DY>
+{{< video https://www.youtube.com/watch?v=E92GSwr46DY width=500 height=300 >}}
+:::
 
-:::: {.notes}
+::: {.notes}
 - 11:07–11:08 Stroop demo pointer.
-::::
+:::
 
 ---
 
@@ -575,32 +596,10 @@ The Stroop effect
 
 ![Hubs of lexical innovation [@Grieve2018MappingLexical]](img/lexical-innovation.png)
 
----
 
-## Micro‑quiz
+# Summary and outlook
 
-::: {.incremental}
-1. What does “arbitrary” mean in Saussure’s sign?  
-   a) random noise; 
-   b) no natural link between form and meaning; 
-   c) unpredictable usage
-2. Which substitution best illustrates a paradigmatic relation?  
-   a) Replacing *student* with *teacher* in "The ___ reads the book"  
-   b) Adding *quickly* after *reads*  
-   c) Moving *the* to the end of the sentence
-3. Which of the following is an index?  
-   a) The word *tree*  
-   b) A photograph of a cat  
-   c) Smoke signalling fire
-:::
-
-::: {.notes}
-- 11:10–11:12 Quick check; reveal answers via fragments.
-:::
-
----
-
-## Key take‑aways
+## Key points
 
 - Structuralism foregrounds synchrony and the linguistic system.
 - Linguistic signs are reciprocal, arbitrary, and conventional.
@@ -608,16 +607,16 @@ The Stroop effect
 - Peirce’s triad: symbol (arbitrariness), icon (similarity), index (contiguity).
 - Linguistics spans core domains and applied fields; methods and examples matter.
 
-## Next week: History of English
+## Next week: Pragmatics
 
-Read @Bieswanger2021Introduction, ch. 2.1.
+Read @Kortmann2020Essentials: ch. 7
 
 ::: {.notes}
 - 11:42–11:45 Summarise; set expectations; point to website schedule.
 :::
 
 
-## References
+# References
 
 ::: {#refs}
 :::

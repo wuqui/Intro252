@@ -1,0 +1,18 @@
+|    | Date    | Topic | Preparatory reading |
+|---:|--------:|-------|---------------------|
+|  1 | 20 Oct. | [Organisation & introduction]({{< meta linkprefix >}}sessions/01_intro/index.qmd){target="_top"} | @Herbst2010English: ch. 2 |
+|  2 | 27 Oct. | Pragmatics | @Kortmann2020Essentials: ch. 7 |
+|  3 |  3 Nov. | Phonetics & phonology I | @Kortmann2020Essentials: ch. 2.1 |
+|  4 | 10 Nov. | Phonetics & phonology II | @Kortmann2020Essentials: ch. 2.2 |
+|  5 | 17 Nov. | Syntax I | @Herbst2010English: ch. 11.1–11.2 |
+|  6 | 24 Nov. | Syntax II | @Herbst2010English: ch. 11.3–11.4 |
+|  7 |  1 Dec. | Morphology and word-formation I | @Herbst2010English: ch. 8; @Kortmann2020Essentials: ch. 4.1 |
+|  8 |  8 Dec. | Morphology and word-formation II | @Herbst2010English: ch. 9.1–9.3 |
+|  9 | 15 Dec. | Semantics and lexicology I | @Mair2022Introduction: ch. 6.1–6.3; @Kortmann2020Essentials: ch. 6.3.2 |
+| 10 | 22 Dec. | Revision | — |
+| 11 | 12 Jan. | Semantics and lexicology II | @Kortmann2020Essentials: ch. 7 |
+| 12 | 19 Jan. | Sociolinguistics | @Kortmann2020Essentials: ch. 8 |
+| 13 | 26 Jan. | History of English | @Bieswanger2021Introduction: ch. 2.1 |
+| 14 |  2 Feb. | Exam foo | — |
+
+: {tbl-colwidths="[10, 10, 40, 40]"}
