@@ -23,46 +23,87 @@ revealjs-plugins:
   - excalidraw
 ---
 
+# Outline
+
+- **Organisation**: materials, approach, related lectures, registration, schedule, requirements, literature
+- **Fundamentals**: models and key terms
+- **Core concepts**: sign; paradigmatic vs syntagmatic; linearity
+- **Linguistic domains**: phonetics, morphology, syntax etc.
+- **Applied fields**: lexicography, psycholinguistics, computational
+- **Summary and outlook**: key points; next week
+
+:::: {.notes}
+- 10:15–10:31: Organisation
+- 10:31–10:50: Fundamentals
+- 10:50–10:55: break
+- 10:55–10:58: Quiz
+- 11:00–11:22: Domains
+- 11:22–11:26: Applied
+- 11:42–11:45: Summary
+::::
+
+
 # Organisation
 
 ## Course materials
 
 Course website: <https://wuqui.github.io/Intro252/>
 
-:::: {.notes}
-- 10:15–10:16 Materials and site orientation.
-::::
+::::: {.notes}
+- 10:15–10:16
+:::::
 
 
-## Registration
-
-Any open issues?
-
-:::: {.notes}
-- 10:16–10:17 Registration questions.
-::::
-
-
-## Teaching approach
-
-Flipped classroom: 
+## Teaching approach: flipped classroom
 
 - students prepare before class (readings, exercises);
 - in-class time focuses on discussion and practice.
 
 ![](img/flipped-classroom.png)
 
-:::: {.notes}
-- 10:17–10:18 Flipped model expectations.
-::::
+::::: {.notes}
+- 10:17–10:18
+:::::
+
+
+## Related lectures {.small}
+
+- **Lehramt Gymnasium**: 
+  - Take 'Grundlagenvorlesung' Linguistik (P 3.2) alongside 'Einführung in die Sprachwissenschaft' (P 3.1); strongly recommended.
+
+- **Lehramt Real-/Mittel-/Grundschule** (Unterrichtsfach): 
+  - Take one 'Grundlagenvorlesung' (WP 3.2) alongside 'Einführung' (P 1.2); choose only one course labelled 'Grundlagenvorlesung' in WP 3.
+
+- **BA Anglistik / BA TUM / BSc WiPäd II**: 
+  - Take the 'Grundlagenvorlesung' in the same semester as the intro; both are assessed in one module exam.
+
+### Lectures
+
+- **Schmid**: *Topics in English linguistics*
+- **Krischke**: *How languages work: A spotlight on English*
+
+:::::: {.notes}
+- 10:18–10:21
+::::::
+
+
+## Registration
+
+Any open issues?
+
+::::: {.notes}
+- 10:21–10:22
+:::::
+
+
 
 ## Schedule {.small}
 
 {{< include ../../_includes/_schedule.qmd >}}
 
-:::: {.notes}
-- 10:18–10:20 Walk through first weeks; point to details online.
-::::
+::::: {.notes}
+- 10:22–10:24
+:::::
 
 
 ## Requirements
@@ -72,9 +113,9 @@ Flipped classroom:
 - [ ] exercises
 - [ ] exam
 
-:::: {.notes}
-- 10:20–10:21 Participation, readings, exercises, exam.
-::::
+::::: {.notes}
+- 10:24–10:25
+:::::
 
 
 ## Literature {.small}
@@ -90,40 +131,9 @@ Selected introductions to English linguistics:
 
 All available as ebooks at the university library (<https://www.ub.uni-muenchen.de>).
 
-:::: {.notes}
-- 10:21–10:23 Show main intros; advise one pick.
-::::
-
-
-# Introduction to linguistic fundamentals
-
-## What is language (good for)?
-
-## What makes English special?
-
-## What is linguistics (good for)?
-
-![](img/what-is-linguistics-kortmann.png)
-
-## Course description {.small}
-
-This course introduces you to the fundamental components of English
-linguistics, explains the major theoretical approaches and concepts in
-these fields, and examines some methodological issues.
-
-The curriculum consists of
-
-- phonetics and phonology,
-- morphology and word-formation,
-- syntax,
-- semantics and lexicology,
-- pragmatics,
-- sociolinguistics, and
-- history of English.
-
-The aim is to provide you with a broad foundation so that you can
-specialise based on your interests in subsequent courses.
-
+::::: {.notes}
+- 10:25–10:31
+:::::
 
 ## Language as a tool for communication
 
@@ -131,82 +141,71 @@ The Organon model [@Buhler1934Sprachtheorie]
 
 ![](img/organon-model.jpg)
 
-:::: {.notes}
-- 10:31–10:33 Briefly explain sender–message–receiver.
-::::
-
+::::: {.notes}
+- 10:31–10:33
+:::::
 
 ## Structuralism
 
-:::: {.columns}
-::: {.column width="60%"}
+::::: {.columns}
+:::: {.column width="60%"}
 - The linguist who has, first and foremost, shaped linguistic thinking in the 20th century is **Ferdinand de Saussure (1857–1913)**. 
 - We know about his theory of language from a set of lecture notes from a lecture delivered at Geneva university, which were published by his students as *Cours de linguistique générale* in 1916.
 
 (cf. @Kortmann2020Essentials, 5–9)
-:::
-::: {.column width="40%"}
-![](img/saussure.png)
-:::
 ::::
-
-::: {.notes}
-- 10:33–10:36 Context + why structuralism matters.
-:::
-
-
-## De Saussure's primacy of synchrony and the system
-
-Ferdinand de Saussure…
-
-- focussed on synchrony — against the dominant trend in linguistics of the late 19th / early 20th centuries, which, almost exclusively, dealt with **language history**.
-
-- advocated the study of *langue* rather than *parole*:
-    - **langue**: the abstract linguistic system shared by all speakers of a speech community, which is independent of individual language users (→ abstract system).
-    - **parole**: the concrete realisation of the abstract system provided by *langue*, which may be influenced by the speech situation, by a lack of concentration, by memory restrictions, etc. (→ concrete use by the individual).
+:::: {.column width="40%"}
+![](img/saussure.png)
+::::
+:::::
 
 :::: {.notes}
-- 10:36–10:40 Synchrony vs history; langue vs parole.
+- 10:33–10:36
 ::::
-
 
 ## The model of the linguistic sign [@deSaussure1916Cours]
 
 ![@Bieswanger2021Introduction: 6](img/model-linguistic-sign.png)
 
+:::: {.notes}
+- 10:36–10:40
+::::
 
 ## De Saussure’s concept of the linguistic sign
 
 The linguistic sign has the following set of characteristics:
 
-::: {.incremental}
+:::: {.incremental}
 - **Reciprocity**
   - The signifier/signifiant evokes the signified/signifié, and vice versa.
 - **Arbitrariness**
   - This relationship is unmotivated. There is no obvious reason why a particular signifier should represent a certain signified.
 - **Conventionality**
   - This relationship between signifier and signified is based upon an implicit ‘agreement’ between speakers of speech communities.
-:::
-
-:::: {.notes}
-- 10:40–10:42 Three properties with quick examples.
 ::::
 
+::::: {.notes}
+- 10:40–10:42
+:::::
 
 ## Different types of signs: Peirce
 
 Three major types of signs depending on the relationship between signifier and signified:
 
-::: {.incremental}
+:::: {.incremental}
 - **symbol**
   - arbitrariness: lack of motivated link (cf. de Saussure’s linguistic sign)
 - **icon**
   - similarity: visual, acoustic, … (e.g., meow for the cat)
 - **index**
   - effect–cause or contiguity (i.e., proximity in space/time) (e.g., smoke as a sign of fire)
-:::
+::::
 
----
+:::: {.notes}
+- 10:42–10:43
+::::
+
+___
 
 ### Exercise: symbols, icons, indices
 
@@ -214,16 +213,16 @@ Classify each sign and state the underlying relationship (arbitrariness, similar
 
 1. traffic light colours
 2. portrait photo
-3. smoke for fire
+3. tree rings for a tree's age
 4. onomatopoeia of the word *click*
 5. national flag of Japan for the country
 6. wet footprints on the floor
 
 :::: {.notes}
-- 1:00 think, 1:00 pair, 1:00 share.
+- 10:43–10:45
 ::::
 
-::: {.content-visible when-meta="params.show_solutions"}
+:::: {.content-visible when-meta="params.show_solutions"}
 ___
 
 #### Solution
@@ -232,12 +231,11 @@ ___
 |-------------------------------------------|------------|--------------------------------------|
 | 1. traffic light colours                  | symbol     | arbitrariness (convention)           |
 | 2. portrait photo                         | icon       | similarity (visual)                  |
-| 3. smoke for fire                         | index      | effect–cause / contiguity            |
+| 3. tree rings for a tree's age            | index      | contiguity (systematic correlation)  |
 | 4. onomatopoeia of the word *click*       | icon       | similarity (acoustic)                |
 | 5. national flag of Japan for the country | symbol     | arbitrariness (convention)           |
 | 6. wet footprints on the floor            | index      | contiguity (proximity in space/time) |
-:::
-
+::::
 
 ## Paradigmatic vs syntagmatic relations
 
@@ -249,30 +247,28 @@ Linguistic units (in phonology, word-formation, syntax etc.) stand in two types 
 ![](img/syntagmatic-paradigmatic.png)
 
 :::: {.notes}
-- 10:43–10:44 Define chain vs choice; 1 example.
+- 10:45–10:46
 ::::
-
 
 ## Linearity of language
 
-:::: {.columns}
-::: {.column width="60%"}
+::::: {.columns}
+:::: {.column width="60%"}
 Language is linear: Saussure's signifier unfolds in time along the syntagmatic chain.
 
 - In chat, the platform serialises turns with timestamps; order itself creates meaning.
 - Simultaneous cues (emoji, read receipts, voice notes) are anchored to points on the chain; the app linearises them.
 - Interpretation is path‑dependent: earlier items license later ones (anaphora, ellipsis).
 - Therefore, where spoken or written, language is always linear in the end.
-:::
-::: {.column width="40%"}
-![](img/whatsapp.jpg){height=450}
-:::
 ::::
+:::: {.column width="40%"}
+![](img/whatsapp.jpg){height=450}
+::::
+:::::
 
-::: {.notes}
-- 10:42–10:43 Quick visual; move on fast.
-:::
-
+:::: {.notes}
+- 10:46–10:47
+::::
 
 ## Aim of structuralism and emancipation from de Saussure
 
@@ -284,62 +280,63 @@ Since the 1960s …
 - research into language use by individual speakers in different social situations → **pragmatics** & **sociolinguistics** (vs primacy of the system)
 - recognition of **fuzzy boundaries/continua** and acceptance of dichotomies only as pedagogically useful idealisations (e.g., synchrony – diachrony, language system – language use, vocabulary – grammar, written language – spoken language)
 
+::::: {.notes}
+- 10:47–10:50
+:::::
 
 ## Synchrony vs diachrony
 
 ![Change of meaning over time [@Hamilton2016Diachronic]](img/change-of-meaning.png)
 
-::: {.incremental}
+:::: {.incremental}
 - **Synchrony**: 
   - study of the language system at a single time point; internal relations among elements.
 - **Diachrony**: 
   - study of change over time; how forms and meanings evolve.
-:::
+::::
 
-::: {.notes}
-- 10:40–10:42 Diachrony example; quick pointer to semantics/lexicology.
-:::
+:::: {.notes}
+- 10:50–10:55
+::::
 
 
 ## Langue and parole
 
-::: {layout="[60,40]"}
-:::: {.incremental}
+:::: {layout="[60,40]"}
+::::: {.incremental}
 - **Langue**: 
   - rules of the game
   - abstract linguistic system shared by a speech community; grammar and lexicon independent of individual use
 - **Parole**: 
   - how the game is actually played
   - concrete, individual language use in context; actual utterances with performance variation
-::::
+:::::
 
 ![](img/chess.jpeg)
-:::
-
-:::: {.notes}
-- 10:45–10:46 Anchor with chess metaphor.
 ::::
 
+::::: {.notes}
+- 10:55–10:56
+:::::
 
 ## Descriptivism vs prescriptivism
 
-::: {layout="[60,40]"}
-:::: {.incremental}
+:::: {layout="[60,40]"}
+::::: {.incremental}
 - **Descriptivism**
     - describes how speakers actually use language without judging forms as right or wrong.
     - e.g. accepting double negatives in some dialects as systematic grammar.
 - **Prescriptivism**
     - sets rules for how people ought to use language, often based on tradition or style.
     - e.g. forbidding sentence‑final prepositions in formal writing.
-::::
+:::::
 
 ![](img/prescriptive.jpg)
-:::
+::::
 
-::: {.notes}
-- 10:46–10:47 Contrast briefly; avoid rabbit hole.
-:::
-
+:::: {.notes}
+- 10:56–10:57
+::::
 
 ## Object language vs metalanguage
 
@@ -356,9 +353,9 @@ Since the 1960s …
 2. *verb* is a noun.
 3. I don't know the word for *word* in Spanish.
 
-::: {.notes}
-- 10:47–10:48 Setup for exercise.
-:::
+:::: {.notes}
+- 10:57–10:58
+::::
 
 ---
 
@@ -369,18 +366,20 @@ Since the 1960s …
 3. Morphology is the field of language which studies the formation of new words.
 4. The past tense of verbs is formed by adding the suffix -ed.
 
+:::: {.notes}
+- 10:58–11:00
+::::
 
 ---
 
-::: {.content-visible when-meta="params.show_solutions"}
+:::: {.content-visible when-meta="params.show_solutions"}
 #### Solution
 
 1. The meaning of *bank* is ambiguous.
 2. Noun phrases often start with the words *the* or *a*.
 3. Morphology is the field of language which studies the formation of new words.
 4. The past tense of verbs is formed by adding the suffix *-ed*.
-:::
-
+::::
 
 ## Recap — Fundamentals
 
@@ -388,14 +387,13 @@ Since the 1960s …
 2. What is the difference between syntagmatic and paradigmatic relations?
 3. What is the difference between synchrony and diachrony?
 
-::: {.notes}
-- 10:44–10:45 Quick recap; move to domains and activities.
-:::
-
+:::: {.notes}
+- 11:00–11:02
+::::
 
 ## Quiz
 
-::: {.incremental}
+:::: {.incremental}
 1. What does “arbitrary” mean in Saussure’s sign?  
    a) random noise; 
    b) no natural link between form and meaning; 
@@ -408,12 +406,11 @@ Since the 1960s …
    a) The word *tree*  
    b) A photograph of a cat  
    c) Smoke signalling fire
-:::
+::::
 
-::: {.notes}
-- 11:10–11:12 Quick check; reveal answers via fragments.
-:::
-
+:::: {.notes}
+- 11:02–11:04
+::::
 
 # Linguistic domains
 
@@ -429,6 +426,9 @@ Since the 1960s …
 
 - …
 
+:::: {.notes}
+- 11:04–11:06
+::::
 
 ## Core domains
 
@@ -441,6 +441,9 @@ Since the 1960s …
 - historical linguistics
 - …
 
+:::: {.notes}
+- 11:06–11:07
+::::
 
 ## Phonetics and phonology
 
@@ -472,33 +475,31 @@ Is there any reason known?
 To sum up all, it seems to me  
 Sound and letters don't agree.
 
-::: {.notes}
-- 10:34–10:37 Read 1st stanza; audience reads 2nd.
-:::
-
+:::: {.notes}
+- 11:06–11:09
+::::
 
 ## Phonetics and phonology
 
 What do you hear?
 
-:::: {.columns}
-::: {.column width="50%"}
+::::: {.columns}
+:::: {.column width="50%"}
 Test
 
 <!-- {{< video https://www.youtube.com/watch?v=7X_WvGAhMlQ >}} -->
 {{< video https://www.youtube.com/watch?v=7X_WvGAhMlQ >}}
-:::
-::: {.column width="50%"}
+::::
+:::: {.column width="50%"}
 Analysis
 
 {{< video https://www.youtube.com/watch?v=yDiXQl7grPQ >}}
-:::
 ::::
+:::::
 
-::: {.notes}
-- 10:46–10:49 Play clips; pause at 0:25 and 1:10.
-:::
-
+:::: {.notes}
+- 11:09–11:12
+::::
 
 ## Morphology and word-formation
 
@@ -511,9 +512,9 @@ ___
 
 ![](img/disclaimers-tree.png)
 
-:::: {.notes}
-- 11:12–11:14 Tree as example; keep brief.
-::::
+::::: {.notes}
+- 11:12–11:14
+:::::
 
 ---
 
@@ -521,10 +522,9 @@ ___
 
 ![](img/covfefe.jpg)
 
-::: {.notes}
-- 11:15–11:18 Prompt: social salience drives spread.
-:::
-
+:::: {.notes}
+- 11:15–11:18
+::::
 
 ## Syntax
 
@@ -544,10 +544,9 @@ ___
 
 ![](img/old-man-right.png)
 
-::: {.notes}
-- 11:18–11:22 Garden-path explanation; ambiguity resolution.
-:::
-
+:::: {.notes}
+- 11:18–11:22
+::::
 
 ## Applied fields
 
@@ -561,7 +560,7 @@ ___
 - …
 
 :::: {.notes}
-- 11:04–11:06 Quick tour of applications.
+- 11:22–11:24
 ::::
 
 ---
@@ -570,9 +569,9 @@ ___
 
 ![The Oxford English Dictionary (OED)](img/oed.png)
 
-:::: {.notes}
-- 11:06–11:07 OED as resource example.
-::::
+::::: {.notes}
+- 11:24–11:25
+:::::
 
 ---
 
@@ -580,15 +579,15 @@ ___
 
 #### The Stroop test foo
 
-::: {layout="[50, 50]"}
+:::: {layout="[50, 50]"}
 ![](img/stroop_difference.png){width=500}
 
 {{< video https://www.youtube.com/watch?v=E92GSwr46DY width=500 height=300 >}}
-:::
+::::
 
-::: {.notes}
-- 11:07–11:08 Stroop demo pointer.
-:::
+:::: {.notes}
+- 11:25–11:27
+::::
 
 ---
 
@@ -596,6 +595,9 @@ ___
 
 ![Hubs of lexical innovation [@Grieve2018MappingLexical]](img/lexical-innovation.png)
 
+:::: {.notes}
+- 11:27–11:30
+::::
 
 # Summary and outlook
 
@@ -607,13 +609,17 @@ ___
 - Peirce’s triad: symbol (arbitrariness), icon (similarity), index (contiguity).
 - Linguistics spans core domains and applied fields; methods and examples matter.
 
+:::: {.notes}
+- 11:40–11:42
+::::
+
 ## Next week: Pragmatics
 
 Read @Kortmann2020Essentials: ch. 7
 
-::: {.notes}
-- 11:42–11:45 Summarise; set expectations; point to website schedule.
-:::
+:::: {.notes}
+- 11:42–11:45
+::::
 
 
 # References
