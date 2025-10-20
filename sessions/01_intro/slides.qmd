@@ -1,6 +1,6 @@
 ---
 title: 01 — Introduction
-subtitle: Introduction to linguistics
+subtitle: "Introduction to linguistics — [Course Website](../../index.qmd)"
 author: Dr. Quirin Würschinger, LMU Munich
 date: 2025-10-20
 date-format: long
