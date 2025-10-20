@@ -1,17 +1,12 @@
 ---
-title: Session 01 — Introduction
+title: 01 — Introduction
+date: last-modified
 ---
-
-# Slides
 
 <div class="embed-slides">
   <iframe src="slides.html" title="Session 01 Slides" allowfullscreen></iframe>
 </div>
 
-[Open full screen](slides.html)
-
-|  |  |
-|--|--|
-| Download | [PDF](slides.pdf) |
+[Open full screen](slides.html) — [PDF](slides.pdf)
 
 
