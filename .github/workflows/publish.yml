@@ -1,4 +1,4 @@
-name: Quarto Publish
+name: Publish Quarto Site
 
 on:
   push:
@@ -10,17 +10,18 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Check out repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Set up Quarto
+      - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render Quarto Project
+        run: quarto render
+      - name: Generate PDFs from slides
+        run: ./scripts/generate-pdfs.sh
       - name: Publish to GitHub Pages
-        uses: quarto-dev/quarto-actions/publish@v2
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
 
 

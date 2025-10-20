@@ -10,4 +10,8 @@ title: Session 01 — Introduction
 
 [Open full screen](slides.html)
 
+|  |  |
+|--|--|
+| Download | [PDF](slides.pdf) |
+
 
