@@ -1,0 +1,6 @@
+- There are tutorials for this course. @fig-tutorials shows the ones that are relevant to this course in **red**.  
+- These tutorials are taught by experienced, competent students. They give you the chance to clarify open **questions** and **practice** the concepts covered in my course.
+- They are optional but highly **recommended**.
+- There is no **registration**, you just show up in the first session or sign up for the Moodle course you want to attend.
+
+![Tutorials]({{< meta linkprefix >}}sessions/02_pragmatics/att/tutorials.png){#fig-tutorials}

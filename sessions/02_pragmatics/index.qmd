@@ -1,0 +1,12 @@
+---
+title: 02 — Pragmatics
+date: last-modified
+---
+
+<div class="embed-slides">
+  <iframe src="slides.html" title="02 - Pragmatics - Slides" allowfullscreen></iframe>
+</div>
+
+[Open full screen](slides.html) — [PDF](slides.pdf)
+
+

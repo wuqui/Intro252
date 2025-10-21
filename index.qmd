@@ -9,7 +9,11 @@ nocite: '@*'
 
 {{< include _includes/_schedule.qmd >}}
 
-## References
+## Tutorials
+
+{{< include _includes/_tutorials.qmd >}}
+
+## Bibliography
 
 :::: {#refs}
 ::::

@@ -1,7 +1,7 @@
 |    | Date    | Topic | Preparatory reading |
 |---:|--------:|-------|---------------------|
 |  1 | 20 Oct. | [Organisation & introduction]({{< meta linkprefix >}}sessions/01_intro/index.qmd){target="_top"} | @Herbst2010English: ch. 2 |
-|  2 | 27 Oct. | Pragmatics | @Kortmann2020Essentials: ch. 7 |
+|  2 | 27 Oct. | [Pragmatics]({{< meta linkprefix >}}sessions/02_pragmatics/index.qmd) | @Kortmann2020Essentials: ch. 7 |
 |  3 |  3 Nov. | Phonetics & phonology I | @Kortmann2020Essentials: ch. 2.1 |
 |  4 | 10 Nov. | Phonetics & phonology II | @Kortmann2020Essentials: ch. 2.2 |
 |  5 | 17 Nov. | Syntax I | @Herbst2010English: ch. 11.1–11.2 |

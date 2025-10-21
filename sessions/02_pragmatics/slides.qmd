@@ -1,0 +1,56 @@
+---
+title: 02 — Pragmatics
+subtitle: "Introduction to linguistics — [Course Website](../../index.qmd)"
+author: Dr. Quirin Würschinger, LMU Munich
+date: 2025-10-27
+date-format: long
+params:
+  show_solutions: true
+format:
+  clean-revealjs:
+    excalidraw:
+      button: false
+      shortcut: "`"
+      theme: light
+    css: ../../custom.css
+filters:
+  - auto-dark
+slide-level: 2
+metadata:
+  linkprefix: ../../
+revealjs-plugins:
+  - pointer
+  - excalidraw
+---
+
+# Outline
+
+- Introduction
+- Organisation
+- Pragmatics
+
+
+# Organisation
+
+## Tutorials {.small}
+
+{{< include ../../_includes/_tutorials.qmd >}}
+
+
+# Pragmatics
+
+
+# Next week: Phonetics & Phonology I
+
+Read @Kortmann2020Essentials: ch. 2.1.
+
+:::: {.notes}
+- 11:42–11:45
+::::
+
+
+# References
+
+::: {#refs}
+:::
+
