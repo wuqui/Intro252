@@ -8,8 +8,10 @@ website:
     left:
       - text: Sessions
         menu:
-          - text: Session 01 — Introduction
+          - text: 01 — Introduction
             href: sessions/01_intro/index.qmd
+          - text: 02 – Pragmatics
+            href: sessions/02_pragmatics/index.qmd
 
 format:
   html:
