@@ -5,7 +5,7 @@ author: Dr. Quirin Würschinger, LMU Munich
 date: 2025-11-03
 date-format: long
 params:
-  show_solutions: true
+  show_solutions: false
 format:
   clean-revealjs:
     excalidraw:
@@ -68,29 +68,29 @@ Assign the following items to the correct linguistic concepts:
 :::
 
 
-:::: {.content-visible when-meta="params.show_solutions"}
 ---
 
+::: {.content-visible when-meta="params.show_solutions"}
 ### Solution
 
-::: {.columns}
-:::: {.column width="50%"}
+:::: {.columns}
+::::: {.column width="50%"}
 **Phoneme:**
 
 - langue
 - language-specific
 - slashes for transcription /.../
 - abstract entity
-::::
-:::: {.column width="50%"}
+:::::
+::::: {.column width="50%"}
 **Phone:**
 
 - concrete realisation
 - not language-specific
 - square brackets for transcription [...]
 - parole
+:::::
 ::::
-:::
 
 
 ## Broad vs narrow transcription
@@ -155,13 +155,12 @@ c. voiced consonants.
 12.\ [d]\
 :::
 
-
-:::: {.content-visible when-meta="params.show_solutions"}
 ---
 
+::: {.content-visible when-meta="params.show_solutions"}
 ### Solution
 
-::: {.columns}
+:::: {.columns}
 :::: {.column width="25%"}
 **a. Plosives**
 
@@ -191,6 +190,7 @@ c. voiced consonants.
 
 3.\ [ʊ] (vowel)\
 9.\ [ɪ] (vowel)
+::::
 ::::
 :::
 
