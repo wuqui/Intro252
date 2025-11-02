@@ -43,21 +43,20 @@ revealjs-plugins:
 
 Assign the following items to the correct linguistic concepts:
 
-::: {.columns}
-:::: {.column width="50%"}
+:::: {.columns}
+::: {.column width="50%"}
 - langue
 - slashes for transcription /…/
 - not language-specific
 - concrete realisation
-::::
-
-:::: {.column width="50%"}
+:::
+::: {.column width="50%"}
 - abstract entity
 - parole
 - square brackets for transcription […]
 - language-specific
-::::
 :::
+::::
 
 ### Concepts
 
@@ -91,6 +90,7 @@ Assign the following items to the correct linguistic concepts:
 - parole
 :::::
 ::::
+:::
 
 
 ## Broad vs narrow transcription
