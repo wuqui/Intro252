@@ -1,0 +1,507 @@
+---
+title: 03 — Phonetics
+subtitle: "Introduction to linguistics — [Course Website](../../index.qmd)"
+author: Dr. Quirin Würschinger, LMU Munich
+date: 2025-11-03
+date-format: long
+params:
+  show_solutions: true
+format:
+  clean-revealjs:
+    excalidraw:
+      button: false
+      shortcut: "`"
+      theme: light
+    css: ../../custom.css
+filters:
+  - auto-dark
+slide-level: 2
+metadata:
+  linkprefix: ../../
+revealjs-plugins:
+  - pointer
+  - excalidraw
+---
+
+# Outline
+
+1. Phonetics vs phonology
+2. Transcription (broad vs narrow)
+3. Speech organs
+4. Place and manner of articulation
+5. Consonant inventory
+6. Vowels
+7. Transcription exercises
+
+
+# Phonetics vs phonology
+
+![@Kortmann2020Essentials: 28](att/phonetics-vs-phonology.png)
+
+
+## Exercise
+
+Assign the following items to the correct linguistic concepts:
+
+::: {.columns}
+:::: {.column width="50%"}
+- langue
+- slashes for transcription /…/
+- not language-specific
+- concrete realisation
+::::
+
+:::: {.column width="50%"}
+- abstract entity
+- parole
+- square brackets for transcription […]
+- language-specific
+::::
+:::
+
+### Concepts
+
+::: {layout="[50,50]"}
+1.\ **phoneme**
+
+2.\ **phone**
+:::
+
+
+:::: {.content-visible when-meta="params.show_solutions"}
+---
+
+### Solution
+
+::: {.columns}
+:::: {.column width="50%"}
+**Phoneme:**
+
+- langue
+- language-specific
+- slashes for transcription /.../
+- abstract entity
+::::
+:::: {.column width="50%"}
+**Phone:**
+
+- concrete realisation
+- not language-specific
+- square brackets for transcription [...]
+- parole
+::::
+:::
+
+
+## Broad vs narrow transcription
+
+![@Kortmann2020Essentials: 30](att/broad-narrow-transcription.png)
+
+
+# Speech organs
+
+![@Kortmann2020Essentials: 31](att/speech-organs.png)
+
+
+## Exercise: name vocal organs and describe speech sounds
+
+::: {layout="[50,50]"}
+1. Fill in the blanks in this figure with the correct names of the vocal organs.
+2. Give the respective adjectives used to describe speech sounds produced at this place.
+
+![](att/speech-organs-exercise.png)
+:::
+
+::: {.content-visible when-meta="params.show_solutions"}
+---
+
+### Solution
+
+| No. | Organ                         | Adjective         |
+|:---:|-------------------------------|-------------------|
+| 1   | lips                          | labial            |
+| 2   | teeth                         | dental            |
+| 3   | alveolar ridge                | alveolar          |
+| 4   | hard palate                   | palatal           |
+| 5   | soft palate (velum)           | velar             |
+| 6   | uvula                         | uvular            |
+| 7   | tongue                        | dorsal            |
+| 8   | glottis                       | glottal           |
+:::
+
+
+## Exercise
+
+Identify the IPA symbols below which represent
+
+a. plosives
+b. fricatives
+c. voiced consonants.
+
+::: {layout="[30, 30, 30]"}
+1.\ [b]\
+2.\ [s]\
+3.\ [ʊ]\
+4.\ [w]\
+
+5.\ [ʃ]\
+6.\ [x]\
+7.\ [k]\
+8.\ [l]\
+
+9.\ [ɪ]\
+10.\ [θ]\
+11.\ [ŋ]\
+12.\ [d]\
+:::
+
+
+:::: {.content-visible when-meta="params.show_solutions"}
+---
+
+### Solution
+
+::: {.columns}
+:::: {.column width="25%"}
+**a. Plosives**
+
+1.\ [b]\
+7.\ [k]\
+12.\ [d]
+::::
+:::: {.column width="25%"}
+**b. Fricatives**
+
+2.\ [s]\
+5.\ [ʃ]\
+6.\ [x]\
+10.\ [θ]
+::::
+:::: {.column width="25%"}
+**c. Voiced consonants**
+
+1.\ [b]\
+4.\ [w]\
+8.\ [l]\
+11.\ [ŋ]\
+12.\ [d]
+::::
+:::: {.column width="25%"}
+**Other**
+
+3.\ [ʊ] (vowel)\
+9.\ [ɪ] (vowel)
+::::
+:::
+
+
+# Place of articulation
+
+![@Kortmann2020Essentials: 31](att/place-of-articulation.png)
+
+
+# Voiced vs unvoiced
+
+![@Kortmann2020Essentials: 32](att/voiced-vs-unvoiced.png)
+
+
+# Consonant inventory
+
+![@Kortmann2020Essentials: 33](att/consonant-inventory.png)
+
+
+## Exercise: consonant inventory (Interactive)
+
+```{=html}
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
+<iframe src="https://wayground.com/embed/quiz/6907d9dd6a315c72c89fd43f" title="Consonant Inventory - Wayground" style="flex:1;" frameBorder="0" allowfullscreen></iframe>
+</div>
+```
+
+---
+
+## Exercise: consonant inventory (Reference)
+
+Which of these …
+
+1. starts with an approximant: *you* or *do*?
+2. ends with a fricative consonant: *race* or *real*?
+3. medial consonants is voiced: *massive* or *leisure*?
+4. starts with a dental consonant: *shy* or *thigh*?
+5. starts with a bilabial consonant: *set* or *bet*?
+6. ends with a stop consonant: *lip* or *pill*?
+7. ends with a nasal consonant: *dumb* or *dull*?
+8. starts with a alveolar consonant: *quip* or *dip*?
+9. medial consonants is voiced: *robber* or *hopper*?
+10. starts with a velar consonant: *lot* or *cot*?
+11. starts with a labiodental consonant: *mat* or *vat*?
+
+
+:::: {.content-visible when-meta="params.show_solutions"}
+---
+
+### Solution
+
+|  Word     |   IPA   |    Type      |
+|:----------|:--------|:-------------|
+| *you*     |  /j/    | approximant  |
+| *race*    |  /s/    | fricative    |
+| *leisure* |  /ʒ/    | voiced       |
+| *thigh*   |  /θ/    | dental       |
+| *bet*     |  /b/    | bilabial     |
+| *lip*     |  /p/    | stop         |
+| *dumb*    |  /m/    | nasal        |
+| *dip*     |  /d/    | alveolar     |
+| *robber*  |  /b/    | voiced       |
+| *cot*     |  /k/    | velar        |
+| *vat*     |  /v/    | labiodental  |
+::::
+
+
+## Exercise: determine consonant features
+
+Determine the medial consonant phone(s) in each of the following words in terms of 
+
+a. place of articulation
+b. manner of articulation
+c. voicing
+
+::: {layout="[30, 30, 30]"}
+1.\ *etching*\
+2.\ *father*\
+3.\ *dagger*\
+
+4.\ *lodger*\
+5.\ *sunny*\
+6.\ *hopper*\
+
+7.\ *pleasure*\
+8.\ *selling*\
+9.\ *singer*\
+:::
+
+
+::: {.content-visible when-meta="params.show_solutions"}
+---
+
+### Solution
+
+| Word     | Symbol(s) | Place            | Manner     | Voicing   |
+|----------|-----------|------------------|------------|-----------|
+| etching  | tʃ        | palato-alveolar  | affricate  | voiceless |
+| father   | ð         | dental           | fricative  | voiced    |
+| dagger   | g         | velar            | plosive    | voiced    |
+| lodger   | dʒ        | palato-alveolar  | affricate  | voiced    |
+| sunny    | n         | alveolar         | nasal      | voiced    |
+| hopper   | p         | bilabial         | plosive    | voiceless |
+| pleasure | ʒ         | palato-alveolar  | fricative  | voiced    |
+| selling  | l         | alveolar         | lateral    | voiced    |
+| singer   | ŋ         | velar            | nasal      | voiced    |
+:::
+
+
+# Vowels
+
+## Vowel chart: features
+
+![@Kortmann2020Essentials: 35](att/vowel-chart.png)
+
+
+## Vowel chart: English vowels & examples
+
+::: {layout="[50,50]"}
+![@Kortmann2020Essentials: 36](att/vowel-chart_vowels.png)
+
+![@Kortmann2020Essentials: 36](att/vowel-chart_examples.png)
+:::
+
+
+## Vowel differences between British and American English
+
+![](att/vowel-differences-bre-ame.png)
+
+
+## Exercise: identify vowel sounds
+
+In the following sets of words, the sound of the vowel is the same in every case but one. Which of these words has a different vowel sound?
+
+1. *sane*, *paid*, *eight*, *lace*, *mast*
+2. *hoot*, *good*, *moon*, *grew*, *suit*
+3. *meat*, *steak*, *weak*, *theme*, *green*
+4. *dud*, *died*, *mine*, *eye*, *guy*
+5. *pen*, *said*, *death*, *mess*, *mean*
+6. *ton*, *toast*, *both*, *note*, *toes*
+
+
+::: {.content-visible when-meta="params.show_solutions"}
+---
+
+### Solution
+
+1. *mast*: /æ/ instead of /eɪ/
+2. *good*: /ʊ/ instead of /uː/
+3. *steak*: /eɪ/ instead of /iː/
+4. *dud*: /ʌ/ instead of /aɪ/
+5. *mean*: /iː/ instead of /ɛ/
+6. *ton*: /ɒ/ instead of /əʊ/
+:::
+
+
+## Exercise
+
+How many phonemes are there in each of the following words?
+
+1. *physics* 
+2. *axis*
+3. *laugh*
+4. *fishes*
+5. *begged*
+6. *caught*
+7. *batting*
+8. *knock*
+9. *quick*
+
+
+::: {.content-visible when-meta="params.show_solutions"}
+---
+
+### Solution
+
+| Word       | IPA (RP)     | IPA (GA)       | Phonemes        |
+|:-----------|:-------------|:---------------|:---------------:|
+| *physics*  | /ˈfɪzɪks/    | ←              | 6               |
+| *axis*     | /ˈæksɪs/     | ←              | 5               |
+| *laugh*    | /lɑːf/       | /læf/          | 3               |
+| *fishes*   | /ˈfiʃɪz/     | ←              | 5               |
+| *begged*   | /begd/       | ←              | 4               |
+| *caught*   | /kɔːt/       | /kɑːt/, /kɔːt/ | 3               |
+| *batting*  | /ˈbætɪŋ/     | ←              | 5               |
+| *knock*    | /nɒk/        | /nɑːk/         | 3               |
+| *quick*    | /kwɪk/       | ←              | 4               |
+:::
+
+## Diphthongs
+
+![@Kortmann2020Essentials: 36](att/diphthongs.png)
+
+
+## Types of vowels
+
+
+![@Kortmann2020Essentials: 37](att/types-of-vowels.png)
+
+
+# Transcription
+
+## Transcription dictionaries
+
+Jones, Daniel. 2011. Cambridge English pronouncing dictionary. Ed. By Peter Roach. 18th ed. Cambridge: Cambridge University Press.
+
+<https://dictionary.cambridge.org/pronunciation/english/strength>
+
+Alternative: Wells, John C. 2010. Longman pronunciation dictionary. 3rd ed. Harlow: Pearson Longman.
+
+
+## Exercise: evaluate transcriptions (Interactive)
+
+```{=html}
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
+<iframe src="https://wayground.com/embed/quiz/6907d71c52687cc8ee194d79" title="Evaluate Transcriptions - Wayground" style="flex:1;" frameBorder="0" allowfullscreen></iframe>
+</div>
+```
+
+---
+
+## Exercise: evaluate transcriptions (Reference)
+
+Which of the two transcriptions (RP) is correct?
+
+::: {.columns .small}
+:::: {.column width="50%"}
+1. sixteen: 
+    a. /sɪxˈtiːn/ 
+    b. /sɪkˈstiːn/
+2. football: 
+    a. /ˈfʊtbɔːl/ 
+    b. /ˈfʊtbol/
+3. strength: 
+    a. /strenkθ/ 
+    b. /streŋθ/
+4. umbrella: 
+    a. /umˈbrelə/ 
+    b. /ʌmˈbrelə/
+::::
+:::: {.column width="50%"}
+5. hijacking: 
+    a. /ˈhaɪʤækɪŋ/ 
+    b. /ˈhaɪjækɪŋ/
+6. handmade: 
+    a. /ˌhandˈmeɪd/ 
+    b. /ˌhændˈmeɪd/
+7. chipping: 
+    a. /ˈʧɪppɪŋ/ 
+    b. /ˈʧɪpɪŋ/
+8. remain: 
+    a. /rɪˈman/ 
+    b. /rɪˈmeɪn/
+::::
+:::
+
+:::: {.content-visible when-meta="params.show_solutions"}
+---
+
+### Solution
+
+| Word        | Correct | IPA             |
+|:------------|:-------:|:----------------|
+| *sixteen*   | b       | /sɪkˈstiːn/     |
+| *football*  | a       | /ˈfʊtbɔːl/      |
+| *strength*  | b       | /streŋθ/        |
+| *umbrella*  | b       | /ʌmˈbrelə/      |
+| *hijacking* | a       | /ˈhaɪʤækɪŋ/     |
+| *handmade*  | b       | /ˌhændˈmeɪd/    |
+| *chipping*  | b       | /ˈʧɪpɪŋ/        |
+| *remain*    | b       | /rɪˈmeɪn/       |
+::::
+
+
+## Exercise: transcribe words
+
+Transcribe the following words into phonemic IPA and indicate which variety your transcription is based on (Received Pronunciation (RP) or General American (GA)). Use stress marks.
+
+1. *tea*
+2. *cat*
+3. *bar*
+4. *food*
+5. *foot*
+6. *pork*
+7. *maker*
+8. *phonology*
+
+
+:::: {.content-visible when-meta="params.show_solutions"}
+---
+
+### Solution
+
+| Word        | RP (UK)         | GA (US)         |
+|:------------|:----------------|:----------------|
+| *tea*       | /tiː/           | ⟵               |
+| *cat*       | /kæt/           | ⟵               |
+| *bar*       | /bɑː/           | /bɑːr/          |
+| *food*      | /fuːd/          | ⟵               |
+| *foot*      | /fʊt/           | ⟵               |
+| *pork*      | /pɔːk/          | /pɔːrk/         |
+| *maker*     | /ˈmeɪ.kə/       | /ˈmeɪ.kɚ/       |
+| *phonology* | /fəˈnɒl.ə.dʒi/  | /fəˈnɑː.lə.dʒi/ |
+::::
+
+
+# Next week: Phonology
+
+Read @Kortmann2020Essentials: ch. 2.2 |
+
+# References
+
+:::: {#refs}
+::::
