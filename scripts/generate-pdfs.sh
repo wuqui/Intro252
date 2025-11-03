@@ -13,11 +13,19 @@ echo "Project root: $PROJECT_ROOT"
 cd "$PROJECT_ROOT/_site"
 
 count=0
+skipped=0
 for html_file in sessions/*/slides.html; do
   [ -e "$html_file" ] || continue
 
   dir=$(dirname "$html_file")
   pdf_file="$dir/slides.pdf"
+
+  # Skip if PDF exists and is newer than HTML file
+  if [ -f "$pdf_file" ] && [ "$pdf_file" -nt "$html_file" ]; then
+    echo "⊘ Skipping: $pdf_file (already up to date)"
+    skipped=$((skipped + 1))
+    continue
+  fi
 
   echo "Processing: $html_file -> $pdf_file"
   npx -y decktape reveal \
@@ -35,10 +43,10 @@ for html_file in sessions/*/slides.html; do
   fi
 done
 
-if [ $count -eq 0 ]; then
+if [ $count -eq 0 ] && [ $skipped -eq 0 ]; then
   echo "No slides.html files found to process."
 else
-  echo "=== PDF generation complete: $count file(s) processed ==="
+  echo "=== PDF generation complete: $count generated, $skipped skipped ==="
 fi
 
 

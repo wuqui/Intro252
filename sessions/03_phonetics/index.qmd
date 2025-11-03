@@ -8,5 +8,3 @@ date: last-modified
 </div>
 
 [Open full screen](slides.html) — [PDF](slides.pdf)
-
-

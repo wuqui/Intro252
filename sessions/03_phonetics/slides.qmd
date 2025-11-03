@@ -215,9 +215,6 @@ c. voiced consonants.
 ```{=html}
 <div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
 <iframe src="https://wayground.com/embed/quiz/6907d9dd6a315c72c89fd43f" title="Consonant Inventory - Wayground" style="flex:1;" frameBorder="0" allowfullscreen></iframe>
-<div class="quiz-link-pdf">
-<p><strong>Interactive quiz:</strong> <a href="https://wayground.com/embed/quiz/6907d9dd6a315c72c89fd43f">https://wayground.com/embed/quiz/6907d9dd6a315c72c89fd43f</a></p>
-</div>
 </div>
 ```
 
@@ -413,9 +410,6 @@ Alternative: Wells, John C. 2010. Longman pronunciation dictionary. 3rd ed. Harl
 ```{=html}
 <div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
 <iframe src="https://wayground.com/embed/quiz/6907d71c52687cc8ee194d79" title="Evaluate Transcriptions - Wayground" style="flex:1;" frameBorder="0" allowfullscreen></iframe>
-<div class="quiz-link-pdf">
-<p><strong>Interactive quiz:</strong> <a href="https://wayground.com/embed/quiz/6907d71c52687cc8ee194d79">https://wayground.com/embed/quiz/6907d71c52687cc8ee194d79</a></p>
-</div>
 </div>
 ```
 
