@@ -5,7 +5,7 @@ author: Dr. Quirin Würschinger, LMU Munich
 date: 2025-11-03
 date-format: long
 params:
-  show_solutions: false
+  show_solutions: true
 format:
   clean-revealjs:
     excalidraw:
@@ -25,16 +25,14 @@ revealjs-plugins:
 
 # Outline
 
-1. Phonetics vs phonology
-2. Transcription (broad vs narrow)
-3. Speech organs
-4. Place and manner of articulation
-5. Consonant inventory
-6. Vowels
-7. Transcription exercises
+1. [Phonetics vs phonology](#phonetics-vs-phonology): What's the difference between sounds we make and sound systems?
+2. [Speech organs](#speech-organs): Which body parts do we use to produce speech?
+3. [Consonants](#consonants): How do we classify consonant sounds?
+4. [Vowels](#vowels): How do we describe and map vowel sounds?
+5. [Transcription](#transcription): How can we write down pronunciation?
 
 
-# Phonetics vs phonology
+# Phonetics vs phonology {#phonetics-vs-phonology}
 
 ![@Kortmann2020Essentials: 28](att/phonetics-vs-phonology.png)
 
@@ -130,7 +128,24 @@ Assign the following items to the correct linguistic concepts:
 :::
 
 
-## Exercise
+## Place of articulation
+
+![@Kortmann2020Essentials: 31](att/place-of-articulation.png)
+
+
+# Consonants
+
+## Consonant inventory
+
+![@Kortmann2020Essentials: 33](att/consonant-inventory.png)
+
+
+## Voiced vs unvoiced
+
+![@Kortmann2020Essentials: 32](att/voiced-vs-unvoiced.png)
+
+
+## Exercise: identify consonant types
 
 Identify the IPA symbols below which represent
 
@@ -195,21 +210,6 @@ c. voiced consonants.
 :::
 
 
-# Place of articulation
-
-![@Kortmann2020Essentials: 31](att/place-of-articulation.png)
-
-
-# Voiced vs unvoiced
-
-![@Kortmann2020Essentials: 32](att/voiced-vs-unvoiced.png)
-
-
-# Consonant inventory
-
-![@Kortmann2020Essentials: 33](att/consonant-inventory.png)
-
-
 ## Exercise: consonant inventory (Interactive)
 
 ```{=html}
@@ -226,13 +226,13 @@ Which of these …
 
 1. starts with an approximant: *you* or *do*?
 2. ends with a fricative consonant: *race* or *real*?
-3. medial consonants is voiced: *massive* or *leisure*?
+3. medial consonant is voiced: *massive* or *leisure*?
 4. starts with a dental consonant: *shy* or *thigh*?
 5. starts with a bilabial consonant: *set* or *bet*?
 6. ends with a stop consonant: *lip* or *pill*?
 7. ends with a nasal consonant: *dumb* or *dull*?
-8. starts with a alveolar consonant: *quip* or *dip*?
-9. medial consonants is voiced: *robber* or *hopper*?
+8. starts with an alveolar consonant: *quip* or *dip*?
+9. medial consonant is voiced: *robber* or *hopper*?
 10. starts with a velar consonant: *lot* or *cot*?
 11. starts with a labiodental consonant: *mat* or *vat*?
 
@@ -321,6 +321,16 @@ c. voicing
 ![](att/vowel-differences-bre-ame.png)
 
 
+## Diphthongs
+
+![@Kortmann2020Essentials: 36](att/diphthongs.png)
+
+
+## Types of vowels
+
+![@Kortmann2020Essentials: 37](att/types-of-vowels.png)
+
+
 ## Exercise: identify vowel sounds
 
 In the following sets of words, the sound of the vowel is the same in every case but one. Which of these words has a different vowel sound?
@@ -347,7 +357,7 @@ In the following sets of words, the sound of the vowel is the same in every case
 :::
 
 
-## Exercise
+## Exercise: determine number of phonemes
 
 How many phonemes are there in each of the following words?
 
@@ -367,7 +377,7 @@ How many phonemes are there in each of the following words?
 
 ### Solution
 
-| Word       | IPA (RP)     | IPA (GA)       | Phonemes        |
+| Word       | RP           | GA             | Phonemes        |
 |:-----------|:-------------|:---------------|:---------------:|
 | *physics*  | /ˈfɪzɪks/    | ←              | 6               |
 | *axis*     | /ˈæksɪs/     | ←              | 5               |
@@ -380,15 +390,6 @@ How many phonemes are there in each of the following words?
 | *quick*    | /kwɪk/       | ←              | 4               |
 :::
 
-## Diphthongs
-
-![@Kortmann2020Essentials: 36](att/diphthongs.png)
-
-
-## Types of vowels
-
-
-![@Kortmann2020Essentials: 37](att/types-of-vowels.png)
 
 
 # Transcription
@@ -397,12 +398,14 @@ How many phonemes are there in each of the following words?
 
 Jones, Daniel. 2011. Cambridge English pronouncing dictionary. Ed. By Peter Roach. 18th ed. Cambridge: Cambridge University Press.
 
-<https://dictionary.cambridge.org/pronunciation/english/strength>
+<https://dictionary.cambridge.org/>
 
 Alternative: Wells, John C. 2010. Longman pronunciation dictionary. 3rd ed. Harlow: Pearson Longman.
 
 
-## Exercise: evaluate transcriptions (Interactive)
+## Exercise: evaluate transcriptions 
+
+### Interactive version
 
 ```{=html}
 <div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
@@ -412,7 +415,7 @@ Alternative: Wells, John C. 2010. Longman pronunciation dictionary. 3rd ed. Harl
 
 ---
 
-## Exercise: evaluate transcriptions (Reference)
+### Reference version
 
 Which of the two transcriptions (RP) is correct?
 
@@ -450,7 +453,7 @@ Which of the two transcriptions (RP) is correct?
 :::: {.content-visible when-meta="params.show_solutions"}
 ---
 
-### Solution
+### Reference solutions
 
 | Word        | Correct | IPA             |
 |:------------|:-------:|:----------------|
@@ -499,7 +502,8 @@ Transcribe the following words into phonemic IPA and indicate which variety your
 
 # Next week: Phonology
 
-Read @Kortmann2020Essentials: ch. 2.2 |
+Read @Kortmann2020Essentials: ch. 2.2
+
 
 # References
 

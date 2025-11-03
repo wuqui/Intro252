@@ -25,12 +25,11 @@ revealjs-plugins:
 
 # Outline
 
-- **Organisation**: materials, approach, related lectures, registration, schedule, requirements, literature
-- **Fundamentals**: models and key terms
-- **Core concepts**: sign; paradigmatic vs syntagmatic; linearity
-- **Linguistic domains**: phonetics, morphology, syntax etc.
-- **Applied fields**: lexicography, psycholinguistics, computational
-- **Summary and outlook**: key points; next week
+1. [**Organisation**](#organisation): How does this course work?
+2. [**Fundamentals**](#language-as-a-tool-for-communication): What is language and how do linguists study it?
+3. [**Core concepts**](#the-model-of-the-linguistic-sign-desaussure1916cours): How do words get their meaning?
+4. [**Linguistic domains**](#linguistic-domains): What are the core areas of linguistic analysis?
+5. [**Applied fields**](#applied-fields): How is linguistics used in real-world applications?
 
 :::: {.notes}
 - 10:15–10:31: Organisation

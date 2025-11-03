@@ -25,13 +25,12 @@ revealjs-plugins:
 
 # Outline
 
-- **Organisation** — Course logistics and tutorials
-- **Introduction to pragmatics** — Context-dependent meaning vs semantics
-- **Deixis** — Context-anchoring linguistic devices
-- **Speech act theory** — Austin's theory and illocutionary acts
-- **Indirect speech acts** — Inferring meaning beyond literal content
-- **Cooperative principle and conversational maxims** — Grice's theory and implicatures
-- **Summary and outlook** — Recap and preview
+1. [Organisation](#organisation): How does this course work?
+2. [Introduction to pragmatics](#object-of-study): How does context shape what we mean?
+3. [Deixis](#deixis): Why do words like *here*, *now*, and *you* shift meaning?
+4. [Speech act theory](#speech-acts): How do we do things with words?
+5. [Indirect speech acts](#indirect-speech-acts): Why don't we always say what we mean directly?
+6. [Cooperative principle and conversational maxims](#conversational-implicatures): What makes conversation work?
 
 
 ## Learning outcomes
@@ -405,7 +404,7 @@ How do hearers infer indirect illocutionary acts?
 
 ## The cooperative principle
 
-“The basic idea which underlies Grice’s Cooperative Principle is that communicating is cooperative behaviour, and that therefore every communicative event proceeds on the assumption that speaker and hearer (or author and reader) want to cooperate – even if at first sight this might not seem to be the case.” [@Kortmann2020Essentials: 184]
+The Cooperative Principle, introduced by @Grice1975LogicConversation, assumes that communicating is cooperative behaviour: "...every communicative event proceeds on the assumption that speaker and hearer (or author and reader) want to cooperate – even if at first sight this might not seem to be the case." [@Kortmann2020Essentials: 184]
 
 ![@Kortmann2020Essentials: 185](att/cooperative-principle.png)
 
