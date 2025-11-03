@@ -46,3 +46,33 @@
   height: 100%;
   border: 1px solid #ddd;
 }
+
+/* Interactive quiz PDF handling */
+/* Hide quiz links in normal presentation mode */
+.quiz-link-pdf {
+  display: none;
+}
+
+/* When exporting to PDF: hide iframes, show links */
+.print-pdf iframe {
+  display: none !important;
+}
+
+.print-pdf .quiz-link-pdf {
+  display: block !important;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.print-pdf .quiz-link-pdf p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.print-pdf .quiz-link-pdf a {
+  word-break: break-all;
+  color: #0066cc;
+}
