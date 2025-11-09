@@ -12,6 +12,10 @@ website:
             href: sessions/01_intro/index.qmd
           - text: 02 – Pragmatics
             href: sessions/02_pragmatics/index.qmd
+          - text: 03 – Phonetics
+            href: sessions/03_phonetics/index.qmd
+          - text: 04 – Phonology
+            href: sessions/04_phonology/index.qmd
 
 format:
   html:

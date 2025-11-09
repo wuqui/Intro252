@@ -3,7 +3,7 @@
 |  1 | 20 Oct. | [Organisation & introduction]({{< meta linkprefix >}}sessions/01_intro/index.qmd){target="_top"} | @Herbst2010English: ch. 2 |
 |  2 | 27 Oct. | [Pragmatics]({{< meta linkprefix >}}sessions/02_pragmatics/index.qmd) | @Kortmann2020Essentials: ch. 7 |
 |  3 |  3 Nov. | [Phonetics]({{< meta linkprefix >}}sessions/03_phonetics/index.qmd) | @Kortmann2020Essentials: ch. 2.1 |
-|  4 | 10 Nov. | Phonology | @Kortmann2020Essentials: ch. 2.2 |
+|  4 | 10 Nov. | [Phonology]({{< meta linkprefix >}}sessions/04_phonology/index.qmd) | @Kortmann2020Essentials: ch. 2.2 |
 |  5 | 17 Nov. | Syntax I | @Herbst2010English: ch. 11.1–11.2 |
 |  6 | 24 Nov. | Syntax II | @Herbst2010English: ch. 11.3–11.4 |
 |  7 |  1 Dec. | Morphology and word-formation I | @Herbst2010English: ch. 8; @Kortmann2020Essentials: ch. 4.1 |
