@@ -20,21 +20,8 @@ jobs:
         run: |
           # Strip speaker notes from all RevealJS slides
           find _site -name "slides.html" -type f -exec sed -i '/<aside class="notes">/,/<\/aside>/d' {} +
-      - name: Restore cached PDFs
-        uses: actions/cache/restore@v4
-        with:
-          path: _site/sessions/*/slides.pdf
-          key: pdfs-${{ hashFiles('sessions/*/slides.qmd') }}
-          restore-keys: |
-            pdfs-
       - name: Generate PDFs from slides
         run: ./scripts/generate-pdfs.sh
-      - name: Save PDFs to cache
-        uses: actions/cache/save@v4
-        if: always()
-        with:
-          path: _site/sessions/*/slides.pdf
-          key: pdfs-${{ hashFiles('sessions/*/slides.qmd') }}
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
