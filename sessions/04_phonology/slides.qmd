@@ -133,7 +133,7 @@ Example: clear vs dark /l/ - students often notice this unconsciously.
 “**Free variation**: 
 
 - In contradistinction to these so-called contextual variants, there are also numerous **free variants** of phonemes. 
-- For instance, voiceless plosives may well be aspirated in the final position of a syllable or word, too, as in [læp] and [læph] for lap, or [ʃʌt] and [ʃʌth] for shut. 
+- For instance, voiceless plosives may well be aspirated in the final position of a syllable or word, too, as in [læp] and [læpʰ] for lap, or [ʃʌt] and [ʃʌtʰ] for shut. 
 - We are dealing with free variation of aspirated and non-aspirated allophones here." [@Kortmann2020Essentials: 38]
 :::
 
@@ -221,9 +221,8 @@ Students work on finding minimal pairs. Discuss solutions briefly if shown.
 ```
 
 ::: {.notes}
-**10:35–10:50** (15 min) — **KEEP THIS!**
+**10:35–10:50** (15 min)
 
-Students LOVE these interactive quizzes!
 - 12 questions testing minimal pairs identification
 - Mix of Yes/No questions, pair comparisons, and phoneme identification
 - 20-25 seconds per question
@@ -327,11 +326,11 @@ Can be skipped to save time. Move directly to word stress if needed.
 
 #### Solution
 
-|     | Word | IPA | Onset | Nucleus | Coda | Type |
-|----:|:-----|:----|:------|:--------|:-----|:-----|
-| 1. | *spread* | /spred/ | /spr/ | /e/ | /d/ | closed |
-| 2. | *glimpse* | /glɪmps/ | /gl/ | /ɪ/ | /mps/ | closed |
-| 3. | *new* | /njuː/ | /nj/ | /uː/ | — | open |
+|     | Word      | IPA      | Onset  | Nucleus | Coda  | Type   |
+|----:|:----------|:---------|:-------|:--------|:------|:-------|
+|  1. | *spread*  | /spred/  | /spr/  | /e/     | /d/   | closed |
+|  2. | *glimpse* | /glɪmps/ | /gl/   | /ɪ/     | /mps/ | closed |
+|  3. | *new*     | /njuː/   | /nj/   | /uː/    | —     | open   |
 
 **Note:** Open syllables end in a vowel; closed syllables end in a consonant.
 
@@ -363,15 +362,6 @@ Word stress can distinguish meaning - important concept.
 
 ---
 
-### Distinctive word stress
-
-![@Kortmann2020Essentials: 41](att/distinctive-word-stress.png)
-
-::: {.notes}
-**11:07** (< 1 min)
-
-Quick visual - noun/verb stress pairs.
-:::
 
 ## Strong and weak forms {.small}
 
@@ -432,12 +422,10 @@ Intonation has three functions: emotional, grammatical, informational.
 **1. Consonant elision**: especially /t/ and /d/ in consonant clusters
 
 - *next day* /neks deɪ/ (not /nekst deɪ/)
-- *blind man* /blaɪn mæn/ (not /blaɪnd mæn/)
 - *friendship* /frenʃɪp/ (not /frendʃɪp/)
 
 **2. Vowel elision**: especially weak vowels in unstressed syllables
 
-- *police* /pliːs/ (not /pəliːs/)
 - *suppose* /spəʊz/ (not /səpəʊz/)
 - *camera* /kæmrə/ (not /kæmərə/)
 
@@ -530,7 +518,7 @@ Work through examples. This is important - assimilation is a key concept.
 **c) Connection to the negative prefix:**
 
 - The realisation of the morpheme {in-} is **phonologically conditioned** by the following sound:
-  - *inadequate* [ɪn-]: /n/ occurs elsewhere (before vowels or alveolars)
+  - *inadequate* [ɪn-]: /n/ occurs before vowels or alveolars
   - *incomplete* [ɪŋ-]: /ŋ/ occurs before velar consonants (partial assimilation)
   - *impossible* [ɪm-]: /m/ occurs before bilabial consonants (partial assimilation)
   - *immobile* [ɪ-]: total assimilation before /m/ (nasal deleted, vowel lengthened)
@@ -607,11 +595,9 @@ This exercise can be skipped if you're running behind. The table in the solution
 ::: {.notes}
 **11:28–11:43** (15 min) — **KEEP THIS!**
 
-End-of-session review quiz - students love it!
 - 13 questions covering suprasegmental phonology and connected speech
 - Topics: syllable structure, word stress, strong/weak forms, connected speech processes
 - 25-30 seconds per question
-- Great way to consolidate learning before moving to syntax next week
 :::
 
 
