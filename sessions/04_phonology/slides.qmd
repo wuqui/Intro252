@@ -5,7 +5,7 @@ author: Dr. Quirin Würschinger, LMU Munich
 date: 2025-11-10
 date-format: long
 params:
-  show_solutions: false
+  show_solutions: true
 format:
   clean-revealjs:
     excalidraw:
@@ -228,29 +228,8 @@ Students work on finding minimal pairs. Discuss solutions briefly if shown.
 - 20-25 seconds per question
 :::
 
----
 
-## Minimal Pairs Quiz (Reference) {.small}
-
-**Question types:**
-
-1. **Are these minimal pairs?** (4 questions)
-   - *bit* – *bat*: YES (differ only in /ɪ/ vs /æ/)
-   - *cat* – *dog*: NO (differ in multiple sounds)
-   - *ship* – *sheep*: YES (differ only in /ɪ/ vs /iː/)
-   - *pen* – *pan*: YES (differ only in /e/ vs /æ/)
-
-2. **Which is a minimal pair?** (3 questions)
-   - *pat* – *bat* vs *cat* – *dog*: Answer *pat* – *bat*
-   - *fan* – *van* vs *tree* – *house*: Answer *fan* – *van*
-   - *rope* – *robe* vs *tree* – *house*: Answer *rope* – *robe*
-
-3. **What sound differs?** (5 questions)
-   - Examples: *sip* vs *ship*, *cap* vs *cup*, *ten* vs *den*, *cod* vs *cord*, *bit* vs *beat*
-
----
-
-### Distinctive features
+## Distinctive features
 
 @Kortmann2020Essentials: 38–39
 
@@ -264,22 +243,15 @@ Students work on finding minimal pairs. Discuss solutions briefly if shown.
 ::: {.notes}
 **10:50–10:52** (2 min)
 
-Brief mention - distinctive features are an alternative way to describe phonemes.
+**Mid-session break: 10:52–10:57** (5 min)
 :::
 
----
-
-::: {.notes}
-**10:52–10:57** — **BREAK (5 min)**
-
-Mid-session break.
-:::
 
 # Suprasegmental phonology {#suprasegmental-phonology}
 
 ## Phonotactics
 
-[@Kortmann2020Essentials: 39]
+@Kortmann2020Essentials: 39
 
 “**Phonotactics**: 
 
