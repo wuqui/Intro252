@@ -1,0 +1,25 @@
+\documentclass{standalone}
+\usepackage[linguistics]{forest}
+
+\begin{document}
+\begin{forest}
+  for tree={grow'=south, parent anchor=south, child anchor=north}
+  [S, name=frag0-root
+    [NP, name=frag1-np
+      [Det [The]]
+      [N [cat]]
+    ]
+    [VP, name=frag2-vp
+      [V [sat]]
+      [PP, name=frag3-pp
+        [P [on]]
+        [NP
+          [Det [the]]
+          [N [mat]]
+        ]
+      ]
+    ]
+  ]
+\end{forest}
+\end{document}
+

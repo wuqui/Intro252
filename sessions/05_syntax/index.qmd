@@ -1,0 +1,10 @@
+---
+title: 05 — Syntax
+date: last-modified
+---
+
+<div class="embed-slides">
+  <iframe src="slides.html" title="05 - Syntax" allowfullscreen></iframe>
+</div>
+
+[Open full screen](slides.html) — [PDF](slides.pdf)

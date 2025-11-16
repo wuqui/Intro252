@@ -16,6 +16,8 @@ website:
             href: sessions/03_phonetics/index.qmd
           - text: 04 – Phonology
             href: sessions/04_phonology/index.qmd
+          - text: 05 — Syntax
+            href: sessions/05_syntax/index.qmd
 
 format:
   html:
