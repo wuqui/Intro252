@@ -1,0 +1,31 @@
+\documentclass{standalone}
+
+\providecommand{\currentfragment}{999}
+\usepackage{forest-styles}
+
+\begin{document}
+
+\begin{forest}
+  [sent
+    [cl
+      [S: NP 
+        [dtm: det [Some]]
+        [head: noun [people]]
+      ]
+      [V: VP [mv: fv [consider]]]
+      [Od: NP [head: noun [themselves]]]
+      [Co: non-fin cl
+        [V: VP
+          [inf marker [to]]
+          [mv: pv [be]]
+        ]
+        [Cs: AdjP
+          [premod: adv [very]]
+          [head: adj [important.]]
+        ]
+      ]
+    ]
+  ]
+\end{forest}
+
+\end{document}

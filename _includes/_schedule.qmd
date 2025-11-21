@@ -5,7 +5,7 @@
 |  3 |  3 Nov. | [Phonetics]({{< meta linkprefix >}}sessions/03_phonetics/index.qmd) | @Kortmann2020Essentials: ch. 2.1 |
 |  4 | 10 Nov. | [Phonology]({{< meta linkprefix >}}sessions/04_phonology/index.qmd) | @Kortmann2020Essentials: ch. 2.2 |
 |  5 | 17 Nov. | [Syntax I]({{< meta linkprefix >}}sessions/05_syntax/index.qmd){target="_top"} | @Herbst2010English: ch. 11.1–11.2 |
-|  6 | 24 Nov. | Syntax II | @Herbst2010English: ch. 11.3–11.4 |
+|  6 | 24 Nov. | [Syntax II]({{< meta linkprefix >}}sessions/05_syntax/index.qmd){target="_top"} | @Herbst2010English: ch. 11.3–11.4 |
 |  7 |  1 Dec. | Morphology and word-formation I | @Herbst2010English: ch. 8; @Kortmann2020Essentials: ch. 4.1 |
 |  8 |  8 Dec. | Morphology and word-formation II | @Herbst2010English: ch. 9.1–9.3 |
 |  9 | 15 Dec. | Semantics and lexicology I | @Mair2022Introduction: ch. 6.1–6.3; @Kortmann2020Essentials: ch. 6.3.2 |

@@ -1,6 +1,6 @@
 ---
-title: 05 — Syntax
-subtitle: "Introduction to linguistics — [Course Website](../../index.qmd)"
+title: 5 & 6 — Syntax
+subtitle: "Introduction to linguistics — [Course Website](../../index.qmd) — 17 & 24 November 2025"
 author: Dr. Quirin Würschinger, LMU Munich
 date: 2025-11-17
 date-format: long
@@ -49,10 +49,16 @@ Divide the following into sentences, clauses, phrases, and words:
 
 *I gave them some money because they needed it.*
 
-. . . 
-
 ::: {.content-visible when-meta="params.show_solutions"}
-![](att//i-gave-them-some-money.png)
+:::: {.r-stack}
+![](att/i-gave-them-some-money_1.png){.fragment}
+
+![](att/i-gave-them-some-money_2.png){.fragment}
+
+![](att/i-gave-them-some-money_3.png){.fragment}
+
+![](att/i-gave-them-some-money_4.png){.fragment}
+::::
 :::
 
 
@@ -94,6 +100,12 @@ Identify all dependent/subordinate and independent/main clauses in the following
 5. *[His book stresses the history of styles, [which he describes in sequence]^cl_sub^]^cl_main^.*				
 :::
 
+
+## Example: full syntactic analysis
+
+*His book stresses the history of styles, which he describes in sequence.*
+
+![](tex-trees/output/his-book-stresses-the-history.png)
 
 
 ## Exercise: identifying finite and non-finite subordinate clauses
@@ -140,7 +152,7 @@ Indicate if the subordinate clauses in the following sentences are finite or non
 . . .
 
 ::: {.content-visible when-meta="params.show_solutions"}
-![](att/cats-asleep-right-branching.png)
+![](tex-trees/output/the-cats-asleep_13.png){height="500px"}
 :::
 
 ---
@@ -376,7 +388,7 @@ Give a full syntactic analysis of the following sentences.
 . . . 
 
 ::: {.content-visible when-meta="params.show_solutions"}
-![](att/he-spends-all-his-money.png)
+![](tex-trees/output/he-spends-all-his-money.png)
 :::
 
 
@@ -385,7 +397,7 @@ Give a full syntactic analysis of the following sentences.
 . . . 
 
 ::: {.content-visible when-meta="params.show_solutions"}
-![](att/john-called-me-an-idiot.png)
+![](tex-trees/output/john-called-me-an-idiot.png)
 :::
 
 
@@ -394,7 +406,7 @@ Give a full syntactic analysis of the following sentences.
 . . . 
 
 ::: {.content-visible when-meta="params.show_solutions"}
-![](att/mary-left-the-next-day.png)
+![](tex-trees/output/mary-left-the-next-day.png)
 :::
 
 
@@ -403,7 +415,7 @@ Give a full syntactic analysis of the following sentences.
 . . .
 
 ::: {.content-visible when-meta="params.show_solutions"}
-![](att/his-face-turned-pale.png)
+![](tex-trees/output/his-face-turned-pale.png)
 :::
 
 
@@ -412,7 +424,7 @@ Give a full syntactic analysis of the following sentences.
 . . .
 
 ::: {.content-visible when-meta="params.show_solutions"}
-![](att/tom-called-jerry.png){height="500px"}
+![](tex-trees/output/tom-called-jerry-at-midnight.png){height="500px"}
 :::
 
 
@@ -421,7 +433,7 @@ Give a full syntactic analysis of the following sentences.
 . . .
 
 ::: {.content-visible when-meta="params.show_solutions"}
-![](att/some-people-consider-themselves.png)
+![](tex-trees/output/some-people-consider-themselves.png){height="500px"}
 :::
 
 
@@ -430,7 +442,7 @@ Give a full syntactic analysis of the following sentences.
 . . .
 
 ::: {.content-visible when-meta="params.show_solutions"}
-![](att/michael-completely-ruined.png){height="500px"}
+![](tex-trees/output/michael-completely-ruined-the-dinner.png){height="500px"}
 :::
 
 
@@ -439,7 +451,7 @@ Give a full syntactic analysis of the following sentences.
 . . .
 
 ::: {.content-visible when-meta="params.show_solutions"}
-![](att/the-door-of-george.png){height="500px"}
+![](tex-trees/output/the-door-of-george-lancaster-house.png){height="500px"}
 :::
 
 

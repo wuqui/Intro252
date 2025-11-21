@@ -1,0 +1,35 @@
+\ProvidesPackage{forest-styles}[2025/01/21 Shared forest styles for syntax trees]
+
+\RequirePackage[linguistics]{forest}
+\RequirePackage{xcolor}
+
+\forestset{
+  visible on/.style={
+    if={#1>\currentfragment}{hidden}{},
+  },
+  sealing/.append style =
+    {
+    grow'=east,
+    anchor=west,
+    calign=first,
+    child anchor=west,
+    parent anchor=east,
+    font=\sffamily,
+    where n children=0{edge=dotted, tier=branch, font={\rmfamily \itshape}, anchor=east}{},
+    edge path={\noexpand\path[\forestoption{edge}](!u.parent anchor) -- +(5pt,0) |- (.child anchor)\forestoption{edge label};},
+  },
+  hidden/.style={
+    for tree={
+      text=white,
+      edge={draw=white},
+      draw=white,
+      where n children=0{text=black, draw=none}{}
+    }
+  },
+  default preamble={
+    for tree={sealing}
+  }
+}
+
+\endinput
+

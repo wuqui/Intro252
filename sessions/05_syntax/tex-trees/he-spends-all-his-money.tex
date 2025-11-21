@@ -1,0 +1,29 @@
+\documentclass{standalone}
+
+\providecommand{\currentfragment}{999}
+
+\usepackage{forest-styles}
+
+\begin{document}
+
+\begin{forest}
+  [sent
+    [cl
+      [S: NP
+        [S: NP [head: noun [He]]]
+        [V: VP [mv: fv [spends]]]
+        [Od: NP
+            [dtm: det [all]]
+            [dtm: det [his]]
+            [head: noun [money]]
+        ]
+        [A: PP
+            [prep: prep [on]]
+            [prepC: NP [head: noun [horses.]]]
+        ]
+      ]
+    ]
+  ]
+\end{forest}
+
+\end{document}

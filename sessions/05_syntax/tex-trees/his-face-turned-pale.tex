@@ -1,0 +1,28 @@
+\documentclass{standalone}
+
+\providecommand{\currentfragment}{999}
+
+\usepackage{forest-styles}
+
+\begin{document}
+
+\begin{forest}
+  [sent
+    [cl
+      [S: NP 
+        [dtm: det [His]]
+        [head: noun [face]]
+      ]
+      [V: VP [mv: fv [turned]]]
+      [Cs: AdjP [head: adj [pale]]]
+      [A: fin cl
+        [conj: conj [when]]
+        [S: NP [head: noun [he]]]
+        [V: VP [mv: fv [saw]]]
+        [Od: NP [head: noun [me]]]
+      ]
+    ]
+  ]
+\end{forest}
+
+\end{document}

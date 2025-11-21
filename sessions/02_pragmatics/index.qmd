@@ -1,5 +1,5 @@
 ---
-title: 02 — Pragmatics
+title: 2 — Pragmatics
 date: last-modified
 ---
 

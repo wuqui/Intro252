@@ -1,0 +1,32 @@
+\documentclass{standalone}
+
+\providecommand{\currentfragment}{999}
+
+\usepackage{forest-styles}
+
+\begin{document}
+
+\begin{forest}
+  [sent, visible on=1
+    [cl, visible on=2
+      [S: NP, visible on=3
+        [dtm: det, visible on=7 [The]]
+        [head: noun, visible on=8 [cats]]
+      ]
+      [V: VP, visible on=4
+        [aux: pv, visible on=9 [have]]
+        [mv: pv, visible on=10 [been]]
+      ]
+      [A: AdvP, visible on=5
+        [head: adv, visible on=11 [asleep]]
+      ]
+      [A: PP, visible on=6
+        [prep, visible on=12 [for]]
+        [prepC: NP, visible on=13 [head: noun [days.]]]
+      ]
+    ]
+  ]
+\end{forest}
+
+\end{document}
+

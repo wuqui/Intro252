@@ -1,5 +1,5 @@
 ---
-title: 04 — Phonology
+title: 4 — Phonology
 subtitle: "Introduction to linguistics — [Course Website](../../index.qmd)"
 author: Dr. Quirin Würschinger, LMU Munich
 date: 2025-11-10

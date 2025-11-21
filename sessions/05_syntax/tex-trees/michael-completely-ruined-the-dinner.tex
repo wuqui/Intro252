@@ -1,0 +1,36 @@
+\documentclass{standalone}
+
+\providecommand{\currentfragment}{999}
+
+\usepackage{forest-styles}
+
+\begin{document}
+
+\begin{forest}
+  [sent
+    [main cl
+      [S: NP [head: noun [Michael]]]
+      [A: AdvP [head: adv [completely]]]
+      [V: VP [mv: fv [ruined]]]
+      [Od: NP
+        [dtm: det [the]]
+        [head: noun [dinner]]
+      ]
+      [A: fin cl
+        [conj: conj [as]]
+        [S: NP [head: pron [he]]]
+        [V: VP [mv: fv [behaved]]]
+        [Cs: PP
+          [prep: prep [like]]
+          [prepC: NP
+            [dtm: det [a]]
+            [head: noun [fool.]]
+          ]
+        ]
+      ]
+    ]
+  ]
+\end{forest}
+
+\end{document}
+

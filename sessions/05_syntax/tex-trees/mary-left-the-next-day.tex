@@ -1,0 +1,24 @@
+\documentclass{standalone}
+
+\providecommand{\currentfragment}{999}
+
+\usepackage{forest-styles}
+
+\begin{document}
+
+\begin{forest}
+  [sent
+    [cl
+      [S: NP [head: noun [Mary]]]
+      [V: VP [mv: fv [left]]]
+      [Od: NP 
+        [dtm: det [the]]
+        [premod: adj [next]]
+        [head: noun [day]]
+      ]
+    ]
+  ]
+\end{forest}
+
+\end{document}
+

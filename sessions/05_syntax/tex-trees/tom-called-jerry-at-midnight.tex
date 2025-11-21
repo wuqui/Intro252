@@ -1,0 +1,33 @@
+\documentclass{standalone}
+
+\providecommand{\currentfragment}{999}
+
+\usepackage{forest-styles}
+
+\begin{document}
+
+\begin{forest}
+  [sent
+    [main cl 1
+      [S: NP [head: noun [Tom]]]
+      [V: VP [mv: fv [called]]]
+      [Od: NP [head: noun [Jerry]]]
+      [A: PP
+        [prep: prep [at]]
+        [prepC: NP [head: noun [midnight]]]
+      ]
+    ]
+    [conj: conj [and]]
+    [main cl 2
+      [S: NP [head: noun [Tom]]]
+      [V: VP [mv: fv [called]]]
+      [Od: NP [head: noun [Jerry]]]
+      [Co: NP
+        [dtm: det [a]]
+        [head: noun [fool]]
+      ]
+    ]
+  ]
+\end{forest}
+
+\end{document}

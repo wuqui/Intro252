@@ -1,0 +1,44 @@
+\documentclass{standalone}
+
+\providecommand{\currentfragment}{999}
+
+\usepackage{forest-styles}
+
+\begin{document}
+
+\begin{forest}
+  [sent
+    [main cl
+      [S: NP
+        [dtm: det [The]]
+        [head: noun [door]]
+        [postmod: PP
+          [prep: prep [of]]
+          [prepC: NP
+            [dtm: gen [George Lancaster's]]
+            [head: noun [house]]
+          ]
+        ]
+        [postmod: rel cl
+          [S: NP [head: pron [which]]]
+          [V: VP [mv: pv [was]]]
+          [Cs: AdjP
+            [premod: adv [half]]
+            [head: adj [buried]]
+            [postmod: PP
+              [prep: prep [in]]
+              [prepC: NP
+                [dtm: det [the]]
+                [head: noun [snow]]
+              ]
+            ]
+          ]
+        ]
+      ]
+      [V: VP [mv: fv [screeched.]]]
+    ]
+  ]
+\end{forest}
+
+\end{document}
+

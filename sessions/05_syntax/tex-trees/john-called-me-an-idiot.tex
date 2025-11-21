@@ -1,0 +1,23 @@
+\documentclass{standalone}
+
+\providecommand{\currentfragment}{999}
+
+\usepackage{forest-styles}
+
+\begin{document}
+
+\begin{forest}
+  [sent
+    [cl
+      [S: NP [head: noun [John]]]
+      [V: VP [mv: fv [called]]]
+      [Od: NP [head: noun [me]]]
+      [Co: PP 
+        [prep: prep [an]]
+        [prepC: NP [head: noun [idiot]]]
+      ]
+    ]
+  ]
+\end{forest}
+
+\end{document}

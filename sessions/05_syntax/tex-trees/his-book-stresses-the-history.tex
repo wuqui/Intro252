@@ -1,0 +1,43 @@
+\documentclass{standalone}
+
+\providecommand{\currentfragment}{999}
+
+\usepackage{forest-styles}
+
+\begin{document}
+
+\begin{forest}
+  [sent
+    [cl
+      [S: NP
+        [His] 
+        [book]
+      ]
+      [V: VP
+        [stresses]
+      ]
+      [Od: NP
+        [dtm: det [the]]
+        [head: noun [history]]
+        [postmod: PP
+          [prep: prep [of]]
+          [prepC: NP
+            [head: noun [styles]]
+            [postmod: rel cl
+              [Od: NP [head: pron [which]]]
+              [S: NP [head: pron [he]]]
+              [V: VP [describes]]
+              [A: PP
+                [prep: prep [in]]
+                [prepC: NP [head: noun [sequence.]]]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+\end{forest}
+
+\end{document}
+
