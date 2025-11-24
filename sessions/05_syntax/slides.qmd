@@ -2,10 +2,8 @@
 title: 5 & 6 — Syntax
 subtitle: "Introduction to linguistics — [Course Website](../../index.qmd) — 17 & 24 November 2025"
 author: Dr. Quirin Würschinger, LMU Munich
-date: 2025-11-17
-date-format: long
 params:
-  show_solutions: false
+  show_solutions: true
 format:
   clean-revealjs:
     excalidraw:
@@ -153,12 +151,6 @@ Indicate if the subordinate clauses in the following sentences are finite or non
 
 ::: {.content-visible when-meta="params.show_solutions"}
 ![](tex-trees/output/the-cats-asleep_13.png){height="500px"}
-:::
-
----
-
-::: {.content-visible when-meta="params.show_solutions"}
-![](att/form-and-function.png)
 :::
 
 
@@ -412,10 +404,10 @@ Give a full syntactic analysis of the following sentences.
 
 ## *His face turned pale when he saw me.*
 
-. . .
+. . . 
 
 ::: {.content-visible when-meta="params.show_solutions"}
-![](tex-trees/output/his-face-turned-pale.png)
+![](tex-trees/output/his-face-turned-pale.png){height="500px"}
 :::
 
 
