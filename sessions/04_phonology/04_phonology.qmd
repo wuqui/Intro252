@@ -3,25 +3,25 @@ title: 4 — Phonology
 subtitle: "Introduction to linguistics — [Course Website](../../index.qmd)"
 author: Dr. Quirin Würschinger, LMU Munich
 date: 2025-11-10
-date-format: long
-params:
-  show_solutions: true
-format:
-  clean-revealjs:
-    excalidraw:
-      button: false
-      shortcut: "`"
-      theme: light
-    css: ../../custom.css
-filters:
-  - auto-dark
-slide-level: 2
 metadata:
   linkprefix: ../../
-revealjs-plugins:
-  - pointer
-  - excalidraw
+filters:
+  - ../../filters/strip-revealjs-html.lua
+format:
+  html:
+    output-file: index.html
+  clean-revealjs:
+    output-file: slides.html
+    css:
+      - ../../slides.css
+format-links: false
+params:
+  show_solutions: true
 ---
+
+::: {.content-hidden when-format="revealjs"}
+[Open slides version](slides.html){.btn .btn-primary}
+:::
 
 # Outline and recap
 

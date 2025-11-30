@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "index.qmd"
+    - "!**/quizzes/**/*.md"
 
 website:
   title: "Intro252"
@@ -9,25 +13,43 @@ website:
       - text: Sessions
         menu:
           - text: 01 — Introduction
-            href: sessions/01_intro/index.qmd
+            href: sessions/01_intro/01_intro.qmd
           - text: 02 – Pragmatics
-            href: sessions/02_pragmatics/index.qmd
+            href: sessions/02_pragmatics/02_pragmatics.qmd
           - text: 03 – Phonetics
-            href: sessions/03_phonetics/index.qmd
+            href: sessions/03_phonetics/03_phonetics.qmd
           - text: 04 – Phonology
-            href: sessions/04_phonology/index.qmd
-          - text: 05 — Syntax I
-            href: sessions/05_syntax/index.qmd
-          - text: 06 — Syntax II
-            href: sessions/05_syntax/index.qmd
+            href: sessions/04_phonology/04_phonology.qmd
+          - text: 05 — Syntax
+            href: sessions/05_syntax/05_syntax.qmd
+          - text: 07 — Morphology and word-formation
+            href: sessions/07_morphology/07_morphology.qmd
 
 format:
   html:
     theme: cosmo
     toc: true
-    css: custom.css
+    css: document.css
+    fig-cap-location: top
+    fig-align: center
+  clean-revealjs:
+    slide-level: 2
+    css:
+      - slides.css
+    fig-cap-location: top
+    fig-align: center
+    excalidraw:
+      button: false
+      shortcut: "`"
+      theme: "light"
+
 filters:
   - auto-dark
+  - filters/strip-revealjs-html.lua
+
+revealjs-plugins:
+  - pointer
+  - excalidraw
 
 bibliography: references.bib
 

@@ -1,0 +1,51 @@
+\documentclass{standalone}
+
+\providecommand{\currentfragment}{999}
+
+\usepackage{forest-styles}
+
+\begin{document}
+
+\begin{forest}
+  [sent
+    [main cl 1
+      [S: NP
+        [dtm: det [The]]
+        [premod: adj [lucky]]
+        [head: noun [boys]]
+      ]
+      [V: VP
+        [aux: pv [have]]
+        [mv: fv [found]]
+      ]
+      [Od: NP
+        [dtm: det [a]]
+        [head: noun [paperback]]
+      ]
+      [A: AdvP
+        [prep: prep [in]]
+        [prepC: NP
+          [dtm: det [the]]
+          [head: noun [park]]
+        ]
+      ]
+    ]
+    [conj: conj [and]]
+    [main cl 2
+      [S: NP
+        [head: pron [they]]
+      ]
+      [V: VP
+        [mv: fv [opened]]
+      ]
+      [Od: NP
+        [head: pron [it]]
+      ]
+      [A: AdvP
+        [head: adv [carefully.]]
+      ]
+    ]
+  ]
+\end{forest}
+
+\end{document}

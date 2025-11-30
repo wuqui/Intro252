@@ -3,25 +3,25 @@ title: 1 — Introduction
 subtitle: "Introduction to linguistics — [Course Website](../../index.qmd)"
 author: Dr. Quirin Würschinger, LMU Munich
 date: 2025-10-20
-date-format: long
-params:
-  show_solutions: true
-format:
-  clean-revealjs:
-    excalidraw:
-      button: false
-      shortcut: "`"
-      theme: light
-    css: ../../custom.css
-filters:
-  - auto-dark
-slide-level: 2
 metadata:
   linkprefix: ../../
-revealjs-plugins:
-  - pointer
-  - excalidraw
+filters:
+  - ../../filters/strip-revealjs-html.lua
+format:
+  html:
+    output-file: index.html
+  clean-revealjs:
+    output-file: slides.html
+    css:
+      - ../../slides.css
+format-links: false
+params:
+  show_solutions: true
 ---
+
+::: {.content-hidden when-format="revealjs"}
+[Open slides version](slides.html){.btn .btn-primary}
+:::
 
 # Outline
 
@@ -95,7 +95,6 @@ Any open issues?
 :::::
 
 
-
 ## Schedule {.small}
 
 {{< include ../../_includes/_schedule.qmd >}}
@@ -133,6 +132,9 @@ All available as ebooks at the university library (<https://www.ub.uni-muenchen.
 ::::: {.notes}
 - 10:25–10:31
 :::::
+
+
+# Linguistic fundamentals
 
 ## Language as a tool for communication
 
@@ -509,7 +511,7 @@ Analysis
 
 ___
 
-![](img/disclaimers-tree.png)
+![](img/disclaimers.excalidraw.svg)
 
 ::::: {.notes}
 - 11:12–11:14
@@ -531,17 +533,17 @@ What's the problem with the following sentence?
 
 *The old man the boat.*
 
-___
+---
 
 **The sentence is ungrammatical:**
 
-![](img/old-man-wrong.png)
+![](img/the-old-man-the-boat-ungram.excalidraw.svg)
 
-___
+---
 
 **The sentence is grammatical:**
 
-![](img/old-man-right.png)
+![](img/the-old-man-the-boat-gram.excalidraw.svg)
 
 :::: {.notes}
 - 11:18–11:22

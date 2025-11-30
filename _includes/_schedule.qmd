@@ -1,13 +1,13 @@
 |    | Date    | Topic | Preparatory reading |
 |---:|--------:|-------|---------------------|
-|  1 | 20 Oct. | [Organisation & introduction]({{< meta linkprefix >}}sessions/01_intro/index.qmd){target="_top"} | @Herbst2010English: ch. 2 |
-|  2 | 27 Oct. | [Pragmatics]({{< meta linkprefix >}}sessions/02_pragmatics/index.qmd) | @Kortmann2020Essentials: ch. 7 |
-|  3 |  3 Nov. | [Phonetics]({{< meta linkprefix >}}sessions/03_phonetics/index.qmd) | @Kortmann2020Essentials: ch. 2.1 |
-|  4 | 10 Nov. | [Phonology]({{< meta linkprefix >}}sessions/04_phonology/index.qmd) | @Kortmann2020Essentials: ch. 2.2 |
-|  5 | 17 Nov. | [Syntax I]({{< meta linkprefix >}}sessions/05_syntax/index.qmd){target="_top"} | @Herbst2010English: ch. 11.1–11.2 |
-|  6 | 24 Nov. | [Syntax II]({{< meta linkprefix >}}sessions/05_syntax/index.qmd){target="_top"} | @Herbst2010English: ch. 11.3–11.4 |
-|  7 |  1 Dec. | Morphology and word-formation I | @Herbst2010English: ch. 8; @Kortmann2020Essentials: ch. 4.1 |
-|  8 |  8 Dec. | Morphology and word-formation II | @Herbst2010English: ch. 9.1–9.3 |
+|  1 | 20 Oct. | [Organisation & introduction]({{< meta linkprefix >}}sessions/01_intro/01_intro.qmd){target="_top"} | @Herbst2010English: ch. 2 |
+|  2 | 27 Oct. | [Pragmatics]({{< meta linkprefix >}}sessions/02_pragmatics/02_pragmatics.qmd) | @Kortmann2020Essentials: ch. 7 |
+|  3 |  3 Nov. | [Phonetics]({{< meta linkprefix >}}sessions/03_phonetics/03_phonetics.qmd) | @Kortmann2020Essentials: ch. 2.1 |
+|  4 | 10 Nov. | [Phonology]({{< meta linkprefix >}}sessions/04_phonology/04_phonology.qmd) | @Kortmann2020Essentials: ch. 2.2 |
+|  5 | 17 Nov. | [Syntax I]({{< meta linkprefix >}}sessions/05_syntax/05_syntax.qmd){target="_top"} | @Herbst2010English: ch. 11.1–11.2 |
+|  6 | 24 Nov. | [Syntax II]({{< meta linkprefix >}}sessions/05_syntax/05_syntax.qmd){target="_top"} | @Herbst2010English: ch. 11.3–11.4 |
+|  7 |  1 Dec. | [Morphology and word-formation I]({{< meta linkprefix >}}sessions/07_morphology/07_morphology.qmd){target="_top"} | @Herbst2010English: ch. 8; @Kortmann2020Essentials: ch. 4.1 |
+|  8 |  8 Dec. | [Morphology and word-formation II]({{< meta linkprefix >}}sessions/07_morphology/07_morphology.qmd){target="_top"} | @Herbst2010English: ch. 9.1–9.3 |
 |  9 | 15 Dec. | Semantics and lexicology I | @Mair2022Introduction: ch. 6.1–6.3; @Kortmann2020Essentials: ch. 6.3.2 |
 | 10 | 22 Dec. | Revision | — |
 | 11 | 12 Jan. | Semantics and lexicology II | @Kortmann2020Essentials: ch. 7 |
