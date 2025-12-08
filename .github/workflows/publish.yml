@@ -1,19 +1,30 @@
-name: Publish Quarto Site
+name: Quarto Publish
 
 on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Checkout Repository
+      - name: Check out repository
         uses: actions/checkout@v4
-      - name: Setup Quarto
+        with:
+          fetch-depth: 0
+      - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-      - name: Render Quarto Project
+      - name: Render Quarto project
         run: quarto render
-
+      - name: Strip speaker notes from published slides
+        run: |
+          # Strip speaker notes from all RevealJS slides
+          find _site -name "slides.html" -type f -exec sed -i '/<aside class="notes">/,/<\/aside>/d' {} +
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
