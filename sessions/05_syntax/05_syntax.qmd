@@ -8,9 +8,9 @@ filters:
   - ../../filters/strip-revealjs-html.lua
 format:
   html:
-    output-file: index.html
+    output-file: "website.html"
   clean-revealjs:
-    output-file: slides.html
+    output-file: "slides.html"
     css:
       - ../../slides.css
 format-links: false

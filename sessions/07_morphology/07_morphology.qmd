@@ -4,21 +4,20 @@ subtitle: "Introduction to linguistics — [Course Website](../../index.qmd) —
 author: Dr. Quirin Würschinger, LMU Munich
 metadata:
   linkprefix: ../../
-filters:
-  - ../../filters/strip-revealjs-html.lua
-  - ../../filters/solution-blocks.lua
 format:
   html:
-    output-file: index_sol.html
+    output-file: "website.html"
   clean-revealjs:
-    output-file: slides_sol.html
+    output-file: "slides.html"
     css:
       - ../../slides.css
 format-links: false
+params:
+  show_solutions: true
 ---
 
 ::: {.content-hidden when-format="revealjs"}
-[Open slides](slides_sol.html){.btn .btn-primary}
+[Open slides](slides.html){.btn .btn-primary}
 :::
 
 

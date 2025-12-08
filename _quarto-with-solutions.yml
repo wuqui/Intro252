@@ -1,8 +1,0 @@
-params:
-  show_solutions: true
-
-format:
-  html:
-    output-file: "index_sol.html"
-  clean-revealjs:
-    output-file: "slides_sol.html"

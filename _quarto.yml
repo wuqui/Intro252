@@ -12,19 +12,18 @@ website:
     left:
       - text: Sessions
         menu:
-        # After teaching, change the session's output-file in its YAML to index_sol.html
         - text: 01 — Introduction
-          href: sessions/01_intro/01_intro.qmd
+          href: sessions/01_intro/website.html
         - text: 02 – Pragmatics
-          href: sessions/02_pragmatics/02_pragmatics.qmd
+          href: sessions/02_pragmatics/website.html
         - text: 03 – Phonetics
-          href: sessions/03_phonetics/03_phonetics.qmd
+          href: sessions/03_phonetics/website.html
         - text: 04 – Phonology
-          href: sessions/04_phonology/04_phonology.qmd
+          href: sessions/04_phonology/website.html
         - text: 05 — Syntax
-          href: sessions/05_syntax/05_syntax.qmd
+          href: sessions/05_syntax/website.html
         - text: 07 — Morphology and word-formation
-          href: sessions/07_morphology/07_morphology.qmd
+          href: sessions/07_morphology/website.html
 
 format:
   html:
@@ -33,7 +32,6 @@ format:
     css: document.css
     fig-cap-location: top
     fig-align: center
-    output-file: "index.html"
   clean-revealjs:
     slide-level: 2
     css:
@@ -44,7 +42,6 @@ format:
       button: false
       shortcut: "`"
       theme: "light"
-    output-file: "slides.html"
 
 filters:
   - auto-dark
@@ -62,4 +59,4 @@ metadata:
   linkprefix: ""
 
 params:
-  show_solutions: false
+  show_solutions: true
