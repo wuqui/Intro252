@@ -47,7 +47,7 @@
 
 - ✅ A phonologically conditioned allomorph
 - ❌ A lexically conditioned allomorph
-- ❌ A grammatically conditioned allomorph
+- ❌ A grammatically conditioned allophone
 - ❌ An irregular allomorph
 
 **Explanation**: The allomorph /ɪz/ appears after sibilant sounds (/s/, /z/, /ʃ/, /ʒ/, /tʃ/, /dʒ/) due to phonological rules. This is phonologically conditioned allomorphy.

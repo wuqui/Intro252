@@ -172,7 +172,7 @@ Identify the elements of clause structure in the following sentences.
 
 1. *The driver^S:NP^ gave^V:VP^ them^Oi:NP^ a free ride^Od:NP^.*
 2. *They^S:NP^ have been reading^V:VP^ for a while^A:AdvP^.*
-3. *I^S:NP^ might be^V:VP^ here^A:AdvP^ again^A:AdvP^ next month^A:AdvP^.*
+3. *I^S:NP^ might be^V:VP^ here^A:AdvP^ again^A:AdvP^ next month^A:NP^.*
 4. *Kevin^S:NP^ is^V:VP^ very afraid of dogs^Cs:AdjP^.*
 5. *Some people^S:NP^ consider^V:VP^ them^Oi:NP^ the best band on earth^Od:NP^.*
 6. *Honestly^A:Adv^, I^S:NP^ did see^V:VP^ him^Od:NP^ briefly^A:Adv^ in the park^A:AdvP^ yesterday^A:AdvP^ when he was feeding the ducks^A:cl_sub_fin^.*

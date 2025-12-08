@@ -22,7 +22,6 @@ params:
 [Open slides version](slides.html){.btn .btn-primary}
 :::
 
-
 # Morphology
 
 ## Morphology and word-formation
@@ -102,6 +101,8 @@ Divide the words below into their component morphemes and classify them.
 ::: {.content-visible when-meta="params.show_solutions"}
 ---
 
+#### Solution
+
 1. {sign}~lx.fr~ {post}~lx.fr~
 2. {cat}~lx.bd~ {plural}~gr.bd~
 3. {they}~gr.fr~
@@ -167,20 +168,20 @@ Determine the base, root, and stem of the word *formalities*.
 
 ### Complementary distribution
 
-![@Kortmann2020Essentials: 55](att/complementary-distribution.png)
+![@Kortmann2020Essentials: 55](att/complementary-distribution.png){width=600}
 
 
 ---
 
 ### Plural allomorphs
 
-![@Herbst2010English: 85](att/plural-allomorphs.png)
+![@Herbst2010English: 85](att/plural-allomorphs.png){width=600}
 
 ---
 
 ### Past tense allomorphs
 
-![@Herbst2010English: 90](att/past-allomorphs.png)
+![@Herbst2010English: 90](att/past-allomorphs.png){width=600}
 
 ---
 
@@ -209,7 +210,7 @@ Determine the base, root, and stem of the word *formalities*.
 
 #### Examples
 
-![@Kortmann2020Essentials: 59](att/allomorphy-examples.png)
+![@Kortmann2020Essentials: 59](att/allomorphy-examples.png){width=600}
 
 **(6)**: Consonant change of the final sound of the base due to **coarticulation**.\
 **(7)**: Vowel changes of the base due to **stress shift** triggered by derivation.
@@ -263,7 +264,7 @@ In which way do the plural forms of the following nouns differ?
 
 ## Morphemic word-formation
 
-![](att/morphemic-word-formation.png)
+![](att/morphemic-wf-overview.excalidraw.svg)
 
 
 ## Derivation
@@ -278,37 +279,77 @@ In which way do the plural forms of the following nouns differ?
 
 ### Prefixation
 
-![](att/prefixation.png)
+
+::: {.columns}
+:::: {.column width="50%"}
+![](att/unhappy.excalidraw.svg)
+::::
+:::: {.column width="50%"}
+- **formal structure**
+  - prefix: {A}~lx.bd~
+  - base: {B}~lx.fr~
+- **function**
+  - modification of meaning
+  - usually word-class preserving (exceptions: *asleep*, *enlarge*)
+::::
+:::
 
 ---
 
 #### Morphemes
 
-![](att/prefixation-morphemes.png)
+![](att/prefixation-morphemes.png){width=600}
 
 ---
 
 ### Suffixation
 
-![](att/suffixation.png)
+::: {.columns}
+:::: {.column width="50%"}
+![](att/happiness.excalidraw.svg){width=100%}
+::::
+:::: {.column width="50%"}
+- **formal structure**
+  - base: {A}~lx.fr~
+  - suffix: {B}~lx.bf~
+- **function**
+  - (abstract) modification in meaning (e.g. concept type)
+  - often word-class changing (exceptions: *greenish*, *kingdom*)
+::::
+:::
 
 ----
 
 #### Examples
 
-![@Kortmann2020Essentials: 61](att/suffixation-examples.png)
+![@Kortmann2020Essentials: 61](att/suffixation-examples.png){width=600}
 
 ---
 
 ## Compounding
 
-![](att/compounding.png){height="500px"}
+::: {.columns}
+:::: {.column width="50%"}
+![](att/washing-machine.excalidraw.svg){width=100%}
+::::
+:::: {.column width="50%" .small}
+**Endocentric compounds**
+
+- **semantic structure**: ‘a certain type of machine: for washing’
+- **head**: *machine*
+  - determines word class: *machine*^n^ > *washing machine*^n^
+  - stem for inflectional suffixes: *washing machines*, not *\*washings machine*
+- **modifier**: *washing*
+  - qualifies head semantically
+  - often carries primary stress
+::::
+:::
 
 ---
 
 ### Examples
 
-![@Kortmann2020Essentials: 64](att/compound-examples.png)
+![@Kortmann2020Essentials: 64](att/compound-examples.png){width=600}
 
 ---
 
@@ -338,7 +379,7 @@ In which way do the plural forms of the following nouns differ?
 
 Use the following terms to describe the meaning relationship between the component parts of the compounds below: 
 
-endocentric — exocentric — appositional — copulative compound
+> endocentric — exocentric — appositional — copulative compound
 
 1. *greenhouse*
 2. *knee-deep* 
@@ -347,6 +388,8 @@ endocentric — exocentric — appositional — copulative compound
 
 ::: {.content-visible when-meta="params.show_solutions"}
 ---
+
+#### Solution
 
 1. *greenhouse*: endocentric
 2. *knee-deep*: endocentric
@@ -359,17 +402,22 @@ endocentric — exocentric — appositional — copulative compound
 
 ### Overview
 
-![](att/non-morphemic-wf.png)
+![](att/non-morphemic-wf-overview.excalidraw.svg){width=100%}
 
 ---
 
-![](att/non-morphemic-wf-tbl.png)
+::: {.small}
+| Process | Features | Examples |
+|:---|:---------|:---|
+| **Clipping** | parts of words are deleted without a change in meaning | *bike*, *exam*, *fridge* |
+| **Blend** | forms and meanings of words are merged | *smog*, *brunch* |
+| **Acronym** | shortened form retaining the initial letters of compounds or other fixed sequences of words; pronounced as words | *NATO, laser, AIDS* |
+| **Alphabetism** | shortened form retaining the initial letters of compounds or other fixed sequences of words; pronounced as sequences of letters | *CNN*, *OED*, *USA* |
+| **Back-formation** | word-class-changing word-formation process which deletes a morpheme or morpheme-like element; longer form pre-existing | *babysitter*^n^ > *babysit*^v^ |
+| **Reduplication** | rare word-formation process repeating a word or word-like element either identically or in a slightly varied form | *walkie-talkie*, *hip-hop* |
 
----
-
-### Zero-derivation / conversion
-
-![](att/zero-derivation.png)
+: {tbl-colwidths="[15, 65, 20]"}
+:::
 
 ---
 
@@ -380,17 +428,62 @@ endocentric — exocentric — appositional — copulative compound
 
 ## Differences between morphemic and non-morphemic word-formation
 
-![](att/morphemic-vs-non-morphemic-wf.png)
+| Feature | Morphemic WF | Non-morphemic WF | Examples |
+|:--------|:----------|:--------------|:---------|
+| **Building blocks** | morphemes | parts of words | *br*-*unch* |
+| **Combination** | adding morphemes | removing parts | in-*flu*-*enza* |
+| **Serialization** | concatenative | interspersed | *CHuckLE x snORT* |
+| **Regularity** | clear rules, predictable patterns | heterogeneous, high variability | *Br-angelina* |
+| **Cognitive processing** | largely unconscious | conscious coining | *BBC* |
 
 
 ## Productivity
 
-![](att/productivity.png)
+The degree to which a certain word-formation process is being employed to form new words.
+
+### Examples
+
+::: {.columns}
+:::: {.column width="50%"}
+**Still productive**: suffixation with **{ness}**: 
+
+- {kind}{ness}
+- {happy}{ness}
+- {brave}{ness}
+- …
+::::
+:::: {.column width="50%"}
+**No longer productive**: suffixation with **{th}**: 
+
+- {strong}{th} > strength
+- {long}{th} > length
+- {wide}{th} > width
+- …
+::::
+:::
 
 
 ## Transparency
 
-![](att/transparency.png)
+The degree to which there is a clear (transparent) mapping between the form and function/meaning of linguistic units.
+
+### Examples
+
+::: {.columns}
+:::: {.column width="50%"}
+**transparent**: 
+
+- *player*: ‘somebody who plays’
+- *wine bottle*: ‘a bottle of wine’
+::::
+:::: {.column width="50%"}
+**intransparent/opaque**: 
+
+- *caretaker*: *‘somebody who takes care’
+- *undertaker*: *\‘somebody who undertakes sth.’
+- *to kick the bucket*: *\‘to strike a bucket with your foot’
+::::
+:::
 
 
 # Morphological analysis
@@ -398,8 +491,6 @@ endocentric — exocentric — appositional — copulative compound
 ## *singer-songwriter*
 
 ::: {.content-visible when-meta="params.show_solutions"}
-. . .
-
 :::: {.r-stack}
 ![](att/singer-songwriter_1.excalidraw.svg){.fragment}
 
@@ -419,8 +510,6 @@ endocentric — exocentric — appositional — copulative compound
 ## *misinterpretations*
 
 ::: {.content-visible when-meta="params.show_solutions"}
-. . .
-
 :::: {.r-stack}
 ![](att/misinterpretations_1.excalidraw.svg){.fragment}
 
@@ -436,8 +525,6 @@ endocentric — exocentric — appositional — copulative compound
 ## *friendships*
 
 ::: {.content-visible when-meta="params.show_solutions"}
-. . .
-
 :::: {.r-stack}
 ![](att/friendships_1.excalidraw.svg){.fragment}
 
@@ -451,8 +538,6 @@ endocentric — exocentric — appositional — copulative compound
 ## *campaigner*
 
 ::: {.content-visible when-meta="params.show_solutions"}
-. . .
-
 :::: {.r-stack}
 ![](att/campaigner_1.excalidraw.svg){.fragment}
 
@@ -478,6 +563,8 @@ Analyze the word-formation processes involved in the following complex words.
 
 ::: {.content-visible when-meta="params.show_solutions"}
 ---
+
+### Solution
 
 |   | Lexeme          | Process                        |
 |---|:----------------|:-------------------------------|
@@ -508,6 +595,8 @@ By means of which **word-formation process** do we arrive at the following lexem
 
 ::: {.content-visible when-meta="params.show_solutions"}
 ---
+
+### Solution
 
 1. *to enthuse*: **back-formation** from *enthusiasm*: N>V  
 2. *laser*: **acronymisation** from *Light Amplification by Stimulated Emission of Radiation*  
