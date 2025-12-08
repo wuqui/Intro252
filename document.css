@@ -23,3 +23,20 @@ figure > p,
   display: none;
 }
 
+/* Solution box styling for HTML output (divs only) */
+div.sol {
+  border-left: 4px solid #4A90E2;
+  background-color: #E8F4F8;
+  padding: 1em 1.2em;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+
+/* Inline solution styling */
+span.sol {
+  background-color: #E8F4F8;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  border-bottom: 2px solid #4A90E2;
+}
+

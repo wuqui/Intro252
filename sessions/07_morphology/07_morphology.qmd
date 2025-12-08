@@ -6,21 +6,21 @@ metadata:
   linkprefix: ../../
 filters:
   - ../../filters/strip-revealjs-html.lua
+  - ../../filters/solution-blocks.lua
 format:
   html:
-    output-file: index.html
+    output-file: index_sol.html
   clean-revealjs:
-    output-file: slides.html
+    output-file: slides_sol.html
     css:
       - ../../slides.css
 format-links: false
-params:
-  show_solutions: true
 ---
 
 ::: {.content-hidden when-format="revealjs"}
-[Open slides version](slides.html){.btn .btn-primary}
+[Open slides](slides_sol.html){.btn .btn-primary}
 :::
+
 
 # Morphology
 
@@ -90,27 +90,13 @@ Thus, the word *singers* contains three morphemes: {sing}, {-er}, and {-s}. Each
 
 Divide the words below into their component morphemes and classify them.
 
-1. *signpost* 
-2. *cats* 
-3. *they* 
-4. *singer* 
-5. *finger*
-6. *funnier* 
-7. *undeniable* 
-
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-#### Solution
-
-1. {sign}~lx.fr~ {post}~lx.fr~
-2. {cat}~lx.bd~ {plural}~gr.bd~
-3. {they}~gr.fr~
-4. {sing}~lx.fr~ {er}~lx.bd~
-5. {finger}~lx.fr~
-6. {funny}~lx.fr~ {er}~gr.bd~
-7. {un}~lx.bd~ {deny}~lx.fr~ {able}~lx.bd~
-:::
+1. *signpost*: [{sign}~lx.fr~ {post}~lx.fr~]{.sol .fragment}
+2. *cats*: [{cat}~lx.bd~ {plural}~gr.bd~]{.sol .fragment}
+3. *they*: [{they}~gr.fr~]{.sol .fragment}
+4. *singer*: [{sing}~lx.fr~ {er}~lx.bd~]{.sol .fragment}
+5. *finger*: [{finger}~lx.fr~]{.sol .fragment}
+6. *funnier*: [{funny}~lx.fr~ {er}~gr.bd~]{.sol .fragment}
+7. *undeniable*: [{un}~lx.bd~ {deny}~lx.fr~ {able}~lx.bd~]{.sol .fragment}
 
 
 ## Special types of morphemes
@@ -155,11 +141,9 @@ Example: *removals*
 
 Determine the base, root, and stem of the word *formalities*.
 
-:::: {.fragment}
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol .fragment}
 ![](att/formalities.excalidraw.svg)
 :::
-::::
 
 
 ## Allomorphs
@@ -230,11 +214,7 @@ In which way do the plural forms of the following nouns differ?
 3. `/ɪz/`
 4. irregular
 
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-#### Solution
-
+::: {.sol .slide}
 | 1. /s/    | 2. /z/   | 3. /ɪz/   | 4. irregular |
 |:---------:|:--------:|:---------:|:------------:|
 | *cats*    | *dogs*   | *horses*  | *women*      |
@@ -244,7 +224,6 @@ In which way do the plural forms of the following nouns differ?
 |           |          |           | *deer*       |
 |           |          |           | *mice*       |
 :::
-
 
 
 ## Morphological language types
@@ -381,21 +360,10 @@ Use the following terms to describe the meaning relationship between the compone
 
 > endocentric — exocentric — appositional — copulative compound
 
-1. *greenhouse*
-2. *knee-deep* 
-3. *pot head* 
-4. *Alsace-Lorraine*
-
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-#### Solution
-
-1. *greenhouse*: endocentric
-2. *knee-deep*: endocentric
-3. *pot head*: exocentric
-4. *Alsace-Lorraine*: copulative
-:::
+1. *greenhouse*: [endocentric]{.sol .fragment}
+2. *knee-deep*: [endocentric]{.sol .fragment}
+3. *pot head*: [exocentric]{.sol .fragment}
+4. *Alsace-Lorraine*: [copulative]{.sol .fragment}
 
 
 ## Non-morphemic word-formation
@@ -490,7 +458,7 @@ The degree to which there is a clear (transparent) mapping between the form and 
 
 ## *singer-songwriter*
 
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol}
 :::: {.r-stack}
 ![](att/singer-songwriter_1.excalidraw.svg){.fragment}
 
@@ -509,7 +477,7 @@ The degree to which there is a clear (transparent) mapping between the form and 
 
 ## *misinterpretations*
 
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol}
 :::: {.r-stack}
 ![](att/misinterpretations_1.excalidraw.svg){.fragment}
 
@@ -524,7 +492,7 @@ The degree to which there is a clear (transparent) mapping between the form and 
 
 ## *friendships*
 
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol}
 :::: {.r-stack}
 ![](att/friendships_1.excalidraw.svg){.fragment}
 
@@ -537,7 +505,7 @@ The degree to which there is a clear (transparent) mapping between the form and 
 
 ## *campaigner*
 
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol}
 :::: {.r-stack}
 ![](att/campaigner_1.excalidraw.svg){.fragment}
 
@@ -552,60 +520,28 @@ The degree to which there is a clear (transparent) mapping between the form and 
 
 Analyze the word-formation processes involved in the following complex words.
 
-1. *childhood*     
-2. *paperback*     
-3. *study-bedroom* 
-4. *foreigner*     
-5. *paleface*      
-6. *Oxbridge*      
-7. *CGEL*          
-
-
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-### Solution
-
-|   | Lexeme          | Process                        |
-|---|:----------------|:-------------------------------|
-| 1 | *childhood*     | derivation / suffixation       |
-| 2 | *paperback*     | compounding / exocentric       |
-| 3 | *study-bedroom* | compounding / copulative       |
-| 4 | *foreigner*     | derivation / suffixation       |
-| 5 | *paleface*      | compounding / exocentric       |
-| 6 | *Oxbridge*      | blending                       |
-| 7 | *CGEL*          | initialism                     |
-:::
+1. *childhood*: [derivation / suffixation]{.sol .fragment}
+2. *paperback*: [compounding / exocentric]{.sol .fragment}
+3. *study-bedroom*: [compounding / copulative]{.sol .fragment}
+4. *foreigner*: [derivation / suffixation]{.sol .fragment}
+5. *paleface*: [compounding / exocentric]{.sol .fragment}
+6. *Oxbridge*: [blending]{.sol .fragment}
+7. *CGEL*: [initialism]{.sol .fragment}
 
 
 ## Exercise: determine the word-formation process II
 
 By means of which **word-formation process** do we arrive at the following lexemes?[^1]
 
-1. *to enthuse*  
-2. *laser*  
-3. *lab*  
-4. *Hinglish*  
-5. *BBC*  
-6. *sext*  
-7. *to hoover*
-
+1. *to enthuse*: [**back-formation** from *enthusiasm*: N>V]{.sol .fragment}  
+2. *laser*: [**acronymisation** from *Light Amplification by Stimulated Emission of Radiation*]{.sol .fragment}  
+3. *lab*: [**clipping** from *laboratory* N>N]{.sol .fragment}  
+4. *Hinglish*: [**blending** of *Hindi*^n^ and *English*^n^]{.sol .fragment}  
+5. *BBC*: [**alphabetism** of *British Broadcasting Corporation*]{.sol .fragment}  
+6. *sext*: [**blending** of *sex*^n^ and *text*^n^]{.sol .fragment}  
+7. *to hoover*: [**(N) coinage** after American industrialist H. W. Hoover (1849–1932), then **conversion** N>V]{.sol .fragment}
 
 [^1]: When two or more processes are involved specify their order.
-
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-### Solution
-
-1. *to enthuse*: **back-formation** from *enthusiasm*: N>V  
-2. *laser*: **acronymisation** from *Light Amplification by Stimulated Emission of Radiation*  
-3. *lab*: **clipping** from *laboratory* N>N  
-4. *Hinglish*: **blending** of *Hindi*^n^ and *English*^n^  
-5. *BBC*: **alphabetism** of *British Broadcasting Corporation*  
-6. *sext*: **blending** of *sex*^n^ and *text*^n^  
-7. *to hoover*: **(N) coinage** after American industrialist H. W. Hoover (1849–1932), then **conversion** N>V
-:::
 
 
 # References
