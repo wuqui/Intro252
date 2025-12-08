@@ -212,31 +212,19 @@ ___
 
 Classify each sign and state the underlying relationship (arbitrariness, similarity, contiguity).
 
-1. traffic light colours
-2. portrait photo
-3. tree rings for a tree's age
-4. onomatopoeia of the word *click*
-5. national flag of Japan for the country
-6. wet footprints on the floor
+| Item                                      | Sign                     | Relationship                                           |
+|-------------------------------------------|--------------------------|--------------------------------------------------------|
+| 1. traffic light colours                  | [symbol]{.sol .fragment} | [arbitrariness (convention)]{.sol .fragment}           |
+| 2. portrait photo                         | [icon]{.sol .fragment}   | [similarity (visual)]{.sol .fragment}                  |
+| 3. tree rings for a tree's age            | [index]{.sol .fragment}  | [contiguity (systematic correlation)]{.sol .fragment}  |
+| 4. onomatopoeia of the word *click*       | [icon]{.sol .fragment}   | [similarity (acoustic)]{.sol .fragment}                |
+| 5. national flag of Japan for the country | [symbol]{.sol .fragment} | [arbitrariness (convention)]{.sol .fragment}           |
+| 6. wet footprints on the floor            | [index]{.sol .fragment}  | [contiguity (proximity in space/time)]{.sol .fragment} |
 
 :::: {.notes}
 - 10:43–10:45
 ::::
 
-:::: {.content-visible when-meta="params.show_solutions"}
-___
-
-#### Solution
-
-| Item                                      | Sign       | Relationship                         |
-|-------------------------------------------|------------|--------------------------------------|
-| 1. traffic light colours                  | symbol     | arbitrariness (convention)           |
-| 2. portrait photo                         | icon       | similarity (visual)                  |
-| 3. tree rings for a tree's age            | index      | contiguity (systematic correlation)  |
-| 4. onomatopoeia of the word *click*       | icon       | similarity (acoustic)                |
-| 5. national flag of Japan for the country | symbol     | arbitrariness (convention)           |
-| 6. wet footprints on the floor            | index      | contiguity (proximity in space/time) |
-::::
 
 ## Paradigmatic vs syntagmatic relations
 
@@ -371,16 +359,13 @@ Since the 1960s …
 - 10:58–11:00
 ::::
 
----
-
-:::: {.content-visible when-meta="params.show_solutions"}
-#### Solution
-
+:::: {.sol .slide}
 1. The meaning of *bank* is ambiguous.
 2. Noun phrases often start with the words *the* or *a*.
 3. Morphology is the field of language which studies the formation of new words.
 4. The past tense of verbs is formed by adding the suffix *-ed*.
 ::::
+
 
 ## Recap — Fundamentals
 

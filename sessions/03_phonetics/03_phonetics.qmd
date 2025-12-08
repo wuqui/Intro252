@@ -65,11 +65,7 @@ Assign the following items to the correct linguistic concepts:
 :::
 
 
----
-
-::: {.content-visible when-meta="params.show_solutions"}
-### Solution
-
+::: {.sol .slide}
 :::: {.columns}
 ::::: {.column width="50%"}
 **Phoneme:**
@@ -110,11 +106,7 @@ Assign the following items to the correct linguistic concepts:
 ![](att/speech-organs-exercise.png)
 :::
 
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-### Solution
-
+::: {.sol .slide}
 | No. | Organ                         | Adjective         |
 |:---:|-------------------------------|-------------------|
 | 1   | lips                          | labial            |
@@ -170,11 +162,7 @@ c. voiced consonants.
 12.\ [d]\
 :::
 
----
-
-::: {.content-visible when-meta="params.show_solutions"}
-### Solution
-
+::: {.sol .slide}
 :::: {.columns}
 :::: {.column width="25%"}
 **a. Plosives**
@@ -236,12 +224,7 @@ Which of these …
 10. starts with a velar consonant: *lot* or *cot*?
 11. starts with a labiodental consonant: *mat* or *vat*?
 
-
-:::: {.content-visible when-meta="params.show_solutions"}
----
-
-### Solution
-
+:::: {.sol .slide}
 |  Word     |   IPA   |    Type      |
 |:----------|:--------|:-------------|
 | *you*     |  /j/    | approximant  |
@@ -280,23 +263,18 @@ c. voicing
 9.\ *singer*\
 :::
 
-
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-### Solution
-
-| Word     | Symbol(s) | Place            | Manner     | Voicing   |
-|----------|-----------|------------------|------------|-----------|
-| etching  | tʃ        | palato-alveolar  | affricate  | voiceless |
-| father   | ð         | dental           | fricative  | voiced    |
-| dagger   | g         | velar            | plosive    | voiced    |
-| lodger   | dʒ        | palato-alveolar  | affricate  | voiced    |
-| sunny    | n         | alveolar         | nasal      | voiced    |
-| hopper   | p         | bilabial         | plosive    | voiceless |
-| pleasure | ʒ         | palato-alveolar  | fricative  | voiced    |
-| selling  | l         | alveolar         | lateral    | voiced    |
-| singer   | ŋ         | velar            | nasal      | voiced    |
+::: {.sol .slide}
+| Word       | Symbol(s) | Place            | Manner     | Voicing   |
+|------------|-----------|------------------|------------|-----------|
+| *etching*  | tʃ        | palato-alveolar  | affricate  | voiceless |
+| *father*   | ð         | dental           | fricative  | voiced    |
+| *dagger*   | g         | velar            | plosive    | voiced    |
+| *lodger*   | dʒ        | palato-alveolar  | affricate  | voiced    |
+| *sunny*    | n         | alveolar         | nasal      | voiced    |
+| *hopper*   | p         | bilabial         | plosive    | voiceless |
+| *pleasure* | ʒ         | palato-alveolar  | fricative  | voiced    |
+| *selling*  | l         | alveolar         | lateral    | voiced    |
+| *singer*   | ŋ         | velar            | nasal      | voiced    |
 :::
 
 
@@ -335,61 +313,29 @@ c. voicing
 
 In the following sets of words, the sound of the vowel is the same in every case but one. Which of these words has a different vowel sound?
 
-1. *sane*, *paid*, *eight*, *lace*, *mast*
-2. *hoot*, *good*, *moon*, *grew*, *suit*
-3. *meat*, *steak*, *weak*, *theme*, *green*
-4. *dud*, *died*, *mine*, *eye*, *guy*
-5. *pen*, *said*, *death*, *mess*, *mean*
-6. *ton*, *toast*, *both*, *note*, *toes*
-
-
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-### Solution
-
-1. *mast*: /æ/ instead of /eɪ/
-2. *good*: /ʊ/ instead of /uː/
-3. *steak*: /eɪ/ instead of /iː/
-4. *dud*: /ʌ/ instead of /aɪ/
-5. *mean*: /iː/ instead of /ɛ/
-6. *ton*: /ɒ/ instead of /əʊ/
-:::
+1. *sane*, *paid*, *eight*, *lace*, *mast*: [*mast*: /æ/ instead of /eɪ/]{.sol .fragment}
+2. *hoot*, *good*, *moon*, *grew*, *suit*: [*good*: /ʊ/ instead of /uː/]{.sol .fragment}
+3. *meat*, *steak*, *weak*, *theme*, *green*: [*steak*: /eɪ/ instead of /iː/]{.sol .fragment}
+4. *dud*, *died*, *mine*, *eye*, *guy*: [*dud*: /ʌ/ instead of /aɪ/]{.sol .fragment}
+5. *pen*, *said*, *death*, *mess*, *mean*: [*mean*: /iː/ instead of /ɛ/]{.sol .fragment}
+6. *ton*, *toast*, *both*, *note*, *toes*: [*ton*: /ɒ/ instead of /əʊ/]{.sol .fragment}
 
 
 ## Exercise: determine number of phonemes
 
 How many phonemes are there in each of the following words?
 
-1. *physics* 
-2. *axis*
-3. *laugh*
-4. *fishes*
-5. *begged*
-6. *caught*
-7. *batting*
-8. *knock*
-9. *quick*
-
-
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-### Solution
-
-| Word       | RP           | GA             | Phonemes        |
-|:-----------|:-------------|:---------------|:---------------:|
-| *physics*  | /ˈfɪzɪks/    | ←              | 6               |
-| *axis*     | /ˈæksɪs/     | ←              | 5               |
-| *laugh*    | /lɑːf/       | /læf/          | 3               |
-| *fishes*   | /ˈfiʃɪz/     | ←              | 5               |
-| *begged*   | /begd/       | ←              | 4               |
-| *caught*   | /kɔːt/       | /kɑːt/, /kɔːt/ | 3               |
-| *batting*  | /ˈbætɪŋ/     | ←              | 5               |
-| *knock*    | /nɒk/        | /nɑːk/         | 3               |
-| *quick*    | /kwɪk/       | ←              | 4               |
-:::
-
+| Word       | RP                          | GA                               | Phonemes            |
+|:-----------|:----------------------------|:---------------------------------|:-------------------:|
+| *physics*  | [/ˈfɪzɪks/]{.sol .fragment} | [←]{.sol .fragment}              | [6]{.sol .fragment} |
+| *axis*     | [/ˈæksɪs/]{.sol .fragment}  | [←]{.sol .fragment}              | [5]{.sol .fragment} |
+| *laugh*    | [/lɑːf/]{.sol .fragment}    | [/læf/]{.sol .fragment}          | [3]{.sol .fragment} |
+| *fishes*   | [/ˈfiʃɪz/]{.sol .fragment}  | [←]{.sol .fragment}              | [5]{.sol .fragment} |
+| *begged*   | [/begd/]{.sol .fragment}    | [←]{.sol .fragment}              | [4]{.sol .fragment} |
+| *caught*   | [/kɔːt/]{.sol .fragment}    | [/kɑːt/, /kɔːt/]{.sol .fragment} | [3]{.sol .fragment} |
+| *batting*  | [/ˈbætɪŋ/]{.sol .fragment}  | [←]{.sol .fragment}              | [5]{.sol .fragment} |
+| *knock*    | [/nɒk/]{.sol .fragment}     | [/nɑːk/]{.sol .fragment}         | [3]{.sol .fragment} |
+| *quick*    | [/kwɪk/]{.sol .fragment}    | [←]{.sol .fragment}              | [4]{.sol .fragment} |
 
 
 # Transcription
@@ -423,81 +369,48 @@ Which of the two transcriptions (RP) is correct?
 :::: {.column width="50%"}
 1. sixteen: 
     a. /sɪxˈtiːn/ 
-    b. /sɪkˈstiːn/
+    b. /sɪkˈstiːn/ [✅ ]{.sol .fragment}  
 2. football: 
-    a. /ˈfʊtbɔːl/ 
+    a. /ˈfʊtbɔːl/ [✅ ]{.sol .fragment}  
     b. /ˈfʊtbol/
 3. strength: 
     a. /strenkθ/ 
-    b. /streŋθ/
+    b. /streŋθ/ [✅ ]{.sol .fragment}  
 4. umbrella: 
     a. /umˈbrelə/ 
-    b. /ʌmˈbrelə/
+    b. /ʌmˈbrelə/ [✅ ]{.sol .fragment}  
 ::::
 :::: {.column width="50%"}
 5. hijacking: 
-    a. /ˈhaɪʤækɪŋ/ 
+    a. /ˈhaɪʤækɪŋ/ [✅ ]{.sol .fragment}  
     b. /ˈhaɪjækɪŋ/
 6. handmade: 
     a. /ˌhandˈmeɪd/ 
-    b. /ˌhændˈmeɪd/
+    b. /ˌhændˈmeɪd/ [✅ ]{.sol .fragment}  
 7. chipping: 
     a. /ˈʧɪppɪŋ/ 
-    b. /ˈʧɪpɪŋ/
+    b. /ˈʧɪpɪŋ/ [✅ ]{.sol .fragment}  
 8. remain: 
     a. /rɪˈman/ 
-    b. /rɪˈmeɪn/
+    b. /rɪˈmeɪn/ [✅ ]{.sol .fragment}  
 ::::
 :::
-
-:::: {.content-visible when-meta="params.show_solutions"}
----
-
-### Reference solutions
-
-| Word        | Correct | IPA             |
-|:------------|:-------:|:----------------|
-| *sixteen*   | b       | /sɪkˈstiːn/     |
-| *football*  | a       | /ˈfʊtbɔːl/      |
-| *strength*  | b       | /streŋθ/        |
-| *umbrella*  | b       | /ʌmˈbrelə/      |
-| *hijacking* | a       | /ˈhaɪʤækɪŋ/     |
-| *handmade*  | b       | /ˌhændˈmeɪd/    |
-| *chipping*  | b       | /ˈʧɪpɪŋ/        |
-| *remain*    | b       | /rɪˈmeɪn/       |
-::::
 
 
 ## Exercise: transcribe words
 
 Transcribe the following words into phonemic IPA and indicate which variety your transcription is based on (Received Pronunciation (RP) or General American (GA)). Use stress marks.
 
-1. *tea*
-2. *cat*
-3. *bar*
-4. *food*
-5. *foot*
-6. *pork*
-7. *maker*
-8. *phonology*
-
-
-:::: {.content-visible when-meta="params.show_solutions"}
----
-
-### Solution
-
-| Word        | RP (UK)         | GA (US)         |
-|:------------|:----------------|:----------------|
-| *tea*       | /tiː/           | ⟵               |
-| *cat*       | /kæt/           | ⟵               |
-| *bar*       | /bɑː/           | /bɑːr/          |
-| *food*      | /fuːd/          | ⟵               |
-| *foot*      | /fʊt/           | ⟵               |
-| *pork*      | /pɔːk/          | /pɔːrk/         |
-| *maker*     | /ˈmeɪ.kə/       | /ˈmeɪ.kɚ/       |
-| *phonology* | /fəˈnɒl.ə.dʒi/  | /fəˈnɑː.lə.dʒi/ |
-::::
+| Word           | RP (UK)                          | GA (US)                           |
+|:---------------|:---------------------------------|:----------------------------------|
+| 1. *tea*       | [/tiː/]{.sol .fragment}          | [←]{.sol .fragment}               |
+| 2. *cat*       | [/kæt/]{.sol .fragment}          | [←]{.sol .fragment}               |
+| 3. *bar*       | [/bɑː/]{.sol .fragment}          | [/bɑːr/]{.sol .fragment}          |
+| 4. *food*      | [/fuːd/]{.sol .fragment}         | [←]{.sol .fragment}               |
+| 5. *foot*      | [/fʊt/]{.sol .fragment}          | [←]{.sol .fragment}               |
+| 6. *pork*      | [/pɔːk/]{.sol .fragment}         | [/pɔːrk/]{.sol .fragment}         |
+| 7. *maker*     | [/ˈmeɪ.kə/]{.sol .fragment}      | [/ˈmeɪ.kɚ/]{.sol .fragment}       |
+| 8. *phonology* | [/fəˈnɒl.ə.dʒi/]{.sol .fragment} | [/fəˈnɑː.lə.dʒi/]{.sol .fragment} |
 
 
 # Next week: Phonology

@@ -48,7 +48,7 @@ Divide the following into sentences, clauses, phrases, and words:
 
 *I gave them some money because they needed it.*
 
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol}
 :::: {.r-stack}
 ![](att/i-gave-them-some-money_1.png){.fragment}
 
@@ -89,9 +89,7 @@ Identify all dependent/subordinate and independent/main clauses in the following
 4. *Playing the piano is great and I want to be brilliant at it.*
 5. *His book stresses the history of styles, which he describes in sequence.*				
 
-::: {.content-visible when-meta="params.show_solutions"}
----
-
+::: {.sol .slide}
 1. *[The cats have been asleep for days.]^cl_main^*
 2. *[I admire their reasoning]^cl_main^ and [I accept their conclusions]^cl_main^.*
 3. *[[Although I admire their reasoning]^cl_sub^, I reject their conclusions]^cl_main^.*
@@ -116,10 +114,7 @@ Indicate if the subordinate clauses in the following sentences are finite or non
 3. *Do you want to know whether I’m ‘anti’ or ‘pro’?*
 4. *All they wanted was to see them one last time.*
 
-
-::: {.content-visible when-meta="params.show_solutions"}
----
-
+::: {.sol .slide}
 1. *[Playing the piano]^cl_sub_nonfin^ is great.*
 2. *[That we need a new banking settlement]^cl_sub_nonfin^ is clear.*
 3. *Do you want to know [whether I’m ‘anti’ or ‘pro’]^cl_sub_fin^?*
@@ -148,10 +143,8 @@ Indicate if the subordinate clauses in the following sentences are finite or non
 
 *The cats have been asleep for days.*
 
-. . .
-
-::: {.content-visible when-meta="params.show_solutions"}
-![](tex-trees/output/the-cats-asleep_13.png){height="500px"}
+::: {.sol .fragment}
+![](tex-trees/output/the-cats-asleep_13.png){height="400px"}
 :::
 
 
@@ -166,10 +159,7 @@ Identify the elements of clause structure in the following sentences.
 5. *Some people consider them the best band on earth.*
 6. *Honestly, I did see him briefly in the park yesterday when he was feeding the ducks.*
 
-
-::: {.content-visible when-meta="params.show_solutions"}
----
-
+::: {.sol .slide}
 1. *The driver^S:NP^ gave^V:VP^ them^Oi:NP^ a free ride^Od:NP^.*
 2. *They^S:NP^ have been reading^V:VP^ for a while^A:AdvP^.*
 3. *I^S:NP^ might be^V:VP^ here^A:AdvP^ again^A:AdvP^ next month^A:NP^.*
@@ -209,9 +199,7 @@ g. SVO~d~A
 ::::
 :::
 
-::: {.content-visible when-meta="params.show_solutions"}
----
-
+::: {.sol .slide}
 1. *She – was reading.*: **SV**
 2. *We – were – too early.*: **SVC~s~**
 3. *We – sent – them – a parcel.*: **SVO~i~O~d~**
@@ -233,10 +221,7 @@ Underline all dependent/subordinate clauses in the sentences below and determine
 5. *The problem is who will water my plants when I am away.*
 6. *No further discussion arising, the meeting was brought to a close.*
 
-
-::: {.content-visible when-meta="params.show_solutions"}
----
-
+::: {.sol .slide}
 1. *[That cities will attract more and more criminals]^cl_sub_fin^ is a safe prediction.*
 2. *This shows [how difficult the question must have been]^cl_sub_fin^.*
 3. *[Being a farmer]^cl_sub_nonfin^, he is suspicious of all governmental interference.*
@@ -282,9 +267,7 @@ Identify all noun phrases in the following sentences.
 3. *October arrived, spreading a damp chill over the grounds and into the castle.*
 4. *The bassist they had just casted left the next day.*
 
-::: {.content-visible when-meta="params.show_solutions"}
----
-
+::: {.sol .slide}
 1. *[The driver]{.underline} gave [them]{.underline} [a free ride]{.underline}.*
 2. *[I]{.underline} might be here again [next month]{.underline}.*
 3. *[October]{.underline} arrived, spreading [a damp chill]{.underline} over [the grounds]{.underline} and into [the castle]{.underline}.*
@@ -300,9 +283,7 @@ Identify all verb phrases in the following sentences.
 3. *They have been reading for a while.*
 4. *The bassist might have been leaving.*
 
-::: {.content-visible when-meta="params.show_solutions"}
----
-
+::: {.sol .slide}
 1. *The driver [gave]{.underline} them a free ride.*
 2. *I might [be]{.underline} here again next month.*
 3. *They [have been reading]{.underline} for a while.*
@@ -321,10 +302,7 @@ Give the term for the formal elements (= phrases) underlined in the following se
 5. *Charlie is [very anxious about their health]{.underline}.*
 6. *She fell in love with [the girl in the dark grey dress]{.underline}.*
 
-
-::: {.content-visible when-meta="params.show_solutions"}
----
-
+::: {.sol .slide}
 1. *I might be [here]{.underline} (**AdvP**) [again]{.underline} (**AdvP**) next month.*
 2. *They left [in a rush]{.underline} (**AdvP**).*
 3. *They did [amazingly well]{.underline} (**AdvP**).*
@@ -352,9 +330,7 @@ Determine the word class of all the words in the following sentences taken from 
 
 *October arrived, spreading a damp chill over the grounds and into the castle. Madam Pomfrey, the nurse, was kept busy by a sudden spate of colds among the staff and students. Her […] potion worked instantly, though it left the drinker smoking at the ears for several hours afterward.*
 
-::: {.content-visible when-meta="params.show_solutions"}
----
-
+::: {.sol .slide}
 *October^n_prop^ arrived^v_full^, spreading^V_full^ a^det^ damp^adj^ chill^n^ over^prep^ the^det^ grounds^n^ and^conj^ into^prep^ the^det^ castle^n^. Madam Pomfrey^n_prop^, the nurse^n^, was^v_prim^ kept^v_full^ busy^adj^ by^prep^ a^det^ sudden^adj^ spate^n^ of^prep^ colds^n^ among^prep^ the^det^ staff^n^ and^conj^ students^n^. Her^det^ […] potion^n^ worked^v_full^ instantly^adv^, though^conj^ it^pron_pers^ left^v_full^ the drinker^n^ smoking^v_full^ at^prep^ the^det^ ears^n^ for^prep^ several^det^ hours^n^ afterward^adv^.*
 :::
 
@@ -378,81 +354,63 @@ Give a full syntactic analysis of the following sentences.
 
 ## *He spends all his money on horses.*
 
-. . . 
-
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol .fragment}
 ![](tex-trees/output/he-spends-all-his-money.png)
 :::
 
 
 ## *John called me an idiot.*
 
-. . . 
-
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol .fragment}
 ![](tex-trees/output/john-called-me-an-idiot.png)
 :::
 
 
 ## *Mary left the next day.*
 
-. . . 
-
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol .fragment}
 ![](tex-trees/output/mary-left-the-next-day.png)
 :::
 
 
 ## *His face turned pale when he saw me.*
 
-. . . 
-
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol .fragment}
 ![](tex-trees/output/his-face-turned-pale.png){height="500px"}
 :::
 
 
 ## *Tom called Jerry at midnight and Tom called Jerry a fool.*
 
-. . .
-
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol .fragment}
 ![](tex-trees/output/tom-called-jerry-at-midnight.png){height="500px"}
 :::
 
 
 ## *Some people consider themselves to be very important.*
 
-. . .
-
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol .fragment}
 ![](tex-trees/output/some-people-consider-themselves.png){height="500px"}
 :::
 
 
 ## *Michael completely ruined the dinner as he behaved like a fool.*
 
-. . .
-
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol .fragment}
 ![](tex-trees/output/michael-completely-ruined-the-dinner.png){height="500px"}
 :::
 
 
 ## *The door of George Lancaster’s house, which was half buried in the snow, screeched.*
 
-. . .
-
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol .fragment}
 ![](tex-trees/output/the-door-of-george-lancaster-house.png){height="500px"}
 :::
 
 
-## *The luck boys have found a paperback in the park and they opened it carefully.*
+## *The lucky boys have found a paperback in the park and they opened it carefully.*
 
-. . .
-
-::: {.content-visible when-meta="params.show_solutions"}
+::: {.sol .fragment}
 ![](tex-trees/output/the-luck-boys-have-found.png){height="500px"}
 :::
 

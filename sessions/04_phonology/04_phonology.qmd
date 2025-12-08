@@ -186,11 +186,7 @@ Find minimal pairs for the following pairs of English phonemes:
 Students work on finding minimal pairs. Discuss solutions briefly if shown.
 :::
 
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-##### Solution
-
+::: {.sol .slide}
 :::: {.small}
 1. /p/ – /b/: 
     - *pit* /pɪt/ – *bit* /bɪt/
@@ -292,23 +288,13 @@ Identify the onset, nucleus, and coda in each of the following monosyllabic word
 Can be skipped to save time. Move directly to word stress if needed.
 :::
 
-::: {.content-visible when-meta="params.show_solutions"}
-
----
-
-#### Solution
-
+::: {.sol .slide}
 |     | Word      | IPA      | Onset  | Nucleus | Coda  | Type   |
 |----:|:----------|:---------|:-------|:--------|:------|:-------|
 |  1. | *spread*  | /spred/  | /spr/  | /e/     | /d/   | closed |
 |  2. | *glimpse* | /glɪmps/ | /gl/   | /ɪ/     | /mps/ | closed |
 |  3. | *new*     | /njuː/   | /nj/   | /uː/    | —     | open   |
-
-**Note:** Open syllables end in a vowel; closed syllables end in a consonant.
-
 :::
-
-
 
 
 ## Word stress
@@ -464,15 +450,9 @@ c. What do the above examples have in common with the form of the negative prefi
 
 ::: {.notes}
 **11:15–11:21** (6 min)
-
-Work through examples. This is important - assimilation is a key concept.
 :::
 
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-#### Solution
-
+::: {.sol .slide}
 **a) The process is assimilation** — sounds become more similar or identical to neighbouring sounds.
 
 **b) Types of assimilation in examples 1–5:**
@@ -484,9 +464,9 @@ Work through examples. This is important - assimilation is a key concept.
 | *chicken*                 | n → ŋ       | progressive – partial             |
 | *don't miss your train*   | sj → ʃʃ     | reciprocal – total                |
 | *thing*                   | vowel → ĩ   | progressive – partial (nasalisation) |
+:::
 
----
-
+::: {.sol .slide}
 **c) Connection to the negative prefix:**
 
 - The realisation of the morpheme {in-} is **phonologically conditioned** by the following sound:
@@ -536,11 +516,7 @@ Read the following sentence pairs and describe the difference in the pronunciati
 This exercise can be skipped if you're running behind. The table in the solution captures the key points.
 :::
 
-::: {.content-visible when-meta="params.show_solutions"}
----
-
-##### Solution
-
+::: {.sol .slide}
 **Key concept**: GA is **rhotic** (/r/ always pronounced); RP is **non-rhotic** (/r/ only before vowels)
 
 | Example    | Before consonant              | Before vowel                    | Type                  |
@@ -551,7 +527,6 @@ This exercise can be skipped if you're running behind. The table in the solution
 | 4. *flaw*  | RP: /flɔː/ vs GA: /flɑː/      | RP: /flɔːr ɪn/ vs GA: /flɑː ɪn/ | Intrusive r (RP only) |
 
 **Note**: Intrusive r occurs in RP even when no 'r' is in the spelling (*flaw in*)
-
 :::
 
 ---
