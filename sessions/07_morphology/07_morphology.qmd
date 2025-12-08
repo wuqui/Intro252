@@ -15,7 +15,7 @@ format:
       - ../../slides.css
 format-links: false
 params:
-  show_solutions: false
+  show_solutions: true
 ---
 
 ::: {.content-hidden when-format="revealjs"}
@@ -211,8 +211,8 @@ Determine the base, root, and stem of the word *formalities*.
 
 ![@Kortmann2020Essentials: 59](att/allomorphy-examples.png)
 
-(6): Consonant change of the final sound of the base due to coarticulation.\
-(7): Vowel changes of the base due to stress shift triggered by derivation.
+**(6)**: Consonant change of the final sound of the base due to **coarticulation**.\
+**(7)**: Vowel changes of the base due to **stress shift** triggered by derivation.
 
 ---
 
@@ -268,10 +268,31 @@ In which way do the plural forms of the following nouns differ?
 
 ## Derivation
 
+---
+
+### Derivation vs inflection
+
 ![@Kortmann2020Essentials: 86](att/inflection-vs-derivation.png){height="500px"}
 
+---
+
+### Prefixation
+
+![](att/prefixation.png)
+
+---
+
+#### Morphemes
+
+![](att/prefixation-morphemes.png)
+
+---
 
 ### Suffixation
+
+![](att/suffixation.png)
+
+----
 
 #### Examples
 
@@ -279,9 +300,11 @@ In which way do the plural forms of the following nouns differ?
 
 ---
 
-### Prefixation
-
 ## Compounding
+
+![](att/compounding.png){height="500px"}
+
+---
 
 ### Examples
 
@@ -334,12 +357,40 @@ endocentric — exocentric — appositional — copulative compound
 
 ## Non-morphemic word-formation
 
+### Overview
+
 ![](att/non-morphemic-wf.png)
 
+---
 
-## Shortenings
+![](att/non-morphemic-wf-tbl.png)
+
+---
+
+### Zero-derivation / conversion
+
+![](att/zero-derivation.png)
+
+---
+
+### Shortenings
 
 ![@Kortmann2020Essentials: 72](att/shortenings.png)
+
+
+## Differences between morphemic and non-morphemic word-formation
+
+![](att/morphemic-vs-non-morphemic-wf.png)
+
+
+## Productivity
+
+![](att/productivity.png)
+
+
+## Transparency
+
+![](att/transparency.png)
 
 
 # Morphological analysis
