@@ -18,13 +18,10 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Render Quarto project (student version)
-        working-directory: quarto
         run: quarto render
       - name: Render Quarto project (solutions version)
-        working-directory: quarto
         run: quarto render --profile with-solutions
       - name: Strip speaker notes from published slides
-        working-directory: quarto
         run: |
           # Strip speaker notes from all RevealJS slides (both versions)
           find _site -name "slides.html" -type f -exec sed -i '/<aside class="notes">/,/<\/aside>/d' {} +
@@ -33,4 +30,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./quarto/_site
+          publish_dir: ./_site
