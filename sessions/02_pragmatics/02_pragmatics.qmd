@@ -6,6 +6,7 @@ date: 2025-10-27
 metadata:
   linkprefix: ../../
 filters:
+  - exclude
   - ../../filters/strip-revealjs-html.lua
 format:
   html:
@@ -16,7 +17,7 @@ format:
       - ../../slides.css
 format-links: false
 params:
-  show_solutions: true
+  show_excl: true
 ---
 
 ::: {.content-hidden when-format="revealjs"}
@@ -155,7 +156,7 @@ e) Two days ago I met Mary. She looked tired and said she wasn't looking forward
 
 ---
 
-:::: {.sol}
+:::: {.excl}
 ![](img/slide_05_img_06.png)
 ::::
 
@@ -169,7 +170,7 @@ b) *She told me that she would come the next day.*
 c) *Now listen, Sir, this is the last time I'm going to say this.*
 d) *In the last chapter we discussed phonology.*
 
-::: {.sol .slide}
+::: {.excl .slide}
 a) *I* (personal), *you* (personal), *here* (spatial), *tomorrow* (temporal)
 b) *me* (personal), *she* (personal), *the next day* (temporal, shifted centre)
 c) *Now* (temporal), *Sir* (social), *this* (manner/degree, x2), *I* (personal)
@@ -186,7 +187,7 @@ Classify the deictic expressions in the following sentences:
 3. *As mentioned above, these results are significant.*
 4. *This solution is better than that one.*
 
-:::: {.sol .slide}
+:::: {.excl .slide}
 1. *I* (personal), *there* (spatial), *in five minutes* (temporal)
 2. *you* (personal), *Professor* (social), *your* (personal), *earlier today* (temporal)
 3. *above* (discourse), *these results* (may involve discourse deixis in context)
@@ -280,29 +281,29 @@ How do speakers signal their illocutionary intent?
 
 Which type of illocutionary act is expressed in the following utterances?
 
-1. *I hereby christen you Marie Claire.*: [**Declarative**]{.sol .fragment}
-2. *I apologise for this awful mess.*: [**Expressive**]{.sol .fragment}
-3. *You are under arrest.*: [**Declarative**]{.sol .fragment}
-4. *Shall I get you some water?*: [**Directive**]{.sol .fragment}
-5. *I claim that this theory needs revision.*: [**Assertive**]{.sol .fragment}
-6. *Congratulations on your appointment.*: [**Expressive**]{.sol .fragment} 
-7. *Our team has won the competition.*: [**Assertive**]{.sol .fragment}
-8. *I'm sorry that I could not come to your birthday party!*: [**Expressive**]{.sol .fragment}
-9. *Thank you for taking care of my daughter.*: [**Expressive**]{.sol .fragment}
-10. *Good job, Claire!*: [**Expressive**]{.sol .fragment}
+1. *I hereby christen you Marie Claire.*: [**Declarative**]{.excl .fragment}
+2. *I apologise for this awful mess.*: [**Expressive**]{.excl .fragment}
+3. *You are under arrest.*: [**Declarative**]{.excl .fragment}
+4. *Shall I get you some water?*: [**Directive**]{.excl .fragment}
+5. *I claim that this theory needs revision.*: [**Assertive**]{.excl .fragment}
+6. *Congratulations on your appointment.*: [**Expressive**]{.excl .fragment} 
+7. *Our team has won the competition.*: [**Assertive**]{.excl .fragment}
+8. *I'm sorry that I could not come to your birthday party!*: [**Expressive**]{.excl .fragment}
+9. *Thank you for taking care of my daughter.*: [**Expressive**]{.excl .fragment}
+10. *Good job, Claire!*: [**Expressive**]{.excl .fragment}
 
 ---
 
-11. *You are fired.*: [**Declarative**]{.sol .fragment}
-12. *Be quiet, Jaye.*: [**Directive**]{.sol .fragment}
-13. *I name this ship 'Fortune'.*: [**Declarative**]{.sol .fragment}
-14. *One more step, and I'll call the police.*: [**Directive**]{.sol .fragment}
-15. *Come to visit us tomorrow.*: [**Directive**]{.sol .fragment}
-16. *I am sorry that I could not come to your birthday party!*: [**Expressive**]{.sol .fragment}
-17. *I'll bring you a map of London.*: [**Commissive**]{.sol .fragment}
-18. *I hereby pronounce you husband and wife.*: [**Declarative**]{.sol .fragment}
-19. *I refuse to answer this question.*: [**Commissive**]{.sol .fragment}
-20. *Could you please show me the way?*: [**Directive**]{.sol .fragment}
+11. *You are fired.*: [**Declarative**]{.excl .fragment}
+12. *Be quiet, Jaye.*: [**Directive**]{.excl .fragment}
+13. *I name this ship 'Fortune'.*: [**Declarative**]{.excl .fragment}
+14. *One more step, and I'll call the police.*: [**Directive**]{.excl .fragment}
+15. *Come to visit us tomorrow.*: [**Directive**]{.excl .fragment}
+16. *I am sorry that I could not come to your birthday party!*: [**Expressive**]{.excl .fragment}
+17. *I'll bring you a map of London.*: [**Commissive**]{.excl .fragment}
+18. *I hereby pronounce you husband and wife.*: [**Declarative**]{.excl .fragment}
+19. *I refuse to answer this question.*: [**Commissive**]{.excl .fragment}
+20. *Could you please show me the way?*: [**Directive**]{.excl .fragment}
 
 
 ## Indirect speech acts
@@ -424,37 +425,37 @@ For each conversation below, identify which maxim(s) is/are being violated and e
 
 1. **A:** *Did you finish your homework?*  
    **B:** *I started it at 3pm, then I had a snack, then I watched some TV, then I went back to it, then I had dinner, then I worked on it some more...*\
-   --> [**Quantity** (too much information). Implicature: I didn't finish it.]{.sol .fragment}
+   --> [**Quantity** (too much information). Implicature: I didn't finish it.]{.excl .fragment}
 
 2. **A:** *What time is it?*  
    **B:** *Yes.*\
-   --> [**Relation** (irrelevant answer). Implicature: I don't know what time it is.]{.sol .fragment}
+   --> [**Relation** (irrelevant answer). Implicature: I don't know what time it is.]{.excl .fragment}
 
 3. **A:** *How was your date last night?*  
    **B:** *The restaurant had excellent lighting.*\
-   --> [**Relation** (irrelevant answer). Implicature: I don't know how the date went.]{.sol .fragment}
+   --> [**Relation** (irrelevant answer). Implicature: I don't know how the date went.]{.excl .fragment}
 
 4. **A:** *Can you help me move this weekend?*  
    **B:** *I have a very important appointment with my dentist's receptionist's cousin's dog walker.*\
-   --> [**Quantity** (too much information). Implicature: I don't want to help you move.]{.sol .fragment}
+   --> [**Quantity** (too much information). Implicature: I don't want to help you move.]{.excl .fragment}
 
 ---
 
 5. **A:** *Do you know where Sarah is?*  
    **B:** *She's either in the library, at home, at the gym, or somewhere else.*\
-   --> [**Quantity** (too much information). Implicature: I don't know where Sarah is.]{.sol .fragment}
+   --> [**Quantity** (too much information). Implicature: I don't know where Sarah is.]{.excl .fragment}
 
 6. **A:** *What did you think of the presentation?*  
    **B:** *It was... interesting.*\
-   --> [**Quantity** (too much information). Implicature: I don't know what I think of the presentation.]{.sol .fragment}
+   --> [**Quantity** (too much information). Implicature: I don't know what I think of the presentation.]{.excl .fragment}
 
 7. **A:** *Will you be at the meeting tomorrow?*  
    **B:** *I might be there, or I might not be there, depending on various factors that may or may not occur.*\
-   --> [**Quantity** (too much information). Implicature: I don't know if I will be at the meeting tomorrow.]{.sol .fragment}
+   --> [**Quantity** (too much information). Implicature: I don't know if I will be at the meeting tomorrow.]{.excl .fragment}
 
 8. **A:** *How much does this cost?*  
    **B:** *It's not free.*\
-   --> [**Quantity** (too much information). Implicature: I don't know how much this costs.]{.sol .fragment}
+   --> [**Quantity** (too much information). Implicature: I don't know how much this costs.]{.excl .fragment}
 
 
 ## Summary

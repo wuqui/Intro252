@@ -12,7 +12,7 @@ website:
     left:
       - text: Sessions
         menu:
-        - text: 01 — Introduction
+        - text: 01 – Introduction
           href: sessions/01_intro/website.html
         - text: 02 – Pragmatics
           href: sessions/02_pragmatics/website.html
@@ -45,8 +45,8 @@ format:
 
 filters:
   - auto-dark
+  - exclude
   - filters/strip-revealjs-html.lua
-  - filters/solution-blocks.lua
 
 revealjs-plugins:
   - pointer
@@ -59,4 +59,4 @@ metadata:
   linkprefix: ""
 
 params:
-  show_solutions: true
+  show_excl: true

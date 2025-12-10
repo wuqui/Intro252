@@ -6,6 +6,7 @@ date: 2025-10-20
 metadata:
   linkprefix: ../../
 filters:
+  - exclude
   - ../../filters/strip-revealjs-html.lua
 format:
   html:
@@ -16,7 +17,7 @@ format:
       - ../../slides.css
 format-links: false
 params:
-  show_solutions: true
+  show_excl: true
 ---
 
 ::: {.content-hidden when-format="revealjs"}
@@ -214,12 +215,12 @@ Classify each sign and state the underlying relationship (arbitrariness, similar
 
 | Item                                      | Sign                     | Relationship                                           |
 |-------------------------------------------|--------------------------|--------------------------------------------------------|
-| 1. traffic light colours                  | [symbol]{.sol .fragment} | [arbitrariness (convention)]{.sol .fragment}           |
-| 2. portrait photo                         | [icon]{.sol .fragment}   | [similarity (visual)]{.sol .fragment}                  |
-| 3. tree rings for a tree's age            | [index]{.sol .fragment}  | [contiguity (systematic correlation)]{.sol .fragment}  |
-| 4. onomatopoeia of the word *click*       | [icon]{.sol .fragment}   | [similarity (acoustic)]{.sol .fragment}                |
-| 5. national flag of Japan for the country | [symbol]{.sol .fragment} | [arbitrariness (convention)]{.sol .fragment}           |
-| 6. wet footprints on the floor            | [index]{.sol .fragment}  | [contiguity (proximity in space/time)]{.sol .fragment} |
+| 1. traffic light colours                  | [symbol]{.excl .fragment} | [arbitrariness (convention)]{.excl .fragment}           |
+| 2. portrait photo                         | [icon]{.excl .fragment}   | [similarity (visual)]{.excl .fragment}                  |
+| 3. tree rings for a tree's age            | [index]{.excl .fragment}  | [contiguity (systematic correlation)]{.excl .fragment}  |
+| 4. onomatopoeia of the word *click*       | [icon]{.excl .fragment}   | [similarity (acoustic)]{.excl .fragment}                |
+| 5. national flag of Japan for the country | [symbol]{.excl .fragment} | [arbitrariness (convention)]{.excl .fragment}           |
+| 6. wet footprints on the floor            | [index]{.excl .fragment}  | [contiguity (proximity in space/time)]{.excl .fragment} |
 
 :::: {.notes}
 - 10:43–10:45
@@ -359,7 +360,7 @@ Since the 1960s …
 - 10:58–11:00
 ::::
 
-:::: {.sol .slide}
+:::: {.excl .slide}
 1. The meaning of *bank* is ambiguous.
 2. Noun phrases often start with the words *the* or *a*.
 3. Morphology is the field of language which studies the formation of new words.

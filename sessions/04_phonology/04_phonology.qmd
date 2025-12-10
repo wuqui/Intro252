@@ -6,6 +6,7 @@ date: 2025-11-10
 metadata:
   linkprefix: ../../
 filters:
+  - exclude
   - ../../filters/strip-revealjs-html.lua
 format:
   html:
@@ -16,7 +17,7 @@ format:
       - ../../slides.css
 format-links: false
 params:
-  show_solutions: true
+  show_excl: true
 ---
 
 ::: {.content-hidden when-format="revealjs"}
@@ -186,7 +187,7 @@ Find minimal pairs for the following pairs of English phonemes:
 Students work on finding minimal pairs. Discuss solutions briefly if shown.
 :::
 
-::: {.sol .slide}
+::: {.excl .slide}
 :::: {.small}
 1. /p/ – /b/: 
     - *pit* /pɪt/ – *bit* /bɪt/
@@ -288,7 +289,7 @@ Identify the onset, nucleus, and coda in each of the following monosyllabic word
 Can be skipped to save time. Move directly to word stress if needed.
 :::
 
-::: {.sol .slide}
+::: {.excl .slide}
 |     | Word      | IPA      | Onset  | Nucleus | Coda  | Type   |
 |----:|:----------|:---------|:-------|:--------|:------|:-------|
 |  1. | *spread*  | /spred/  | /spr/  | /e/     | /d/   | closed |
@@ -452,7 +453,7 @@ c. What do the above examples have in common with the form of the negative prefi
 **11:15–11:21** (6 min)
 :::
 
-::: {.sol .slide}
+::: {.excl .slide}
 **a) The process is assimilation** — sounds become more similar or identical to neighbouring sounds.
 
 **b) Types of assimilation in examples 1–5:**
@@ -466,7 +467,7 @@ c. What do the above examples have in common with the form of the negative prefi
 | *thing*                   | vowel → ĩ   | progressive – partial (nasalisation) |
 :::
 
-::: {.sol .slide}
+::: {.excl .slide}
 **c) Connection to the negative prefix:**
 
 - The realisation of the morpheme {in-} is **phonologically conditioned** by the following sound:
@@ -516,7 +517,7 @@ Read the following sentence pairs and describe the difference in the pronunciati
 This exercise can be skipped if you're running behind. The table in the solution captures the key points.
 :::
 
-::: {.sol .slide}
+::: {.excl .slide}
 **Key concept**: GA is **rhotic** (/r/ always pronounced); RP is **non-rhotic** (/r/ only before vowels)
 
 | Example    | Before consonant              | Before vowel                    | Type                  |

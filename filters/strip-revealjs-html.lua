@@ -8,8 +8,15 @@
 --     - filters/strip-revealjs-html.lua
 
 local function is_html_handout()
-  -- Check if we're rendering HTML format but NOT RevealJS
-  return quarto.doc.is_format("html") and not quarto.doc.is_format("revealjs")
+  -- Check if we're rendering HTML format but NOT RevealJS or clean-revealjs
+  return quarto.doc.is_format("html") and 
+         not quarto.doc.is_format("revealjs") and 
+         not quarto.doc.is_format("clean-revealjs")
+end
+
+local function is_revealjs_format()
+  -- Check if we're rendering any RevealJS format
+  return quarto.doc.is_format("revealjs") or quarto.doc.is_format("clean-revealjs")
 end
 
 local function is_production_build()
@@ -19,34 +26,42 @@ local function is_production_build()
   return ci == "true" or github_actions == "true"
 end
 
+-- Helper: check if element has a specific class
+local function has_class(el, class_name)
+  for _, class in ipairs(el.classes) do
+    if class == class_name then
+      return true
+    end
+  end
+  return false
+end
+
+-- Helper: remove .small and .smaller classes from element
+local function remove_size_classes(el)
+  local filtered_classes = {}
+  for _, class in ipairs(el.classes) do
+    if class ~= "small" and class ~= "smaller" then
+      table.insert(filtered_classes, class)
+    end
+  end
+  el.classes = filtered_classes
+  return el
+end
+
 function Div(el)
   -- Remove notes from HTML handout (always)
-  if is_html_handout() then
-    for _, class in ipairs(el.classes) do
-      if class == "notes" then
-        return {} -- Remove the entire div
-      end
-    end
+  if is_html_handout() and has_class(el, "notes") then
+    return {} -- Remove the entire div
   end
   
   -- Remove notes from RevealJS slides in production builds only
-  if quarto.doc.is_format("revealjs") and is_production_build() then
-    for _, class in ipairs(el.classes) do
-      if class == "notes" then
-        return {} -- Remove the entire div
-      end
-    end
+  if is_revealjs_format() and is_production_build() and has_class(el, "notes") then
+    return {} -- Remove the entire div
   end
   
   -- Remove .small and .smaller classes from HTML handout divs
   if is_html_handout() then
-    local filtered_classes = {}
-    for _, class in ipairs(el.classes) do
-      if class ~= "small" and class ~= "smaller" then
-        table.insert(filtered_classes, class)
-      end
-    end
-    el.classes = filtered_classes
+    remove_size_classes(el)
   end
   
   return el
@@ -81,14 +96,7 @@ function Span(el)
   if not is_html_handout() then return el end
   
   -- Remove .small and .smaller classes from spans
-  local filtered_classes = {}
-  for _, class in ipairs(el.classes) do
-    if class ~= "small" and class ~= "smaller" then
-      table.insert(filtered_classes, class)
-    end
-  end
-  el.classes = filtered_classes
-  
+  remove_size_classes(el)
   return el
 end
 
@@ -96,14 +104,7 @@ function Header(el)
   if not is_html_handout() then return el end
   
   -- Remove .small and .smaller classes from headers
-  local filtered_classes = {}
-  for _, class in ipairs(el.classes) do
-    if class ~= "small" and class ~= "smaller" then
-      table.insert(filtered_classes, class)
-    end
-  end
-  el.classes = filtered_classes
-  
+  remove_size_classes(el)
   return el
 end
 

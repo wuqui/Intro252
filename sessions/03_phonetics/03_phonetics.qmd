@@ -6,6 +6,7 @@ date: 2025-11-03
 metadata:
   linkprefix: ../../
 filters:
+  - exclude
   - ../../filters/strip-revealjs-html.lua
 format:
   html:
@@ -16,7 +17,7 @@ format:
       - ../../slides.css
 format-links: false
 params:
-  show_solutions: true
+  show_excl: true
 ---
 
 ::: {.content-hidden when-format="revealjs"}
@@ -65,7 +66,7 @@ Assign the following items to the correct linguistic concepts:
 :::
 
 
-::: {.sol .slide}
+::: {.excl .slide}
 :::: {.columns}
 ::::: {.column width="50%"}
 **Phoneme:**
@@ -106,7 +107,7 @@ Assign the following items to the correct linguistic concepts:
 ![](att/speech-organs-exercise.png)
 :::
 
-::: {.sol .slide}
+::: {.excl .slide}
 | No. | Organ                         | Adjective         |
 |:---:|-------------------------------|-------------------|
 | 1   | lips                          | labial            |
@@ -162,7 +163,7 @@ c. voiced consonants.
 12.\ [d]\
 :::
 
-::: {.sol .slide}
+::: {.excl .slide}
 :::: {.columns}
 :::: {.column width="25%"}
 **a. Plosives**
@@ -224,7 +225,7 @@ Which of these …
 10. starts with a velar consonant: *lot* or *cot*?
 11. starts with a labiodental consonant: *mat* or *vat*?
 
-:::: {.sol .slide}
+:::: {.excl .slide}
 |  Word     |   IPA   |    Type      |
 |:----------|:--------|:-------------|
 | *you*     |  /j/    | approximant  |
@@ -263,7 +264,7 @@ c. voicing
 9.\ *singer*\
 :::
 
-::: {.sol .slide}
+::: {.excl .slide}
 | Word       | Symbol(s) | Place            | Manner     | Voicing   |
 |------------|-----------|------------------|------------|-----------|
 | *etching*  | tʃ        | palato-alveolar  | affricate  | voiceless |
@@ -313,12 +314,12 @@ c. voicing
 
 In the following sets of words, the sound of the vowel is the same in every case but one. Which of these words has a different vowel sound?
 
-1. *sane*, *paid*, *eight*, *lace*, *mast*: [*mast*: /æ/ instead of /eɪ/]{.sol .fragment}
-2. *hoot*, *good*, *moon*, *grew*, *suit*: [*good*: /ʊ/ instead of /uː/]{.sol .fragment}
-3. *meat*, *steak*, *weak*, *theme*, *green*: [*steak*: /eɪ/ instead of /iː/]{.sol .fragment}
-4. *dud*, *died*, *mine*, *eye*, *guy*: [*dud*: /ʌ/ instead of /aɪ/]{.sol .fragment}
-5. *pen*, *said*, *death*, *mess*, *mean*: [*mean*: /iː/ instead of /ɛ/]{.sol .fragment}
-6. *ton*, *toast*, *both*, *note*, *toes*: [*ton*: /ɒ/ instead of /əʊ/]{.sol .fragment}
+1. *sane*, *paid*, *eight*, *lace*, *mast*: [*mast*: /æ/ instead of /eɪ/]{.excl .fragment}
+2. *hoot*, *good*, *moon*, *grew*, *suit*: [*good*: /ʊ/ instead of /uː/]{.excl .fragment}
+3. *meat*, *steak*, *weak*, *theme*, *green*: [*steak*: /eɪ/ instead of /iː/]{.excl .fragment}
+4. *dud*, *died*, *mine*, *eye*, *guy*: [*dud*: /ʌ/ instead of /aɪ/]{.excl .fragment}
+5. *pen*, *said*, *death*, *mess*, *mean*: [*mean*: /iː/ instead of /ɛ/]{.excl .fragment}
+6. *ton*, *toast*, *both*, *note*, *toes*: [*ton*: /ɒ/ instead of /əʊ/]{.excl .fragment}
 
 
 ## Exercise: determine number of phonemes
@@ -327,15 +328,15 @@ How many phonemes are there in each of the following words?
 
 | Word       | RP                          | GA                               | Phonemes            |
 |:-----------|:----------------------------|:---------------------------------|:-------------------:|
-| *physics*  | [/ˈfɪzɪks/]{.sol .fragment} | [←]{.sol .fragment}              | [6]{.sol .fragment} |
-| *axis*     | [/ˈæksɪs/]{.sol .fragment}  | [←]{.sol .fragment}              | [5]{.sol .fragment} |
-| *laugh*    | [/lɑːf/]{.sol .fragment}    | [/læf/]{.sol .fragment}          | [3]{.sol .fragment} |
-| *fishes*   | [/ˈfiʃɪz/]{.sol .fragment}  | [←]{.sol .fragment}              | [5]{.sol .fragment} |
-| *begged*   | [/begd/]{.sol .fragment}    | [←]{.sol .fragment}              | [4]{.sol .fragment} |
-| *caught*   | [/kɔːt/]{.sol .fragment}    | [/kɑːt/, /kɔːt/]{.sol .fragment} | [3]{.sol .fragment} |
-| *batting*  | [/ˈbætɪŋ/]{.sol .fragment}  | [←]{.sol .fragment}              | [5]{.sol .fragment} |
-| *knock*    | [/nɒk/]{.sol .fragment}     | [/nɑːk/]{.sol .fragment}         | [3]{.sol .fragment} |
-| *quick*    | [/kwɪk/]{.sol .fragment}    | [←]{.sol .fragment}              | [4]{.sol .fragment} |
+| *physics*  | [/ˈfɪzɪks/]{.excl .fragment} | [←]{.excl .fragment}              | [6]{.excl .fragment} |
+| *axis*     | [/ˈæksɪs/]{.excl .fragment}  | [←]{.excl .fragment}              | [5]{.excl .fragment} |
+| *laugh*    | [/lɑːf/]{.excl .fragment}    | [/læf/]{.excl .fragment}          | [3]{.excl .fragment} |
+| *fishes*   | [/ˈfiʃɪz/]{.excl .fragment}  | [←]{.excl .fragment}              | [5]{.excl .fragment} |
+| *begged*   | [/begd/]{.excl .fragment}    | [←]{.excl .fragment}              | [4]{.excl .fragment} |
+| *caught*   | [/kɔːt/]{.excl .fragment}    | [/kɑːt/, /kɔːt/]{.excl .fragment} | [3]{.excl .fragment} |
+| *batting*  | [/ˈbætɪŋ/]{.excl .fragment}  | [←]{.excl .fragment}              | [5]{.excl .fragment} |
+| *knock*    | [/nɒk/]{.excl .fragment}     | [/nɑːk/]{.excl .fragment}         | [3]{.excl .fragment} |
+| *quick*    | [/kwɪk/]{.excl .fragment}    | [←]{.excl .fragment}              | [4]{.excl .fragment} |
 
 
 # Transcription
@@ -369,30 +370,30 @@ Which of the two transcriptions (RP) is correct?
 :::: {.column width="50%"}
 1. sixteen: 
     a. /sɪxˈtiːn/ 
-    b. /sɪkˈstiːn/ [✅ ]{.sol .fragment}  
+    b. /sɪkˈstiːn/ [✅ ]{.excl .fragment}  
 2. football: 
-    a. /ˈfʊtbɔːl/ [✅ ]{.sol .fragment}  
+    a. /ˈfʊtbɔːl/ [✅ ]{.excl .fragment}  
     b. /ˈfʊtbol/
 3. strength: 
     a. /strenkθ/ 
-    b. /streŋθ/ [✅ ]{.sol .fragment}  
+    b. /streŋθ/ [✅ ]{.excl .fragment}  
 4. umbrella: 
     a. /umˈbrelə/ 
-    b. /ʌmˈbrelə/ [✅ ]{.sol .fragment}  
+    b. /ʌmˈbrelə/ [✅ ]{.excl .fragment}  
 ::::
 :::: {.column width="50%"}
 5. hijacking: 
-    a. /ˈhaɪʤækɪŋ/ [✅ ]{.sol .fragment}  
+    a. /ˈhaɪʤækɪŋ/ [✅ ]{.excl .fragment}  
     b. /ˈhaɪjækɪŋ/
 6. handmade: 
     a. /ˌhandˈmeɪd/ 
-    b. /ˌhændˈmeɪd/ [✅ ]{.sol .fragment}  
+    b. /ˌhændˈmeɪd/ [✅ ]{.excl .fragment}  
 7. chipping: 
     a. /ˈʧɪppɪŋ/ 
-    b. /ˈʧɪpɪŋ/ [✅ ]{.sol .fragment}  
+    b. /ˈʧɪpɪŋ/ [✅ ]{.excl .fragment}  
 8. remain: 
     a. /rɪˈman/ 
-    b. /rɪˈmeɪn/ [✅ ]{.sol .fragment}  
+    b. /rɪˈmeɪn/ [✅ ]{.excl .fragment}  
 ::::
 :::
 
@@ -403,14 +404,14 @@ Transcribe the following words into phonemic IPA and indicate which variety your
 
 | Word           | RP (UK)                          | GA (US)                           |
 |:---------------|:---------------------------------|:----------------------------------|
-| 1. *tea*       | [/tiː/]{.sol .fragment}          | [←]{.sol .fragment}               |
-| 2. *cat*       | [/kæt/]{.sol .fragment}          | [←]{.sol .fragment}               |
-| 3. *bar*       | [/bɑː/]{.sol .fragment}          | [/bɑːr/]{.sol .fragment}          |
-| 4. *food*      | [/fuːd/]{.sol .fragment}         | [←]{.sol .fragment}               |
-| 5. *foot*      | [/fʊt/]{.sol .fragment}          | [←]{.sol .fragment}               |
-| 6. *pork*      | [/pɔːk/]{.sol .fragment}         | [/pɔːrk/]{.sol .fragment}         |
-| 7. *maker*     | [/ˈmeɪ.kə/]{.sol .fragment}      | [/ˈmeɪ.kɚ/]{.sol .fragment}       |
-| 8. *phonology* | [/fəˈnɒl.ə.dʒi/]{.sol .fragment} | [/fəˈnɑː.lə.dʒi/]{.sol .fragment} |
+| 1. *tea*       | [/tiː/]{.excl .fragment}          | [←]{.excl .fragment}               |
+| 2. *cat*       | [/kæt/]{.excl .fragment}          | [←]{.excl .fragment}               |
+| 3. *bar*       | [/bɑː/]{.excl .fragment}          | [/bɑːr/]{.excl .fragment}          |
+| 4. *food*      | [/fuːd/]{.excl .fragment}         | [←]{.excl .fragment}               |
+| 5. *foot*      | [/fʊt/]{.excl .fragment}          | [←]{.excl .fragment}               |
+| 6. *pork*      | [/pɔːk/]{.excl .fragment}         | [/pɔːrk/]{.excl .fragment}         |
+| 7. *maker*     | [/ˈmeɪ.kə/]{.excl .fragment}      | [/ˈmeɪ.kɚ/]{.excl .fragment}       |
+| 8. *phonology* | [/fəˈnɒl.ə.dʒi/]{.excl .fragment} | [/fəˈnɑː.lə.dʒi/]{.excl .fragment} |
 
 
 # Next week: Phonology
