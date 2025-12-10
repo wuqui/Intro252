@@ -12,6 +12,9 @@
 --   ## Header {.excl}
 --   Content below header is also excluded (entire section)
 --
+--   ## Header {.excl .slide}  -- Creates slide break in RevealJS
+--   ## Header {.excl .fragment}  -- Reveals heading as RevealJS fragment
+--
 -- Control visibility in YAML frontmatter:
 --   params:
 --     show_excl: false  # hide .excl content
@@ -82,7 +85,7 @@ function Meta(meta)
   if meta.params and meta.params.show_excl == false then
     show_excl = false
   end
-  
+
   -- Read styling configuration
   if meta.params and meta.params["excl-style"] then
     local style = meta.params["excl-style"]
@@ -108,11 +111,11 @@ local function setup_document(doc)
   if quarto.doc.is_format("html") or quarto.doc.is_format("clean-revealjs") or quarto.doc.is_format("revealjs") then
     quarto.doc.add_html_dependency({
       name = "quarto-exclude",
-      version = "1.4.0",
+      version = "1.5.0",
       stylesheets = {"exclude-styles.css"}
     })
   end
-  
+
   if show_excl then return nil end  -- skip processing if showing everything
   local sections = utils.make_sections(false, nil, doc.blocks)
   return pandoc.Pandoc(sections, doc.meta)
@@ -177,6 +180,18 @@ function Header(el)
     if not show_excl then
       return {}  -- remove when hiding
     end
+    -- When showing, handle modifiers like .slide and .fragment
+    -- If heading has .slide class, remove it and insert HorizontalRule before heading
+    -- This creates a slide break in RevealJS (horizontal rules create new slides)
+    -- Note: strip-revealjs-html filter will remove horizontal rules from HTML handouts
+    if has_class(el, "slide") then
+      remove_class(el, "slide")
+      maybe_remove_excl_class(el)
+      -- Return array with HorizontalRule first (creates slide break), then heading
+      -- This replaces the heading with [HorizontalRule, Heading] in the document
+      return { pandoc.HorizontalRule(), el }
+    end
+    -- .fragment stays on element (RevealJS handles it)
     -- When showing, remove .excl class only if styling is disabled
     maybe_remove_excl_class(el)
   end

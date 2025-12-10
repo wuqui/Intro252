@@ -326,17 +326,17 @@ In the following sets of words, the sound of the vowel is the same in every case
 
 How many phonemes are there in each of the following words?
 
-| Word       | RP                          | GA                               | Phonemes            |
-|:-----------|:----------------------------|:---------------------------------|:-------------------:|
-| *physics*  | [/ˈfɪzɪks/]{.excl .fragment} | [←]{.excl .fragment}              | [6]{.excl .fragment} |
-| *axis*     | [/ˈæksɪs/]{.excl .fragment}  | [←]{.excl .fragment}              | [5]{.excl .fragment} |
-| *laugh*    | [/lɑːf/]{.excl .fragment}    | [/læf/]{.excl .fragment}          | [3]{.excl .fragment} |
-| *fishes*   | [/ˈfiʃɪz/]{.excl .fragment}  | [←]{.excl .fragment}              | [5]{.excl .fragment} |
-| *begged*   | [/begd/]{.excl .fragment}    | [←]{.excl .fragment}              | [4]{.excl .fragment} |
+| Word       | RP                         | GA                              | Phonemes           |
+|:-----------|:---------------------------|:--------------------------------|:------------------:|
+| *physics*  | [/ˈfɪzɪks/]{.excl .fragment} | [←]{.excl .fragment}             | [6]{.excl .fragment} |
+| *axis*     | [/ˈæksɪs/]{.excl .fragment}  | [←]{.excl .fragment}             | [5]{.excl .fragment} |
+| *laugh*    | [/lɑːf/]{.excl .fragment}    | [/læf/]{.excl .fragment}         | [3]{.excl .fragment} |
+| *fishes*   | [/ˈfiʃɪz/]{.excl .fragment}  | [←]{.excl .fragment}             | [5]{.excl .fragment} |
+| *begged*   | [/begd/]{.excl .fragment}    | [←]{.excl .fragment}             | [4]{.excl .fragment} |
 | *caught*   | [/kɔːt/]{.excl .fragment}    | [/kɑːt/, /kɔːt/]{.excl .fragment} | [3]{.excl .fragment} |
-| *batting*  | [/ˈbætɪŋ/]{.excl .fragment}  | [←]{.excl .fragment}              | [5]{.excl .fragment} |
-| *knock*    | [/nɒk/]{.excl .fragment}     | [/nɑːk/]{.excl .fragment}         | [3]{.excl .fragment} |
-| *quick*    | [/kwɪk/]{.excl .fragment}    | [←]{.excl .fragment}              | [4]{.excl .fragment} |
+| *batting*  | [/ˈbætɪŋ/]{.excl .fragment}  | [←]{.excl .fragment}             | [5]{.excl .fragment} |
+| *knock*    | [/nɒk/]{.excl .fragment}     | [/nɑːk/]{.excl .fragment}        | [3]{.excl .fragment} |
+| *quick*    | [/kwɪk/]{.excl .fragment}    | [←]{.excl .fragment}             | [4]{.excl .fragment} |
 
 
 # Transcription

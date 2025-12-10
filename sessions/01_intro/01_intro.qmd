@@ -213,11 +213,11 @@ ___
 
 Classify each sign and state the underlying relationship (arbitrariness, similarity, contiguity).
 
-| Item                                      | Sign                     | Relationship                                           |
-|-------------------------------------------|--------------------------|--------------------------------------------------------|
-| 1. traffic light colours                  | [symbol]{.excl .fragment} | [arbitrariness (convention)]{.excl .fragment}           |
+| Item                                      | Sign                     | Relationship                                            |
+|-------------------------------------------|--------------------------|---------------------------------------------------------|
+| 1. traffic light colours                  | [symbol]{.excl .fragment} | [arbitrariness (convention)]{.excl .fragment}            |
 | 2. portrait photo                         | [icon]{.excl .fragment}   | [similarity (visual)]{.excl .fragment}                  |
-| 3. tree rings for a tree's age            | [index]{.excl .fragment}  | [contiguity (systematic correlation)]{.excl .fragment}  |
+| 3. tree rings for a tree's age            | [index]{.excl .fragment}  | [contiguity (systematic correlation)]{.excl .fragment}   |
 | 4. onomatopoeia of the word *click*       | [icon]{.excl .fragment}   | [similarity (acoustic)]{.excl .fragment}                |
 | 5. national flag of Japan for the country | [symbol]{.excl .fragment} | [arbitrariness (convention)]{.excl .fragment}           |
 | 6. wet footprints on the floor            | [index]{.excl .fragment}  | [contiguity (proximity in space/time)]{.excl .fragment} |

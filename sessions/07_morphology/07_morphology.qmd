@@ -211,7 +211,8 @@ In which way do the plural forms of the following nouns differ?
 3. `/ɪz/`
 4. irregular
 
-::: {.excl .slide}
+#### Solution {.excl .slide}
+
 | 1. /s/    | 2. /z/   | 3. /ɪz/   | 4. irregular |
 |:---------:|:--------:|:---------:|:------------:|
 | *cats*    | *dogs*   | *horses*  | *women*      |
@@ -220,7 +221,6 @@ In which way do the plural forms of the following nouns differ?
 |           |          |           | *oxen*       |
 |           |          |           | *deer*       |
 |           |          |           | *mice*       |
-:::
 
 
 ## Morphological language types
@@ -515,7 +515,7 @@ The degree to which there is a clear (transparent) mapping between the form and 
 
 ## Determine the word-formation process I
 
-Analyze the word-formation processes involved in the following complex words.
+Analyse the word-formation processes involved in the following complex words.
 
 1. *childhood*: [derivation / suffixation]{.excl .fragment}
 2. *paperback*: [compounding / exocentric]{.excl .fragment}
