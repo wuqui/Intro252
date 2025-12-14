@@ -8,7 +8,7 @@
 |  6 | 24 Nov. | [Syntax II]({{< meta linkprefix >}}sessions/05_syntax/website.html){target="_top"} | @Herbst2010English: ch. 11.3–11.4 |
 |  7 |  1 Dec. | [Morphology]({{< meta linkprefix >}}sessions/07_morphology/website.html){target="_top"} | @Kortmann2020Essentials: chs. 4.1, 3.1, 3.2; @Herbst2010English: ch. 8;  |
 |  8 |  8 Dec. | [Word-formation]({{< meta linkprefix >}}sessions/07_morphology/website.html){target="_top"} | @Kortmann2020Essentials: ch. 3.3 |
-|  9 | 15 Dec. | Semantics and lexicology I | @Kortmann2020Essentials: ch. 6 |
+|  9 | 15 Dec. | [Semantics and lexicology I]({{< meta linkprefix >}}sessions/09_semantics/website.html){target="_top"} | @Kortmann2020Essentials: ch. 6 |
 | 10 | 22 Dec. | Revision | — |
 | 11 | 12 Jan. | Semantics and lexicology II | @Kortmann2020Essentials: ch. 6 |
 | 12 | 19 Jan. | Sociolinguistics | @Kortmann2020Essentials: ch. 8 |

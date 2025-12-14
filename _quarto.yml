@@ -24,6 +24,8 @@ website:
           href: sessions/05_syntax/website.html
         - text: 07 — Morphology and word-formation
           href: sessions/07_morphology/website.html
+        - text: 09 — Semantics and lexicology
+          href: sessions/09_semantics/website.html
 
 format:
   html:
