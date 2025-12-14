@@ -1,6 +1,6 @@
 ---
 title: "9 — Semantics and lexicology"
-subtitle: "Introduction to linguistics — [Course Website](../../index.qmd) — 1 & 8 November 2025"
+subtitle: "Introduction to linguistics — [Course Website](../../index.qmd) — 14 December 2025"
 author: "Dr. Quirin Würschinger, LMU Munich"
 metadata:
   linkprefix: ../../
@@ -101,9 +101,6 @@ params:
 ![](att/lexical-field-example.png)
 
 
-## Componential analysis
-
-
 # Meaning relations
 
 ## Overview of sense relations
@@ -118,9 +115,9 @@ params:
 - “**Synonymy**: The concept of synonymy is used to describe semantic **equivalence** or rather **extensive semantic similarity** between two or more lexemes. 
 - The term is typically used in reference to the **descriptive meaning** of words (hence the term descriptive or cognitive synonymy). Synonyms thus have the same semantic features.” 
 
-### Descriptive synonyms
+---
 
-“Descriptive synonyms may differ with regard to 
+“**Descriptive synonyms** may differ with regard to 
 
 - their **connotations** (*dog* – *mongrel*, *cock* – *rooster*, *worker* – *employee*, *baby* – *neonate*), 
 - with regard to **stylistic level** or **register** (*begin* – *commence*, *buy* – *purchase*, *intoxicated* – *drunk* – *pissed*), 
@@ -138,8 +135,8 @@ params:
 
 ## Gradable antonymy
 
-- “(Gradable) antonymy: Complementary antonymy is commonly contrasted with gradable antonymy, where the two expressions involved merely constitute opposite poles of a continuum.” 
-- “Examples of gradable antonyms are *hot* – *cold* (notice the various intermediate stages like *warm* – *tepid* – *cool*), *broad* – *narrow*, *large* – *small*,-and *old* – *young* (cf. also pairs of nouns like *beginning* – *end*, *war* – *peace*).” 
+- “(Gradable) antonymy: Complementary antonymy is commonly contrasted with gradable antonymy, where the two expressions involved merely constitute **opposite poles of a continuum**.” 
+- “**Examples** of gradable antonyms are *hot* – *cold* (notice the various intermediate stages like *warm* – *tepid* – *cool*), *broad* – *narrow*, *large* – *small*,-and *old* – *young* (cf. also pairs of nouns like *beginning* – *end*, *war* – *peace*).” 
 
 
 ## Relational opposites
@@ -172,7 +169,6 @@ params:
 - *leave* – *return*
 - *(turn) right* – *(turn) left*
 - *tie* – *untie*
-- *button* – *unbutton*
 
 
 ## Hierarchical relations: hyponomy and meronomy
@@ -180,7 +176,7 @@ params:
 ![@Kortmann2020Essentials: 154](att/hierarchical-relations.png)
 
 
-## Exercise: identify sense relations
+## Exercise: identify sense relations {.small}
 
 Identify the meaning relation holding between the following pairs of words. 
 For antonyms, specify the subtype.
@@ -190,9 +186,25 @@ For antonyms, specify the subtype.
 3. *(go) in* – *(go) out*: [**directional oppositeness**]{.excl .fragment}
 4. *freedom* – *liberty*: [**descriptive synonymy**]{.excl .fragment}
 5. *hot* – *cold*: [**gradable antonymy**]{.excl .fragment}
+6. *insect* – *bee*: [**hyperonymy**: hyperonym: *insect*, holonym: *bee*]{.excl .fragment}
+7. *certain* – *sure*: [**total synonymy**]{.excl .fragment}
+8. *night* – *day*: [**complementary antonymy**]{.excl .fragment}
+9. *give* – *receive*: [**directional oppositeness**]{.excl .fragment}
+10. *poor* – *rich*: [**polar antonymy**]{.excl .fragment}
+11. *peace* – *war*: [**complementary antonymy**]{.excl .fragment}
+12. *car* – *convertible*: [**hyperonymy**: hyperonym: *car*, holonym: *convertible*]{.excl .fragment}
+13. *house* – *cottage* – *palace*: [**co-hyponyms**]{.excl .fragment}
 
 
 ## Syntagmatic relations: collocations and idioms
+
+- **Collocations** 
+    - words that occur together more **frequently** than expected
+    - examples: *salt and pepper*, *handsome man* (vs. ^?^*handsome girl*)
+- **Idioms** 
+    - words that occur together more **frequently** than expected
+    - **semantically opaque** (non-transparent), i.e. meaning not deducible from meanings of the components
+    - examples: *to kick the bucket*, *to break a leg*, *to put one's foot in one's mouth*
 
 ---
 
@@ -251,6 +263,21 @@ polysemy – homonymy – homophony – homography
 
 # Cognitive semantics
 
+## Componential analysis
+
+**Structural semantics**: Description of any word meaning as a **combination of semantic components** (cf. phonemes: any phoneme in any language can be described with a limited set of distinctive features).
+
+- lexemes differ with regard to their distinctive features
+- **seme**: smallest distinctive feature of meaning
+- **semem**: entire set of semes of a word
+
+|                     | *man* | *woman* | *boy* | *girl* | *cow* | *bull* |
+|:--------------------|:-----:|:-------:|:-----:|:------:|:-----:|:------:|
+| [male]{.smallcaps}  |   +   |    –    |   +   |   –    |   –   |   +    |
+| [adult]{.smallcaps} |   +   |    +    |   –   |   –    |   +   |   +    |
+| [human]{.smallcaps} |   +   |    +    |   +   |   +    |   –   |   –    |
+
+
 ## Prototype theory {.small}
 
 ::: {.columns}
@@ -282,15 +309,16 @@ In **experiments**, test persons categorise prototypical members faster as membe
 - This similarity, which may be objectively given or merely subjective, is typically held to enable metaphors to ‘transport’ one or more properties of a (usually relatively concrete) **source domain** (or: vehicle) to a **target domain** (or: tenor), which is typically more abstract. 
 - The similarities involved in metaphorical mappings are often called the **tertium comparationis** (or ground). 
 
+---
 
 ### Examples
 
 - animal metaphors 
     - (*Smith is a pig / fox / rat / ass / stallion*), 
 - synaesthetic metaphors (extensions from one field of sensory perception to another, 
-    - e. g. in *loud colours*, *soft / warm / sharp voice*), 
+    - e.g. in *loud colours*, *soft / warm / sharp voice*), 
 - and so-called anthropomorphic metaphors (transfers from the human domain, especially human body parts, to all sorts of non-human domains, 
-    - e. g. *leg of a table*, *arm of a river*, *face / hands of a clock*, *foot of a mountain*, *mouth of a river*).” 
+    - e.g. *leg of a table*, *arm of a river*, *face / hands of a clock*, *foot of a mountain*, *mouth of a river*).” 
 
 ---
 
@@ -304,6 +332,8 @@ In **experiments**, test persons categorise prototypical members faster as membe
 - “The main difference between metaphor and **metonymy** is this: Metonymies do not involve a transfer from one cognitive domain to another. 
 - They are rather based on an existing objective connection between two “**contiguous**” phenomena, such that one phenomenon stands for the other. 
 - Thus, metonymies are not based on a relationship of similarity, but of contiguity: The phenomena or entities concerned are part of the same situation or, more generally, part of the **same conceptual structure**.” 
+
+---
 
 ![@Kortmann2020Essentials: 163](att/metonymy-examples.png)
 
