@@ -388,6 +388,13 @@ Match the following examples with the correct type of semantic change:
     - [**narrowing (specialisation)**: meaning narrowed from 'any horizon' to 'horizon with skyscrapers']{.excl .fragment}
 
 
+# Quiz 
+
+```{=html}
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;"><iframe src="https://wayground.com/embed/quiz/693f53d83834c3da2d2d3383" title="Semantics Review Quiz - Wayground" style="flex:1;" frameBorder="0" allowfullscreen></iframe><a href="https://wayground.com/admin?source=embedFrame" target="_blank">Explore more at Wayground.</a></div>
+```
+
+
 # References
 
 ::: {#refs}

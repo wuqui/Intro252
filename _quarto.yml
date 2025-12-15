@@ -4,7 +4,7 @@ project:
   render:
     - "*.qmd"
     - "index.qmd"
-    - "!**/quizzes/**/*.md"
+    - "!*.md"
 
 website:
   title: "Intro252"
