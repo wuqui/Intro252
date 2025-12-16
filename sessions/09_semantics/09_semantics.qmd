@@ -11,7 +11,7 @@ format:
     output-file: "slides.html"
 format-links: false
 params:
-  show_excl: false
+  show_excl: true
 ---
 
 ::: {.content-hidden when-format="revealjs"}
@@ -31,18 +31,18 @@ params:
 
 ### Semasiology 
 
-- form/signifier → meaning/signified
 - What is the meaning of X?”
+- form/signifier → meaning/signified
 
 ### Onomasiology
 
-- meaning/signified → form/signifier
 - What is the word for X?”
+- meaning/signified → form/signifier
 
 
 ## Paradigmatic and syntagmatic semantics
 
-![@Kortmann2020Essentials: 143](att/paradigmatic-syntagmatic-semantics.png)
+![@Kortmann2020Essentials: 143](att/paradigmatic-syntagmatic-semantics.png){width=500}
 
 
 ## Reference — referent
@@ -148,11 +148,11 @@ params:
 
 ### Examples
 
-- *teacher* – *pupil*
-- *employer* – *employee*
-- *examiner* – *examinee*
-- *older* – *younger*
-- *longer* – *shorter*
+- *teacher* ⇆ *pupil*
+- *employer* ⇆ *employee*
+- *examiner* ⇆ *examinee*
+- *older* ⇆ *younger*
+- *longer* ⇆ *shorter*
 
 
 ## Directional opposites
@@ -163,12 +163,14 @@ params:
 
 ### Examples
 
-- *open* – *shut*
-- *push* – *pull*
-- *rise* – *fall*
-- *leave* – *return*
-- *(turn) right* – *(turn) left*
-- *tie* – *untie*
+::: {.small}
+- *open* ⇆ *shut*
+- *push* ⇆ *pull*
+- *rise* ⇆ *fall*
+- *leave* ⇆ *return*
+- *(turn) right* ⇆ *(turn) left*
+- *tie* ⇆ *untie*
+:::
 
 
 ## Hierarchical relations: hyponomy and meronomy
@@ -182,18 +184,18 @@ Identify the meaning relation holding between the following pairs of words.
 For antonyms, specify the subtype.
 
 1. *frame* – *window*: [**meronymy**: meronym: *frame*, holonym: *window*]{.excl .fragment}
-2. *expand* – *contract*: [**relational antonymy**]{.excl .fragment}
+2. *expand* – *contract*: [**directional antonymy**]{.excl .fragment}
 3. *(go) in* – *(go) out*: [**directional oppositeness**]{.excl .fragment}
 4. *freedom* – *liberty*: [**descriptive synonymy**]{.excl .fragment}
 5. *hot* – *cold*: [**gradable antonymy**]{.excl .fragment}
 6. *insect* – *bee*: [**hyperonymy**: hyperonym: *insect*, holonym: *bee*]{.excl .fragment}
-7. *certain* – *sure*: [**total synonymy**]{.excl .fragment}
+7. *certain* – *sure*: [**total/descriptive synonymy**]{.excl .fragment}
 8. *night* – *day*: [**complementary antonymy**]{.excl .fragment}
-9. *give* – *receive*: [**directional oppositeness**]{.excl .fragment}
+9. *give* – *receive*: [**relational oppositeness**]{.excl .fragment}
 10. *poor* – *rich*: [**polar antonymy**]{.excl .fragment}
 11. *peace* – *war*: [**complementary antonymy**]{.excl .fragment}
-12. *car* – *convertible*: [**hyperonymy**: hyperonym: *car*, holonym: *convertible*]{.excl .fragment}
-13. *house* – *cottage* – *palace*: [**co-hyponyms**]{.excl .fragment}
+12. *car* – *convertible*: [**hyperonymy**: hyperonym: *car*, hyponym: *convertible*]{.excl .fragment}
+13. *house* – *cottage* – *palace*: [**co-hyponyms** of the hyperonym *building*]{.excl .fragment}
 
 
 ## Syntagmatic relations: collocations and idioms
@@ -239,11 +241,13 @@ Briefly explain the difference between collocations and idioms.
 
 ![@Kortmann2020Essentials: 155](att/homonymy.png)
 
+::: {.small}
 - “**Homophones** are lexemes which are identical in pronunciation, but differ in spelling 
     - (see – sea, sight – site, flower – flour), 
 - while **homographs** are identical in spelling, but differ in pronunciation 
     - (*lead* /led/ ‘kind of metal’ vs. *lead* /liːd / ‘piece of leather attached to dogs’ collars’, 
     - *bass* /beɪs/ ‘man with a deep singing voice’ vs. *bass* /bæs/ ‘type of fish’).” [@Kortmann2020Essentials: 153]
+:::
 
 ---
 
@@ -254,9 +258,9 @@ Briefly explain the difference between collocations and idioms.
 
 Describe the lexical ambiguity of the words below using the following linguistic terms:
 
-polysemy – homonymy – homophony – homography
+[polysemy – homonymy – homophony – homography]{.smallcaps}
 
-1. *bass* – ‘music instrument’ vs. ‘type of fish’: [**total homonymy**]{.excl .fragment}
+1. *bass* – ‘music instrument’ vs. ‘type of fish’: [**homography**]{.excl .fragment}
 2. *mouse* – ‘small rodent’ vs. ‘computer mouse’: [**polysemy**]{.excl .fragment}
 3. *see* – *sea*: [**homophony**]{.excl .fragment}
 
@@ -322,7 +326,7 @@ In **experiments**, test persons categorise prototypical members faster as membe
 
 ---
 
-![@Kortmann2020Essentials: 163](att/metaphor-examples.png)
+![@Kortmann2020Essentials: 163](att/metaphor-examples.png){width=550}
 
 
 ## Metonymy
@@ -335,7 +339,7 @@ In **experiments**, test persons categorise prototypical members faster as membe
 
 ---
 
-![@Kortmann2020Essentials: 163](att/metonymy-examples.png)
+![@Kortmann2020Essentials: 163](att/metonymy-examples.png){width=550}
 
 
 ## Exercise: identify metaphor and metonymy {.small}
@@ -388,10 +392,12 @@ Match the following examples with the correct type of semantic change:
     - [**narrowing (specialisation)**: meaning narrowed from 'any horizon' to 'horizon with skyscrapers']{.excl .fragment}
 
 
-# Quiz 
+# Quiz
 
 ```{=html}
-<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;"><iframe src="https://wayground.com/embed/quiz/693f53d83834c3da2d2d3383" title="Semantics Review Quiz - Wayground" style="flex:1;" frameBorder="0" allowfullscreen></iframe><a href="https://wayground.com/admin?source=embedFrame" target="_blank">Explore more at Wayground.</a></div>
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
+<iframe src="https://wayground.com/embed/quiz/693f53d83834c3da2d2d3383" title="Semantics Review Quiz - Wayground" style="flex:1;" frameBorder="0" allowfullscreen></iframe>
+</div>
 ```
 
 
