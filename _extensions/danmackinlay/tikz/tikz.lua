@@ -307,6 +307,26 @@ local function code_to_figure(conf)
     -- Get basename for file naming
     local basename = dgr_opt.filename or pandoc.sha1(block.text)
 
+    -- Use the block's filename attribute or create a new name by hashing the image content.
+    local fname = basename .. '.svg'
+
+    -- If svg-dir is configured, check if SVG already exists (skip regeneration)
+    if conf.svg_dir then
+      local svg_path = pandoc.path.join { conf.svg_dir, fname }
+      local existing = read_file(svg_path)
+      if existing then
+        -- SVG exists, use it directly
+        local image = pandoc.Image(dgr_opt.alt, svg_path, "", dgr_opt['image-attr'])
+        return dgr_opt.caption and
+            pandoc.Figure(
+              pandoc.Plain { image },
+              dgr_opt.caption,
+              dgr_opt['fig-attr']
+            ) or
+            pandoc.Plain { image }
+      end
+    end
+
     -- Check if image is cached
     local hash = block.text
     local imgdata, imgtype = nil, nil
