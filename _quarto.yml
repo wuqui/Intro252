@@ -5,6 +5,8 @@ project:
     - "*.qmd"
     - "index.qmd"
     - "!*.md"
+  preview:
+    port: 1860
 
 website:
   title: "Intro252"
@@ -26,6 +28,8 @@ website:
           href: sessions/07_morphology/website.html
         - text: 09 — Semantics and lexicology
           href: sessions/09_semantics/website.html
+        - text: 10 — Revision
+          href: sessions/10_revision/website.html
 
 format:
   html:
@@ -46,6 +50,7 @@ format:
       theme: "light"
 
 filters:
+  - tikz
   - auto-dark
   - exclude
   - filters/strip-revealjs-html.lua
