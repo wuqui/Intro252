@@ -10,9 +10,9 @@
 |  8 |  8 Dec. | [Word-formation]({{< meta linkprefix >}}sessions/07_morphology/website.html){target="_top"} | @Kortmann2020Essentials: ch. 3.3 |
 |  9 | 15 Dec. | [Semantics and lexicology I]({{< meta linkprefix >}}sessions/09_semantics/website.html){target="_top"} | @Kortmann2020Essentials: ch. 6 |
 | 10 | 22 Dec. | [Revision]({{< meta linkprefix >}}sessions/10_revision/website.html){target="_top"} | — |
-| 11 | 12 Jan. | Semantics and lexicology II | @Kortmann2020Essentials: ch. 6 |
-| 12 | 19 Jan. | Sociolinguistics | @Kortmann2020Essentials: ch. 8 |
-| 13 | 26 Jan. | History of English | @Bieswanger2021Introduction: ch. 2 |
+| 11 | 12 Jan. | [Sociolinguistics]({{< meta linkprefix >}}sessions/11_sociolinguistics/website.html){target="_top"} | @Kortmann2020Essentials: ch. 8 |
+| 12 | 19 Jan. | History of English | @Bieswanger2021Introduction: ch. 2 |
+| 13 | 26 Jan. | Mock exam | — |
 | 14 |  2 Feb. | Exam | — |
 
 : {tbl-colwidths="[10, 10, 40, 40]"}

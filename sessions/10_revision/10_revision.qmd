@@ -9,10 +9,10 @@ format:
     output-file: "website.html"
 format-links: false
 number-sections: true
-params:
-  show_excl: false
 tikz:
   svg-dir: tex-trees
+params:
+  show_excl: true
 ---
 
 # Phonetics & Phonology

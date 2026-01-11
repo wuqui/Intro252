@@ -1,0 +1,122 @@
+---
+title: "11 — Sociolinguistics"
+subtitle: "Introduction to linguistics — [Course Website](../../index.qmd) — 12 January 2026"
+author: "Dr. Quirin Würschinger, LMU Munich"
+metadata:
+  linkprefix: ../../
+number-sections: true
+format:
+  html:
+    output-file: "website.html"
+  clean-revealjs:
+    output-file: "slides.html"
+    number-sections: false
+params:
+  show_excl: true
+---
+
+::: {.content-hidden when-format="revealjs"}
+[Open slides](slides.html){.btn .btn-primary}
+:::
+
+# Introduction
+
+What do you call these in German?
+
+::: {.columns}
+:::: {.column width="40%"}
+![](att/broetchen.png){height=300}
+::::
+:::: {.column width="60%" .fragment}
+![](att/broetchen_map.png)
+::::
+:::
+
+
+# Object of study
+
+## Definition
+
+Sociolinguistics is a sub-discipline of linguistics concerned with the study of language in its **social context** – primarily of **linguistic variation** and the influence of **social factors** (ethnicity, social class, gender, age, profession etc.) on language use and language structure.
+
+
+## Variation in language
+
+- language characterized by a considerable amount of variation, that is, there are **different ways of expressing the same content or meaning**.
+- variation either dependent on speaker or external factors
+- the form of an utterance may depend on, e.g.:
+    - whether the medium of expression is **spoken or written**
+    - what is being discussed and whether **specialized vocabulary or terminology** is being used in the discussion
+    - whether situation of an utterance is relatively **formal or informal**
+    - the **regional and social background** of the speaker
+    - whether the speaker's **gender** is male or female.
+
+
+# Terminology
+
+## Variety
+
+**Definition**: most general term used for a regionally, socially, functionally or otherwise specific form of a language
+
+
+## Standard
+
+- used as an **official** language
+- **prestigious** norm of a language
+- codified in reference **grammars** and **dictionaries**
+- propagated in the **educational system**
+- used in **public** and in the **media** on formal occasions
+- taught to foreign **learners**
+- dominant variety in **writing**
+
+
+## Dialect
+
+- spoken in a certain region
+- differs from the standard language in terms of pronunciation, morphology, syntax, vocabulary etc.
+- typically not standardized or codified in writing
+
+## Accent
+
+- socially or regionally typical pronunciation
+- deviations from the standard **only** with regard to pronunciation
+
+{{< video https://www.youtube.com/watch?v=EsFeG2ggCV4 title="Ellen and Kate McKinnon Play 'Heads Up!'" >}}
+
+
+## Sociolect, idiolect, and register/style {.small}
+
+### Sociolect
+
+- linguistic variety specific to a social class or **group**
+- specific characteristics in pronunciation, morphology, syntax, vocabulary etc.
+
+### Idiolect
+
+- spoken by an **individual person**
+- specific characteristics in pronunciation, morphology, syntax, vocabulary etc.
+
+### Register/style
+
+- variety determined by the **communicative situation or domain**, e.g. spoken or written in a certain usage event
+- specific characteristics in pronunciation, morphology, syntax, vocabulary etc.
+
+## Varieties
+
+![@Kortmann2020Essentials: 204](att/varieties-tree.png)
+
+
+## British vs. American English
+
+- **General American (GA)**
+  - Speakers: **≈ 70 %** of US population
+  - Status: defined as **neutral variety**, not having features from Southern or Eastern accent
+- **Received Pronunciation (RP)**
+  - Speakers: **only 3–5 %** of the population (upper class)
+  - Status: carries **high prestige**, not tied to specific region
+
+
+# References
+
+::: {#refs}
+:::
