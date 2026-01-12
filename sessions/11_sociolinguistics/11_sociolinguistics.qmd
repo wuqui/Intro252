@@ -39,6 +39,13 @@ What do you call these in German?
 
 Sociolinguistics is a sub-discipline of linguistics concerned with the study of language in its **social context** – primarily of **linguistic variation** and the influence of **social factors** (ethnicity, social class, gender, age, profession etc.) on language use and language structure.
 
+## Example research questions
+
+1. How does social class affect the use of regional dialect features?
+2. What language patterns distinguish different age groups on social media?
+3. How do speakers switch between formal and informal registers?
+4. What role does gender play in conversational turn-taking?
+
 
 ## Variation in language
 
@@ -52,7 +59,7 @@ Sociolinguistics is a sub-discipline of linguistics concerned with the study of 
     - whether the speaker's **gender** is male or female.
 
 
-# Terminology
+# Varieties and variation
 
 ## Variety
 
@@ -84,6 +91,11 @@ Sociolinguistics is a sub-discipline of linguistics concerned with the study of 
 {{< video https://www.youtube.com/watch?v=EsFeG2ggCV4 title="Ellen and Kate McKinnon Play 'Heads Up!'" >}}
 
 
+## Overview: varieties and types of variation
+
+![@Kortmann2020Essentials: 204](att/varieties-tree.png)
+
+
 ## Sociolect, idiolect, and register/style {.small}
 
 ### Sociolect
@@ -101,12 +113,20 @@ Sociolinguistics is a sub-discipline of linguistics concerned with the study of 
 - variety determined by the **communicative situation or domain**, e.g. spoken or written in a certain usage event
 - specific characteristics in pronunciation, morphology, syntax, vocabulary etc.
 
-## Varieties
 
-![@Kortmann2020Essentials: 204](att/varieties-tree.png)
+## Diastratic variation
+
+- **social variation:** complex phenomenon as speakers typically have one main geographically background, but belong to several social groups
+- **factors motivating sociolects:** socio-economic status, level of education, profession, ethnicity, gender, age etc.
 
 
-## British vs. American English
+
+
+
+
+# British vs. American English
+
+## Speakers and status
 
 - **General American (GA)**
   - Speakers: **≈ 70 %** of US population
@@ -114,6 +134,120 @@ Sociolinguistics is a sub-discipline of linguistics concerned with the study of 
 - **Received Pronunciation (RP)**
   - Speakers: **only 3–5 %** of the population (upper class)
   - Status: carries **high prestige**, not tied to specific region
+
+## Lexical differences
+
+### Examples
+
+| Standard American | Standard English |
+|------------------:|:-----------------|
+| *fall*            | *autumn*         |
+| *sideway*         | *pavement*       |
+| *truck*           | *lorry*          |
+| *mail*            | *post*           |
+| *elevator*        | *lift*           |
+| *gas*             | *petrol*         |
+| *subway*          | *underground*    |
+
+---
+
+### Exercise
+
+Decide for each of the following lexical items if they represent standard **AmE** or **BrE**. What is the equivalent in the other national variety?
+
+::: {.columns}
+:::: {.column width="50%"}
+**Orthography**
+
+a) *theater* [→ AmE]{.excl .fragment}
+b) *colour* [→ BrE]{.excl .fragment}
+c) *traveled* [→ AmE]{.excl .fragment}
+::::
+:::: {.column width="50%"}
+**Lexis**
+
+a) *petrol* [→ BrE]{.excl .fragment}
+b) *fall* (n., 'Herbst') [→ AmE]{.excl .fragment}
+c) *French fries* [→ AmE]{.excl .fragment}
+::::
+:::
+
+
+## Orthographic differences
+
+![@Kortmann2020Essentials: 210](att/orthographic-differences.png)
+
+
+## Pronunciation differences
+
+| General American (GA) | Received Pronunciation (RP) |
+|---|---|
+| /r/ pronounced in all positions (*car* /kaːr/, *card* /kaːrd/) | no postvocalic /r/ (*car* /kaː/, *card* /kaːd/); /r/ realized only before vowels |
+| dark /l/ ([ɫ]) in all positions | clear [l] and dark [ɫ] as allophones of /l/ |
+| /uː/ after /t, d, n, s, z, θ/ (*new* /nuː/) | /juː/ (*new* /njuː/) |
+| /æ/ before nasals or voiceless fricatives (*dance* /dæns/) | /aː/ (*dance* /daːns/) |
+| /ɑː/ (*hot* /hɑːt/) | /ɒ/ (*hot* /hɒt/) |
+| /ba'llet/, /'cigarette/, /'address/ | /'ballet/, /ciga'rette/, /a'ddress/ |
+| opposition between /t, d/ neutralized between vowels, resulting in tap sound [ɾ] (*latter* and *ladder* both pronounced [læɾər]) | |
+
+---
+
+### Vowel differences
+
+![@Kortmann2020Essentials: 209](att/vowel-differences.png)
+
+
+## Regional and Social Variation in Accent and Dialect
+
+- social class/socio-economic status (e.g. education, occupation, income level) of a speaker influences use of regional dialect forms
+- in British English, accent with highest social prestige: RP → if someone speaks RP, no regional variation observable
+- the lower the social class, the more probable is a high degree of regional variation
+
+
+## Slang
+
+- words or phrases used **instead of more conventional forms** as markers of membership in a particular group or certain occupational groups
+- many creative word formations and **neologisms**
+- slang words often have a **short life span**
+
+### Example: 'rhyming slang'
+
+- common words are substituted by phrases, consisting of two or three words, the last of which rhymes with the original word (which leads to a secret code)
+- in a more advanced state, the second, rhyming elements of the phrases are deleted, which makes it almost impossible for an outsider to understand the meaning
+
+
+## Cockney
+
+::: {.columns}
+::: {.column width="50%"}
+{{< video https://www.youtube.com/watch?v=1WvIwkL8oLc title="Cockney with Jason Statham" >}}
+:::
+::: {.column width="50%"}
+![Cockney dictionary](att/cockney-dictionary.png)
+:::
+:::
+
+---
+
+### Cockney exercise
+
+What does the following Cockney slang mean?
+
+1. *I'm just going down the [apples and pears]{.underline} to get a cup of tea from the kitchen.* [→ *stairs*]{.excl .fragment}
+2. *Its the middle of winter and the sun came out today, can you [Adam and Eve]{.underline} it?* [→ *believe*]{.excl .fragment}
+3. *The [trouble and strives]{.underline} been shopping again.* [→ *wife*]{.excl .fragment}
+4. *Look who's on TV, its the [baked]{.underline}!* [→ *queen*]{.excl .fragment}
+5. *Got to my [mickey]{.underline} safe.* [→ *house*]{.excl .fragment}
+6. *Can you pick up the [teapot lids]{.underline}?* [→ *kids*]{.excl .fragment}
+
+
+# Quiz
+
+```{=html}
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
+<iframe src="https://wayground.com/embed/quiz/6964affe166eaf87d7ea068a" title="Sociolinguistics Quiz - Wayground" style="flex:1;" frameBorder="0" allowfullscreen></iframe>
+</div>
+```
 
 
 # References
