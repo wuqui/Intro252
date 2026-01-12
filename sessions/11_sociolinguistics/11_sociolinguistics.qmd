@@ -12,7 +12,7 @@ format:
     output-file: "slides.html"
     number-sections: false
 params:
-  show_excl: true
+  show_excl: false
 ---
 
 ::: {.content-hidden when-format="revealjs"}
@@ -39,7 +39,7 @@ What do you call these in German?
 
 Sociolinguistics is a sub-discipline of linguistics concerned with the study of language in its **social context** – primarily of **linguistic variation** and the influence of **social factors** (ethnicity, social class, gender, age, profession etc.) on language use and language structure.
 
-## Example research questions
+### Example research questions
 
 1. How does social class affect the use of regional dialect features?
 2. What language patterns distinguish different age groups on social media?
@@ -65,6 +65,10 @@ Sociolinguistics is a sub-discipline of linguistics concerned with the study of 
 
 **Definition**: most general term used for a regionally, socially, functionally or otherwise specific form of a language
 
+- umbrella term that includes dialects, sociolects, registers, and styles
+- every speaker uses multiple varieties depending on context
+- varieties can be distinguished by features at all linguistic levels (phonology, morphology, syntax, lexis)
+
 
 ## Standard
 
@@ -82,11 +86,17 @@ Sociolinguistics is a sub-discipline of linguistics concerned with the study of 
 - spoken in a certain region
 - differs from the standard language in terms of pronunciation, morphology, syntax, vocabulary etc.
 - typically not standardized or codified in writing
+- **narrow definition**: regionally restricted variety
+- **broad definition**: synonym for "variety" (e.g. *standard dialect*, *social dialect*)
+- no dialect is inherently superior to any other [@Kortmann2020Essentials]
+
 
 ## Accent
 
 - socially or regionally typical pronunciation
 - deviations from the standard **only** with regard to pronunciation
+- **dialect vs. accent**: dialect includes lexical and grammatical properties, accent only refers to pronunciation [@Kortmann2020Essentials]
+- standard dialect + regional accent is possible; regional dialect + standard accent is not
 
 {{< video https://www.youtube.com/watch?v=EsFeG2ggCV4 title="Ellen and Kate McKinnon Play 'Heads Up!'" >}}
 
@@ -102,26 +112,40 @@ Sociolinguistics is a sub-discipline of linguistics concerned with the study of 
 
 - linguistic variety specific to a social class or **group**
 - specific characteristics in pronunciation, morphology, syntax, vocabulary etc.
+- **factors**: socio-economic status, level of education, profession, age, ethnicity, gender
+- **examples**: 
+    - **genderlects**: e.g. use of hedging, tag questions
+    - **jargons**: e.g. legal: *pro bono*; medical: *stat*
+
+---
 
 ### Idiolect
 
 - spoken by an **individual person**
+- each individual has their own idiolect that distinguishes them from others
 - specific characteristics in pronunciation, morphology, syntax, vocabulary etc.
+- **examples**: favourite phrases, unique word choices, pronunciation quirks
+
+---
 
 ### Register/style
 
 - variety determined by the **communicative situation or domain**, e.g. spoken or written in a certain usage event
 - specific characteristics in pronunciation, morphology, syntax, vocabulary etc.
+- **register**: determined by functional context (field, mode of discourse)
+    - e.g. academic writing, legal language, medical consultations
+- **style**: determined by individual choices and aesthetic preferences
+    - e.g. formal vs. informal, colloquial vs. literary
 
 
 ## Diastratic variation
 
 - **social variation:** complex phenomenon as speakers typically have one main geographically background, but belong to several social groups
 - **factors motivating sociolects:** socio-economic status, level of education, profession, ethnicity, gender, age etc.
-
-
-
-
+- **examples:**
+    - working-class vs. middle-class speech patterns
+    - youth language vs. adult language
+    - professional jargon (lawyers, doctors, IT specialists)
 
 
 # British vs. American English
