@@ -32,6 +32,8 @@ website:
           href: sessions/10_revision/website.html
         - text: 11 — Sociolinguistics
           href: sessions/11_sociolinguistics/website.html
+        - text: 12 — History of English
+          href: sessions/12_history-of-english/website.html
 
 format:
   html:

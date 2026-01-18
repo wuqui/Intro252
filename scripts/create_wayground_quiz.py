@@ -132,8 +132,8 @@ def create_excel_file(questions, output_file):
     print(f"Excel file created: {output_file}")
 
 def main():
-    md_file = Path('quarto/sessions/09_semantics/quiz/wayground-semantics-quiz.md')
-    output_file = Path('quarto/sessions/09_semantics/quiz/wayground-semantics-quiz.xlsx')
+    md_file = Path('quarto/sessions/12_history-of-english/quiz/wayground-history-of-english-quiz.md')
+    output_file = Path('quarto/sessions/12_history-of-english/quiz/wayground-history-of-english-quiz.xlsx')
     
     if not md_file.exists():
         print(f"Error: Markdown file not found: {md_file}")

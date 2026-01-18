@@ -221,6 +221,32 @@ Consociation and dissociation
 :::
 
 
+## Exercise: spot the loanwords {.small}
+
+**Read the following newspaper article and spot the loanwords.**
+
+[Romance/Latin]{.green} — [Greek]{.blue} — [other/uncertain]{.purple}
+
+**Scottish whale watchers' photos used to gain insights into animals' habits.**
+
+Images taken by public reveal insights into threatened minke whales, including finding the most attention-seeking whale
+
+Snowy is the oldest known minke whale in Europe, while Knobble appears to adore attention – or, at least, the whale has been spotted more than 60 times since 2002, mostly close to the Isle of Mull. Photographic records of minke whales submitted by members of the public are being published in a digital catalogue, providing insights about the threatened species. The research, collated by the Hebridean Whale and Dolphin Trust, reveals that more than 300 individual minke whales have been identified in the Hebrides since 1990. A third (33%) have been seen more than once. "Photographs are a powerful tool for strengthening our understanding of whale movements and the threats they face – providing vital evidence for effective conservation," said Dr Lauren Hartny-Mills, science and conservation manager for the Hebridean Whale and Dolphin Trust. […]
+
+*[The Guardian, 26 October 2023](https://www.theguardian.com/environment/2023/oct/26/scottish-whale-watchers-photos-used-to-gain-insights-into-animals-habits)*
+
+
+### Solution {.excl .slide}
+
+::: {.small}
+**Scottish whale watchers’ [photos]{.blue} [used]{.green} to gain insights into [animals’]{.green} [habits]{.green}.**
+
+[Images]{.green} taken by [public]{.green} [reveal]{.green} insights into threatened [minke]{.purple} whales, [including]{.green} finding the most [attention]{.green}-seeking whale
+
+Snowy is the oldest known [minke]{.purple} whale in [Europe]{.blue}, while Knobble [appears]{.green} to [adore]{.green} [attention]{.green} – or, at least, the whale has been spotted more than 60 times since 2002, mostly [close]{.green} to the [Isle]{.green} of [Mull]{.purple}. [Photographic]{.blue} [records]{.green} of [minke]{.purple} whales [submitted]{.green} by [members]{.green} of the [public]{.green} are being [published]{.green} in a [digital]{.green} [catalogue]{.blue}, [providing]{.green} insights about the threatened [species]{.green}. The [research]{.green}, [collated]{.green} by the [Hebridean]{.purple} Whale and [Dolphin]{.purple} Trust, [reveals]{.green} that more than 300 [individual]{.green} [minke]{.purple} whales have been [identified]{.green} in the [Hebrides]{.purple} since 1990. A third (33%) have been seen more than once. “[Photographs]{.blue} are a [powerful]{.green} tool for strengthening our understanding of whale [movements]{.green} and the threats they [face]{.green} – [providing]{.green} [vital]{.green} [evidence]{.green} for [effective]{.green} [conservation]{.green},” said Dr Lauren Hartny-Mills, [science]{.green} and [conservation]{.green} [manager]{.green} for the [Hebridean]{.purple} Whale and [Dolphin]{.purple} Trust. […]
+:::
+
+
 # Early Modern English
 
 ## External history
@@ -256,7 +282,6 @@ Consociation and dissociation
 
 # Present-Day English
 
-
 ## External history
 
 - new **media** (telephone, TV, internet etc.)
@@ -275,36 +300,18 @@ Consociation and dissociation
 ![@Bieswanger2021Introduction: 29](att/modern-english-inflections.png)
 
 
-## Exercise: spot the loanwords {.small}
-
-**Read the following newspaper article and spot the loanwords.**
-
-[Romance/Latin]{.green} — [Greek]{.blue} — [other/uncertain]{.purple}
-
-**Scottish whale watchers' photos used to gain insights into animals' habits.**
-
-Images taken by public reveal insights into threatened minke whales, including finding the most attention-seeking whale
-
-Snowy is the oldest known minke whale in Europe, while Knobble appears to adore attention – or, at least, the whale has been spotted more than 60 times since 2002, mostly close to the Isle of Mull. Photographic records of minke whales submitted by members of the public are being published in a digital catalogue, providing insights about the threatened species. The research, collated by the Hebridean Whale and Dolphin Trust, reveals that more than 300 individual minke whales have been identified in the Hebrides since 1990. A third (33%) have been seen more than once. "Photographs are a powerful tool for strengthening our understanding of whale movements and the threats they face – providing vital evidence for effective conservation," said Dr Lauren Hartny-Mills, science and conservation manager for the Hebridean Whale and Dolphin Trust. […]
-
-*[The Guardian, 26 October 2023](https://www.theguardian.com/environment/2023/oct/26/scottish-whale-watchers-photos-used-to-gain-insights-into-animals-habits)*
-
-
-### Solution {.excl .slide}
-
-::: {.small}
-**Scottish whale watchers’ [photos]{.blue} [used]{.green} to gain insights into [animals’]{.green} [habits]{.green}.**
-
-[Images]{.green} taken by [public]{.green} [reveal]{.green} insights into threatened [minke]{.purple} whales, [including]{.green} finding the most [attention]{.green}-seeking whale
-
-Snowy is the oldest known [minke]{.purple} whale in [Europe]{.blue}, while Knobble [appears]{.green} to [adore]{.green} [attention]{.green} – or, at least, the whale has been spotted more than 60 times since 2002, mostly [close]{.green} to the [Isle]{.green} of [Mull]{.purple}. [Photographic]{.blue} [records]{.green} of [minke]{.purple} whales [submitted]{.green} by [members]{.green} of the [public]{.green} are being [published]{.green} in a [digital]{.green} [catalogue]{.blue}, [providing]{.green} insights about the threatened [species]{.green}. The [research]{.green}, [collated]{.green} by the [Hebridean]{.purple} Whale and [Dolphin]{.purple} Trust, [reveals]{.green} that more than 300 [individual]{.green} [minke]{.purple} whales have been [identified]{.green} in the [Hebrides]{.purple} since 1990. A third (33%) have been seen more than once. “[Photographs]{.blue} are a [powerful]{.green} tool for strengthening our understanding of whale [movements]{.green} and the threats they [face]{.green} – [providing]{.green} [vital]{.green} [evidence]{.green} for [effective]{.green} [conservation]{.green},” said Dr Lauren Hartny-Mills, [science]{.green} and [conservation]{.green} [manager]{.green} for the [Hebridean]{.purple} Whale and [Dolphin]{.purple} Trust. […]
-:::
-
-
 # English around the world
 
 ![@Bieswanger2021Introduction: 35](att/circles-of-english.png)
 
+
+# Quiz: History of English
+
+```{=html}
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
+<iframe src="https://wayground.com/embed/quiz/696d5bd264fc5a49718b7786" title="History of English Quiz - Wayground" style="flex:1;" frameBorder="0" allowfullscreen></iframe>
+</div>
+```
 
 
 # References
