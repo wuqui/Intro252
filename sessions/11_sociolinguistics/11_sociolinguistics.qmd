@@ -12,7 +12,7 @@ format:
     output-file: "slides.html"
     number-sections: false
 params:
-  show_excl: false
+  show_excl: true
 ---
 
 ::: {.content-hidden when-format="revealjs"}
@@ -161,6 +161,8 @@ Sociolinguistics is a sub-discipline of linguistics concerned with the study of 
 
 ## Lexical differences
 
+. . .
+
 ### Examples
 
 | Standard American | Standard English |
@@ -199,10 +201,14 @@ c) *French fries* [→ AmE]{.excl .fragment}
 
 ## Orthographic differences
 
+. . .
+
 ![@Kortmann2020Essentials: 210](att/orthographic-differences.png)
 
 
 ## Pronunciation differences
+
+. . .
 
 | General American (GA) | Received Pronunciation (RP) |
 |---|---|

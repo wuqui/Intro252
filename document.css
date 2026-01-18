@@ -23,3 +23,15 @@ figure > p,
   display: none;
 }
 
+/* Color classes for loanword highlighting */
+.green {
+  color: #2e7d32; /* Romance/Latin origin */
+}
+
+.blue {
+  color: #1565c0; /* Greek origin */
+}
+
+.purple {
+  color: #7b1fa2; /* Other/uncertain origin */
+}
