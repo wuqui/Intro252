@@ -12,7 +12,7 @@ format:
     output-file: "slides.html"
     number-sections: false
 params:
-  show_excl: false
+  show_excl: true
 ---
 
 ::: {.content-hidden when-format="revealjs"}
