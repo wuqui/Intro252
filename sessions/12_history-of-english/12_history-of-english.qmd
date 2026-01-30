@@ -1,5 +1,5 @@
 ---
-title: "12 — History of English"
+title: "History of English"
 subtitle: "Introduction to linguistics — [Course Website](../../index.qmd) — 19 January 2026"
 author: "Dr. Quirin Würschinger, LMU Munich"
 metadata:

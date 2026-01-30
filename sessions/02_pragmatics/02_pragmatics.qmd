@@ -1,5 +1,5 @@
 ---
-title: 2 — Pragmatics
+title: Pragmatics
 subtitle: "Introduction to linguistics — [Course Website](../../index.qmd)"
 author: Dr. Quirin Würschinger, LMU Munich
 date: 2025-10-27

@@ -1,5 +1,5 @@
 ---
-title: 7 — Morphology and word-formation
+title: Morphology and word-formation
 subtitle: "Introduction to linguistics — [Course Website](../../index.qmd) — 1 & 8 November 2025"
 author: Dr. Quirin Würschinger, LMU Munich
 metadata:

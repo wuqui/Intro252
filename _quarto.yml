@@ -14,25 +14,25 @@ website:
     left:
       - text: Sessions
         menu:
-        - text: 01 – Introduction
+        - text: Introduction
           href: sessions/01_intro/website.html
-        - text: 02 – Pragmatics
+        - text: Pragmatics
           href: sessions/02_pragmatics/website.html
-        - text: 03 – Phonetics
+        - text: Phonetics
           href: sessions/03_phonetics/website.html
-        - text: 04 – Phonology
+        - text: Phonology
           href: sessions/04_phonology/website.html
-        - text: 05 — Syntax
+        - text: Syntax
           href: sessions/05_syntax/website.html
-        - text: 07 — Morphology and word-formation
+        - text: Morphology and word-formation
           href: sessions/07_morphology/website.html
-        - text: 09 — Semantics and lexicology
+        - text: Semantics and lexicology
           href: sessions/09_semantics/website.html
-        - text: 10 — Revision
+        - text: Revision
           href: sessions/10_revision/website.html
-        - text: 11 — Sociolinguistics
+        - text: Sociolinguistics
           href: sessions/11_sociolinguistics/website.html
-        - text: 12 — History of English
+        - text: History of English
           href: sessions/12_history-of-english/website.html
 
 format:

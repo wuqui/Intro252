@@ -1,0 +1,13 @@
+---
+title: "Mock Exam"
+subtitle: "Introduction to linguistics — [Course Website](../../index.qmd) — 26 January 2026"
+author: "Dr. Quirin Würschinger, LMU Munich"
+metadata:
+  linkprefix: ../../
+number-sections: true
+format:
+  html:
+    output-file: "website.html"
+---
+
+{{< pdf att/mock-exam_solutions.pdf width=100% height=800 >}}

@@ -1,5 +1,5 @@
 ---
-title: "9 — Semantics and lexicology"
+title: "Semantics and lexicology"
 subtitle: "Introduction to linguistics — [Course Website](../../index.qmd) — 14 December 2025"
 author: "Dr. Quirin Würschinger, LMU Munich"
 metadata:

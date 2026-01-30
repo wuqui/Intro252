@@ -1,5 +1,5 @@
 ---
-title: "10 — Revision"
+title: "Revision"
 subtitle: "Introduction to linguistics — [Course Website](../../index.qmd) — 22 December 2025"
 author: "Dr. Quirin Würschinger, LMU Munich"
 metadata:
