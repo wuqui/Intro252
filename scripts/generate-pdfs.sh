@@ -38,7 +38,6 @@ for html_file in sessions/*/slides.html; do
   npx -y decktape reveal \
     --chrome-arg=--no-sandbox \
     --chrome-arg=--disable-setuid-sandbox \
-    --fragments \
     "$html_file" \
     "$pdf_file"
 
