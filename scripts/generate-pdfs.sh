@@ -6,11 +6,18 @@ set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+TARGET_DIR="${1:-$PROJECT_ROOT/_site}"
 
 echo "=== Generating PDFs from RevealJS slides ==="
 echo "Project root: $PROJECT_ROOT"
+echo "Target dir: $TARGET_DIR"
 
-cd "$PROJECT_ROOT/_site"
+if [ ! -d "$TARGET_DIR" ]; then
+    echo "Target directory not found: $TARGET_DIR"
+    exit 1
+fi
+
+cd "$TARGET_DIR"
 
 count=0
 skipped=0
