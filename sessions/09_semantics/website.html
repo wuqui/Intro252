@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Quirin Würschinger, LMU Munich">
+
+<title>Semantics and lexicology – Intro252</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/quarto-auto-dark-mode-1.0.0/auto-dark-mode.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/quarto-exclude-1.5.0/exclude-styles.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../document.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Intro252</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sessions" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sessions</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sessions">    
+        <li>
+    <a class="dropdown-item" href="../../sessions/01_intro/website.html">
+ <span class="dropdown-text">Introduction</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/02_pragmatics/website.html">
+ <span class="dropdown-text">Pragmatics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/03_phonetics/website.html">
+ <span class="dropdown-text">Phonetics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/04_phonology/website.html">
+ <span class="dropdown-text">Phonology</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/05_syntax/website.html">
+ <span class="dropdown-text">Syntax</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/07_morphology/website.html">
+ <span class="dropdown-text">Morphology and word-formation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/09_semantics/website.html">
+ <span class="dropdown-text">Semantics and lexicology</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/10_revision/website.html">
+ <span class="dropdown-text">Revision</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/11_sociolinguistics/website.html">
+ <span class="dropdown-text">Sociolinguistics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/12_history-of-english/website.html">
+ <span class="dropdown-text">History of English</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#object-of-study" id="toc-object-of-study" class="nav-link active" data-scroll-target="#object-of-study">Object of study</a>
+  <ul class="collapse">
+  <li><a href="#semantics" id="toc-semantics" class="nav-link" data-scroll-target="#semantics">Semantics</a></li>
+  <li><a href="#semasiology-and-onomasiology" id="toc-semasiology-and-onomasiology" class="nav-link" data-scroll-target="#semasiology-and-onomasiology">Semasiology and onomasiology</a>
+  <ul class="collapse">
+  <li><a href="#semasiology" id="toc-semasiology" class="nav-link" data-scroll-target="#semasiology">Semasiology</a></li>
+  <li><a href="#onomasiology" id="toc-onomasiology" class="nav-link" data-scroll-target="#onomasiology">Onomasiology</a></li>
+  </ul></li>
+  <li><a href="#paradigmatic-and-syntagmatic-semantics" id="toc-paradigmatic-and-syntagmatic-semantics" class="nav-link" data-scroll-target="#paradigmatic-and-syntagmatic-semantics">Paradigmatic and syntagmatic semantics</a></li>
+  <li><a href="#reference-referent" id="toc-reference-referent" class="nav-link" data-scroll-target="#reference-referent">Reference — referent</a></li>
+  <li><a href="#extension-denotation" id="toc-extension-denotation" class="nav-link" data-scroll-target="#extension-denotation">Extension — denotation</a></li>
+  <li><a href="#denotation-connotation" id="toc-denotation-connotation" class="nav-link" data-scroll-target="#denotation-connotation">Denotation — connotation</a>
+  <ul class="collapse">
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  </ul></li>
+  <li><a href="#lexical-fields" id="toc-lexical-fields" class="nav-link" data-scroll-target="#lexical-fields">Lexical fields</a>
+  <ul class="collapse">
+  <li><a href="#examples-1" id="toc-examples-1" class="nav-link" data-scroll-target="#examples-1">Examples</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#meaning-relations" id="toc-meaning-relations" class="nav-link" data-scroll-target="#meaning-relations">Meaning relations</a>
+  <ul class="collapse">
+  <li><a href="#overview-of-sense-relations" id="toc-overview-of-sense-relations" class="nav-link" data-scroll-target="#overview-of-sense-relations">Overview of sense relations</a></li>
+  <li><a href="#synonymy" id="toc-synonymy" class="nav-link" data-scroll-target="#synonymy">Synonymy</a></li>
+  <li><a href="#complementary-antonymy" id="toc-complementary-antonymy" class="nav-link" data-scroll-target="#complementary-antonymy">Complementary antonymy</a></li>
+  <li><a href="#gradable-antonymy" id="toc-gradable-antonymy" class="nav-link" data-scroll-target="#gradable-antonymy">Gradable antonymy</a></li>
+  <li><a href="#relational-opposites" id="toc-relational-opposites" class="nav-link" data-scroll-target="#relational-opposites">Relational opposites</a>
+  <ul class="collapse">
+  <li><a href="#examples-2" id="toc-examples-2" class="nav-link" data-scroll-target="#examples-2">Examples</a></li>
+  </ul></li>
+  <li><a href="#directional-opposites" id="toc-directional-opposites" class="nav-link" data-scroll-target="#directional-opposites">Directional opposites</a>
+  <ul class="collapse">
+  <li><a href="#examples-3" id="toc-examples-3" class="nav-link" data-scroll-target="#examples-3">Examples</a></li>
+  </ul></li>
+  <li><a href="#hierarchical-relations-hyponomy-and-meronomy" id="toc-hierarchical-relations-hyponomy-and-meronomy" class="nav-link" data-scroll-target="#hierarchical-relations-hyponomy-and-meronomy">Hierarchical relations: hyponomy and meronomy</a></li>
+  <li><a href="#exercise-identify-sense-relations" id="toc-exercise-identify-sense-relations" class="nav-link" data-scroll-target="#exercise-identify-sense-relations">Exercise: identify sense relations</a></li>
+  <li><a href="#syntagmatic-relations-collocations-and-idioms" id="toc-syntagmatic-relations-collocations-and-idioms" class="nav-link" data-scroll-target="#syntagmatic-relations-collocations-and-idioms">Syntagmatic relations: collocations and idioms</a>
+  <ul class="collapse">
+  <li><a href="#exercise-collocations-and-idioms" id="toc-exercise-collocations-and-idioms" class="nav-link" data-scroll-target="#exercise-collocations-and-idioms">Exercise: collocations and idioms</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#lexical-ambiguity" id="toc-lexical-ambiguity" class="nav-link" data-scroll-target="#lexical-ambiguity">Lexical ambiguity</a>
+  <ul class="collapse">
+  <li><a href="#homonymy-vs-polysemy" id="toc-homonymy-vs-polysemy" class="nav-link" data-scroll-target="#homonymy-vs-polysemy">Homonymy vs polysemy</a></li>
+  <li><a href="#homonymy" id="toc-homonymy" class="nav-link" data-scroll-target="#homonymy">Homonymy</a></li>
+  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise">Exercise:</a></li>
+  </ul></li>
+  <li><a href="#cognitive-semantics" id="toc-cognitive-semantics" class="nav-link" data-scroll-target="#cognitive-semantics">Cognitive semantics</a>
+  <ul class="collapse">
+  <li><a href="#componential-analysis" id="toc-componential-analysis" class="nav-link" data-scroll-target="#componential-analysis">Componential analysis</a></li>
+  <li><a href="#prototype-theory" id="toc-prototype-theory" class="nav-link" data-scroll-target="#prototype-theory">Prototype theory</a></li>
+  </ul></li>
+  <li><a href="#metaphor-and-metonymy" id="toc-metaphor-and-metonymy" class="nav-link" data-scroll-target="#metaphor-and-metonymy">Metaphor and metonymy</a>
+  <ul class="collapse">
+  <li><a href="#metaphor" id="toc-metaphor" class="nav-link" data-scroll-target="#metaphor">Metaphor</a>
+  <ul class="collapse">
+  <li><a href="#examples-4" id="toc-examples-4" class="nav-link" data-scroll-target="#examples-4">Examples</a></li>
+  </ul></li>
+  <li><a href="#metonymy" id="toc-metonymy" class="nav-link" data-scroll-target="#metonymy">Metonymy</a></li>
+  <li><a href="#exercise-identify-metaphor-and-metonymy" id="toc-exercise-identify-metaphor-and-metonymy" class="nav-link" data-scroll-target="#exercise-identify-metaphor-and-metonymy">Exercise: identify metaphor and metonymy</a></li>
+  </ul></li>
+  <li><a href="#semantic-change" id="toc-semantic-change" class="nav-link" data-scroll-target="#semantic-change">Semantic change</a>
+  <ul class="collapse">
+  <li><a href="#types-of-semantic-change" id="toc-types-of-semantic-change" class="nav-link" data-scroll-target="#types-of-semantic-change">Types of semantic change</a></li>
+  <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link" data-scroll-target="#exercise-1">Exercise</a></li>
+  </ul></li>
+  <li><a href="#quiz" id="toc-quiz" class="nav-link" data-scroll-target="#quiz">Quiz</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Semantics and lexicology</h1>
+<p class="subtitle lead">Introduction to linguistics</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Quirin Würschinger, LMU Munich </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><a href="slides.html" class="btn btn-primary">open slides</a> <a href="slides.pdf" class="btn btn-secondary">download slides (pdf)</a></p>
+<section id="object-of-study" class="level1">
+<h1>Object of study</h1>
+<section id="semantics" class="level2">
+<h2 class="anchored" data-anchor-id="semantics">Semantics</h2>
+<ul>
+<li>“Semantics (Greek semain- = to mean) is the only branch of linguistics which is exclusively concerned with <strong>meaning</strong>.</li>
+<li>Semantics studies the meaning or meaning potential of various kinds of expressions: <strong>words</strong>, <strong>phrases</strong>, and <strong>sentences</strong>.</li>
+<li>This chapter is mainly confined to the study of <strong>word meaning</strong> (<strong>lexical semantics</strong>; <strong>lexicology</strong>)” <span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 143)</span></li>
+</ul>
+</section>
+<section id="semasiology-and-onomasiology" class="level2">
+<h2 class="anchored" data-anchor-id="semasiology-and-onomasiology">Semasiology and onomasiology</h2>
+<section id="semasiology" class="level3">
+<h3 class="anchored" data-anchor-id="semasiology">Semasiology</h3>
+<ul>
+<li>What is the meaning of X?”</li>
+<li>form/signifier → meaning/signified</li>
+</ul>
+</section>
+<section id="onomasiology" class="level3">
+<h3 class="anchored" data-anchor-id="onomasiology">Onomasiology</h3>
+<ul>
+<li>What is the word for X?”</li>
+<li>meaning/signified → form/signifier</li>
+</ul>
+</section>
+</section>
+<section id="paradigmatic-and-syntagmatic-semantics" class="level2">
+<h2 class="anchored" data-anchor-id="paradigmatic-and-syntagmatic-semantics">Paradigmatic and syntagmatic semantics</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">2020</a>)</span>: 143</figcaption>
+<p><img src="att/paradigmatic-syntagmatic-semantics.png" class="img-fluid figure-img" width="500"></p>
+</figure>
+</div>
+</section>
+<section id="reference-referent" class="level2">
+<h2 class="anchored" data-anchor-id="reference-referent">Reference — referent</h2>
+<ul>
+<li>“The term <strong>reference</strong>, for example, designates the relation between entities in the external world and the words which are used to refer to these entities (e. g. people, objects, events, places, points in time, etc.).</li>
+<li>The <strong>referent</strong> is the entity referred to (“picked out”) by an expression in a particular context.</li>
+</ul>
+<p>4a. Take the bottle and put it in the dustbin.<br>
+4b. She took a bottle and put it in a dustbin.<br>
+4c. A bottle is not a dustbin.”</p>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 147)</span></p>
+</section>
+<section id="extension-denotation" class="level2">
+<h2 class="anchored" data-anchor-id="extension-denotation">Extension — denotation</h2>
+<ul>
+<li>“The term <strong>extension</strong> designates the class of objects to which a linguistic expression can be applied, i. e. the class of its potential referents (in (4c) the class of all bottles and the class of all dustbins).</li>
+<li>A <strong>referent</strong> of a linguistic expression is always a member (or subset) of the class of objects that constitutes the word’s <strong>extension</strong>.”</li>
+</ul>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 147)</span></p>
+</section>
+<section id="denotation-connotation" class="level2">
+<h2 class="anchored" data-anchor-id="denotation-connotation">Denotation — connotation</h2>
+<ul>
+<li><strong>Denotation</strong>: the literal, dictionary meaning of a word; its core, objective meaning</li>
+<li><strong>Connotation</strong>: the emotional, cultural, or associative meaning that goes beyond the literal meaning; subjective and context-dependent</li>
+</ul>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">Examples</h3>
+<ul>
+<li><em>cheap</em> vs <em>inexpensive</em>
+<ul>
+<li>Both denote low cost, but <em>cheap</em> often connotes poor quality, while <em>inexpensive</em> is more neutral.</li>
+</ul></li>
+<li><em>slender</em> vs <em>skinny</em> vs <em>thin</em>
+<ul>
+<li>All denote lack of body mass, but <em>slender</em> is positive, <em>skinny</em> can be negative, and <em>thin</em> is more neutral.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="lexical-fields" class="level2">
+<h2 class="anchored" data-anchor-id="lexical-fields">Lexical fields</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 149)</span></p>
+<p>“<strong>Lexical (or: semantic) fields</strong> are groups of words which cover different or partly overlapping areas within the <strong>same extralinguistic domain</strong>.”</p>
+<section id="examples-1" class="level3">
+<h3 class="anchored" data-anchor-id="examples-1">Examples</h3>
+<ul>
+<li>“colour adjectives,</li>
+<li>adjectives relating to mental abilities (<em>intelligent</em>, <em>clever</em>, <em>smart</em>, <em>bright</em>, <em>brilliant</em>, <em>brainy</em>, <em>stupid</em>, <em>dumb</em>, <em>silly</em>, <em>thick</em>, <em>dense</em>, etc.),</li>
+<li>different types of footwear (<em>shoe</em>, <em>moccasin</em>, <em>clog</em>, <em>slipper</em>, <em>sandal</em>, <em>trainer</em>, <em>boot</em>, etc.)”</li>
+</ul>
+<p><span class="fragment">Can you think of lexical fields that have undergone lexical change in the recent past?</span></p>
+<p><img src="att/lexical-field-example.png" class="img-fluid"></p>
+</section>
+</section>
+</section>
+<section id="meaning-relations" class="level1">
+<h1>Meaning relations</h1>
+<section id="overview-of-sense-relations" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-sense-relations">Overview of sense relations</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">2020</a>)</span>: 154</figcaption>
+<p><img src="att/sense-relations.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="synonymy" class="level2">
+<h2 class="anchored" data-anchor-id="synonymy">Synonymy</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 152)</span></p>
+<ul>
+<li>“<strong>Synonymy</strong>: The concept of synonymy is used to describe semantic <strong>equivalence</strong> or rather <strong>extensive semantic similarity</strong> between two or more lexemes.</li>
+<li>The term is typically used in reference to the <strong>descriptive meaning</strong> of words (hence the term descriptive or cognitive synonymy). Synonyms thus have the same semantic features.”</li>
+</ul>
+<p>“<strong>Descriptive synonyms</strong> may differ with regard to</p>
+<ul>
+<li>their <strong>connotations</strong> (<em>dog</em> – <em>mongrel</em>, <em>cock</em> – <em>rooster</em>, <em>worker</em> – <em>employee</em>, <em>baby</em> – <em>neonate</em>),</li>
+<li>with regard to <strong>stylistic level</strong> or <strong>register</strong> (<em>begin</em> – <em>commence</em>, <em>buy</em> – <em>purchase</em>, <em>intoxicated</em> – <em>drunk</em> – <em>pissed</em>),</li>
+<li>with regard to <strong>regional</strong> or <strong>social variety</strong> (e. g. differences between American and BritishEnglish*),</li>
+<li>or with regard to their <strong>collocations</strong> (e. g. <em>a big/large house</em>, but <em>Big/Large Brother</em> is watching you).”</li>
+</ul>
+</section>
+<section id="complementary-antonymy" class="level2">
+<h2 class="anchored" data-anchor-id="complementary-antonymy">Complementary antonymy</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 152)</span></p>
+<ul>
+<li>“Complementary antonymy: We speak of <strong>complementary</strong> or <strong>binary antonyms</strong> (or: complementaries) if there is an either-or relationship between the two terms of a pair of semantic opposites, i. e. if the two antonyms exhaust all possible options in a particular conceptual domain</li>
+<li>(e.g.&nbsp;<em>asleep</em> – <em>awake</em>, <em>dead</em> – <em>alive</em>, <em>live</em> – <em>die</em>, <em>pass</em> – <em>fail</em>).</li>
+</ul>
+</section>
+<section id="gradable-antonymy" class="level2">
+<h2 class="anchored" data-anchor-id="gradable-antonymy">Gradable antonymy</h2>
+<ul>
+<li>“(Gradable) antonymy: Complementary antonymy is commonly contrasted with gradable antonymy, where the two expressions involved merely constitute <strong>opposite poles of a continuum</strong>.”</li>
+<li>“<strong>Examples</strong> of gradable antonyms are <em>hot</em> – <em>cold</em> (notice the various intermediate stages like <em>warm</em> – <em>tepid</em> – <em>cool</em>), <em>broad</em> – <em>narrow</em>, <em>large</em> – <em>small</em>,-and <em>old</em> – <em>young</em> (cf.&nbsp;also pairs of nouns like <em>beginning</em> – <em>end</em>, <em>war</em> – <em>peace</em>).”</li>
+</ul>
+</section>
+<section id="relational-opposites" class="level2">
+<h2 class="anchored" data-anchor-id="relational-opposites">Relational opposites</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 153)</span></p>
+<ul>
+<li>“<strong>Relational opposites</strong>: A further type of antonyms are relational opposites (or: converses).</li>
+<li>They describe the <strong>same situation from different perspectives</strong></li>
+</ul>
+<section id="examples-2" class="level3">
+<h3 class="anchored" data-anchor-id="examples-2">Examples</h3>
+<ul>
+<li><em>teacher</em> ⇆ <em>pupil</em></li>
+<li><em>employer</em> ⇆ <em>employee</em></li>
+<li><em>examiner</em> ⇆ <em>examinee</em></li>
+<li><em>older</em> ⇆ <em>younger</em></li>
+<li><em>longer</em> ⇆ <em>shorter</em></li>
+</ul>
+</section>
+</section>
+<section id="directional-opposites" class="level2">
+<h2 class="anchored" data-anchor-id="directional-opposites">Directional opposites</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 153)</span></p>
+<p>“<strong>Directional oppositeness</strong>: The fourth type of antonymy, directional oppositeness (directional opposites or reverses), does not involve different perspectives on the same situation, but rather a <strong>change of direction</strong> (especially motion in different directions).</p>
+<section id="examples-3" class="level3">
+<h3 class="anchored" data-anchor-id="examples-3">Examples</h3>
+<div>
+<ul>
+<li><em>open</em> ⇆ <em>shut</em></li>
+<li><em>push</em> ⇆ <em>pull</em></li>
+<li><em>rise</em> ⇆ <em>fall</em></li>
+<li><em>leave</em> ⇆ <em>return</em></li>
+<li><em>(turn) right</em> ⇆ <em>(turn) left</em></li>
+<li><em>tie</em> ⇆ <em>untie</em></li>
+</ul>
+</div>
+</section>
+</section>
+<section id="hierarchical-relations-hyponomy-and-meronomy" class="level2">
+<h2 class="anchored" data-anchor-id="hierarchical-relations-hyponomy-and-meronomy">Hierarchical relations: hyponomy and meronomy</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">2020</a>)</span>: 154</figcaption>
+<p><img src="att/hierarchical-relations.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="exercise-identify-sense-relations" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-identify-sense-relations">Exercise: identify sense relations</h2>
+<p>Identify the meaning relation holding between the following pairs of words. For antonyms, specify the subtype.</p>
+<ol type="1">
+<li><em>frame</em> – <em>window</em>: <span class="excl fragment"><strong>meronymy</strong>: meronym: <em>frame</em>, holonym: <em>window</em></span></li>
+<li><em>expand</em> – <em>contract</em>: <span class="excl fragment"><strong>directional antonymy</strong></span></li>
+<li><em>(go) in</em> – <em>(go) out</em>: <span class="excl fragment"><strong>directional oppositeness</strong></span></li>
+<li><em>freedom</em> – <em>liberty</em>: <span class="excl fragment"><strong>descriptive synonymy</strong></span></li>
+<li><em>hot</em> – <em>cold</em>: <span class="excl fragment"><strong>gradable antonymy</strong></span></li>
+<li><em>insect</em> – <em>bee</em>: <span class="excl fragment"><strong>hyperonymy</strong>: hyperonym: <em>insect</em>, holonym: <em>bee</em></span></li>
+<li><em>certain</em> – <em>sure</em>: <span class="excl fragment"><strong>total/descriptive synonymy</strong></span></li>
+<li><em>night</em> – <em>day</em>: <span class="excl fragment"><strong>complementary antonymy</strong></span></li>
+<li><em>give</em> – <em>receive</em>: <span class="excl fragment"><strong>relational oppositeness</strong></span></li>
+<li><em>poor</em> – <em>rich</em>: <span class="excl fragment"><strong>polar antonymy</strong></span></li>
+<li><em>peace</em> – <em>war</em>: <span class="excl fragment"><strong>complementary antonymy</strong></span></li>
+<li><em>car</em> – <em>convertible</em>: <span class="excl fragment"><strong>hyperonymy</strong>: hyperonym: <em>car</em>, hyponym: <em>convertible</em></span></li>
+<li><em>house</em> – <em>cottage</em> – <em>palace</em>: <span class="excl fragment"><strong>co-hyponyms</strong> of the hyperonym <em>building</em></span></li>
+</ol>
+</section>
+<section id="syntagmatic-relations-collocations-and-idioms" class="level2">
+<h2 class="anchored" data-anchor-id="syntagmatic-relations-collocations-and-idioms">Syntagmatic relations: collocations and idioms</h2>
+<ul>
+<li><strong>Collocations</strong>
+<ul>
+<li>words that occur together more <strong>frequently</strong> than expected</li>
+<li>examples: <em>salt and pepper</em>, <em>handsome man</em> (vs.&nbsp;<sup>?</sup><em>handsome girl</em>)</li>
+</ul></li>
+<li><strong>Idioms</strong>
+<ul>
+<li>words that occur together more <strong>frequently</strong> than expected</li>
+<li><strong>semantically opaque</strong> (non-transparent), i.e.&nbsp;meaning not deducible from meanings of the components</li>
+<li>examples: <em>to kick the bucket</em>, <em>to break a leg</em>, <em>to put one’s foot in one’s mouth</em></li>
+</ul></li>
+</ul>
+<section id="exercise-collocations-and-idioms" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-collocations-and-idioms">Exercise: collocations and idioms</h3>
+<div>
+<p>Briefly explain the difference between collocations and idioms.</p>
+<ol type="1">
+<li><em>kick the bucket</em>
+<ul>
+<li><span class="excl fragment"><strong>idiom</strong>: non-compositional meaning (‘to die’)</span></li>
+</ul></li>
+<li><em>break a habit</em>
+<ul>
+<li><span class="excl fragment"><strong>collocation</strong>: words that commonly occur together, but meaning is literal</span></li>
+</ul></li>
+<li><em>break a leg</em>
+<ul>
+<li><span class="excl fragment"><strong>idiom</strong>: non-compositional meaning (‘good luck’)</span></li>
+</ul></li>
+<li><em>hang in there</em>
+<ul>
+<li><span class="excl fragment"><strong>idiom</strong>: non-compositional meaning (‘persevere’, ‘don’t give up’)</span></li>
+</ul></li>
+<li><em>white wine</em>
+<ul>
+<li><span class="excl fragment"><strong>collocation</strong>: words that commonly occur together, but meaning is literal</span></li>
+</ul></li>
+<li><em>blond hair</em>
+<ul>
+<li><span class="excl fragment"><strong>collocation</strong>: words that commonly occur together, but meaning is literal</span></li>
+</ul></li>
+</ol>
+</div>
+</section>
+</section>
+</section>
+<section id="lexical-ambiguity" class="level1">
+<h1>Lexical ambiguity</h1>
+<section id="homonymy-vs-polysemy" class="level2">
+<h2 class="anchored" data-anchor-id="homonymy-vs-polysemy">Homonymy vs polysemy</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 235</figcaption>
+<p><img src="att/homonymy-vs-polysemy.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="homonymy" class="level2">
+<h2 class="anchored" data-anchor-id="homonymy">Homonymy</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">2020</a>)</span>: 155</figcaption>
+<p><img src="att/homonymy.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div>
+<ul>
+<li>“<strong>Homophones</strong> are lexemes which are identical in pronunciation, but differ in spelling
+<ul>
+<li>(see – sea, sight – site, flower – flour),</li>
+</ul></li>
+<li>while <strong>homographs</strong> are identical in spelling, but differ in pronunciation
+<ul>
+<li>(<em>lead</em> /led/ ‘kind of metal’ vs.&nbsp;<em>lead</em> /liːd / ‘piece of leather attached to dogs’ collars’,</li>
+<li><em>bass</em> /beɪs/ ‘man with a deep singing voice’ vs.&nbsp;<em>bass</em> /bæs/ ‘type of fish’).” <span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 153)</span></li>
+</ul></li>
+</ul>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 234</figcaption>
+<p><img src="att/homonymy-ear.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="exercise" class="level2">
+<h2 class="anchored" data-anchor-id="exercise">Exercise:</h2>
+<p>Describe the lexical ambiguity of the words below using the following linguistic terms:</p>
+<p><span class="smallcaps">polysemy – homonymy – homophony – homography</span></p>
+<ol type="1">
+<li><em>bass</em> – ‘music instrument’ vs.&nbsp;‘type of fish’: <span class="excl fragment"><strong>homography</strong></span></li>
+<li><em>mouse</em> – ‘small rodent’ vs.&nbsp;‘computer mouse’: <span class="excl fragment"><strong>polysemy</strong></span></li>
+<li><em>see</em> – <em>sea</em>: <span class="excl fragment"><strong>homophony</strong></span></li>
+</ol>
+</section>
+</section>
+<section id="cognitive-semantics" class="level1">
+<h1>Cognitive semantics</h1>
+<section id="componential-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="componential-analysis">Componential analysis</h2>
+<p><strong>Structural semantics</strong>: Description of any word meaning as a <strong>combination of semantic components</strong> (cf.&nbsp;phonemes: any phoneme in any language can be described with a limited set of distinctive features).</p>
+<ul>
+<li>lexemes differ with regard to their distinctive features</li>
+<li><strong>seme</strong>: smallest distinctive feature of meaning</li>
+<li><strong>semem</strong>: entire set of semes of a word</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 10%">
+<col style="width: 13%">
+<col style="width: 10%">
+<col style="width: 11%">
+<col style="width: 10%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;"><em>man</em></th>
+<th style="text-align: center;"><em>woman</em></th>
+<th style="text-align: center;"><em>boy</em></th>
+<th style="text-align: center;"><em>girl</em></th>
+<th style="text-align: center;"><em>cow</em></th>
+<th style="text-align: center;"><em>bull</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="smallcaps">male</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="smallcaps">adult</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="smallcaps">human</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">–</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="prototype-theory" class="level2">
+<h2 class="anchored" data-anchor-id="prototype-theory">Prototype theory</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Basic assumption</strong>: Not all members of a category are equally good members, e.g.&nbsp;a prototypical member of a bird is a robin, not an ostrich.</p>
+<p><strong>Prototypical &amp; marginal members</strong>:</p>
+<ul>
+<li>The member that exhibits the most salient features is the <strong>prototype</strong> (i.e., best, most representative member) of the category.</li>
+<li>Depending on the <strong>degree of resemblance</strong> an entity bears to the prototype, it will be categorised as good, more marginal or no member of the category (e.g., <em>dove</em> – <em>duck</em> – <em>penguin</em> – <em>bat</em> – <em>cow</em>).</li>
+</ul>
+<p>In <strong>experiments</strong>, test persons categorise prototypical members faster as member of the category than they do with marginal members.</p>
+</div><div class="column" style="width:50%;">
+<p><img src="att/prototype-birds.png" height="400"></p>
+<p><img src="att/prototype-mugs.png" height="150"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="metaphor-and-metonymy" class="level1">
+<h1>Metaphor and metonymy</h1>
+<section id="metaphor" class="level2">
+<h2 class="anchored" data-anchor-id="metaphor">Metaphor</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 161)</span></p>
+<ul>
+<li>“Vehicle – tenor – tertium comparationis: The term <strong>metaphor</strong> (Greek metaphero = ‘carry somewhere else’, with the noun <em>metaphora</em> already in its modern meaning) traditionally refers to a figure of speech which is based on a relationship of <strong>similarity</strong> or <strong>analogy</strong> between two terms from <strong>different cognitive domains</strong>.</li>
+<li>This similarity, which may be objectively given or merely subjective, is typically held to enable metaphors to ‘transport’ one or more properties of a (usually relatively concrete) <strong>source domain</strong> (or: vehicle) to a <strong>target domain</strong> (or: tenor), which is typically more abstract.</li>
+<li>The similarities involved in metaphorical mappings are often called the <strong>tertium comparationis</strong> (or ground).</li>
+</ul>
+<section id="examples-4" class="level3">
+<h3 class="anchored" data-anchor-id="examples-4">Examples</h3>
+<ul>
+<li>animal metaphors
+<ul>
+<li>(<em>Smith is a pig / fox / rat / ass / stallion</em>),</li>
+</ul></li>
+<li>synaesthetic metaphors (extensions from one field of sensory perception to another,
+<ul>
+<li>e.g.&nbsp;in <em>loud colours</em>, <em>soft / warm / sharp voice</em>),</li>
+</ul></li>
+<li>and so-called anthropomorphic metaphors (transfers from the human domain, especially human body parts, to all sorts of non-human domains,
+<ul>
+<li>e.g.&nbsp;<em>leg of a table</em>, <em>arm of a river</em>, <em>face / hands of a clock</em>, <em>foot of a mountain</em>, <em>mouth of a river</em>).”</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">2020</a>)</span>: 163</figcaption>
+<p><img src="att/metaphor-examples.png" class="img-fluid figure-img" width="550"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="metonymy" class="level2">
+<h2 class="anchored" data-anchor-id="metonymy">Metonymy</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 163)</span></p>
+<ul>
+<li>“The main difference between metaphor and <strong>metonymy</strong> is this: Metonymies do not involve a transfer from one cognitive domain to another.</li>
+<li>They are rather based on an existing objective connection between two “<strong>contiguous</strong>” phenomena, such that one phenomenon stands for the other.</li>
+<li>Thus, metonymies are not based on a relationship of similarity, but of contiguity: The phenomena or entities concerned are part of the same situation or, more generally, part of the <strong>same conceptual structure</strong>.”</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">2020</a>)</span>: 163</figcaption>
+<p><img src="att/metonymy-examples.png" class="img-fluid figure-img" width="550"></p>
+</figure>
+</div>
+</section>
+<section id="exercise-identify-metaphor-and-metonymy" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-identify-metaphor-and-metonymy">Exercise: identify metaphor and metonymy</h2>
+<p>Which of the following examples contain conceptual metaphors and which conceptual metonymies? Explain.</p>
+<ol type="1">
+<li><em>They are the brightest students in the class.</em></li>
+</ol>
+<div class="excl fragment">
+<ul>
+<li><strong>metaphor</strong>
+<ul>
+<li>source domain: <span class="smallcaps">light/brightness</span></li>
+<li>target domain: <span class="smallcaps">intelligence</span></li>
+</ul></li>
+</ul>
+</div>
+<ol start="2" type="1">
+<li><em>The argument collapsed.</em></li>
+</ol>
+<div class="excl fragment">
+<ul>
+<li><strong>metaphor</strong>
+<ul>
+<li>source domain: <span class="smallcaps">physical structures/buildings</span></li>
+<li>target domain: <span class="smallcaps">arguments</span></li>
+</ul></li>
+</ul>
+</div>
+<ol start="3" type="1">
+<li><em>The trains are on strike.</em></li>
+</ol>
+<div class="excl fragment">
+<ul>
+<li><strong>metonymy</strong>
+<ul>
+<li><em>trains</em> stands for train operators/railway workers</li>
+<li>contiguity relationship: vehicle/container for the people who operate it</li>
+</ul></li>
+</ul>
+</div>
+</section>
+</section>
+<section id="semantic-change" class="level1">
+<h1>Semantic change</h1>
+<section id="types-of-semantic-change" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-semantic-change">Types of semantic change</h2>
+<p><img src="att/semantic-change.png" class="img-fluid"></p>
+</section>
+<section id="exercise-1" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-1">Exercise</h2>
+<p>Match the following examples with the correct type of semantic change:</p>
+<ol type="1">
+<li><em>nice</em>: ME <em>nice</em> ‘foolish, absurd’ (cf.&nbsp;L <em>nescium</em> ‘ignorant’) &gt; PDE <em>nice</em>
+<ul>
+<li><span class="excl fragment"><strong>amelioration</strong>: meaning changed from negative (‘foolish’) to positive (‘nice’)</span></li>
+</ul></li>
+<li><em>holiday</em>: OE <em>halig-dæg</em> ‘day of religious significance, Sunday’ &gt; PDE <em>holiday</em>
+<ul>
+<li><span class="excl fragment"><strong>broadening (generalisation)</strong>: meaning expanded from ‘religious day’ to ‘any day off’</span></li>
+</ul></li>
+<li><em>terrific</em>: EModE <em>terrific</em> ‘causing terror’ (&lt; L <em>terrificus</em>) &gt; PDE ‘wonderful’
+<ul>
+<li><span class="excl fragment"><strong>amelioration</strong>: meaning changed from negative (‘causing terror’) to positive (‘wonderful’)</span></li>
+</ul></li>
+<li><em>skyline</em>: LModE <em>skyline</em> ‘any horizon’ &gt; ‘horizon decorated by skyscrapers’
+<ul>
+<li><span class="excl fragment"><strong>narrowing (specialisation)</strong>: meaning narrowed from ‘any horizon’ to ‘horizon with skyscrapers’</span></li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="quiz" class="level1">
+<h1>Quiz</h1>
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
+<iframe src="https://wayground.com/embed/quiz/693f53d83834c3da2d2d3383" title="Semantics Review Quiz - Wayground" style="flex:1;" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Herbst2010English" class="csl-entry" role="listitem">
+Herbst, Thomas. 2010. <em>English Linguistics: A Coursebook for Students of English</em>. Berlin: De Gruyter Mouton.
+</div>
+<div id="ref-Kortmann2020Essentials" class="csl-entry" role="listitem">
+Kortmann, Bernd. 2020. <em>English Linguistics: Essentials</em>. J.B. Metzler.
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

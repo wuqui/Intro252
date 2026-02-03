@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Quirin Würschinger, LMU Munich">
+
+<title>Syntax – Intro252</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/quarto-auto-dark-mode-1.0.0/auto-dark-mode.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/quarto-exclude-1.5.0/exclude-styles.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../document.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Intro252</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sessions" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sessions</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sessions">    
+        <li>
+    <a class="dropdown-item" href="../../sessions/01_intro/website.html">
+ <span class="dropdown-text">Introduction</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/02_pragmatics/website.html">
+ <span class="dropdown-text">Pragmatics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/03_phonetics/website.html">
+ <span class="dropdown-text">Phonetics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/04_phonology/website.html">
+ <span class="dropdown-text">Phonology</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/05_syntax/website.html">
+ <span class="dropdown-text">Syntax</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/07_morphology/website.html">
+ <span class="dropdown-text">Morphology and word-formation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/09_semantics/website.html">
+ <span class="dropdown-text">Semantics and lexicology</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/10_revision/website.html">
+ <span class="dropdown-text">Revision</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/11_sociolinguistics/website.html">
+ <span class="dropdown-text">Sociolinguistics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/12_history-of-english/website.html">
+ <span class="dropdown-text">History of English</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#outline" id="toc-outline" class="nav-link active" data-scroll-target="#outline">Outline</a></li>
+  <li><a href="#syntax-and-grammar" id="toc-syntax-and-grammar" class="nav-link" data-scroll-target="#syntax-and-grammar">Syntax and grammar</a>
+  <ul class="collapse">
+  <li><a href="#sentence-grammar" id="toc-sentence-grammar" class="nav-link" data-scroll-target="#sentence-grammar">Sentence grammar</a></li>
+  <li><a href="#syntactic-hierarchy" id="toc-syntactic-hierarchy" class="nav-link" data-scroll-target="#syntactic-hierarchy">Syntactic hierarchy</a></li>
+  <li><a href="#exercise-splitting-into-sentences-clauses-phrases-and-words" id="toc-exercise-splitting-into-sentences-clauses-phrases-and-words" class="nav-link" data-scroll-target="#exercise-splitting-into-sentences-clauses-phrases-and-words">Exercise: splitting into sentences, clauses, phrases, and words</a></li>
+  <li><a href="#clauses-and-sentences" id="toc-clauses-and-sentences" class="nav-link" data-scroll-target="#clauses-and-sentences">Clauses and sentences</a></li>
+  <li><a href="#exercise-identifying-clauses" id="toc-exercise-identifying-clauses" class="nav-link" data-scroll-target="#exercise-identifying-clauses">Exercise: identifying clauses</a></li>
+  <li><a href="#example-full-syntactic-analysis" id="toc-example-full-syntactic-analysis" class="nav-link" data-scroll-target="#example-full-syntactic-analysis">Example: full syntactic analysis</a></li>
+  <li><a href="#exercise-identifying-finite-and-non-finite-subordinate-clauses" id="toc-exercise-identifying-finite-and-non-finite-subordinate-clauses" class="nav-link" data-scroll-target="#exercise-identifying-finite-and-non-finite-subordinate-clauses">Exercise: identifying finite and non-finite subordinate clauses</a></li>
+  </ul></li>
+  <li><a href="#the-elements-of-clause-structure" id="toc-the-elements-of-clause-structure" class="nav-link" data-scroll-target="#the-elements-of-clause-structure">The elements of clause structure</a>
+  <ul class="collapse">
+  <li><a href="#subject-predicate-adjunct" id="toc-subject-predicate-adjunct" class="nav-link" data-scroll-target="#subject-predicate-adjunct">Subject, predicate, adjunct</a></li>
+  <li><a href="#objects-and-complements" id="toc-objects-and-complements" class="nav-link" data-scroll-target="#objects-and-complements">Objects and complements</a></li>
+  <li><a href="#form-and-function" id="toc-form-and-function" class="nav-link" data-scroll-target="#form-and-function">Form and function</a></li>
+  <li><a href="#exercise-identifying-the-elements-of-clause-structure" id="toc-exercise-identifying-the-elements-of-clause-structure" class="nav-link" data-scroll-target="#exercise-identifying-the-elements-of-clause-structure">Exercise; identifying the elements of clause structure</a></li>
+  <li><a href="#clause-types" id="toc-clause-types" class="nav-link" data-scroll-target="#clause-types">Clause types</a></li>
+  <li><a href="#exercise-matching-clause-types" id="toc-exercise-matching-clause-types" class="nav-link" data-scroll-target="#exercise-matching-clause-types">Exercise: matching clause types</a></li>
+  <li><a href="#exercise-identifying-dependentsubordinate-clauses" id="toc-exercise-identifying-dependentsubordinate-clauses" class="nav-link" data-scroll-target="#exercise-identifying-dependentsubordinate-clauses">Exercise: identifying dependent/subordinate clauses</a></li>
+  </ul></li>
+  <li><a href="#phrases" id="toc-phrases" class="nav-link" data-scroll-target="#phrases">Phrases</a>
+  <ul class="collapse">
+  <li><a href="#noun-phrases" id="toc-noun-phrases" class="nav-link" data-scroll-target="#noun-phrases">Noun phrases</a></li>
+  <li><a href="#verb-phrases" id="toc-verb-phrases" class="nav-link" data-scroll-target="#verb-phrases">Verb phrases</a></li>
+  <li><a href="#adjective-phrases" id="toc-adjective-phrases" class="nav-link" data-scroll-target="#adjective-phrases">Adjective phrases</a></li>
+  <li><a href="#adverb-phrases" id="toc-adverb-phrases" class="nav-link" data-scroll-target="#adverb-phrases">Adverb phrases</a></li>
+  <li><a href="#prepositional-phrases" id="toc-prepositional-phrases" class="nav-link" data-scroll-target="#prepositional-phrases">Prepositional phrases</a></li>
+  <li><a href="#exercise-identifying-noun-phrases" id="toc-exercise-identifying-noun-phrases" class="nav-link" data-scroll-target="#exercise-identifying-noun-phrases">Exercise: identifying noun phrases</a></li>
+  <li><a href="#exercise-identifying-verb-phrases" id="toc-exercise-identifying-verb-phrases" class="nav-link" data-scroll-target="#exercise-identifying-verb-phrases">Exercise: identifying verb phrases</a></li>
+  <li><a href="#exercise-identifying-phrase-types" id="toc-exercise-identifying-phrase-types" class="nav-link" data-scroll-target="#exercise-identifying-phrase-types">Exercise: identifying phrase types</a></li>
+  </ul></li>
+  <li><a href="#word-classes" id="toc-word-classes" class="nav-link" data-scroll-target="#word-classes">Word classes</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#exercise-determining-word-classes" id="toc-exercise-determining-word-classes" class="nav-link" data-scroll-target="#exercise-determining-word-classes">Exercise: determining word classes</a></li>
+  <li><a href="#verbs" id="toc-verbs" class="nav-link" data-scroll-target="#verbs">Verbs</a>
+  <ul class="collapse">
+  <li><a href="#verbal-inflection" id="toc-verbal-inflection" class="nav-link" data-scroll-target="#verbal-inflection">Verbal inflection</a></li>
+  <li><a href="#modal-and-primary-verbs" id="toc-modal-and-primary-verbs" class="nav-link" data-scroll-target="#modal-and-primary-verbs">Modal and primary verbs</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#full-syntactic-analysis" id="toc-full-syntactic-analysis" class="nav-link" data-scroll-target="#full-syntactic-analysis">Full syntactic analysis</a>
+  <ul class="collapse">
+  <li><a href="#he-spends-all-his-money-on-horses." id="toc-he-spends-all-his-money-on-horses." class="nav-link" data-scroll-target="#he-spends-all-his-money-on-horses."><em>He spends all his money on horses.</em></a></li>
+  <li><a href="#john-called-me-an-idiot." id="toc-john-called-me-an-idiot." class="nav-link" data-scroll-target="#john-called-me-an-idiot."><em>John called me an idiot.</em></a></li>
+  <li><a href="#mary-left-the-next-day." id="toc-mary-left-the-next-day." class="nav-link" data-scroll-target="#mary-left-the-next-day."><em>Mary left the next day.</em></a></li>
+  <li><a href="#his-face-turned-pale-when-he-saw-me." id="toc-his-face-turned-pale-when-he-saw-me." class="nav-link" data-scroll-target="#his-face-turned-pale-when-he-saw-me."><em>His face turned pale when he saw me.</em></a></li>
+  <li><a href="#tom-called-jerry-at-midnight-and-tom-called-jerry-a-fool." id="toc-tom-called-jerry-at-midnight-and-tom-called-jerry-a-fool." class="nav-link" data-scroll-target="#tom-called-jerry-at-midnight-and-tom-called-jerry-a-fool."><em>Tom called Jerry at midnight and Tom called Jerry a fool.</em></a></li>
+  <li><a href="#some-people-consider-themselves-to-be-very-important." id="toc-some-people-consider-themselves-to-be-very-important." class="nav-link" data-scroll-target="#some-people-consider-themselves-to-be-very-important."><em>Some people consider themselves to be very important.</em></a></li>
+  <li><a href="#michael-completely-ruined-the-dinner-as-he-behaved-like-a-fool." id="toc-michael-completely-ruined-the-dinner-as-he-behaved-like-a-fool." class="nav-link" data-scroll-target="#michael-completely-ruined-the-dinner-as-he-behaved-like-a-fool."><em>Michael completely ruined the dinner as he behaved like a fool.</em></a></li>
+  <li><a href="#the-door-of-george-lancasters-house-which-was-half-buried-in-the-snow-screeched." id="toc-the-door-of-george-lancasters-house-which-was-half-buried-in-the-snow-screeched." class="nav-link" data-scroll-target="#the-door-of-george-lancasters-house-which-was-half-buried-in-the-snow-screeched."><em>The door of George Lancaster’s house, which was half buried in the snow, screeched.</em></a></li>
+  <li><a href="#the-lucky-boys-have-found-a-paperback-in-the-park-and-they-opened-it-carefully." id="toc-the-lucky-boys-have-found-a-paperback-in-the-park-and-they-opened-it-carefully." class="nav-link" data-scroll-target="#the-lucky-boys-have-found-a-paperback-in-the-park-and-they-opened-it-carefully."><em>The lucky boys have found a paperback in the park and they opened it carefully.</em></a></li>
+  </ul></li>
+  <li><a href="#valency-theory-and-case-grammar" id="toc-valency-theory-and-case-grammar" class="nav-link" data-scroll-target="#valency-theory-and-case-grammar">Valency theory and case grammar</a>
+  <ul class="collapse">
+  <li><a href="#constituency-grammar" id="toc-constituency-grammar" class="nav-link" data-scroll-target="#constituency-grammar">Constituency grammar</a></li>
+  <li><a href="#dependency-grammar" id="toc-dependency-grammar" class="nav-link" data-scroll-target="#dependency-grammar">Dependency grammar</a></li>
+  <li><a href="#case-grammar-and-participant-roles" id="toc-case-grammar-and-participant-roles" class="nav-link" data-scroll-target="#case-grammar-and-participant-roles">Case grammar and participant roles</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Syntax</h1>
+<p class="subtitle lead">Introduction to linguistics</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Quirin Würschinger, LMU Munich </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><a href="slides.html" class="btn btn-primary">open slides</a> <a href="slides.pdf" class="btn btn-secondary">download slides (pdf)</a></p>
+<section id="outline" class="level1">
+<h1>Outline</h1>
+</section>
+<section id="syntax-and-grammar" class="level1">
+<h1>Syntax and grammar</h1>
+<section id="sentence-grammar" class="level2">
+<h2 class="anchored" data-anchor-id="sentence-grammar">Sentence grammar</h2>
+<ul>
+<li>“Syntax is concerned with the way in which words combine to form larger units such as sentences.</li>
+<li>Although texts or utterances often consist of more than one sentence, it makes sense, for certain purposes of analysis at least, to consider the sentence the largest unit of description.”</li>
+</ul>
+<p><span class="citation" data-cites="Herbst2010English">(<a href="#ref-Herbst2010English" role="doc-biblioref">Herbst 2010</a>: 142)</span></p>
+</section>
+<section id="syntactic-hierarchy" class="level2">
+<h2 class="anchored" data-anchor-id="syntactic-hierarchy">Syntactic hierarchy</h2>
+<ul>
+<li>sentence
+<ul>
+<li>clauses
+<ul>
+<li>phrases
+<ul>
+<li>words
+<ul>
+<li>morphemes</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="exercise-splitting-into-sentences-clauses-phrases-and-words" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-splitting-into-sentences-clauses-phrases-and-words">Exercise: splitting into sentences, clauses, phrases, and words</h2>
+<p>Divide the following into sentences, clauses, phrases, and words:</p>
+<p><em>I gave them some money because they needed it.</em></p>
+<div class="excl">
+<div class="r-stack">
+<p><img src="att/i-gave-them-some-money_1.png" class="fragment img-fluid"></p>
+<p><img src="att/i-gave-them-some-money_2.png" class="fragment img-fluid"></p>
+<p><img src="att/i-gave-them-some-money_3.png" class="fragment img-fluid"></p>
+<p><img src="att/i-gave-them-some-money_4.png" class="fragment img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="clauses-and-sentences" class="level2">
+<h2 class="anchored" data-anchor-id="clauses-and-sentences">Clauses and sentences</h2>
+<p><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 143–144; citing <span class="citation" data-cites="Quirk1985Cambridge">Quirk et al. (<a href="#ref-Quirk1985Cambridge" role="doc-biblioref">1985</a>)</span>: 2.11</p>
+<p>“[…] the <strong>clause</strong> is a much more clearly definable unit of linguistic analysis than the sentence.</p>
+<ul>
+<li>A clause can occur as a <strong>dependent</strong> (or <strong>subordinate</strong>) clause if it forms a constituent of a larger clause as in
+<ul>
+<li>(2)<sub>PW</sub> <em>Barbara Hepworth had also begun to work in metal.</em></li>
+</ul></li>
+<li>an <strong>independent</strong> clause if it is not a constituent of a larger clause as in
+<ul>
+<li>(3)<sub>PH</sub> <em>We shall now watch New York as eagerly as Paris for new developments.</em></li>
+</ul></li>
+</ul>
+<p>The term sentence will be used</p>
+<ul>
+<li>for a <strong>single independent clause</strong> that is not co-ordinated with another clause as in (3)</li>
+<li>for a <strong>combination of two or more independent clauses</strong> in co-ordination as in
+<ul>
+<li>(4)<sub>PH</sub> <em>It was an October night and a full moon was rising over Godrevy.</em></li>
+</ul></li>
+</ul>
+</section>
+<section id="exercise-identifying-clauses" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-identifying-clauses">Exercise: identifying clauses</h2>
+<p>Identify all dependent/subordinate and independent/main clauses in the following sentences:</p>
+<ol type="1">
+<li><em>The cats have been asleep for days.</em></li>
+<li><em>I admire their reasoning and I accept their conclusions.</em></li>
+<li><em>Although I admire their reasoning, I reject their conclusions.</em></li>
+<li><em>Playing the piano is great and I want to be brilliant at it.</em></li>
+<li><em>His book stresses the history of styles, which he describes in sequence.</em></li>
+</ol>
+<div class="excl">
+<ol type="1">
+<li><em>[The cats have been asleep for days.]<sup>cl_main</sup></em></li>
+<li><em>[I admire their reasoning]<sup>cl_main</sup> and [I accept their conclusions]<sup>cl_main</sup>.</em></li>
+<li><em>[[Although I admire their reasoning]<sup>cl_sub</sup>, I reject their conclusions]<sup>cl_main</sup>.</em></li>
+<li><em>[Playing the piano is great]<sup>cl_main</sup> and [I want to be brilliant at it]<sup>cl_main</sup>.</em></li>
+<li><em>[His book stresses the history of styles, [which he describes in sequence]<sup>cl_sub</sup>]<sup>cl_main</sup>.</em><br>
+</li>
+</ol>
+</div>
+</section>
+<section id="example-full-syntactic-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="example-full-syntactic-analysis">Example: full syntactic analysis</h2>
+<p><em>His book stresses the history of styles, which he describes in sequence.</em></p>
+<p><img src="tex-trees/output/his-book-stresses-the-history.png" class="img-fluid"></p>
+</section>
+<section id="exercise-identifying-finite-and-non-finite-subordinate-clauses" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-identifying-finite-and-non-finite-subordinate-clauses">Exercise: identifying finite and non-finite subordinate clauses</h2>
+<p>Indicate if the subordinate clauses in the following sentences are finite or non-finite:</p>
+<ol type="1">
+<li><em>Playing the piano is great.</em></li>
+<li><em>That we need a new banking settlement is clear.</em></li>
+<li><em>Do you want to know whether I’m ‘anti’ or ‘pro’?</em></li>
+<li><em>All they wanted was to see them one last time.</em></li>
+</ol>
+<div class="excl">
+<ol type="1">
+<li><em>[Playing the piano]<sup>cl_sub_nonfin</sup> is great.</em></li>
+<li><em>[That we need a new banking settlement]<sup>cl_sub_nonfin</sup> is clear.</em></li>
+<li><em>Do you want to know [whether I’m ‘anti’ or ‘pro’]<sup>cl_sub_fin</sup>?</em></li>
+<li><em>[All they wanted]<sup>cl_sub_fin</sup> was [to see them one last time]<sup>cl_sub_nonfin</sup>.</em></li>
+</ol>
+</div>
+</section>
+</section>
+<section id="the-elements-of-clause-structure" class="level1">
+<h1>The elements of clause structure</h1>
+<section id="subject-predicate-adjunct" class="level2">
+<h2 class="anchored" data-anchor-id="subject-predicate-adjunct">Subject, predicate, adjunct</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 147</figcaption>
+<p><img src="att/subjects-predicates-adjuncts.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="objects-and-complements" class="level2">
+<h2 class="anchored" data-anchor-id="objects-and-complements">Objects and complements</h2>
+<p><span class="citation" data-cites="Herbst2010English">(<a href="#ref-Herbst2010English" role="doc-biblioref">Herbst 2010</a>: 149)</span></p>
+<p>“The distinction between objects and complements is made on the basis of two main criteria:</p>
+<ul>
+<li>objects can become the subjects of <strong>passive</strong> clauses, complements cannot</li>
+<li>complements refer in some way to the <strong>subject</strong> or <strong>object</strong> of the clause (hence the distinction between subject complements and object complements), objects do not.”</li>
+</ul>
+</section>
+<section id="form-and-function" class="level2">
+<h2 class="anchored" data-anchor-id="form-and-function">Form and function</h2>
+<p><em>The cats have been asleep for days.</em></p>
+<div class="excl fragment">
+<p><img src="tex-trees/output/the-cats-asleep_13.png" height="400"></p>
+</div>
+</section>
+<section id="exercise-identifying-the-elements-of-clause-structure" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-identifying-the-elements-of-clause-structure">Exercise; identifying the elements of clause structure</h2>
+<p>Identify the elements of clause structure in the following sentences.</p>
+<ol type="1">
+<li><em>The driver gave them a free ride.</em></li>
+<li><em>They have been reading for a while.</em></li>
+<li><em>I might be here again next month.</em></li>
+<li><em>Kevin is very afraid of dogs.</em></li>
+<li><em>Some people consider them the best band on earth.</em></li>
+<li><em>Honestly, I did see him briefly in the park yesterday when he was feeding the ducks.</em></li>
+</ol>
+<div class="excl">
+<ol type="1">
+<li><em>The driver<sup>S:NP</sup> gave<sup>V:VP</sup> them<sup>Oi:NP</sup> a free ride<sup>Od:NP</sup>.</em></li>
+<li><em>They<sup>S:NP</sup> have been reading<sup>V:VP</sup> for a while<sup>A:AdvP</sup>.</em></li>
+<li><em>I<sup>S:NP</sup> might be<sup>V:VP</sup> here<sup>A:AdvP</sup> again<sup>A:AdvP</sup> next month<sup>A:NP</sup>.</em></li>
+<li><em>Kevin<sup>S:NP</sup> is<sup>V:VP</sup> very afraid of dogs<sup>Cs:AdjP</sup>.</em></li>
+<li><em>Some people<sup>S:NP</sup> consider<sup>V:VP</sup> them<sup>Oi:NP</sup> the best band on earth<sup>Od:NP</sup>.</em></li>
+<li><em>Honestly<sup>A:Adv</sup>, I<sup>S:NP</sup> did see<sup>V:VP</sup> him<sup>Od:NP</sup> briefly<sup>A:Adv</sup> in the park<sup>A:AdvP</sup> yesterday<sup>A:AdvP</sup> when he was feeding the ducks<sup>A:cl_sub_fin</sup>.</em></li>
+</ol>
+</div>
+</section>
+<section id="clause-types" class="level2">
+<h2 class="anchored" data-anchor-id="clause-types">Clause types</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 151</figcaption>
+<p><img src="att/clause-types.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="exercise-matching-clause-types" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-matching-clause-types">Exercise: matching clause types</h2>
+<p>Match the following sentences with the correct clause type (CGEL):</p>
+<div class="columns">
+<div class="column" style="width:70%;">
+<ol type="1">
+<li><em>She – was reading.</em></li>
+<li><em>We – were – too early.</em></li>
+<li><em>We – sent – them – a parcel.</em></li>
+<li><em>He – became – the President of the United States.</em></li>
+<li><em>I – read – a book.</em></li>
+<li><em>I – put – the book – on the shelf.</em></li>
+<li><em>We – find – clause patterns – fascinating.</em></li>
+</ol>
+</div><div class="column" style="width:30%;">
+<ol type="a">
+<li>SV</li>
+<li>SVO<sub>d</sub></li>
+<li>SVO<sub>i</sub>O<sub>d</sub></li>
+<li>SVC<sub>s</sub></li>
+<li>SVA</li>
+<li>SVO<sub>d</sub>C<sub>o</sub></li>
+<li>SVO<sub>d</sub>A</li>
+</ol>
+</div>
+</div>
+<div class="excl">
+<ol type="1">
+<li><em>She – was reading.</em>: <strong>SV</strong></li>
+<li><em>We – were – too early.</em>: <strong>SVC<sub>s</sub></strong></li>
+<li><em>We – sent – them – a parcel.</em>: <strong>SVO<sub>i</sub>O<sub>d</sub></strong></li>
+<li><em>He – became – the President of the United States.</em>: <strong>SVC<sub>s</sub></strong></li>
+<li><em>I – read – a book.</em>: <strong>SVO<sub>d</sub></strong></li>
+<li><em>I – put – the book – on the shelf.</em>: <strong>SVO<sub>d</sub>A</strong></li>
+<li><em>We – find – clause patterns – fascinating.</em>: <strong>SVO<sub>d</sub>O<sub>d</sub></strong></li>
+</ol>
+</div>
+</section>
+<section id="exercise-identifying-dependentsubordinate-clauses" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-identifying-dependentsubordinate-clauses">Exercise: identifying dependent/subordinate clauses</h2>
+<p>Underline all dependent/subordinate clauses in the sentences below and determine their syntactic function.</p>
+<ol type="1">
+<li><em>That cities will attract more and more criminals is a safe prediction.</em></li>
+<li><em>This shows how difficult the question must have been.</em></li>
+<li><em>Being a farmer, he is suspicious of all governmental interference.</em></li>
+<li><em>We knew that he was a lousy driver.</em></li>
+<li><em>The problem is who will water my plants when I am away.</em></li>
+<li><em>No further discussion arising, the meeting was brought to a close.</em></li>
+</ol>
+<div class="excl">
+<ol type="1">
+<li><em>[That cities will attract more and more criminals]<sup>cl_sub_fin</sup> is a safe prediction.</em></li>
+<li><em>This shows [how difficult the question must have been]<sup>cl_sub_fin</sup>.</em></li>
+<li><em>[Being a farmer]<sup>cl_sub_nonfin</sup>, he is suspicious of all governmental interference.</em></li>
+<li><em>We knew [that he was a lousy driver]<sup>cl_sub_fin</sup>.</em></li>
+<li><em>The problem is [who will water my plants when I am away]<sup>cl_sub_fin</sup>.</em></li>
+<li><em>[No further discussion arising]<sup>cl_sub_nonfin</sup>, the meeting was brought to a close.</em></li>
+</ol>
+</div>
+</section>
+</section>
+<section id="phrases" class="level1">
+<h1>Phrases</h1>
+<section id="noun-phrases" class="level2">
+<h2 class="anchored" data-anchor-id="noun-phrases">Noun phrases</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 154</figcaption>
+<p><img src="att/noun-phrases.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="verb-phrases" class="level2">
+<h2 class="anchored" data-anchor-id="verb-phrases">Verb phrases</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 155</figcaption>
+<p><img src="att/verb-phrases.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="adjective-phrases" class="level2">
+<h2 class="anchored" data-anchor-id="adjective-phrases">Adjective phrases</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 156</figcaption>
+<p><img src="att/adjective-phrases.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="adverb-phrases" class="level2">
+<h2 class="anchored" data-anchor-id="adverb-phrases">Adverb phrases</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 156</figcaption>
+<p><img src="att/adverb-phrases.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="prepositional-phrases" class="level2">
+<h2 class="anchored" data-anchor-id="prepositional-phrases">Prepositional phrases</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 156</figcaption>
+<p><img src="att/prepositional-phrases.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="exercise-identifying-noun-phrases" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-identifying-noun-phrases">Exercise: identifying noun phrases</h2>
+<p>Identify all noun phrases in the following sentences.</p>
+<ol type="1">
+<li><em>The driver gave them a free ride.</em></li>
+<li><em>I might be here again next month.</em></li>
+<li><em>October arrived, spreading a damp chill&nbsp;over the grounds and into the castle.</em></li>
+<li><em>The bassist they had just casted left the next day.</em></li>
+</ol>
+<div class="excl">
+<ol type="1">
+<li><em><u>The driver</u> gave <u>them</u> <u>a free ride</u>.</em></li>
+<li><em><u>I</u> might be here again <u>next month</u>.</em></li>
+<li><em><u>October</u> arrived, spreading <u>a damp chill</u>&nbsp;over <u>the grounds</u> and into <u>the castle</u>.</em></li>
+<li><em><u>The bassist</u> <u>they</u> had just casted left <u>the next day</u>.</em></li>
+</ol>
+</div>
+</section>
+<section id="exercise-identifying-verb-phrases" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-identifying-verb-phrases">Exercise: identifying verb phrases</h2>
+<p>Identify all verb phrases in the following sentences.</p>
+<ol type="1">
+<li><em>The driver gave them a free ride.</em></li>
+<li><em>I might be here again next month.</em></li>
+<li><em>They have been reading for a while.</em></li>
+<li><em>The bassist might have been leaving.</em></li>
+</ol>
+<div class="excl">
+<ol type="1">
+<li><em>The driver <u>gave</u> them a free ride.</em></li>
+<li><em>I might <u>be</u> here again next month.</em></li>
+<li><em>They <u>have been reading</u> for a while.</em></li>
+<li><em>The bassist might <u>have been leaving</u>.</em></li>
+</ol>
+</div>
+</section>
+<section id="exercise-identifying-phrase-types" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-identifying-phrase-types">Exercise: identifying phrase types</h2>
+<p>Give the term for the formal elements (= phrases) underlined in the following sentences.</p>
+<ol type="1">
+<li><em>I might be <u>here</u> <u>again</u> next month.</em></li>
+<li><em>They left&nbsp;<u>in a rush</u>.</em></li>
+<li><em>They did <u>amazingly well</u>.</em></li>
+<li><em><u>The man who came here yesterday</u> was his brother.</em></li>
+<li><em>Charlie is <u>very anxious about their health</u>.</em></li>
+<li><em>She fell in love with <u>the girl in the dark grey dress</u>.</em></li>
+</ol>
+<div class="excl">
+<ol type="1">
+<li><em>I might be <u>here</u> (<strong>AdvP</strong>) <u>again</u> (<strong>AdvP</strong>) next month.</em></li>
+<li><em>They left&nbsp;<u>in a rush</u> (<strong>AdvP</strong>).</em></li>
+<li><em>They did <u>amazingly well</u> (<strong>AdvP</strong>).</em></li>
+<li><em><u>The man who came here yesterday</u> (<strong>NP</strong>) was his brother.</em></li>
+<li><em>Charlie is <u>very anxious about their health</u> (<strong>AdjP</strong>).</em></li>
+<li><em>She fell in love with <u>the girl in the dark grey dress</u> (<strong>NP</strong>).</em></li>
+</ol>
+</div>
+</section>
+</section>
+<section id="word-classes" class="level1">
+<h1>Word classes</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 160; based on <span class="citation" data-cites="Quirk1985Cambridge">Quirk et al. (<a href="#ref-Quirk1985Cambridge" role="doc-biblioref">1985</a>)</span>: 2.34</figcaption>
+<p><img src="att/cgel-word-classes.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="exercise-determining-word-classes" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-determining-word-classes">Exercise: determining word classes</h2>
+<p>Determine the word class of all the words in the following sentences taken from Harry Potter and the Chamber of Secrets.</p>
+<p><em>October arrived, spreading a damp chill&nbsp;over the grounds and into the castle. Madam Pomfrey, the nurse, was kept busy by a sudden spate of colds among the staff and students. Her […] potion worked instantly, though it left the drinker smoking at the ears for several hours afterward.</em></p>
+<div class="excl">
+<p><em>October<sup>n_prop</sup> arrived<sup>v_full</sup>, spreading<sup>V_full</sup> a<sup>det</sup> damp<sup>adj</sup> chill<sup>n</sup>&nbsp;over<sup>prep</sup> the<sup>det</sup> grounds<sup>n</sup> and<sup>conj</sup> into<sup>prep</sup> the<sup>det</sup> castle<sup>n</sup>. Madam Pomfrey<sup>n_prop</sup>, the nurse<sup>n</sup>, was<sup>v_prim</sup> kept<sup>v_full</sup> busy<sup>adj</sup> by<sup>prep</sup> a<sup>det</sup> sudden<sup>adj</sup> spate<sup>n</sup> of<sup>prep</sup> colds<sup>n</sup> among<sup>prep</sup> the<sup>det</sup> staff<sup>n</sup> and<sup>conj</sup> students<sup>n</sup>. Her<sup>det</sup> […] potion<sup>n</sup> worked<sup>v_full</sup> instantly<sup>adv</sup>, though<sup>conj</sup> it<sup>pron_pers</sup> left<sup>v_full</sup> the drinker<sup>n</sup> smoking<sup>v_full</sup> at<sup>prep</sup> the<sup>det</sup> ears<sup>n</sup> for<sup>prep</sup> several<sup>det</sup> hours<sup>n</sup> afterward<sup>adv</sup>.</em></p>
+</div>
+</section>
+<section id="verbs" class="level2">
+<h2 class="anchored" data-anchor-id="verbs">Verbs</h2>
+<section id="verbal-inflection" class="level3">
+<h3 class="anchored" data-anchor-id="verbal-inflection">Verbal inflection</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 161</figcaption>
+<p><img src="att/verbal-inflection.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="modal-and-primary-verbs" class="level3">
+<h3 class="anchored" data-anchor-id="modal-and-primary-verbs">Modal and primary verbs</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 162</figcaption>
+<p><img src="att/modal-and-primary-verbs.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+</section>
+</section>
+<section id="full-syntactic-analysis" class="level1">
+<h1>Full syntactic analysis</h1>
+<p>Give a full syntactic analysis of the following sentences.</p>
+<section id="he-spends-all-his-money-on-horses." class="level2">
+<h2 class="anchored" data-anchor-id="he-spends-all-his-money-on-horses."><em>He spends all his money on horses.</em></h2>
+<div class="excl fragment">
+<p><img src="tex-trees/output/he-spends-all-his-money.png" class="img-fluid"></p>
+</div>
+</section>
+<section id="john-called-me-an-idiot." class="level2">
+<h2 class="anchored" data-anchor-id="john-called-me-an-idiot."><em>John called me an idiot.</em></h2>
+<div class="excl fragment">
+<p><img src="tex-trees/output/john-called-me-an-idiot.png" class="img-fluid"></p>
+</div>
+</section>
+<section id="mary-left-the-next-day." class="level2">
+<h2 class="anchored" data-anchor-id="mary-left-the-next-day."><em>Mary left the next day.</em></h2>
+<div class="excl fragment">
+<p><img src="tex-trees/output/mary-left-the-next-day.png" class="img-fluid"></p>
+</div>
+</section>
+<section id="his-face-turned-pale-when-he-saw-me." class="level2">
+<h2 class="anchored" data-anchor-id="his-face-turned-pale-when-he-saw-me."><em>His face turned pale when he saw me.</em></h2>
+<div class="excl fragment">
+<p><img src="tex-trees/output/his-face-turned-pale.png" height="500"></p>
+</div>
+</section>
+<section id="tom-called-jerry-at-midnight-and-tom-called-jerry-a-fool." class="level2">
+<h2 class="anchored" data-anchor-id="tom-called-jerry-at-midnight-and-tom-called-jerry-a-fool."><em>Tom called Jerry at midnight and Tom called Jerry a fool.</em></h2>
+<div class="excl fragment">
+<p><img src="tex-trees/output/tom-called-jerry-at-midnight.png" height="500"></p>
+</div>
+</section>
+<section id="some-people-consider-themselves-to-be-very-important." class="level2">
+<h2 class="anchored" data-anchor-id="some-people-consider-themselves-to-be-very-important."><em>Some people consider themselves to be very important.</em></h2>
+<div class="excl fragment">
+<p><img src="tex-trees/output/some-people-consider-themselves.png" height="500"></p>
+</div>
+</section>
+<section id="michael-completely-ruined-the-dinner-as-he-behaved-like-a-fool." class="level2">
+<h2 class="anchored" data-anchor-id="michael-completely-ruined-the-dinner-as-he-behaved-like-a-fool."><em>Michael completely ruined the dinner as he behaved like a fool.</em></h2>
+<div class="excl fragment">
+<p><img src="tex-trees/output/michael-completely-ruined-the-dinner.png" height="500"></p>
+</div>
+</section>
+<section id="the-door-of-george-lancasters-house-which-was-half-buried-in-the-snow-screeched." class="level2">
+<h2 class="anchored" data-anchor-id="the-door-of-george-lancasters-house-which-was-half-buried-in-the-snow-screeched."><em>The door of George Lancaster’s house, which was half buried in the snow, screeched.</em></h2>
+<div class="excl fragment">
+<p><img src="tex-trees/output/the-door-of-george-lancaster-house.png" height="500"></p>
+</div>
+</section>
+<section id="the-lucky-boys-have-found-a-paperback-in-the-park-and-they-opened-it-carefully." class="level2">
+<h2 class="anchored" data-anchor-id="the-lucky-boys-have-found-a-paperback-in-the-park-and-they-opened-it-carefully."><em>The lucky boys have found a paperback in the park and they opened it carefully.</em></h2>
+<div class="excl fragment">
+<p><img src="tex-trees/output/the-luck-boys-have-found.png" height="500"></p>
+</div>
+</section>
+</section>
+<section id="valency-theory-and-case-grammar" class="level1">
+<h1>Valency theory and case grammar</h1>
+<section id="constituency-grammar" class="level2">
+<h2 class="anchored" data-anchor-id="constituency-grammar">Constituency grammar</h2>
+<p><em>By 1918 St Ives had a long tradition as an artists’ community.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 171</figcaption>
+<p><img src="att/st-ives-constituency.png" height="500" class="figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="dependency-grammar" class="level2">
+<h2 class="anchored" data-anchor-id="dependency-grammar">Dependency grammar</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 175</figcaption>
+<p><img src="att/st-ives-dependency.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="case-grammar-and-participant-roles" class="level2">
+<h2 class="anchored" data-anchor-id="case-grammar-and-participant-roles">Case grammar and participant roles</h2>
+<p><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: 180–182</p>
+<ul>
+<li><strong>BENREC</strong>: someone or something that benefits from the action expressed by the verb or is the intended recipient of the action described by the verb
+<ul>
+<li>(12)<sub>PW</sub> <em>It gave <u>Ben</u> a reasonable studio and <u>Barbara</u> one near the kitchen, filled with light.</em></li>
+</ul></li>
+<li><strong>ÆFFECTED</strong>: something (or someone) that is affected by or is the outcome or result of the action described by the verb
+<ul>
+<li>(15)<sub>PH</sub> <em>Once there, Heron had immediately started <u>work on a series of small vertical paintings</u> …</em></li>
+</ul></li>
+<li><strong>PREDICATIVE</strong>: identification, equation, characterization or description (which could be seen as subroles of ‘PREDICATIVE’):
+<ul>
+<li>(19)<sub>PH</sub> <em>Heron has never been <u>a programmatic artist</u> …</em></li>
+</ul></li>
+<li><strong>LOCATIVE: STATIVE</strong>:
+<ul>
+<li>(16)<sub>PH</sub> <em><u>At Zennor</u> one sees infinite Atlantic …</em></li>
+</ul></li>
+<li><strong>LOCATIVE: GOAL</strong>:
+<ul>
+<li>(20)<sub>PH</sub> <em>… Heron moved beyond the rapid summary strokes and washes of the ‘stripe’ and ‘horizon’ paintings <u>towards what he described as a ‘true spontaneity’</u> …</em></li>
+</ul></li>
+</ul>
+<div>
+<ul>
+<li><strong>LOCATIVE: SOURCE</strong>:
+<ul>
+<li>(22)<sub>PH</sub> <em>… Heron moved <u>beyond the rapid summary strokes and washes of the ‘stripe’ and ‘horizon’ paintings</u> towards what he described as a ‘true spontaneity’ …</em></li>
+</ul></li>
+<li><strong>TIME</strong>: time of the action described by the verb:
+<ul>
+<li>(21)<sub>PH</sub> <em><u>Exactly forty years before</u> D.H. Lawrence had moved into Higher Tregerthen, the tiny group of cottages at the bottom of the hill below Eagles Nest …</em></li>
+</ul></li>
+<li><strong>PURPOSE</strong>:
+<ul>
+<li>(24)<sub>PW</sub> <em><u>In order to realize the subject emotionally and to further his understanding of the composition,</u> Lanyon made use of his practical skills in a number of three-dimensional constructions.</em></li>
+</ul></li>
+<li><strong>TOPIC</strong>:
+<ul>
+<li>(25)<sub>PH</sub> <em>Heron had, of course, been thinking and writing <u>about the nature of abstraction</u> since his very first published article in 1945 …</em></li>
+</ul></li>
+<li><strong>AGENT</strong>: someone that carries out an action:
+<ul>
+<li>(26)<sub>PH</sub> <em><u>Heron</u> had, of course, been thinking and writing about the nature of abstraction since his very first published article in 1945 …</em></li>
+</ul></li>
+</ul>
+</div>
+</section>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Herbst2010English" class="csl-entry" role="listitem">
+Herbst, Thomas. 2010. <em>English Linguistics: A Coursebook for Students of English</em>. Berlin: De Gruyter Mouton.
+</div>
+<div id="ref-Quirk1985Cambridge" class="csl-entry" role="listitem">
+Quirk, Randolph, Sidney Greenbaum, Geoffrey Leech, and Jan Svartvik. 1985. <em>A Comprehensive Grammar of the <span>English</span> Language</em>. Harlow: Longman.
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

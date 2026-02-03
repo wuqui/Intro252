@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-contrib/quarto-auto-dark-mode-1.0.0/auto-dark-mode.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/quarto-exclude-1.5.0/exclude-styles.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
+
+  <meta name="author" content="Dr.&nbsp;Quirin Würschinger, LMU Munich">
+  <title>Intro252 – Syntax</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-5ae9c59b2727fcd5357d4f034d95f9e0.css">
+  <link rel="stylesheet" href="../../slides.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-excalidraw/excalidraw.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+<script src="mathjax-config.js"></script>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Syntax</h1>
+  <p class="subtitle">Introduction to linguistics — <a href="../../index.html">Course Website</a> — 17 &amp; 24 November 2025</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dr.&nbsp;Quirin Würschinger, LMU Munich 
+</div>
+</div>
+</div>
+
+</section>
+<section id="outline" class="title-slide slide level1 center">
+<h1>Outline</h1>
+
+</section>
+
+<section>
+<section id="syntax-and-grammar" class="title-slide slide level1 center">
+<h1>Syntax and grammar</h1>
+
+</section>
+<section id="sentence-grammar" class="slide level2">
+<h2>Sentence grammar</h2>
+<ul>
+<li>“Syntax is concerned with the way in which words combine to form larger units such as sentences.</li>
+<li>Although texts or utterances often consist of more than one sentence, it makes sense, for certain purposes of analysis at least, to consider the sentence the largest unit of description.”</li>
+</ul>
+<p><span class="citation" data-cites="Herbst2010English">(<a href="#/references" role="doc-biblioref" onclick="">Herbst 2010</a>: 142)</span></p>
+</section>
+<section id="syntactic-hierarchy" class="slide level2">
+<h2>Syntactic hierarchy</h2>
+<ul>
+<li>sentence
+<ul>
+<li>clauses
+<ul>
+<li>phrases
+<ul>
+<li>words
+<ul>
+<li>morphemes</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="exercise-splitting-into-sentences-clauses-phrases-and-words" class="slide level2">
+<h2>Exercise: splitting into sentences, clauses, phrases, and words</h2>
+<p>Divide the following into sentences, clauses, phrases, and words:</p>
+<p><em>I gave them some money because they needed it.</em></p>
+<div class="excl">
+<div class="r-stack">
+<p><img data-src="att/i-gave-them-some-money_1.png" class="fragment"></p>
+<p><img data-src="att/i-gave-them-some-money_2.png" class="fragment"></p>
+<p><img data-src="att/i-gave-them-some-money_3.png" class="fragment"></p>
+<p><img data-src="att/i-gave-them-some-money_4.png" class="fragment"></p>
+</div>
+</div>
+</section>
+<section id="clauses-and-sentences" class="slide level2 small">
+<h2>Clauses and sentences</h2>
+<p><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 143–144; citing <span class="citation" data-cites="Quirk1985Cambridge">Quirk et al. (<a href="#/references" role="doc-biblioref" onclick="">1985</a>)</span>: 2.11</p>
+<p>“[…] the <strong>clause</strong> is a much more clearly definable unit of linguistic analysis than the sentence.</p>
+<ul>
+<li>A clause can occur as a <strong>dependent</strong> (or <strong>subordinate</strong>) clause if it forms a constituent of a larger clause as in
+<ul>
+<li>(2)<sub>PW</sub> <em>Barbara Hepworth had also begun to work in metal.</em></li>
+</ul></li>
+<li>an <strong>independent</strong> clause if it is not a constituent of a larger clause as in
+<ul>
+<li>(3)<sub>PH</sub> <em>We shall now watch New York as eagerly as Paris for new developments.</em></li>
+</ul></li>
+</ul>
+<p>The term sentence will be used</p>
+<ul>
+<li>for a <strong>single independent clause</strong> that is not co-ordinated with another clause as in (3)</li>
+<li>for a <strong>combination of two or more independent clauses</strong> in co-ordination as in
+<ul>
+<li>(4)<sub>PH</sub> <em>It was an October night and a full moon was rising over Godrevy.</em></li>
+</ul></li>
+</ul>
+</section>
+<section id="exercise-identifying-clauses" class="slide level2">
+<h2>Exercise: identifying clauses</h2>
+<p>Identify all dependent/subordinate and independent/main clauses in the following sentences:</p>
+<ol type="1">
+<li><em>The cats have been asleep for days.</em></li>
+<li><em>I admire their reasoning and I accept their conclusions.</em></li>
+<li><em>Although I admire their reasoning, I reject their conclusions.</em></li>
+<li><em>Playing the piano is great and I want to be brilliant at it.</em></li>
+<li><em>His book stresses the history of styles, which he describes in sequence.</em></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<div class="excl">
+<ol type="1">
+<li><em>[The cats have been asleep for days.]<sup>cl_main</sup></em></li>
+<li><em>[I admire their reasoning]<sup>cl_main</sup> and [I accept their conclusions]<sup>cl_main</sup>.</em></li>
+<li><em>[[Although I admire their reasoning]<sup>cl_sub</sup>, I reject their conclusions]<sup>cl_main</sup>.</em></li>
+<li><em>[Playing the piano is great]<sup>cl_main</sup> and [I want to be brilliant at it]<sup>cl_main</sup>.</em></li>
+<li><em>[His book stresses the history of styles, [which he describes in sequence]<sup>cl_sub</sup>]<sup>cl_main</sup>.</em><br>
+</li>
+</ol>
+</div>
+</section>
+<section id="example-full-syntactic-analysis" class="slide level2">
+<h2>Example: full syntactic analysis</h2>
+<p><em>His book stresses the history of styles, which he describes in sequence.</em></p>
+
+<img data-src="tex-trees/output/his-book-stresses-the-history.png" class="r-stretch"></section>
+<section id="exercise-identifying-finite-and-non-finite-subordinate-clauses" class="slide level2">
+<h2>Exercise: identifying finite and non-finite subordinate clauses</h2>
+<p>Indicate if the subordinate clauses in the following sentences are finite or non-finite:</p>
+<ol type="1">
+<li><em>Playing the piano is great.</em></li>
+<li><em>That we need a new banking settlement is clear.</em></li>
+<li><em>Do you want to know whether I’m ‘anti’ or ‘pro’?</em></li>
+<li><em>All they wanted was to see them one last time.</em></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<div class="excl">
+<ol type="1">
+<li><em>[Playing the piano]<sup>cl_sub_nonfin</sup> is great.</em></li>
+<li><em>[That we need a new banking settlement]<sup>cl_sub_nonfin</sup> is clear.</em></li>
+<li><em>Do you want to know [whether I’m ‘anti’ or ‘pro’]<sup>cl_sub_fin</sup>?</em></li>
+<li><em>[All they wanted]<sup>cl_sub_fin</sup> was [to see them one last time]<sup>cl_sub_nonfin</sup>.</em></li>
+</ol>
+</div>
+</section></section>
+<section>
+<section id="the-elements-of-clause-structure" class="title-slide slide level1 center">
+<h1>The elements of clause structure</h1>
+
+</section>
+<section id="subject-predicate-adjunct" class="slide level2">
+<h2>Subject, predicate, adjunct</h2>
+
+<img data-src="att/subjects-predicates-adjuncts.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 147</p></section>
+<section id="objects-and-complements" class="slide level2">
+<h2>Objects and complements</h2>
+<p><span class="citation" data-cites="Herbst2010English">(<a href="#/references" role="doc-biblioref" onclick="">Herbst 2010</a>: 149)</span></p>
+<p>“The distinction between objects and complements is made on the basis of two main criteria:</p>
+<ul>
+<li>objects can become the subjects of <strong>passive</strong> clauses, complements cannot</li>
+<li>complements refer in some way to the <strong>subject</strong> or <strong>object</strong> of the clause (hence the distinction between subject complements and object complements), objects do not.”</li>
+</ul>
+</section>
+<section id="form-and-function" class="slide level2">
+<h2>Form and function</h2>
+<p><em>The cats have been asleep for days.</em></p>
+<div class="excl fragment">
+<p><img data-src="tex-trees/output/the-cats-asleep_13.png" height="400"></p>
+</div>
+</section>
+<section id="exercise-identifying-the-elements-of-clause-structure" class="slide level2">
+<h2>Exercise; identifying the elements of clause structure</h2>
+<p>Identify the elements of clause structure in the following sentences.</p>
+<ol type="1">
+<li><em>The driver gave them a free ride.</em></li>
+<li><em>They have been reading for a while.</em></li>
+<li><em>I might be here again next month.</em></li>
+<li><em>Kevin is very afraid of dogs.</em></li>
+<li><em>Some people consider them the best band on earth.</em></li>
+<li><em>Honestly, I did see him briefly in the park yesterday when he was feeding the ducks.</em></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<div class="excl">
+<ol type="1">
+<li><em>The driver<sup>S:NP</sup> gave<sup>V:VP</sup> them<sup>Oi:NP</sup> a free ride<sup>Od:NP</sup>.</em></li>
+<li><em>They<sup>S:NP</sup> have been reading<sup>V:VP</sup> for a while<sup>A:AdvP</sup>.</em></li>
+<li><em>I<sup>S:NP</sup> might be<sup>V:VP</sup> here<sup>A:AdvP</sup> again<sup>A:AdvP</sup> next month<sup>A:NP</sup>.</em></li>
+<li><em>Kevin<sup>S:NP</sup> is<sup>V:VP</sup> very afraid of dogs<sup>Cs:AdjP</sup>.</em></li>
+<li><em>Some people<sup>S:NP</sup> consider<sup>V:VP</sup> them<sup>Oi:NP</sup> the best band on earth<sup>Od:NP</sup>.</em></li>
+<li><em>Honestly<sup>A:Adv</sup>, I<sup>S:NP</sup> did see<sup>V:VP</sup> him<sup>Od:NP</sup> briefly<sup>A:Adv</sup> in the park<sup>A:AdvP</sup> yesterday<sup>A:AdvP</sup> when he was feeding the ducks<sup>A:cl_sub_fin</sup>.</em></li>
+</ol>
+</div>
+</section>
+<section id="clause-types" class="slide level2">
+<h2>Clause types</h2>
+
+<img data-src="att/clause-types.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 151</p></section>
+<section id="exercise-matching-clause-types" class="slide level2">
+<h2>Exercise: matching clause types</h2>
+<p>Match the following sentences with the correct clause type (CGEL):</p>
+<div class="columns">
+<div class="column" style="width:70%;">
+<ol type="1">
+<li><em>She – was reading.</em></li>
+<li><em>We – were – too early.</em></li>
+<li><em>We – sent – them – a parcel.</em></li>
+<li><em>He – became – the President of the United States.</em></li>
+<li><em>I – read – a book.</em></li>
+<li><em>I – put – the book – on the shelf.</em></li>
+<li><em>We – find – clause patterns – fascinating.</em></li>
+</ol>
+</div><div class="column" style="width:30%;">
+<ol type="a">
+<li>SV</li>
+<li>SVO<sub>d</sub></li>
+<li>SVO<sub>i</sub>O<sub>d</sub></li>
+<li>SVC<sub>s</sub></li>
+<li>SVA</li>
+<li>SVO<sub>d</sub>C<sub>o</sub></li>
+<li>SVO<sub>d</sub>A</li>
+</ol>
+</div></div>
+</section>
+<section class="slide level2">
+
+<div class="excl">
+<ol type="1">
+<li><em>She – was reading.</em>: <strong>SV</strong></li>
+<li><em>We – were – too early.</em>: <strong>SVC<sub>s</sub></strong></li>
+<li><em>We – sent – them – a parcel.</em>: <strong>SVO<sub>i</sub>O<sub>d</sub></strong></li>
+<li><em>He – became – the President of the United States.</em>: <strong>SVC<sub>s</sub></strong></li>
+<li><em>I – read – a book.</em>: <strong>SVO<sub>d</sub></strong></li>
+<li><em>I – put – the book – on the shelf.</em>: <strong>SVO<sub>d</sub>A</strong></li>
+<li><em>We – find – clause patterns – fascinating.</em>: <strong>SVO<sub>d</sub>O<sub>d</sub></strong></li>
+</ol>
+</div>
+</section>
+<section id="exercise-identifying-dependentsubordinate-clauses" class="slide level2">
+<h2>Exercise: identifying dependent/subordinate clauses</h2>
+<p>Underline all dependent/subordinate clauses in the sentences below and determine their syntactic function.</p>
+<ol type="1">
+<li><em>That cities will attract more and more criminals is a safe prediction.</em></li>
+<li><em>This shows how difficult the question must have been.</em></li>
+<li><em>Being a farmer, he is suspicious of all governmental interference.</em></li>
+<li><em>We knew that he was a lousy driver.</em></li>
+<li><em>The problem is who will water my plants when I am away.</em></li>
+<li><em>No further discussion arising, the meeting was brought to a close.</em></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<div class="excl">
+<ol type="1">
+<li><em>[That cities will attract more and more criminals]<sup>cl_sub_fin</sup> is a safe prediction.</em></li>
+<li><em>This shows [how difficult the question must have been]<sup>cl_sub_fin</sup>.</em></li>
+<li><em>[Being a farmer]<sup>cl_sub_nonfin</sup>, he is suspicious of all governmental interference.</em></li>
+<li><em>We knew [that he was a lousy driver]<sup>cl_sub_fin</sup>.</em></li>
+<li><em>The problem is [who will water my plants when I am away]<sup>cl_sub_fin</sup>.</em></li>
+<li><em>[No further discussion arising]<sup>cl_sub_nonfin</sup>, the meeting was brought to a close.</em></li>
+</ol>
+</div>
+</section></section>
+<section>
+<section id="phrases" class="title-slide slide level1 center">
+<h1>Phrases</h1>
+
+</section>
+<section id="noun-phrases" class="slide level2">
+<h2>Noun phrases</h2>
+
+<img data-src="att/noun-phrases.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 154</p></section>
+<section id="verb-phrases" class="slide level2">
+<h2>Verb phrases</h2>
+
+<img data-src="att/verb-phrases.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 155</p></section>
+<section id="adjective-phrases" class="slide level2">
+<h2>Adjective phrases</h2>
+
+<img data-src="att/adjective-phrases.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 156</p></section>
+<section id="adverb-phrases" class="slide level2">
+<h2>Adverb phrases</h2>
+
+<img data-src="att/adverb-phrases.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 156</p></section>
+<section id="prepositional-phrases" class="slide level2">
+<h2>Prepositional phrases</h2>
+
+<img data-src="att/prepositional-phrases.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 156</p></section>
+<section id="exercise-identifying-noun-phrases" class="slide level2">
+<h2>Exercise: identifying noun phrases</h2>
+<p>Identify all noun phrases in the following sentences.</p>
+<ol type="1">
+<li><em>The driver gave them a free ride.</em></li>
+<li><em>I might be here again next month.</em></li>
+<li><em>October arrived, spreading a damp chill&nbsp;over the grounds and into the castle.</em></li>
+<li><em>The bassist they had just casted left the next day.</em></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<div class="excl">
+<ol type="1">
+<li><em><u>The driver</u> gave <u>them</u> <u>a free ride</u>.</em></li>
+<li><em><u>I</u> might be here again <u>next month</u>.</em></li>
+<li><em><u>October</u> arrived, spreading <u>a damp chill</u>&nbsp;over <u>the grounds</u> and into <u>the castle</u>.</em></li>
+<li><em><u>The bassist</u> <u>they</u> had just casted left <u>the next day</u>.</em></li>
+</ol>
+</div>
+</section>
+<section id="exercise-identifying-verb-phrases" class="slide level2">
+<h2>Exercise: identifying verb phrases</h2>
+<p>Identify all verb phrases in the following sentences.</p>
+<ol type="1">
+<li><em>The driver gave them a free ride.</em></li>
+<li><em>I might be here again next month.</em></li>
+<li><em>They have been reading for a while.</em></li>
+<li><em>The bassist might have been leaving.</em></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<div class="excl">
+<ol type="1">
+<li><em>The driver <u>gave</u> them a free ride.</em></li>
+<li><em>I might <u>be</u> here again next month.</em></li>
+<li><em>They <u>have been reading</u> for a while.</em></li>
+<li><em>The bassist might <u>have been leaving</u>.</em></li>
+</ol>
+</div>
+</section>
+<section id="exercise-identifying-phrase-types" class="slide level2">
+<h2>Exercise: identifying phrase types</h2>
+<p>Give the term for the formal elements (= phrases) underlined in the following sentences.</p>
+<ol type="1">
+<li><em>I might be <u>here</u> <u>again</u> next month.</em></li>
+<li><em>They left&nbsp;<u>in a rush</u>.</em></li>
+<li><em>They did <u>amazingly well</u>.</em></li>
+<li><em><u>The man who came here yesterday</u> was his brother.</em></li>
+<li><em>Charlie is <u>very anxious about their health</u>.</em></li>
+<li><em>She fell in love with <u>the girl in the dark grey dress</u>.</em></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<div class="excl">
+<ol type="1">
+<li><em>I might be <u>here</u> (<strong>AdvP</strong>) <u>again</u> (<strong>AdvP</strong>) next month.</em></li>
+<li><em>They left&nbsp;<u>in a rush</u> (<strong>AdvP</strong>).</em></li>
+<li><em>They did <u>amazingly well</u> (<strong>AdvP</strong>).</em></li>
+<li><em><u>The man who came here yesterday</u> (<strong>NP</strong>) was his brother.</em></li>
+<li><em>Charlie is <u>very anxious about their health</u> (<strong>AdjP</strong>).</em></li>
+<li><em>She fell in love with <u>the girl in the dark grey dress</u> (<strong>NP</strong>).</em></li>
+</ol>
+</div>
+</section></section>
+<section>
+<section id="word-classes" class="title-slide slide level1 center">
+<h1>Word classes</h1>
+
+</section>
+<section id="overview" class="slide level2">
+<h2>Overview</h2>
+
+<img data-src="att/cgel-word-classes.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 160; based on <span class="citation" data-cites="Quirk1985Cambridge">Quirk et al. (<a href="#/references" role="doc-biblioref" onclick="">1985</a>)</span>: 2.34</p></section>
+<section id="exercise-determining-word-classes" class="slide level2">
+<h2>Exercise: determining word classes</h2>
+<p>Determine the word class of all the words in the following sentences taken from Harry Potter and the Chamber of Secrets.</p>
+<p><em>October arrived, spreading a damp chill&nbsp;over the grounds and into the castle. Madam Pomfrey, the nurse, was kept busy by a sudden spate of colds among the staff and students. Her […] potion worked instantly, though it left the drinker smoking at the ears for several hours afterward.</em></p>
+</section>
+<section class="slide level2">
+
+<div class="excl">
+<p><em>October<sup>n_prop</sup> arrived<sup>v_full</sup>, spreading<sup>V_full</sup> a<sup>det</sup> damp<sup>adj</sup> chill<sup>n</sup>&nbsp;over<sup>prep</sup> the<sup>det</sup> grounds<sup>n</sup> and<sup>conj</sup> into<sup>prep</sup> the<sup>det</sup> castle<sup>n</sup>. Madam Pomfrey<sup>n_prop</sup>, the nurse<sup>n</sup>, was<sup>v_prim</sup> kept<sup>v_full</sup> busy<sup>adj</sup> by<sup>prep</sup> a<sup>det</sup> sudden<sup>adj</sup> spate<sup>n</sup> of<sup>prep</sup> colds<sup>n</sup> among<sup>prep</sup> the<sup>det</sup> staff<sup>n</sup> and<sup>conj</sup> students<sup>n</sup>. Her<sup>det</sup> […] potion<sup>n</sup> worked<sup>v_full</sup> instantly<sup>adv</sup>, though<sup>conj</sup> it<sup>pron_pers</sup> left<sup>v_full</sup> the drinker<sup>n</sup> smoking<sup>v_full</sup> at<sup>prep</sup> the<sup>det</sup> ears<sup>n</sup> for<sup>prep</sup> several<sup>det</sup> hours<sup>n</sup> afterward<sup>adv</sup>.</em></p>
+</div>
+</section>
+<section id="verbs" class="slide level2">
+<h2>Verbs</h2>
+<h3 id="verbal-inflection">Verbal inflection</h3>
+
+<img data-src="att/verbal-inflection.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 161</p></section>
+<section class="slide level2">
+
+<h3 id="modal-and-primary-verbs">Modal and primary verbs</h3>
+
+<img data-src="att/modal-and-primary-verbs.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 162</p></section></section>
+<section>
+<section id="full-syntactic-analysis" class="title-slide slide level1 center">
+<h1>Full syntactic analysis</h1>
+<p>Give a full syntactic analysis of the following sentences.</p>
+</section>
+<section id="he-spends-all-his-money-on-horses." class="slide level2">
+<h2><em>He spends all his money on horses.</em></h2>
+<div class="excl fragment">
+<p><img data-src="tex-trees/output/he-spends-all-his-money.png"></p>
+</div>
+</section>
+<section id="john-called-me-an-idiot." class="slide level2">
+<h2><em>John called me an idiot.</em></h2>
+<div class="excl fragment">
+<p><img data-src="tex-trees/output/john-called-me-an-idiot.png"></p>
+</div>
+</section>
+<section id="mary-left-the-next-day." class="slide level2">
+<h2><em>Mary left the next day.</em></h2>
+<div class="excl fragment">
+<p><img data-src="tex-trees/output/mary-left-the-next-day.png"></p>
+</div>
+</section>
+<section id="his-face-turned-pale-when-he-saw-me." class="slide level2">
+<h2><em>His face turned pale when he saw me.</em></h2>
+<div class="excl fragment">
+<p><img data-src="tex-trees/output/his-face-turned-pale.png" height="500"></p>
+</div>
+</section>
+<section id="tom-called-jerry-at-midnight-and-tom-called-jerry-a-fool." class="slide level2">
+<h2><em>Tom called Jerry at midnight and Tom called Jerry a fool.</em></h2>
+<div class="excl fragment">
+<p><img data-src="tex-trees/output/tom-called-jerry-at-midnight.png" height="500"></p>
+</div>
+</section>
+<section id="some-people-consider-themselves-to-be-very-important." class="slide level2">
+<h2><em>Some people consider themselves to be very important.</em></h2>
+<div class="excl fragment">
+<p><img data-src="tex-trees/output/some-people-consider-themselves.png" height="500"></p>
+</div>
+</section>
+<section id="michael-completely-ruined-the-dinner-as-he-behaved-like-a-fool." class="slide level2">
+<h2><em>Michael completely ruined the dinner as he behaved like a fool.</em></h2>
+<div class="excl fragment">
+<p><img data-src="tex-trees/output/michael-completely-ruined-the-dinner.png" height="500"></p>
+</div>
+</section>
+<section id="the-door-of-george-lancasters-house-which-was-half-buried-in-the-snow-screeched." class="slide level2">
+<h2><em>The door of George Lancaster’s house, which was half buried in the snow, screeched.</em></h2>
+<div class="excl fragment">
+<p><img data-src="tex-trees/output/the-door-of-george-lancaster-house.png" height="500"></p>
+</div>
+</section>
+<section id="the-lucky-boys-have-found-a-paperback-in-the-park-and-they-opened-it-carefully." class="slide level2">
+<h2><em>The lucky boys have found a paperback in the park and they opened it carefully.</em></h2>
+<div class="excl fragment">
+<p><img data-src="tex-trees/output/the-luck-boys-have-found.png" height="500"></p>
+</div>
+</section></section>
+<section>
+<section id="valency-theory-and-case-grammar" class="title-slide slide level1 center">
+<h1>Valency theory and case grammar</h1>
+
+</section>
+<section id="constituency-grammar" class="slide level2">
+<h2>Constituency grammar</h2>
+<p><em>By 1918 St Ives had a long tradition as an artists’ community.</em></p>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<figcaption><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 171</figcaption>
+<p><img data-src="att/st-ives-constituency.png" height="500"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="dependency-grammar" class="slide level2">
+<h2>Dependency grammar</h2>
+
+<img data-src="att/st-ives-dependency.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 175</p></section>
+<section id="case-grammar-and-participant-roles" class="slide level2 smaller">
+<h2>Case grammar and participant roles</h2>
+<p><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 180–182</p>
+<ul>
+<li><strong>BENREC</strong>: someone or something that benefits from the action expressed by the verb or is the intended recipient of the action described by the verb
+<ul>
+<li>(12)<sub>PW</sub> <em>It gave <u>Ben</u> a reasonable studio and <u>Barbara</u> one near the kitchen, filled with light.</em></li>
+</ul></li>
+<li><strong>ÆFFECTED</strong>: something (or someone) that is affected by or is the outcome or result of the action described by the verb
+<ul>
+<li>(15)<sub>PH</sub> <em>Once there, Heron had immediately started <u>work on a series of small vertical paintings</u> …</em></li>
+</ul></li>
+<li><strong>PREDICATIVE</strong>: identification, equation, characterization or description (which could be seen as subroles of ‘PREDICATIVE’):
+<ul>
+<li>(19)<sub>PH</sub> <em>Heron has never been <u>a programmatic artist</u> …</em></li>
+</ul></li>
+<li><strong>LOCATIVE: STATIVE</strong>:
+<ul>
+<li>(16)<sub>PH</sub> <em><u>At Zennor</u> one sees infinite Atlantic …</em></li>
+</ul></li>
+<li><strong>LOCATIVE: GOAL</strong>:
+<ul>
+<li>(20)<sub>PH</sub> <em>… Heron moved beyond the rapid summary strokes and washes of the ‘stripe’ and ‘horizon’ paintings <u>towards what he described as a ‘true spontaneity’</u> …</em></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<div class="small">
+<ul>
+<li><strong>LOCATIVE: SOURCE</strong>:
+<ul>
+<li>(22)<sub>PH</sub> <em>… Heron moved <u>beyond the rapid summary strokes and washes of the ‘stripe’ and ‘horizon’ paintings</u> towards what he described as a ‘true spontaneity’ …</em></li>
+</ul></li>
+<li><strong>TIME</strong>: time of the action described by the verb:
+<ul>
+<li>(21)<sub>PH</sub> <em><u>Exactly forty years before</u> D.H. Lawrence had moved into Higher Tregerthen, the tiny group of cottages at the bottom of the hill below Eagles Nest …</em></li>
+</ul></li>
+<li><strong>PURPOSE</strong>:
+<ul>
+<li>(24)<sub>PW</sub> <em><u>In order to realize the subject emotionally and to further his understanding of the composition,</u> Lanyon made use of his practical skills in a number of three-dimensional constructions.</em></li>
+</ul></li>
+<li><strong>TOPIC</strong>:
+<ul>
+<li>(25)<sub>PH</sub> <em>Heron had, of course, been thinking and writing <u>about the nature of abstraction</u> since his very first published article in 1945 …</em></li>
+</ul></li>
+<li><strong>AGENT</strong>: someone that carries out an action:
+<ul>
+<li>(26)<sub>PH</sub> <em><u>Heron</u> had, of course, been thinking and writing about the nature of abstraction since his very first published article in 1945 …</em></li>
+</ul></li>
+</ul>
+</div>
+</section></section>
+<section id="references" class="title-slide slide level1 smaller scrollable">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Herbst2010English" class="csl-entry" role="listitem">
+Herbst, Thomas. 2010. <em>English Linguistics: A Coursebook for Students of English</em>. Berlin: De Gruyter Mouton.
+</div>
+<div id="ref-Quirk1985Cambridge" class="csl-entry" role="listitem">
+Quirk, Randolph, Sidney Greenbaum, Geoffrey Leech, and Jan Svartvik. 1985. <em>A Comprehensive Grammar of the <span>English</span> Language</em>. Harlow: Longman.
+</div>
+</div>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/react.development.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/react-dom.development.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/excalidraw.development.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/excalidraw.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'pointer': {"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
+'excalidraw': {"button":false,"shortcut":"`","template":"","library":"","langCode":"en","viewModeEnabled":false,"zenModeEnabled":false,"gridModeEnabled":false,"theme":"light","autoFocus":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealPointer, RevealExcalidraw, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

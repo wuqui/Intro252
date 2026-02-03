@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-contrib/quarto-auto-dark-mode-1.0.0/auto-dark-mode.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/quarto-exclude-1.5.0/exclude-styles.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
+
+  <meta name="author" content="Dr.&nbsp;Quirin Würschinger, LMU Munich">
+  <title>Intro252 – Morphology and word-formation</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-5ae9c59b2727fcd5357d4f034d95f9e0.css">
+  <link rel="stylesheet" href="../../slides.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-excalidraw/excalidraw.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+<script src="mathjax-config.js"></script>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Morphology and word-formation</h1>
+  <p class="subtitle">Introduction to linguistics — <a href="../../index.html">Course Website</a> — 1 &amp; 8 November 2025</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dr.&nbsp;Quirin Würschinger, LMU Munich 
+</div>
+</div>
+</div>
+
+</section>
+<section>
+<section id="morphology" class="title-slide slide level1 center">
+<h1>Morphology</h1>
+
+</section>
+<section id="morphology-and-word-formation" class="slide level2">
+<h2>Morphology and word-formation</h2>
+
+<img data-src="att/morphology-vs-word-formation.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Schmid2016Morphology">Schmid (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span>: 15</p></section>
+<section id="object-of-study" class="slide level2">
+<h2>Object of study</h2>
+<p>“Morphology is concerned with the internal structure of words and with the various processes which allow us to constantly expand the vocabulary of a language.” <span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 51)</span></p>
+</section>
+<section id="morphemes" class="slide level2">
+<h2>Morphemes</h2>
+<p>“<strong>Morpheme</strong>: The basic morphological unit is not the word, but the morpheme (Greek morphé = shape, form), the smallest meaning-bearing unit of language.</p>
+<p>Thus, the word <em>singers</em> contains three morphemes: {sing}, {-er}, and {-s}. Each of these three morphemes adds to the overall meaning of singers:</p>
+<ul>
+<li>the verb {sing} makes the central contribution,</li>
+<li>while {-er} on its own means no more than ‘someone who VERBs’,</li>
+<li>and the {-s} merely gives grammatical information, namely plural.”</li>
+</ul>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 51)</span></p>
+</section>
+<section id="inflectional-morphology" class="slide level2">
+<h2>Inflectional morphology</h2>
+
+<img data-src="att/inflectional-morphology.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 81</p></section>
+<section id="allomorphs" class="slide level2">
+<h2>Allomorphs</h2>
+<ul>
+<li>“<strong>Morphemes vs (allo-)morphs</strong>: On the level of morphology, morphemes are the exact <strong>counterpart to phonemes</strong> on the level of phonology.</li>
+<li>Just like phonemes, morphemes are abstract units which can be realized by more than one form.</li>
+<li>Just think of the plural morpheme in word forms like <em>kids</em>, <em>kits</em>, and <em>kisses</em>, where it is realized as /-z/, /-s/, and /-ɪz/ respectively.</li>
+<li>These <strong>concrete realizations of morphemes are called morphs</strong>, and in analogy to the allophones of a phoneme we speak of the allomorphs of a morpheme”</li>
+</ul>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 51)</span></p>
+</section>
+<section id="word-word-form-lexeme" class="slide level2">
+<h2>Word, word form, lexeme</h2>
+<ul>
+<li>“<strong>Word – word form – lexeme</strong>: The example <em>singers</em> also serves to show how important it is to deal with the term word in a more differentiated way.</li>
+<li>Is <em>singers</em> a different <strong>word</strong> from <em>singer</em>? No, singers is merely a different form, a so-called <strong>word form</strong>, of the noun <em>singer</em>.</li>
+<li><em>Singer</em> itself, on the other hand, is not merely a word form of <em>sing</em>, but a different, new word, which has been formed by affixation of {-er} to the verb.</li>
+<li>In this case, we speak of a new <strong>lexeme</strong> with a new dictionary entry which has been created by a specific derivational process.”</li>
+</ul>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 51)</span></p>
+</section>
+<section id="types-of-morphemes" class="slide level2">
+<h2>Types of morphemes</h2>
+
+<img data-src="att/types-of-morphemes.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 53</p></section>
+<section class="slide level2">
+
+
+<img data-src="att/schmid-morpheme-types.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Schmid2016Morphology">Schmid (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span>: 36</p></section>
+<section class="slide level2">
+
+<h3 id="exercise-determine-morpheme-types">Exercise: determine morpheme types</h3>
+<p>Divide the words below into their component morphemes and classify them.</p>
+<ol type="1">
+<li><em>signpost</em>: <span class="excl fragment">{sign}<sub>lx.fr</sub> {post}<sub>lx.fr</sub></span></li>
+<li><em>cats</em>: <span class="excl fragment">{cat}<sub>lx.bd</sub> {plural}<sub>gr.bd</sub></span></li>
+<li><em>they</em>: <span class="excl fragment">{they}<sub>gr.fr</sub></span></li>
+<li><em>singer</em>: <span class="excl fragment">{sing}<sub>lx.fr</sub> {er}<sub>lx.bd</sub></span></li>
+<li><em>finger</em>: <span class="excl fragment">{finger}<sub>lx.fr</sub></span></li>
+<li><em>funnier</em>: <span class="excl fragment">{funny}<sub>lx.fr</sub> {er}<sub>gr.bd</sub></span></li>
+<li><em>undeniable</em>: <span class="excl fragment">{un}<sub>lx.bd</sub> {deny}<sub>lx.fr</sub> {able}<sub>lx.bd</sub></span></li>
+</ol>
+</section>
+<section id="special-types-of-morphemes" class="slide level2">
+<h2>Special types of morphemes</h2>
+<h3 id="portmanteau-morphemes">Portmanteau morphemes</h3>
+<div class="small">
+<ul>
+<li>morphemes that carries several meanings simultaneously</li>
+<li>i.e.&nbsp;that carry information which is usually expressed by way of two or more morphemes</li>
+<li>e.g.&nbsp;<em>took</em>, <em>taught</em></li>
+</ul>
+</div>
+
+<img data-src="att/portmanteau.excalidraw.svg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="zero-morphemes">Zero morphemes</h3>
+<ul>
+<li>an inflectional or word-formation morpheme lacking phonetic substance</li>
+<li>e.g.&nbsp;{plural} morpheme in <em>two sheep</em></li>
+</ul>
+
+<img data-src="att/zero-morphemes.excalidraw.svg" class="r-stretch"></section>
+<section id="base-root-stem" class="slide level2">
+<h2>Base, root, stem</h2>
+<p>Example: <em>removals</em></p>
+<ul>
+<li>“What remains once all inflectional suffixes (here plural {-s}) are taken away is the <strong>stem</strong>.</li>
+<li>What remains when taking away all affixes ({-re}, {-al} and {-s}) is the <strong>root</strong>, which is the minimal lexical unit and cannot be morphologically analysed any further.</li>
+<li>What remains if individual derivational affixes are taken away from the stem (here: {-al} from removal) is called the <strong>base</strong> in the narrower sense - which is still larger than the root.”</li>
+</ul>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 54)</span></p>
+</section>
+<section class="slide level2">
+
+
+<img data-src="att/removals.excalidraw.svg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="exercise-determine-base-root-stem">Exercise: determine base, root, stem</h3>
+<p>Determine the base, root, and stem of the word <em>formalities</em>.</p>
+<div class="excl fragment">
+<p><img data-src="att/formalities.excalidraw.svg"></p>
+</div>
+</section>
+<section id="allomorphs-1" class="slide level2">
+<h2>Allomorphs</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="complementary-distribution">Complementary distribution</h3>
+
+<img data-src="att/complementary-distribution.png" width="600" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 55</p></section>
+<section class="slide level2">
+
+<h3 id="plural-allomorphs">Plural allomorphs</h3>
+
+<img data-src="att/plural-allomorphs.png" width="600" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 85</p></section>
+<section class="slide level2">
+
+<h3 id="past-tense-allomorphs">Past tense allomorphs</h3>
+
+<img data-src="att/past-allomorphs.png" width="600" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 90</p></section>
+<section class="slide level2">
+
+<h3 id="overview-of-allomorphy-in-english">Overview of allomorphy in English</h3>
+
+<img data-src="att/allomorphy-overview.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Schmid2016Morphology">Schmid (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span>: 61</p></section>
+<section class="slide level2">
+
+<h3 id="irregular-allomorphs">Irregular allomorphs</h3>
+
+<img data-src="att/irregular-allomorphs.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 58</p></section>
+<section class="slide level2">
+
+<h3 id="phonological-conditioning-of-allomorphs">Phonological conditioning of allomorphs</h3>
+<h4 id="types">Types</h4>
+<ul>
+<li>“<strong>affix</strong> allomorphy, where a particular free morpheme, i. e. base, demands the choice of a particular (form of a) bound morpheme,</li>
+<li>and <strong>base</strong> allomorphy, where, vice versa, a particular affix (be it derivational or inflectional) demands the choice of a particular form of the base.”</li>
+</ul>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 58)</span></p>
+</section>
+<section class="slide level2">
+
+<h4 id="examples">Examples</h4>
+
+<img data-src="att/allomorphy-examples.png" width="600" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 59</p><p><strong>(6)</strong>: Consonant change of the final sound of the base due to <strong>coarticulation</strong>.<br>
+<strong>(7)</strong>: Vowel changes of the base due to <strong>stress shift</strong> triggered by derivation.</p>
+</section>
+<section class="slide level2">
+
+<h3 id="exercise-analyse-plural-allomorphs">Exercise: analyse plural allomorphs</h3>
+<p>In which way do the plural forms of the following nouns differ?</p>
+<p><em>cat</em>, <em>horse</em>, <em>woman</em>, <em>mouse</em>, <em>dog</em>, <em>book</em>, <em>fish</em>, <em>orange</em>, <em>apple</em>, <em>car</em>, <em>child</em>, <em>tax</em>, <em>ox</em>, <em>cliff</em>, <em>deer</em></p>
+<p><strong>Options:</strong></p>
+<ol type="1">
+<li><code>/s/</code></li>
+<li><code>/z/</code></li>
+<li><code>/ɪz/</code></li>
+<li>irregular</li>
+</ol>
+</section>
+<section class="slide level2">
+
+<h4 class="excl" id="solution">Solution</h4>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1. /s/</th>
+<th style="text-align: center;">2. /z/</th>
+<th style="text-align: center;">3. /ɪz/</th>
+<th style="text-align: center;">4. irregular</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><em>cats</em></td>
+<td style="text-align: center;"><em>dogs</em></td>
+<td style="text-align: center;"><em>horses</em></td>
+<td style="text-align: center;"><em>women</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><em>books</em></td>
+<td style="text-align: center;"><em>apples</em></td>
+<td style="text-align: center;"><em>oranges</em></td>
+<td style="text-align: center;"><em>fish</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><em>cliffs</em></td>
+<td style="text-align: center;"><em>cars</em></td>
+<td style="text-align: center;"><em>taxes</em></td>
+<td style="text-align: center;"><em>children</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>oxen</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>deer</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>mice</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="morphological-language-types" class="slide level2">
+<h2>Morphological language types</h2>
+
+<img data-src="att/morphological-language-types.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 85</p></section>
+<section id="morphology-review-quiz-interactive" class="slide level2">
+<h2>Morphology Review Quiz (Interactive)</h2>
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
+<iframe src="https://wayground.com/embed/quiz/692cacc0557a086a79635dd4" title="Morphology Review Quiz - Wayground" style="flex:1;" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</section></section>
+<section>
+<section id="word-formation" class="title-slide slide level1 center">
+<h1>Word-formation</h1>
+
+</section>
+<section id="morphemic-word-formation" class="slide level2">
+<h2>Morphemic word-formation</h2>
+
+<img data-src="att/morphemic-wf-overview.excalidraw.svg" class="r-stretch"></section>
+<section id="derivation" class="slide level2">
+<h2>Derivation</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="derivation-vs-inflection">Derivation vs inflection</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<figcaption><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 86</figcaption>
+<p><img data-src="att/inflection-vs-derivation.png" height="500"></p>
+</figure>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="prefixation">Prefixation</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="att/unhappy.excalidraw.svg"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><strong>formal structure</strong>
+<ul>
+<li>prefix: {A}<sub>lx.bd</sub></li>
+<li>base: {B}<sub>lx.fr</sub></li>
+</ul></li>
+<li><strong>function</strong>
+<ul>
+<li>modification of meaning</li>
+<li>usually word-class preserving (exceptions: <em>asleep</em>, <em>enlarge</em>)</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h4 id="morphemes-1">Morphemes</h4>
+
+<img data-src="att/prefixation-morphemes.png" width="600" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="suffixation">Suffixation</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="att/happiness.excalidraw.svg" style="width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><strong>formal structure</strong>
+<ul>
+<li>base: {A}<sub>lx.fr</sub></li>
+<li>suffix: {B}<sub>lx.bf</sub></li>
+</ul></li>
+<li><strong>function</strong>
+<ul>
+<li>(abstract) modification in meaning (e.g.&nbsp;concept type)</li>
+<li>often word-class changing (exceptions: <em>greenish</em>, <em>kingdom</em>)</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h4 id="examples-1">Examples</h4>
+
+<img data-src="att/suffixation-examples.png" width="600" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 61</p></section>
+<section id="compounding" class="slide level2">
+<h2>Compounding</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="att/washing-machine.excalidraw.svg" style="width:100.0%"></p>
+</div><div class="column small" style="width:50%;">
+<p><strong>Endocentric compounds</strong></p>
+<ul>
+<li><strong>semantic structure</strong>: ‘a certain type of machine: for washing’</li>
+<li><strong>head</strong>: <em>machine</em>
+<ul>
+<li>determines word class: <em>machine</em><sup>n</sup> &gt; <em>washing machine</em><sup>n</sup></li>
+<li>stem for inflectional suffixes: <em>washing machines</em>, not <em>*washings machine</em></li>
+</ul></li>
+<li><strong>modifier</strong>: <em>washing</em>
+<ul>
+<li>qualifies head semantically</li>
+<li>often carries primary stress</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h3 id="examples-2">Examples</h3>
+
+<img data-src="att/compound-examples.png" width="600" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 64</p></section>
+<section class="slide level2">
+
+<h3 id="semantic-types">Semantic types</h3>
+<div class="smaller">
+<ul>
+<li><strong>endocentric</strong> compounds
+<ul>
+<li><strong>structure</strong>: A + B denotes a special kind of B</li>
+<li><strong>examples</strong>: <em>darkroom</em>, <em>small talk</em></li>
+</ul></li>
+<li><strong>exocentric</strong> compounds
+<ul>
+<li><strong>structure</strong>: A + B denotes a special kind of an unexpressed semantic head (e. g. ‘person’ in the case of <em>skinhead</em> or <em>paleface</em>)</li>
+<li>these compounds often have metonymic character, when one part stands for the whole (e. g. <em>paleface</em> for ‘a person with a pale face’)</li>
+<li><strong>examples</strong>: <em>egghead</em>, <em>blockhead</em>, <em>blackhead</em>, <em>birdbrain</em>, <em>redneck</em>, <em>greenback</em>, <em>paperback</em></li>
+</ul></li>
+<li><strong>appositional</strong> compounds
+<ul>
+<li><strong>structure</strong>: A and B provide different descriptions for the same referent</li>
+<li><strong>examples</strong>: <em>actor-director</em>, <em>actor-manager</em>, <em>writer-director</em>, <em>poet-translator</em>, <em>maidservant</em></li>
+</ul></li>
+<li><strong>copulative</strong> compounds
+<ul>
+<li><strong>structure</strong>: A + B denotes ‘the sum’ of what A and B denote, i. e. the denotation of a copulative compound would be incomplete with one of the two elements A and B missing</li>
+<li><strong>examples</strong>: <em>spacetime</em>, <em>tractor-trailer</em>, <em>deaf mute</em>, <em>sleepwalk</em>, <em>freeze-dry</em></li>
+</ul></li>
+</ul>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 65)</span></p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="exercise">Exercise</h3>
+<p>Use the following terms to describe the meaning relationship between the component parts of the compounds below:</p>
+<blockquote>
+<p>endocentric — exocentric — appositional — copulative compound</p>
+</blockquote>
+<ol type="1">
+<li><em>greenhouse</em>: <span class="excl fragment">endocentric</span></li>
+<li><em>knee-deep</em>: <span class="excl fragment">endocentric</span></li>
+<li><em>pot head</em>: <span class="excl fragment">exocentric</span></li>
+<li><em>Alsace-Lorraine</em>: <span class="excl fragment">copulative</span></li>
+</ol>
+</section>
+<section id="non-morphemic-word-formation" class="slide level2">
+<h2>Non-morphemic word-formation</h2>
+<h3 id="overview">Overview</h3>
+
+<img data-src="att/non-morphemic-wf-overview.excalidraw.svg" style="width:100.0%" class="r-stretch"></section>
+<section class="slide level2">
+
+<div class="small">
+<table class="caption-top">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 65%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Process</th>
+<th style="text-align: left;">Features</th>
+<th style="text-align: left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Clipping</strong></td>
+<td style="text-align: left;">parts of words are deleted without a change in meaning</td>
+<td style="text-align: left;"><em>bike</em>, <em>exam</em>, <em>fridge</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Blend</strong></td>
+<td style="text-align: left;">forms and meanings of words are merged</td>
+<td style="text-align: left;"><em>smog</em>, <em>brunch</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Acronym</strong></td>
+<td style="text-align: left;">shortened form retaining the initial letters of compounds or other fixed sequences of words; pronounced as words</td>
+<td style="text-align: left;"><em>NATO, laser, AIDS</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Alphabetism</strong></td>
+<td style="text-align: left;">shortened form retaining the initial letters of compounds or other fixed sequences of words; pronounced as sequences of letters</td>
+<td style="text-align: left;"><em>CNN</em>, <em>OED</em>, <em>USA</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Back-formation</strong></td>
+<td style="text-align: left;">word-class-changing word-formation process which deletes a morpheme or morpheme-like element; longer form pre-existing</td>
+<td style="text-align: left;"><em>babysitter</em><sup>n</sup> &gt; <em>babysit</em><sup>v</sup></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Reduplication</strong></td>
+<td style="text-align: left;">rare word-formation process repeating a word or word-like element either identically or in a slightly varied form</td>
+<td style="text-align: left;"><em>walkie-talkie</em>, <em>hip-hop</em></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="shortenings">Shortenings</h3>
+
+<img data-src="att/shortenings.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 72</p></section>
+<section id="differences-between-morphemic-and-non-morphemic-word-formation" class="slide level2">
+<h2>Differences between morphemic and non-morphemic word-formation</h2>
+<table class="caption-top" style="width:100%;">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 24%">
+<col style="width: 33%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Feature</th>
+<th style="text-align: left;">Morphemic WF</th>
+<th style="text-align: left;">Non-morphemic WF</th>
+<th style="text-align: left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Building blocks</strong></td>
+<td style="text-align: left;">morphemes</td>
+<td style="text-align: left;">parts of words</td>
+<td style="text-align: left;"><em>br</em>-<em>unch</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Combination</strong></td>
+<td style="text-align: left;">adding morphemes</td>
+<td style="text-align: left;">removing parts</td>
+<td style="text-align: left;">in-<em>flu</em>-<em>enza</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Serialization</strong></td>
+<td style="text-align: left;">concatenative</td>
+<td style="text-align: left;">interspersed</td>
+<td style="text-align: left;"><em>CHuckLE x snORT</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Regularity</strong></td>
+<td style="text-align: left;">clear rules, predictable patterns</td>
+<td style="text-align: left;">heterogeneous, high variability</td>
+<td style="text-align: left;"><em>Br-angelina</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Cognitive processing</strong></td>
+<td style="text-align: left;">largely unconscious</td>
+<td style="text-align: left;">conscious coining</td>
+<td style="text-align: left;"><em>BBC</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="productivity" class="slide level2">
+<h2>Productivity</h2>
+<p>The degree to which a certain word-formation process is being employed to form new words.</p>
+<h3 id="examples-3">Examples</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Still productive</strong>: suffixation with <strong>{ness}</strong>:</p>
+<ul>
+<li>{kind}{ness}</li>
+<li>{happy}{ness}</li>
+<li>{brave}{ness}</li>
+<li>…</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>No longer productive</strong>: suffixation with <strong>{th}</strong>:</p>
+<ul>
+<li>{strong}{th} &gt; strength</li>
+<li>{long}{th} &gt; length</li>
+<li>{wide}{th} &gt; width</li>
+<li>…</li>
+</ul>
+</div></div>
+</section>
+<section id="transparency" class="slide level2">
+<h2>Transparency</h2>
+<p>The degree to which there is a clear (transparent) mapping between the form and function/meaning of linguistic units.</p>
+<h3 id="examples-4">Examples</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>transparent</strong>:</p>
+<ul>
+<li><em>player</em>: ‘somebody who plays’</li>
+<li><em>wine bottle</em>: ‘a bottle of wine’</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>intransparent/opaque</strong>:</p>
+<ul>
+<li><em>caretaker</em>: *‘somebody who takes care’</li>
+<li><em>undertaker</em>: *‘somebody who undertakes sth.’</li>
+<li><em>to kick the bucket</em>: *‘to strike a bucket with your foot’</li>
+</ul>
+</div></div>
+</section></section>
+<section>
+<section id="morphological-analysis" class="title-slide slide level1 center">
+<h1>Morphological analysis</h1>
+
+</section>
+<section id="singer-songwriter" class="slide level2">
+<h2><em>singer-songwriter</em></h2>
+<div class="excl">
+<div class="r-stack">
+<p><img data-src="att/singer-songwriter_1.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/singer-songwriter_2.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/singer-songwriter_3.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/singer-songwriter_4.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/singer-songwriter_5.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/singer-songwriter_6.excalidraw.svg" class="fragment"></p>
+</div>
+</div>
+</section>
+<section id="misinterpretations" class="slide level2">
+<h2><em>misinterpretations</em></h2>
+<div class="excl">
+<div class="r-stack">
+<p><img data-src="att/misinterpretations_1.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/misinterpretations_2.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/misinterpretations_3.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/misinterpretations_4.excalidraw.svg" class="fragment"></p>
+</div>
+</div>
+</section>
+<section id="friendships" class="slide level2">
+<h2><em>friendships</em></h2>
+<div class="excl">
+<div class="r-stack">
+<p><img data-src="att/friendships_1.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/friendships_2.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/friendships_3.excalidraw.svg" class="fragment"></p>
+</div>
+</div>
+</section>
+<section id="campaigner" class="slide level2">
+<h2><em>campaigner</em></h2>
+<div class="excl">
+<div class="r-stack">
+<p><img data-src="att/campaigner_1.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/campaigner_2.excalidraw.svg" class="fragment"></p>
+<p><img data-src="att/campaigner_3.excalidraw.svg" class="fragment"></p>
+</div>
+</div>
+</section>
+<section id="determine-the-word-formation-process-i" class="slide level2">
+<h2>Determine the word-formation process I</h2>
+<p>Analyse the word-formation processes involved in the following complex words.</p>
+<ol type="1">
+<li><em>childhood</em>: <span class="excl fragment">derivation / suffixation</span></li>
+<li><em>paperback</em>: <span class="excl fragment">compounding / exocentric</span></li>
+<li><em>study-bedroom</em>: <span class="excl fragment">compounding / copulative</span></li>
+<li><em>foreigner</em>: <span class="excl fragment">derivation / suffixation</span></li>
+<li><em>paleface</em>: <span class="excl fragment">compounding / exocentric</span></li>
+<li><em>Oxbridge</em>: <span class="excl fragment">blending</span></li>
+<li><em>CGEL</em>: <span class="excl fragment">initialism</span></li>
+</ol>
+</section>
+<section id="exercise-determine-the-word-formation-process-ii" class="slide level2">
+<h2>Exercise: determine the word-formation process II</h2>
+<p>By means of which <strong>word-formation process</strong> do we arrive at the following lexemes?<sup>1</sup></p>
+<ol type="1">
+<li><em>to enthuse</em>: <span class="excl fragment"><strong>back-formation</strong> from <em>enthusiasm</em>: N&gt;V</span><br>
+</li>
+<li><em>laser</em>: <span class="excl fragment"><strong>acronymisation</strong> from <em>Light Amplification by Stimulated Emission of Radiation</em></span><br>
+</li>
+<li><em>lab</em>: <span class="excl fragment"><strong>clipping</strong> from <em>laboratory</em> N&gt;N</span><br>
+</li>
+<li><em>Hinglish</em>: <span class="excl fragment"><strong>blending</strong> of <em>Hindi</em><sup>n</sup> and <em>English</em><sup>n</sup></span><br>
+</li>
+<li><em>BBC</em>: <span class="excl fragment"><strong>alphabetism</strong> of <em>British Broadcasting Corporation</em></span><br>
+</li>
+<li><em>sext</em>: <span class="excl fragment"><strong>blending</strong> of <em>sex</em><sup>n</sup> and <em>text</em><sup>n</sup></span><br>
+</li>
+<li><em>to hoover</em>: <span class="excl fragment"><strong>(N) coinage</strong> after American industrialist H. W. Hoover (1849–1932), then <strong>conversion</strong> N&gt;V</span></li>
+</ol>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>When two or more processes are involved specify their order.</p></li></ol></aside></section></section>
+<section id="references" class="title-slide slide level1 smaller scrollable">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Herbst2010English" class="csl-entry" role="listitem">
+Herbst, Thomas. 2010. <em>English Linguistics: A Coursebook for Students of English</em>. Berlin: De Gruyter Mouton.
+</div>
+<div id="ref-Kortmann2020Essentials" class="csl-entry" role="listitem">
+Kortmann, Bernd. 2020. <em>English Linguistics: Essentials</em>. J.B. Metzler.
+</div>
+<div id="ref-Schmid2016Morphology" class="csl-entry" role="listitem">
+Schmid, Hans-Jörg. 2016. <em>English Morphology and Word-Formation - <span>An</span> Introduction</em>. 2nd ed. Berlin: Erich Schmidt Verlag.
+</div>
+</div>
+
+
+</section>
+
+
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/react.development.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/react-dom.development.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/excalidraw.development.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/excalidraw.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'pointer': {"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
+'excalidraw': {"button":false,"shortcut":"`","template":"","library":"","langCode":"en","viewModeEnabled":false,"zenModeEnabled":false,"gridModeEnabled":false,"theme":"light","autoFocus":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealPointer, RevealExcalidraw, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-contrib/quarto-auto-dark-mode-1.0.0/auto-dark-mode.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/quarto-exclude-1.5.0/exclude-styles.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
+
+  <meta name="author" content="Dr.&nbsp;Quirin Würschinger, LMU Munich">
+  <title>Intro252 – Semantics and lexicology</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-5ae9c59b2727fcd5357d4f034d95f9e0.css">
+  <link rel="stylesheet" href="../../slides.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-excalidraw/excalidraw.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+<script src="mathjax-config.js"></script>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Semantics and lexicology</h1>
+  <p class="subtitle">Introduction to linguistics — <a href="../../index.html">Course Website</a> — 14 December 2025</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dr.&nbsp;Quirin Würschinger, LMU Munich 
+</div>
+</div>
+</div>
+
+</section>
+<section>
+<section id="object-of-study" class="title-slide slide level1 center">
+<h1>Object of study</h1>
+
+</section>
+<section id="semantics" class="slide level2">
+<h2>Semantics</h2>
+<ul>
+<li>“Semantics (Greek semain- = to mean) is the only branch of linguistics which is exclusively concerned with <strong>meaning</strong>.</li>
+<li>Semantics studies the meaning or meaning potential of various kinds of expressions: <strong>words</strong>, <strong>phrases</strong>, and <strong>sentences</strong>.</li>
+<li>This chapter is mainly confined to the study of <strong>word meaning</strong> (<strong>lexical semantics</strong>; <strong>lexicology</strong>)” <span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 143)</span></li>
+</ul>
+</section>
+<section id="semasiology-and-onomasiology" class="slide level2">
+<h2>Semasiology and onomasiology</h2>
+<h3 id="semasiology">Semasiology</h3>
+<ul>
+<li>What is the meaning of X?”</li>
+<li>form/signifier → meaning/signified</li>
+</ul>
+<h3 id="onomasiology">Onomasiology</h3>
+<ul>
+<li>What is the word for X?”</li>
+<li>meaning/signified → form/signifier</li>
+</ul>
+</section>
+<section id="paradigmatic-and-syntagmatic-semantics" class="slide level2">
+<h2>Paradigmatic and syntagmatic semantics</h2>
+
+<img data-src="att/paradigmatic-syntagmatic-semantics.png" width="500" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 143</p></section>
+<section id="reference-referent" class="slide level2">
+<h2>Reference — referent</h2>
+<ul>
+<li>“The term <strong>reference</strong>, for example, designates the relation between entities in the external world and the words which are used to refer to these entities (e. g. people, objects, events, places, points in time, etc.).</li>
+<li>The <strong>referent</strong> is the entity referred to (“picked out”) by an expression in a particular context.</li>
+</ul>
+<p>4a. Take the bottle and put it in the dustbin.<br>
+4b. She took a bottle and put it in a dustbin.<br>
+4c. A bottle is not a dustbin.”</p>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 147)</span></p>
+</section>
+<section id="extension-denotation" class="slide level2">
+<h2>Extension — denotation</h2>
+<ul>
+<li>“The term <strong>extension</strong> designates the class of objects to which a linguistic expression can be applied, i. e. the class of its potential referents (in (4c) the class of all bottles and the class of all dustbins).</li>
+<li>A <strong>referent</strong> of a linguistic expression is always a member (or subset) of the class of objects that constitutes the word’s <strong>extension</strong>.”</li>
+</ul>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 147)</span></p>
+</section>
+<section id="denotation-connotation" class="slide level2">
+<h2>Denotation — connotation</h2>
+<ul>
+<li><strong>Denotation</strong>: the literal, dictionary meaning of a word; its core, objective meaning</li>
+<li><strong>Connotation</strong>: the emotional, cultural, or associative meaning that goes beyond the literal meaning; subjective and context-dependent</li>
+</ul>
+<h3 id="examples">Examples</h3>
+<ul>
+<li><em>cheap</em> vs <em>inexpensive</em>
+<ul>
+<li>Both denote low cost, but <em>cheap</em> often connotes poor quality, while <em>inexpensive</em> is more neutral.</li>
+</ul></li>
+<li><em>slender</em> vs <em>skinny</em> vs <em>thin</em>
+<ul>
+<li>All denote lack of body mass, but <em>slender</em> is positive, <em>skinny</em> can be negative, and <em>thin</em> is more neutral.</li>
+</ul></li>
+</ul>
+</section>
+<section id="lexical-fields" class="slide level2">
+<h2>Lexical fields</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 149)</span></p>
+<p>“<strong>Lexical (or: semantic) fields</strong> are groups of words which cover different or partly overlapping areas within the <strong>same extralinguistic domain</strong>.”</p>
+<h3 id="examples-1">Examples</h3>
+<ul>
+<li>“colour adjectives,</li>
+<li>adjectives relating to mental abilities (<em>intelligent</em>, <em>clever</em>, <em>smart</em>, <em>bright</em>, <em>brilliant</em>, <em>brainy</em>, <em>stupid</em>, <em>dumb</em>, <em>silly</em>, <em>thick</em>, <em>dense</em>, etc.),</li>
+<li>different types of footwear (<em>shoe</em>, <em>moccasin</em>, <em>clog</em>, <em>slipper</em>, <em>sandal</em>, <em>trainer</em>, <em>boot</em>, etc.)”</li>
+</ul>
+<p><span class="fragment">Can you think of lexical fields that have undergone lexical change in the recent past?</span></p>
+</section>
+<section class="slide level2">
+
+
+<img data-src="att/lexical-field-example.png" class="r-stretch"></section></section>
+<section>
+<section id="meaning-relations" class="title-slide slide level1 center">
+<h1>Meaning relations</h1>
+
+</section>
+<section id="overview-of-sense-relations" class="slide level2">
+<h2>Overview of sense relations</h2>
+
+<img data-src="att/sense-relations.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 154</p></section>
+<section id="synonymy" class="slide level2">
+<h2>Synonymy</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 152)</span></p>
+<ul>
+<li>“<strong>Synonymy</strong>: The concept of synonymy is used to describe semantic <strong>equivalence</strong> or rather <strong>extensive semantic similarity</strong> between two or more lexemes.</li>
+<li>The term is typically used in reference to the <strong>descriptive meaning</strong> of words (hence the term descriptive or cognitive synonymy). Synonyms thus have the same semantic features.”</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p>“<strong>Descriptive synonyms</strong> may differ with regard to</p>
+<ul>
+<li>their <strong>connotations</strong> (<em>dog</em> – <em>mongrel</em>, <em>cock</em> – <em>rooster</em>, <em>worker</em> – <em>employee</em>, <em>baby</em> – <em>neonate</em>),</li>
+<li>with regard to <strong>stylistic level</strong> or <strong>register</strong> (<em>begin</em> – <em>commence</em>, <em>buy</em> – <em>purchase</em>, <em>intoxicated</em> – <em>drunk</em> – <em>pissed</em>),</li>
+<li>with regard to <strong>regional</strong> or <strong>social variety</strong> (e. g. differences between American and BritishEnglish*),</li>
+<li>or with regard to their <strong>collocations</strong> (e. g. <em>a big/large house</em>, but <em>Big/Large Brother</em> is watching you).”</li>
+</ul>
+</section>
+<section id="complementary-antonymy" class="slide level2">
+<h2>Complementary antonymy</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 152)</span></p>
+<ul>
+<li>“Complementary antonymy: We speak of <strong>complementary</strong> or <strong>binary antonyms</strong> (or: complementaries) if there is an either-or relationship between the two terms of a pair of semantic opposites, i. e. if the two antonyms exhaust all possible options in a particular conceptual domain</li>
+<li>(e.g.&nbsp;<em>asleep</em> – <em>awake</em>, <em>dead</em> – <em>alive</em>, <em>live</em> – <em>die</em>, <em>pass</em> – <em>fail</em>).</li>
+</ul>
+</section>
+<section id="gradable-antonymy" class="slide level2">
+<h2>Gradable antonymy</h2>
+<ul>
+<li>“(Gradable) antonymy: Complementary antonymy is commonly contrasted with gradable antonymy, where the two expressions involved merely constitute <strong>opposite poles of a continuum</strong>.”</li>
+<li>“<strong>Examples</strong> of gradable antonyms are <em>hot</em> – <em>cold</em> (notice the various intermediate stages like <em>warm</em> – <em>tepid</em> – <em>cool</em>), <em>broad</em> – <em>narrow</em>, <em>large</em> – <em>small</em>,-and <em>old</em> – <em>young</em> (cf.&nbsp;also pairs of nouns like <em>beginning</em> – <em>end</em>, <em>war</em> – <em>peace</em>).”</li>
+</ul>
+</section>
+<section id="relational-opposites" class="slide level2">
+<h2>Relational opposites</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 153)</span></p>
+<ul>
+<li>“<strong>Relational opposites</strong>: A further type of antonyms are relational opposites (or: converses).</li>
+<li>They describe the <strong>same situation from different perspectives</strong></li>
+</ul>
+<h3 id="examples-2">Examples</h3>
+<ul>
+<li><em>teacher</em> ⇆ <em>pupil</em></li>
+<li><em>employer</em> ⇆ <em>employee</em></li>
+<li><em>examiner</em> ⇆ <em>examinee</em></li>
+<li><em>older</em> ⇆ <em>younger</em></li>
+<li><em>longer</em> ⇆ <em>shorter</em></li>
+</ul>
+</section>
+<section id="directional-opposites" class="slide level2">
+<h2>Directional opposites</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 153)</span></p>
+<p>“<strong>Directional oppositeness</strong>: The fourth type of antonymy, directional oppositeness (directional opposites or reverses), does not involve different perspectives on the same situation, but rather a <strong>change of direction</strong> (especially motion in different directions).</p>
+<h3 id="examples-3">Examples</h3>
+<div class="small">
+<ul>
+<li><em>open</em> ⇆ <em>shut</em></li>
+<li><em>push</em> ⇆ <em>pull</em></li>
+<li><em>rise</em> ⇆ <em>fall</em></li>
+<li><em>leave</em> ⇆ <em>return</em></li>
+<li><em>(turn) right</em> ⇆ <em>(turn) left</em></li>
+<li><em>tie</em> ⇆ <em>untie</em></li>
+</ul>
+</div>
+</section>
+<section id="hierarchical-relations-hyponomy-and-meronomy" class="slide level2">
+<h2>Hierarchical relations: hyponomy and meronomy</h2>
+
+<img data-src="att/hierarchical-relations.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 154</p></section>
+<section id="exercise-identify-sense-relations" class="slide level2 small">
+<h2>Exercise: identify sense relations</h2>
+<p>Identify the meaning relation holding between the following pairs of words. For antonyms, specify the subtype.</p>
+<ol type="1">
+<li><em>frame</em> – <em>window</em>: <span class="excl fragment"><strong>meronymy</strong>: meronym: <em>frame</em>, holonym: <em>window</em></span></li>
+<li><em>expand</em> – <em>contract</em>: <span class="excl fragment"><strong>directional antonymy</strong></span></li>
+<li><em>(go) in</em> – <em>(go) out</em>: <span class="excl fragment"><strong>directional oppositeness</strong></span></li>
+<li><em>freedom</em> – <em>liberty</em>: <span class="excl fragment"><strong>descriptive synonymy</strong></span></li>
+<li><em>hot</em> – <em>cold</em>: <span class="excl fragment"><strong>gradable antonymy</strong></span></li>
+<li><em>insect</em> – <em>bee</em>: <span class="excl fragment"><strong>hyperonymy</strong>: hyperonym: <em>insect</em>, holonym: <em>bee</em></span></li>
+<li><em>certain</em> – <em>sure</em>: <span class="excl fragment"><strong>total/descriptive synonymy</strong></span></li>
+<li><em>night</em> – <em>day</em>: <span class="excl fragment"><strong>complementary antonymy</strong></span></li>
+<li><em>give</em> – <em>receive</em>: <span class="excl fragment"><strong>relational oppositeness</strong></span></li>
+<li><em>poor</em> – <em>rich</em>: <span class="excl fragment"><strong>polar antonymy</strong></span></li>
+<li><em>peace</em> – <em>war</em>: <span class="excl fragment"><strong>complementary antonymy</strong></span></li>
+<li><em>car</em> – <em>convertible</em>: <span class="excl fragment"><strong>hyperonymy</strong>: hyperonym: <em>car</em>, hyponym: <em>convertible</em></span></li>
+<li><em>house</em> – <em>cottage</em> – <em>palace</em>: <span class="excl fragment"><strong>co-hyponyms</strong> of the hyperonym <em>building</em></span></li>
+</ol>
+</section>
+<section id="syntagmatic-relations-collocations-and-idioms" class="slide level2">
+<h2>Syntagmatic relations: collocations and idioms</h2>
+<ul>
+<li><strong>Collocations</strong>
+<ul>
+<li>words that occur together more <strong>frequently</strong> than expected</li>
+<li>examples: <em>salt and pepper</em>, <em>handsome man</em> (vs.&nbsp;<sup>?</sup><em>handsome girl</em>)</li>
+</ul></li>
+<li><strong>Idioms</strong>
+<ul>
+<li>words that occur together more <strong>frequently</strong> than expected</li>
+<li><strong>semantically opaque</strong> (non-transparent), i.e.&nbsp;meaning not deducible from meanings of the components</li>
+<li>examples: <em>to kick the bucket</em>, <em>to break a leg</em>, <em>to put one’s foot in one’s mouth</em></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="exercise-collocations-and-idioms">Exercise: collocations and idioms</h3>
+<div class="small">
+<p>Briefly explain the difference between collocations and idioms.</p>
+<ol type="1">
+<li><em>kick the bucket</em>
+<ul>
+<li><span class="excl fragment"><strong>idiom</strong>: non-compositional meaning (‘to die’)</span></li>
+</ul></li>
+<li><em>break a habit</em>
+<ul>
+<li><span class="excl fragment"><strong>collocation</strong>: words that commonly occur together, but meaning is literal</span></li>
+</ul></li>
+<li><em>break a leg</em>
+<ul>
+<li><span class="excl fragment"><strong>idiom</strong>: non-compositional meaning (‘good luck’)</span></li>
+</ul></li>
+<li><em>hang in there</em>
+<ul>
+<li><span class="excl fragment"><strong>idiom</strong>: non-compositional meaning (‘persevere’, ‘don’t give up’)</span></li>
+</ul></li>
+<li><em>white wine</em>
+<ul>
+<li><span class="excl fragment"><strong>collocation</strong>: words that commonly occur together, but meaning is literal</span></li>
+</ul></li>
+<li><em>blond hair</em>
+<ul>
+<li><span class="excl fragment"><strong>collocation</strong>: words that commonly occur together, but meaning is literal</span></li>
+</ul></li>
+</ol>
+</div>
+</section></section>
+<section>
+<section id="lexical-ambiguity" class="title-slide slide level1 center">
+<h1>Lexical ambiguity</h1>
+
+</section>
+<section id="homonymy-vs-polysemy" class="slide level2">
+<h2>Homonymy vs polysemy</h2>
+
+<img data-src="att/homonymy-vs-polysemy.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 235</p></section>
+<section id="homonymy" class="slide level2">
+<h2>Homonymy</h2>
+
+<img data-src="att/homonymy.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 155</p><div class="small">
+<ul>
+<li>“<strong>Homophones</strong> are lexemes which are identical in pronunciation, but differ in spelling
+<ul>
+<li>(see – sea, sight – site, flower – flour),</li>
+</ul></li>
+<li>while <strong>homographs</strong> are identical in spelling, but differ in pronunciation
+<ul>
+<li>(<em>lead</em> /led/ ‘kind of metal’ vs.&nbsp;<em>lead</em> /liːd / ‘piece of leather attached to dogs’ collars’,</li>
+<li><em>bass</em> /beɪs/ ‘man with a deep singing voice’ vs.&nbsp;<em>bass</em> /bæs/ ‘type of fish’).” <span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 153)</span></li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+
+
+<img data-src="att/homonymy-ear.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Herbst2010English">Herbst (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span>: 234</p></section>
+<section id="exercise" class="slide level2">
+<h2>Exercise:</h2>
+<p>Describe the lexical ambiguity of the words below using the following linguistic terms:</p>
+<p><span class="smallcaps">polysemy – homonymy – homophony – homography</span></p>
+<ol type="1">
+<li><em>bass</em> – ‘music instrument’ vs.&nbsp;‘type of fish’: <span class="excl fragment"><strong>homography</strong></span></li>
+<li><em>mouse</em> – ‘small rodent’ vs.&nbsp;‘computer mouse’: <span class="excl fragment"><strong>polysemy</strong></span></li>
+<li><em>see</em> – <em>sea</em>: <span class="excl fragment"><strong>homophony</strong></span></li>
+</ol>
+</section></section>
+<section>
+<section id="cognitive-semantics" class="title-slide slide level1 center">
+<h1>Cognitive semantics</h1>
+
+</section>
+<section id="componential-analysis" class="slide level2">
+<h2>Componential analysis</h2>
+<p><strong>Structural semantics</strong>: Description of any word meaning as a <strong>combination of semantic components</strong> (cf.&nbsp;phonemes: any phoneme in any language can be described with a limited set of distinctive features).</p>
+<ul>
+<li>lexemes differ with regard to their distinctive features</li>
+<li><strong>seme</strong>: smallest distinctive feature of meaning</li>
+<li><strong>semem</strong>: entire set of semes of a word</li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 10%">
+<col style="width: 13%">
+<col style="width: 10%">
+<col style="width: 11%">
+<col style="width: 10%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;"><em>man</em></th>
+<th style="text-align: center;"><em>woman</em></th>
+<th style="text-align: center;"><em>boy</em></th>
+<th style="text-align: center;"><em>girl</em></th>
+<th style="text-align: center;"><em>cow</em></th>
+<th style="text-align: center;"><em>bull</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="smallcaps">male</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="smallcaps">adult</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><span class="smallcaps">human</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">–</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="prototype-theory" class="slide level2 small">
+<h2>Prototype theory</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Basic assumption</strong>: Not all members of a category are equally good members, e.g.&nbsp;a prototypical member of a bird is a robin, not an ostrich.</p>
+<p><strong>Prototypical &amp; marginal members</strong>:</p>
+<ul>
+<li>The member that exhibits the most salient features is the <strong>prototype</strong> (i.e., best, most representative member) of the category.</li>
+<li>Depending on the <strong>degree of resemblance</strong> an entity bears to the prototype, it will be categorised as good, more marginal or no member of the category (e.g., <em>dove</em> – <em>duck</em> – <em>penguin</em> – <em>bat</em> – <em>cow</em>).</li>
+</ul>
+<p>In <strong>experiments</strong>, test persons categorise prototypical members faster as member of the category than they do with marginal members.</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="att/prototype-birds.png" height="400"></p>
+<p><img data-src="att/prototype-mugs.png" height="150"></p>
+</div></div>
+</section></section>
+<section>
+<section id="metaphor-and-metonymy" class="title-slide slide level1 center">
+<h1>Metaphor and metonymy</h1>
+
+</section>
+<section id="metaphor" class="slide level2">
+<h2>Metaphor</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 161)</span></p>
+<ul>
+<li>“Vehicle – tenor – tertium comparationis: The term <strong>metaphor</strong> (Greek metaphero = ‘carry somewhere else’, with the noun <em>metaphora</em> already in its modern meaning) traditionally refers to a figure of speech which is based on a relationship of <strong>similarity</strong> or <strong>analogy</strong> between two terms from <strong>different cognitive domains</strong>.</li>
+<li>This similarity, which may be objectively given or merely subjective, is typically held to enable metaphors to ‘transport’ one or more properties of a (usually relatively concrete) <strong>source domain</strong> (or: vehicle) to a <strong>target domain</strong> (or: tenor), which is typically more abstract.</li>
+<li>The similarities involved in metaphorical mappings are often called the <strong>tertium comparationis</strong> (or ground).</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="examples-4">Examples</h3>
+<ul>
+<li>animal metaphors
+<ul>
+<li>(<em>Smith is a pig / fox / rat / ass / stallion</em>),</li>
+</ul></li>
+<li>synaesthetic metaphors (extensions from one field of sensory perception to another,
+<ul>
+<li>e.g.&nbsp;in <em>loud colours</em>, <em>soft / warm / sharp voice</em>),</li>
+</ul></li>
+<li>and so-called anthropomorphic metaphors (transfers from the human domain, especially human body parts, to all sorts of non-human domains,
+<ul>
+<li>e.g.&nbsp;<em>leg of a table</em>, <em>arm of a river</em>, <em>face / hands of a clock</em>, <em>foot of a mountain</em>, <em>mouth of a river</em>).”</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+
+<img data-src="att/metaphor-examples.png" width="550" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 163</p></section>
+<section id="metonymy" class="slide level2">
+<h2>Metonymy</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">(<a href="#/references" role="doc-biblioref" onclick="">Kortmann 2020</a>: 163)</span></p>
+<ul>
+<li>“The main difference between metaphor and <strong>metonymy</strong> is this: Metonymies do not involve a transfer from one cognitive domain to another.</li>
+<li>They are rather based on an existing objective connection between two “<strong>contiguous</strong>” phenomena, such that one phenomenon stands for the other.</li>
+<li>Thus, metonymies are not based on a relationship of similarity, but of contiguity: The phenomena or entities concerned are part of the same situation or, more generally, part of the <strong>same conceptual structure</strong>.”</li>
+</ul>
+</section>
+<section class="slide level2">
+
+
+<img data-src="att/metonymy-examples.png" width="550" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>: 163</p></section>
+<section id="exercise-identify-metaphor-and-metonymy" class="slide level2 small">
+<h2>Exercise: identify metaphor and metonymy</h2>
+<p>Which of the following examples contain conceptual metaphors and which conceptual metonymies? Explain.</p>
+<ol type="1">
+<li><em>They are the brightest students in the class.</em></li>
+</ol>
+<div class="excl fragment">
+<ul>
+<li><strong>metaphor</strong>
+<ul>
+<li>source domain: <span class="smallcaps">light/brightness</span></li>
+<li>target domain: <span class="smallcaps">intelligence</span></li>
+</ul></li>
+</ul>
+</div>
+<ol start="2" type="1">
+<li><em>The argument collapsed.</em></li>
+</ol>
+<div class="excl fragment">
+<ul>
+<li><strong>metaphor</strong>
+<ul>
+<li>source domain: <span class="smallcaps">physical structures/buildings</span></li>
+<li>target domain: <span class="smallcaps">arguments</span></li>
+</ul></li>
+</ul>
+</div>
+<ol start="3" type="1">
+<li><em>The trains are on strike.</em></li>
+</ol>
+<div class="excl fragment">
+<ul>
+<li><strong>metonymy</strong>
+<ul>
+<li><em>trains</em> stands for train operators/railway workers</li>
+<li>contiguity relationship: vehicle/container for the people who operate it</li>
+</ul></li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="semantic-change" class="title-slide slide level1 center">
+<h1>Semantic change</h1>
+
+</section>
+<section id="types-of-semantic-change" class="slide level2">
+<h2>Types of semantic change</h2>
+
+<img data-src="att/semantic-change.png" class="r-stretch"></section>
+<section id="exercise-1" class="slide level2">
+<h2>Exercise</h2>
+<p>Match the following examples with the correct type of semantic change:</p>
+<ol type="1">
+<li><em>nice</em>: ME <em>nice</em> ‘foolish, absurd’ (cf.&nbsp;L <em>nescium</em> ‘ignorant’) &gt; PDE <em>nice</em>
+<ul>
+<li><span class="excl fragment"><strong>amelioration</strong>: meaning changed from negative (‘foolish’) to positive (‘nice’)</span></li>
+</ul></li>
+<li><em>holiday</em>: OE <em>halig-dæg</em> ‘day of religious significance, Sunday’ &gt; PDE <em>holiday</em>
+<ul>
+<li><span class="excl fragment"><strong>broadening (generalisation)</strong>: meaning expanded from ‘religious day’ to ‘any day off’</span></li>
+</ul></li>
+<li><em>terrific</em>: EModE <em>terrific</em> ‘causing terror’ (&lt; L <em>terrificus</em>) &gt; PDE ‘wonderful’
+<ul>
+<li><span class="excl fragment"><strong>amelioration</strong>: meaning changed from negative (‘causing terror’) to positive (‘wonderful’)</span></li>
+</ul></li>
+<li><em>skyline</em>: LModE <em>skyline</em> ‘any horizon’ &gt; ‘horizon decorated by skyscrapers’
+<ul>
+<li><span class="excl fragment"><strong>narrowing (specialisation)</strong>: meaning narrowed from ‘any horizon’ to ‘horizon with skyscrapers’</span></li>
+</ul></li>
+</ol>
+</section></section>
+<section id="quiz" class="title-slide slide level1 center">
+<h1>Quiz</h1>
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
+<iframe src="https://wayground.com/embed/quiz/693f53d83834c3da2d2d3383" title="Semantics Review Quiz - Wayground" style="flex:1;" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</section>
+
+<section id="references" class="title-slide slide level1 smaller scrollable">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Herbst2010English" class="csl-entry" role="listitem">
+Herbst, Thomas. 2010. <em>English Linguistics: A Coursebook for Students of English</em>. Berlin: De Gruyter Mouton.
+</div>
+<div id="ref-Kortmann2020Essentials" class="csl-entry" role="listitem">
+Kortmann, Bernd. 2020. <em>English Linguistics: Essentials</em>. J.B. Metzler.
+</div>
+</div>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/react.development.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/react-dom.development.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/excalidraw.development.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-excalidraw/excalidraw.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'pointer': {"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
+'excalidraw': {"button":false,"shortcut":"`","template":"","library":"","langCode":"en","viewModeEnabled":false,"zenModeEnabled":false,"gridModeEnabled":false,"theme":"light","autoFocus":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealPointer, RevealExcalidraw, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

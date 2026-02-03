@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Quirin Würschinger, LMU Munich">
+<meta name="dcterms.date" content="2025-11-10">
+
+<title>Phonology – Intro252</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/quarto-auto-dark-mode-1.0.0/auto-dark-mode.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/quarto-exclude-1.5.0/exclude-styles.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../document.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Intro252</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sessions" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sessions</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sessions">    
+        <li>
+    <a class="dropdown-item" href="../../sessions/01_intro/website.html">
+ <span class="dropdown-text">Introduction</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/02_pragmatics/website.html">
+ <span class="dropdown-text">Pragmatics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/03_phonetics/website.html">
+ <span class="dropdown-text">Phonetics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/04_phonology/website.html">
+ <span class="dropdown-text">Phonology</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/05_syntax/website.html">
+ <span class="dropdown-text">Syntax</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/07_morphology/website.html">
+ <span class="dropdown-text">Morphology and word-formation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/09_semantics/website.html">
+ <span class="dropdown-text">Semantics and lexicology</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/10_revision/website.html">
+ <span class="dropdown-text">Revision</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/11_sociolinguistics/website.html">
+ <span class="dropdown-text">Sociolinguistics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sessions/12_history-of-english/website.html">
+ <span class="dropdown-text">History of English</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#outline-and-recap" id="toc-outline-and-recap" class="nav-link active" data-scroll-target="#outline-and-recap">Outline and recap</a>
+  <ul class="collapse">
+  <li><a href="#outline" id="toc-outline" class="nav-link" data-scroll-target="#outline">Outline</a></li>
+  <li><a href="#recap" id="toc-recap" class="nav-link" data-scroll-target="#recap">Recap</a></li>
+  </ul></li>
+  <li><a href="#segmental-phonology" id="toc-segmental-phonology" class="nav-link" data-scroll-target="#segmental-phonology">Segmental phonology</a>
+  <ul class="collapse">
+  <li><a href="#phonetics-vs-phonology" id="toc-phonetics-vs-phonology" class="nav-link" data-scroll-target="#phonetics-vs-phonology">Phonetics vs phonology</a></li>
+  <li><a href="#phonemes-and-phonology" id="toc-phonemes-and-phonology" class="nav-link" data-scroll-target="#phonemes-and-phonology">Phonemes and phonology</a></li>
+  <li><a href="#allophones" id="toc-allophones" class="nav-link" data-scroll-target="#allophones">Allophones</a>
+  <ul class="collapse">
+  <li><a href="#distribution" id="toc-distribution" class="nav-link" data-scroll-target="#distribution">Distribution</a></li>
+  <li><a href="#minimal-pairs" id="toc-minimal-pairs" class="nav-link" data-scroll-target="#minimal-pairs">Minimal pairs</a></li>
+  </ul></li>
+  <li><a href="#minimal-pairs-quiz-interactive" id="toc-minimal-pairs-quiz-interactive" class="nav-link" data-scroll-target="#minimal-pairs-quiz-interactive">Minimal Pairs Quiz (Interactive)</a></li>
+  <li><a href="#distinctive-features" id="toc-distinctive-features" class="nav-link" data-scroll-target="#distinctive-features">Distinctive features</a></li>
+  </ul></li>
+  <li><a href="#suprasegmental-phonology" id="toc-suprasegmental-phonology" class="nav-link" data-scroll-target="#suprasegmental-phonology">Suprasegmental phonology</a>
+  <ul class="collapse">
+  <li><a href="#phonotactics" id="toc-phonotactics" class="nav-link" data-scroll-target="#phonotactics">Phonotactics</a></li>
+  <li><a href="#syllable-structure" id="toc-syllable-structure" class="nav-link" data-scroll-target="#syllable-structure">Syllable structure</a>
+  <ul class="collapse">
+  <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link" data-scroll-target="#exercise-1">Exercise</a></li>
+  </ul></li>
+  <li><a href="#word-stress" id="toc-word-stress" class="nav-link" data-scroll-target="#word-stress">Word stress</a></li>
+  <li><a href="#strong-and-weak-forms" id="toc-strong-and-weak-forms" class="nav-link" data-scroll-target="#strong-and-weak-forms">Strong and weak forms</a></li>
+  <li><a href="#intonation" id="toc-intonation" class="nav-link" data-scroll-target="#intonation">Intonation</a></li>
+  </ul></li>
+  <li><a href="#connected-speech" id="toc-connected-speech" class="nav-link" data-scroll-target="#connected-speech">Connected speech</a>
+  <ul class="collapse">
+  <li><a href="#elision" id="toc-elision" class="nav-link" data-scroll-target="#elision">Elision</a></li>
+  <li><a href="#assimilation" id="toc-assimilation" class="nav-link" data-scroll-target="#assimilation">Assimilation</a>
+  <ul class="collapse">
+  <li><a href="#exercise-2" id="toc-exercise-2" class="nav-link" data-scroll-target="#exercise-2">Exercise</a></li>
+  </ul></li>
+  <li><a href="#liaison-and-intrusion" id="toc-liaison-and-intrusion" class="nav-link" data-scroll-target="#liaison-and-intrusion">Liaison and intrusion</a></li>
+  <li><a href="#phonology-review-quiz-interactive" id="toc-phonology-review-quiz-interactive" class="nav-link" data-scroll-target="#phonology-review-quiz-interactive">Phonology Review Quiz (Interactive)</a></li>
+  </ul></li>
+  <li><a href="#summary-and-outlook" id="toc-summary-and-outlook" class="nav-link" data-scroll-target="#summary-and-outlook">Summary and outlook</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#next-week-syntax-i" id="toc-next-week-syntax-i" class="nav-link" data-scroll-target="#next-week-syntax-i">Next week: Syntax I</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Phonology</h1>
+<p class="subtitle lead">Introduction to linguistics</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Quirin Würschinger, LMU Munich </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 10, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><a href="slides.html" class="btn btn-primary">open slides</a> <a href="slides.pdf" class="btn btn-secondary">download slides (pdf)</a></p>
+<section id="outline-and-recap" class="level1">
+<h1>Outline and recap</h1>
+<section id="outline" class="level2">
+<h2 class="anchored" data-anchor-id="outline">Outline</h2>
+<ol type="1">
+<li><a href="#phonetics-vs-phonology">Phonetics vs phonology</a>: What’s the difference between sounds we make and sound systems?</li>
+<li><a href="#segmental-phonology">Segmental phonology</a>: How do we identify the meaningful sound units of a language?</li>
+<li><a href="#suprasegmental-phonology">Suprasegmental phonology</a>: What patterns exist beyond individual sounds?</li>
+<li><a href="#connected-speech">Connected speech</a>: Why do sounds change when we speak naturally?</li>
+</ol>
+</section>
+<section id="recap" class="level2">
+<h2 class="anchored" data-anchor-id="recap">Recap</h2>
+<p>Last week we learned about <strong>phonetics</strong>:</p>
+<ul>
+<li>How to classify consonants (place, manner, voicing)</li>
+<li>How to classify vowels (height, backness, roundedness)</li>
+<li>How to transcribe English words in IPA</li>
+<li>Differences between RP and GA pronunciation</li>
+</ul>
+</section>
+</section>
+<section id="segmental-phonology" class="level1">
+<h1>Segmental phonology</h1>
+<section id="phonetics-vs-phonology" class="level2">
+<h2 class="anchored" data-anchor-id="phonetics-vs-phonology">Phonetics vs phonology</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">2020</a>)</span>: 28</figcaption>
+<p><img src="att/phonetics-vs-phonology.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="phonemes-and-phonology" class="level2">
+<h2 class="anchored" data-anchor-id="phonemes-and-phonology">Phonemes and phonology</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">2020</a>)</span>: 37</p>
+<p>“<strong>Phonemes</strong>:</p>
+<ul>
+<li>Unlike phonetics, phonology is indisputably an integral part of linguistics.</li>
+<li>It abstracts from the multitude of different sounds used in a language and is only interested in those sound units which fulfil a <strong>meaning-distinguishing (distinctive or contrastive) function</strong> within the sound system (therefore also the term functional phonetics).</li>
+<li>These abstract, idealized sound units are called phonemes, and are defined as <strong>smallest meaning-distinguishing units of a language</strong>.</li>
+<li>They exist only in our minds, however, more exactly in our mental grammar; on the <strong>level of language use (parole)</strong>, phonemes are always realized as phones.”</li>
+</ul>
+</section>
+<section id="allophones" class="level2">
+<h2 class="anchored" data-anchor-id="allophones">Allophones</h2>
+<p><strong>Definition</strong>: allophones are realisational variants of a phoneme.</p>
+<p><strong>Example: /l/ in English</strong> — two main allophones in <strong>complementary distribution</strong>:</p>
+<div class="columns">
+<div class="column">
+<p><strong>Clear [l]</strong></p>
+<ul>
+<li>Before vowels: <em>love</em>, <em>hello</em></li>
+<li>Before /j/: <em>million</em></li>
+<li>Context: “How do you <em>spell</em> it?”</li>
+</ul>
+</div><div class="column">
+<p><strong>Dark [ɫ]</strong></p>
+<ul>
+<li>Word-finally: <em>feel</em>, <em>spell</em></li>
+<li>Before consonants: <em>bald</em>, <em>calls</em></li>
+<li>Context: “Which word do you want me to <em>spell</em>?”</li>
+</ul>
+</div>
+</div>
+<p>Allophones are in <strong>complementary distribution</strong> and <strong>do not distinguish meaning</strong></p>
+<section id="distribution" class="level3">
+<h3 class="anchored" data-anchor-id="distribution">Distribution</h3>
+<div>
+<p>“<strong>Complementary distribution</strong>:</p>
+<ul>
+<li>In the vast majority of cases, it is <strong>predictable</strong> in which phonological environment which allophone of a phoneme will be used.</li>
+<li>This is known as complementary distribution of allophones, i. e. normally they never occur in the same environment;</li>
+<li>thus, a given allophone cannot simply be replaced by one of the other allophones.” <span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 38)</span></li>
+</ul>
+<p>“<strong>Free variation</strong>:</p>
+<ul>
+<li>In contradistinction to these so-called contextual variants, there are also numerous <strong>free variants</strong> of phonemes.</li>
+<li>For instance, voiceless plosives may well be aspirated in the final position of a syllable or word, too, as in [læp] and [læpʰ] for lap, or [ʃʌt] and [ʃʌtʰ] for shut.</li>
+<li>We are dealing with free variation of aspirated and non-aspirated allophones here.” <span class="citation" data-cites="Kortmann2020Essentials">(<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">Kortmann 2020</a>: 38)</span></li>
+</ul>
+</div>
+</section>
+<section id="minimal-pairs" class="level3">
+<h3 class="anchored" data-anchor-id="minimal-pairs">Minimal pairs</h3>
+<div>
+<p><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">2020</a>)</span>: 38</p>
+<p>“<strong>Minimal pairs</strong>:</p>
+<ul>
+<li>The all-important method for determining the phonemes (versus (allo-)phones) of a language is the so-called minimal pair test.</li>
+<li>Minimal pairs are pairs of meaning-carrying units which differ <strong>in exactly one sound</strong>, but apart from that have an identical sequence of sounds.</li>
+<li>More exactly, such pairs qualify as minimal pairs only if they additionally <strong>differ in their meaning</strong>.</li>
+<li>Since the meaning difference is only due to the sound difference, and the difference between the two relevant sounds therefore is distinctive, these two sounds must be ascribed <strong>phoneme status</strong>.</li>
+<li>For example, on the basis of the minimal pairs in (6a) and the series of minimal pairs (minimal sets) in (6b), the following phonemes of English can be determined: /t/, /p/, /r/, /f/, /e/, /æ/, /iː/, /ɪ/, and /aɪ/.</li>
+</ul>
+<ol type="a">
+<li><em>ten</em>-<em>pen</em>, <em>time</em>-<em>rhyme</em>, <em>try</em>-<em>fry</em></li>
+<li><em>set</em>-<em>sat</em>-<em>seat</em>-<em>sit</em>-<em>site</em>”</li>
+</ol>
+</div>
+<section id="exercise" class="level4">
+<h4 class="anchored" data-anchor-id="exercise">Exercise</h4>
+<p>Find minimal pairs for the following pairs of English phonemes:</p>
+<ol type="1">
+<li>/p/ – /b/</li>
+<li>/iː/ – /uː/</li>
+<li>/b/ – /m/</li>
+<li>/n/ – /s/</li>
+<li>/ɪ/ – /æ/</li>
+</ol>
+<div class="excl">
+<div>
+<ol type="1">
+<li>/p/ – /b/:
+<ul>
+<li><em>pit</em> /pɪt/ – <em>bit</em> /bɪt/</li>
+<li><em>pack</em> /pæk/ – <em>back</em> /bæk/</li>
+</ul></li>
+<li>/iː/ – /uː/:
+<ul>
+<li><em>beat</em> /biːt/ – <em>boot</em> /buːt/</li>
+<li><em>seat</em> /siːt/ – <em>suit</em> /suːt/</li>
+</ul></li>
+<li>/b/ – /m/:
+<ul>
+<li><em>bat</em> /bæt/ – <em>mat</em> /mæt/</li>
+<li><em>ban</em> /bæn/ – <em>man</em> /mæn/</li>
+</ul></li>
+<li>/n/ – /s/:
+<ul>
+<li><em>neat</em> /niːt/ – <em>seat</em> /siːt/</li>
+<li><em>no</em> /nəʊ/ – <em>so</em> /səʊ/</li>
+</ul></li>
+<li>/ɪ/ – /æ/:
+<ul>
+<li><em>bit</em> /bɪt/ – <em>bat</em> /bæt/</li>
+<li><em>sit</em> /sɪt/ – <em>sat</em> /sæt/</li>
+</ul></li>
+</ol>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="minimal-pairs-quiz-interactive" class="level2">
+<h2 class="anchored" data-anchor-id="minimal-pairs-quiz-interactive">Minimal Pairs Quiz (Interactive)</h2>
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
+<iframe src="https://wayground.com/embed/quiz/691107f379d720f6b0bc6181" title="Minimal Pairs Quiz - Wayground" style="flex:1;" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</section>
+<section id="distinctive-features" class="level2">
+<h2 class="anchored" data-anchor-id="distinctive-features">Distinctive features</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">2020</a>)</span>: 38–39</p>
+<p>“<strong>Distinctive features</strong>:</p>
+<ul>
+<li>In connection with the distinction between phonemes and allophones, a further central term of phonology becomes relevant, namely distinctive features.</li>
+<li>Similar to the way we proceeded in the phonetic description of the various types of sounds, phonemes can alternatively be defined as bundles of distinctive features.</li>
+<li>The phoneme /p/ could thus be described as a bundle of the features <code>[+ CONSONANT, – VOICED, – NASAL, + LABIAL, + CLOSURE, + PLOSIVE]</code>,</li>
+<li>different from, for example, the nasal /n/ with its features <code>[+ CONSONANT, + VOICED, + NASAL, – LABIAL, + CLOSURE, – PLOSIVE]</code>.”</li>
+</ul>
+</section>
+</section>
+<section id="suprasegmental-phonology" class="level1">
+<h1>Suprasegmental phonology</h1>
+<section id="phonotactics" class="level2">
+<h2 class="anchored" data-anchor-id="phonotactics">Phonotactics</h2>
+<p><span class="citation" data-cites="Kortmann2020Essentials">Kortmann (<a href="#ref-Kortmann2020Essentials" role="doc-biblioref">2020</a>)</span>: 39</p>
+<p>“<strong>Phonotactics</strong>:</p>
+<ul>
+<li>Phonology does not only deal with those restrictions which concern the combination of distinctive features, but also with restrictions concerning the combination of phonemes in a language (socalled phonotactic restrictions).</li>
+<li>Relevant examples are &lt;ps-&gt; – /s/, as in <em>psychology</em>, or &lt;kn-&gt; - /n/, as in <em>knight</em>.
+<ul>
+<li>Whereas /k/ can occur before vowels (<em>king</em>, <em>castle</em>) and liquids (<em>cry</em>, <em>clay</em>) at the beginning of words in English,</li>
+<li>it is not found before other consonants that belong to the same syllable.”</li>
+</ul></li>
+</ul>
+</section>
+<section id="syllable-structure" class="level2">
+<h2 class="anchored" data-anchor-id="syllable-structure">Syllable structure</h2>
+<p><img src="att/syllable-structure.png" class="img-fluid"></p>
+<section id="exercise-1" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-1">Exercise</h3>
+<p>Identify the onset, nucleus, and coda in each of the following monosyllabic words and indicate if the syllables are open or closed.</p>
+<ol type="1">
+<li>spread</li>
+<li>glimpse</li>
+<li>new</li>
+</ol>
+<div class="excl">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;"></th>
+<th style="text-align: left;">Word</th>
+<th style="text-align: left;">IPA</th>
+<th style="text-align: left;">Onset</th>
+<th style="text-align: left;">Nucleus</th>
+<th style="text-align: left;">Coda</th>
+<th style="text-align: left;">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1.</td>
+<td style="text-align: left;"><em>spread</em></td>
+<td style="text-align: left;">/spred/</td>
+<td style="text-align: left;">/spr/</td>
+<td style="text-align: left;">/e/</td>
+<td style="text-align: left;">/d/</td>
+<td style="text-align: left;">closed</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2.</td>
+<td style="text-align: left;"><em>glimpse</em></td>
+<td style="text-align: left;">/glɪmps/</td>
+<td style="text-align: left;">/gl/</td>
+<td style="text-align: left;">/ɪ/</td>
+<td style="text-align: left;">/mps/</td>
+<td style="text-align: left;">closed</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3.</td>
+<td style="text-align: left;"><em>new</em></td>
+<td style="text-align: left;">/njuː/</td>
+<td style="text-align: left;">/nj/</td>
+<td style="text-align: left;">/uː/</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">open</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section id="word-stress" class="level2">
+<h2 class="anchored" data-anchor-id="word-stress">Word stress</h2>
+<p><strong>Basics:</strong></p>
+<ul>
+<li>Syllables can be <strong>stressed</strong> or <strong>unstressed</strong></li>
+<li>Stressed syllables are perceived as more prominent (louder, longer, higher-pitched) than surrounding unstressed syllables</li>
+</ul>
+<p><strong>Properties of English word stress:</strong></p>
+<ul>
+<li><strong>Free word stress</strong> in English due to mixed vocabulary: <em>to ánswer</em>, <em>to decíde</em></li>
+<li><strong>Primary vs secondary stress</strong>: <em>èntertainment</em> /ˌentəˈteɪnmənt/</li>
+<li><strong>To a limited extent, English word stress is phonemic</strong>, i.e.&nbsp;stress placement is meaning-distinguishing:
+<ul>
+<li><em>ínsult</em> (noun) vs <em>insúlt</em> (verb)</li>
+<li><em>gréenhouse</em> (compound) vs <em>green hóuse</em> (phrase)</li>
+</ul></li>
+</ul>
+</section>
+<section id="strong-and-weak-forms" class="level2">
+<h2 class="anchored" data-anchor-id="strong-and-weak-forms">Strong and weak forms</h2>
+<p><strong>Key principles:</strong></p>
+<ul>
+<li>Within an utterance or a sentence, there are more and less prominent words</li>
+<li>Stress tends to fall on those items that convey important information</li>
+<li>Therefore, <strong>content words</strong> usually receive stress, whereas <strong>function words</strong> are usually unstressed</li>
+<li>The alternative pronunciations of English function words are called <strong>strong</strong> and <strong>weak</strong> forms</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 21%">
+<col style="width: 26%">
+<col style="width: 15%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Word</th>
+<th style="text-align: left;">Weak form</th>
+<th style="text-align: left;">Example</th>
+<th style="text-align: left;">Strong form</th>
+<th style="text-align: left;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><em>and</em></td>
+<td style="text-align: left;">/ənd/, /ən/, /n/</td>
+<td style="text-align: left;"><em>fish and chips</em></td>
+<td style="text-align: left;">/ænd/</td>
+<td style="text-align: left;">It was him AND her.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>a</em></td>
+<td style="text-align: left;">/ə/</td>
+<td style="text-align: left;"><em>take a look</em></td>
+<td style="text-align: left;">/eɪ/</td>
+<td style="text-align: left;">Not A coat but THIS one.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><em>his</em></td>
+<td style="text-align: left;">/ɪz/</td>
+<td style="text-align: left;"><em>take his dog</em></td>
+<td style="text-align: left;">/hɪz/</td>
+<td style="text-align: left;">That was HIS dog.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>could</em></td>
+<td style="text-align: left;">/kəd/</td>
+<td style="text-align: left;"><em>this could be true</em></td>
+<td style="text-align: left;">/kʊd/</td>
+<td style="text-align: left;">How COULD you?</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="intonation" class="level2">
+<h2 class="anchored" data-anchor-id="intonation">Intonation</h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>Linguistic use of <strong>pitch</strong>, <strong>prominence</strong>, and <strong>pausing</strong> to convey post-lexical meaning, i.e.&nbsp;it is not associated with the lexical, dictionary meaning of a word</li>
+</ul>
+<p><strong>Functions:</strong></p>
+<ul>
+<li><strong>Emotional function</strong>: expression of attitudinal meaning (e.g.&nbsp;sarcasm, shock)
+<ul>
+<li><em>What a great idea!</em> (can be sincere or sarcastic)</li>
+</ul></li>
+<li><strong>Grammatical function</strong>: organisation of an utterance into intonation phrases
+<ul>
+<li><em>When danger threatens | your children call the police.</em></li>
+<li><em>When danger threatens your children | call the police.</em></li>
+</ul></li>
+<li><strong>Informational function</strong>: drawing attention to important information (focus)
+<ul>
+<li><em>Marianna made the cake (and not Thomas).</em></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="connected-speech" class="level1">
+<h1>Connected speech</h1>
+<section id="elision" class="level2">
+<h2 class="anchored" data-anchor-id="elision">Elision</h2>
+<p><strong>Definition</strong>: omission of sounds in connected speech to make articulation easier</p>
+<p><strong>Common types:</strong></p>
+<p><strong>1. Consonant elision</strong>: especially /t/ and /d/ in consonant clusters</p>
+<ul>
+<li><em>next day</em> /neks deɪ/ (not /nekst deɪ/)</li>
+<li><em>friendship</em> /frenʃɪp/ (not /frendʃɪp/)</li>
+</ul>
+<p><strong>2. Vowel elision</strong>: especially weak vowels in unstressed syllables</p>
+<ul>
+<li><em>suppose</em> /spəʊz/ (not /səpəʊz/)</li>
+<li><em>camera</em> /kæmrə/ (not /kæmərə/)</li>
+</ul>
+<p><strong>3. /h/ dropping</strong>: in unstressed function words</p>
+<ul>
+<li><em>Give it to him</em> /gɪv ɪt tə ɪm/ (not /hɪm/)</li>
+</ul>
+</section>
+<section id="assimilation" class="level2">
+<h2 class="anchored" data-anchor-id="assimilation">Assimilation</h2>
+<p><strong>Definition</strong>: the influence of one sound on the articulation of another sound</p>
+<p><strong>Types:</strong></p>
+<ul>
+<li><strong>Progressive assimilation</strong>: preceding sound influences following sound
+<ul>
+<li><em>lunch score</em> [ˈlʌntʃ.ʃkɔː]</li>
+</ul></li>
+<li><strong>Regressive assimilation</strong>: following sound influences preceding sound
+<ul>
+<li><em>ten bottles</em> [tem ˈbɒtlz]</li>
+</ul></li>
+<li><strong>Reciprocal assimilation</strong>: sounds influence each other
+<ul>
+<li><em>kiss you</em> [ˈkɪʃuː]</li>
+</ul></li>
+</ul>
+<section id="exercise-2" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-2">Exercise</h3>
+<div>
+<p>Consider the IPA symbols in bold print in the following transcriptions:</p>
+<ol type="1">
+<li><em>decisive factor</em> [dɪˈsaɪsɪ<strong>f</strong> ˈfæktə]<br>
+</li>
+<li><em>chicken</em> [tʃɪk<strong>ŋ</strong>]<br>
+</li>
+<li><em>thing</em> [θ<strong>ĩ</strong>ŋ]</li>
+<li><em>commonwealth</em> [ˈkɒmə<strong>m</strong>welθ]<br>
+</li>
+<li><em>don’t miss your train</em> [ˈdəʊnt ˈmɪ<strong>ʃʃ</strong>ə ˈtreɪn]</li>
+</ol>
+<ol type="a">
+<li>Which process is responsible for this variation in pronunciation?</li>
+<li>What exactly is responsible for the sounds becoming more alike or even identical?</li>
+<li>What do the above examples have in common with the form of the negative prefix in the following words:</li>
+</ol>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><em>inadequate</em> [ɪnˈædɪkwət]</li>
+<li><em>incomplete</em> [ˌɪŋkəmˈpliːt]</li>
+<li><em>impossible</em> [ɪmˈpɒsibəl]</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><em>immobile</em> [ɪˈməʊbaɪl]</li>
+<li><em>illegal</em> [ɪˈliːgəl]</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="excl">
+<p><strong>a) The process is assimilation</strong> — sounds become more similar or identical to neighbouring sounds.</p>
+<p><strong>b) Types of assimilation in examples 1–5:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 17%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Example</th>
+<th style="text-align: left;">Change</th>
+<th style="text-align: left;">Type of Assimilation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><em>decisive factor</em></td>
+<td style="text-align: left;">v → f</td>
+<td style="text-align: left;">regressive – total</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>commonwealth</em></td>
+<td style="text-align: left;">n → m</td>
+<td style="text-align: left;">regressive – partial</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><em>chicken</em></td>
+<td style="text-align: left;">n → ŋ</td>
+<td style="text-align: left;">progressive – partial</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>don’t miss your train</em></td>
+<td style="text-align: left;">sj → ʃʃ</td>
+<td style="text-align: left;">reciprocal – total</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><em>thing</em></td>
+<td style="text-align: left;">vowel → ĩ</td>
+<td style="text-align: left;">progressive – partial (nasalisation)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="excl">
+<p><strong>c) Connection to the negative prefix:</strong></p>
+<ul>
+<li>The realisation of the morpheme {in-} is <strong>phonologically conditioned</strong> by the following sound:
+<ul>
+<li><em>inadequate</em> [ɪn-]: /n/ occurs before vowels or alveolars</li>
+<li><em>incomplete</em> [ɪŋ-]: /ŋ/ occurs before velar consonants (partial assimilation)</li>
+<li><em>impossible</em> [ɪm-]: /m/ occurs before bilabial consonants (partial assimilation)</li>
+<li><em>immobile</em> [ɪ-]: total assimilation before /m/ (nasal deleted, vowel lengthened)</li>
+<li><em>illegal</em> [ɪ-]: total assimilation before /l/ (nasal deleted)</li>
+</ul></li>
+<li>All cases represent instances of <strong>regressive (anticipatory) assimilation</strong>: the following sound alters the characteristics of the preceding sound. The place of articulation of the nasal adapts to match the following consonant.</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="liaison-and-intrusion" class="level2">
+<h2 class="anchored" data-anchor-id="liaison-and-intrusion">Liaison and intrusion</h2>
+<p>Insertion of /r/ between vowels to prevent <strong>hiatus</strong> (especially in RP)</p>
+<p><strong>1. Linking /r/</strong>: pronouncing written ‘r’ before a vowel</p>
+<ul>
+<li><em>far away</em> /fɑːr əˈweɪ/ (cf.&nbsp;<em>far</em> /fɑː/ in isolation)</li>
+</ul>
+<p><strong>2. Intrusive /r/</strong>: inserting /r/ where no ‘r’ exists in spelling</p>
+<ul>
+<li><em>the idea is</em> /ði aɪˈdɪər ɪz/ (cf.&nbsp;<em>idea</em> /aɪˈdɪə/ in isolation)</li>
+<li><em>law and order</em> /lɔːr ənd ˈɔːdə/</li>
+</ul>
+<section id="exercise-3" class="level4">
+<h4 class="anchored" data-anchor-id="exercise-3">Exercise</h4>
+<p>Read the following sentence pairs and describe the difference in the pronunciation (RP &amp; GA) of the words in bold print:</p>
+<ol type="1">
+<li>How <strong>far</strong> can you see? – How <strong>far is</strong> it to London?</li>
+<li>Can you <strong>spare the</strong> time? – Can you <strong>spare a</strong> moment?</li>
+<li>He has an <strong>idea for</strong> his next book. – He gave me a rough <strong>idea of</strong> what was wanted.</li>
+<li>Your argument has a <strong>flaw</strong>. – There’s a <strong>flaw in</strong> your argument.</li>
+</ol>
+<div class="excl">
+<p><strong>Key concept</strong>: GA is <strong>rhotic</strong> (/r/ always pronounced); RP is <strong>non-rhotic</strong> (/r/ only before vowels)</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 31%">
+<col style="width: 33%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Example</th>
+<th style="text-align: left;">Before consonant</th>
+<th style="text-align: left;">Before vowel</th>
+<th style="text-align: left;">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1. <em>far</em></td>
+<td style="text-align: left;">RP: /fɑː/ vs GA: /fɑːr/</td>
+<td style="text-align: left;">Both: /fɑːr ɪz/</td>
+<td style="text-align: left;">Linking r</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2. <em>spare</em></td>
+<td style="text-align: left;">RP: /speə/ vs GA: /sper/</td>
+<td style="text-align: left;">Both: /spe(ə)r ə/</td>
+<td style="text-align: left;">Linking r</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3. <em>idea</em></td>
+<td style="text-align: left;">RP: /aɪˈdɪə/ vs GA: /aɪˈdiːə/</td>
+<td style="text-align: left;">Both: /aɪˈdɪər əv/</td>
+<td style="text-align: left;">Linking r</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4. <em>flaw</em></td>
+<td style="text-align: left;">RP: /flɔː/ vs GA: /flɑː/</td>
+<td style="text-align: left;">RP: /flɔːr ɪn/ vs GA: /flɑː ɪn/</td>
+<td style="text-align: left;">Intrusive r (RP only)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note</strong>: Intrusive r occurs in RP even when no ‘r’ is in the spelling (<em>flaw in</em>)</p>
+</div>
+</section>
+</section>
+<section id="phonology-review-quiz-interactive" class="level2">
+<h2 class="anchored" data-anchor-id="phonology-review-quiz-interactive">Phonology Review Quiz (Interactive)</h2>
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;">
+<iframe src="https://wayground.com/embed/quiz/69110c2e2ce8399612f6eb07" title="Phonology Review Quiz - Wayground" style="flex:1;" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</section>
+</section>
+<section id="summary-and-outlook" class="level1">
+<h1>Summary and outlook</h1>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><strong>Segmental phonology:</strong></p>
+<ul>
+<li><strong>Phonemes</strong>: smallest meaning-distinguishing units</li>
+<li><strong>Allophones</strong>: realisational variants in complementary distribution</li>
+<li><strong>Minimal pairs</strong>: words differing in one phoneme (<em>bit</em> – <em>bat</em>)</li>
+</ul>
+<p><strong>Suprasegmental phonology:</strong></p>
+<ul>
+<li><strong>Syllable structure</strong>: open (ends in vowel) vs closed (ends in consonant)</li>
+<li><strong>Word stress</strong>: distinctive (<em>íncrease</em> N vs <em>incréase</em> V)</li>
+<li><strong>Strong/weak forms</strong>: function words have alternative pronunciations</li>
+<li><strong>Intonation</strong>: pitch, prominence, and pausing convey meaning</li>
+</ul>
+<p><strong>Connected speech processes:</strong></p>
+<ul>
+<li><strong>Elision</strong>: sound omission (<em>next day</em> [neks deɪ])</li>
+<li><strong>Assimilation</strong>: sounds becoming similar (<em>ten men</em> [tem men])</li>
+<li><strong>Linking r</strong> (RP): written ‘r’ pronounced before vowels (<em>far away</em>)</li>
+<li><strong>Intrusive r</strong> (RP): /r/ inserted despite no ‘r’ in spelling (<em>law and order</em>)</li>
+</ul>
+</section>
+<section id="next-week-syntax-i" class="level2">
+<h2 class="anchored" data-anchor-id="next-week-syntax-i">Next week: Syntax I</h2>
+<p>Read <span class="citation" data-cites="Herbst2010English">Herbst (<a href="#ref-Herbst2010English" role="doc-biblioref">2010</a>)</span>: ch.&nbsp;11.1–11.2</p>
+</section>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Herbst2010English" class="csl-entry" role="listitem">
+Herbst, Thomas. 2010. <em>English Linguistics: A Coursebook for Students of English</em>. Berlin: De Gruyter Mouton.
+</div>
+<div id="ref-Kortmann2020Essentials" class="csl-entry" role="listitem">
+Kortmann, Bernd. 2020. <em>English Linguistics: Essentials</em>. J.B. Metzler.
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
