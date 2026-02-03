@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Post-render script to generate PDF versions of RevealJS slides using decktape
-# CI-only: called in GitHub Actions after `quarto render`
+# Generate PDF versions of RevealJS slides using decktape
+# Only regenerates PDFs when slides.html content has changed
 
 set -e
 
@@ -9,7 +9,6 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 TARGET_DIR="${1:-$PROJECT_ROOT/_site}"
 
 echo "=== Generating PDFs from RevealJS slides ==="
-echo "Project root: $PROJECT_ROOT"
 echo "Target dir: $TARGET_DIR"
 
 if [ ! -d "$TARGET_DIR" ]; then
@@ -21,38 +20,43 @@ cd "$TARGET_DIR"
 
 count=0
 skipped=0
+
 for html_file in sessions/*/slides.html; do
-  [ -e "$html_file" ] || continue
+    [ -e "$html_file" ] || continue
 
-  dir=$(dirname "$html_file")
-  pdf_file="$dir/slides.pdf"
+    dir=$(dirname "$html_file")
+    pdf_file="$dir/slides.pdf"
+    hash_file="$dir/.slides.html.sha256"
 
-  # Skip if PDF exists and is newer than HTML file
-  if [ -f "$pdf_file" ] && [ "$pdf_file" -nt "$html_file" ]; then
-    echo "⊘ Skipping: $pdf_file (already up to date)"
-    skipped=$((skipped + 1))
-    continue
-  fi
+    # Calculate current hash of slides.html
+    current_hash=$(sha256sum "$html_file" | cut -d' ' -f1)
 
-  echo "Processing: $html_file -> $pdf_file"
-  npx -y decktape reveal \
-    --chrome-arg=--no-sandbox \
-    --chrome-arg=--disable-setuid-sandbox \
-    "$html_file" \
-    "$pdf_file"
+    # Check if PDF exists and hash matches (no changes)
+    if [ -f "$pdf_file" ] && [ -f "$hash_file" ]; then
+        stored_hash=$(cat "$hash_file")
+        if [ "$current_hash" = "$stored_hash" ]; then
+            echo "⊘ Skipping: $pdf_file (unchanged)"
+            skipped=$((skipped + 1))
+            continue
+        fi
+    fi
 
-  if [ $? -eq 0 ]; then
-    echo "✓ Generated: $pdf_file"
-    count=$((count + 1))
-  else
-    echo "✗ Failed to generate: $pdf_file"
-  fi
+    echo "Processing: $html_file -> $pdf_file"
+
+    npx -y decktape reveal \
+        --chrome-arg=--no-sandbox \
+        --chrome-arg=--disable-setuid-sandbox \
+        "$html_file" \
+        "$pdf_file"
+
+    if [ $? -eq 0 ]; then
+        # Store hash for next comparison
+        echo "$current_hash" > "$hash_file"
+        echo "✓ Generated: $pdf_file"
+        count=$((count + 1))
+    else
+        echo "✗ Failed to generate: $pdf_file"
+    fi
 done
 
-if [ $count -eq 0 ] && [ $skipped -eq 0 ]; then
-  echo "No slides.html files found to process."
-else
-  echo "=== PDF generation complete: $count generated, $skipped skipped ==="
-fi
-
-
+echo "=== PDF generation complete: $count generated, $skipped unchanged ==="
